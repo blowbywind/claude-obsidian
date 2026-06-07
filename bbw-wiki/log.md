@@ -1,0 +1,99 @@
+# BBW Wiki Log
+
+> append-only 작업 이력. `grep "^## \[" log.md | tail -5` 로 최근 항목 확인.
+
+---
+
+## [2026-06-05] ingest | hnedu-auth 프로젝트 지침 (CLAUDE.md)
+
+- 소스: /home/bbw/projects/hnedu_auth/CLAUDE.md (프로젝트 직접 읽기)
+- 생성: `wiki/sources/2026-06-05-hnedu-auth-project.md`
+- 생성: `wiki/entities/hnedu-auth.md`
+- 생성: `wiki/entities/hnedu-erp.md`
+- 생성: `wiki/entities/hnedu-crm.md`
+- 생성: `wiki/concepts/jwt-rs256.md`
+- 생성: `wiki/concepts/hnedu-auth-deploy.md`
+- 갱신: `index.md`
+
+## [2026-06-05] ingest | Claude Code + Obsidian + LM Wiki + Graphify 실습 가이드 (YouTube)
+
+- 소스: https://youtu.be/cNlvrU-KcRg (자막 자동 추출 → raw/2026-06-05-claude-code-obsidian-lmwiki-graphify-transcript.md)
+- 생성: `wiki/sources/2026-06-05-claude-code-obsidian-lmwiki-graphify.md`
+- 생성: `wiki/concepts/graphify.md`
+- 생성: `wiki/concepts/purposeful-collection.md`
+- 생성: `wiki/entities/graphify.md`
+- 생성: `wiki/entities/brain-trinity.md`
+- 갱신: `wiki/concepts/llm-wiki-pattern.md` (세팅 프로세스·Graphify 결합 섹션 추가, 소스 연결)
+- 갱신: `wiki/entities/obsidian.md` (Web Clipper 커스텀 템플릿 세팅 절차 추가)
+- 갱신: `index.md`
+
+## [2026-06-05] update | "Cowork" 명칭 수정
+
+- 갱신: `wiki/sources/2026-06-05-claude-code-7steps-mastery.md` (ASR 오류 "코워크" → "Cowork" 정정)
+- 생성: `wiki/entities/cowork.md`
+- 갱신: `index.md`
+
+## [2026-06-05] ingest | 클로드 코드를 정말 잘 쓰는 7단계 테크트 (YouTube)
+
+- 소스: https://youtu.be/qaJivLeOeQI (자막 자동 추출 → raw/2026-06-05-claude-code-7steps-mastery-transcript.md)
+- 생성: `wiki/sources/2026-06-05-claude-code-7steps-mastery.md`
+- 생성: `wiki/concepts/mcp.md`
+- 생성: `wiki/concepts/hooks.md`
+- 생성: `wiki/concepts/claude-code-commands-skills.md`
+- 갱신: `wiki/concepts/claude-md.md` (100줄 원칙, 글로벌 vs 프로젝트 분리 추가)
+- 갱신: `wiki/concepts/ai-agent-workflow.md` (서브에이전트 운영 추가)
+- 갱신: `wiki/entities/claude-code.md` (MCP·훅스·커맨드 추가)
+- 갱신: `index.md`
+
+## [2026-06-05] update | "안티그래비티(Antigravity)" 명칭 수정
+
+- 갱신: `wiki/sources/2026-06-05-claude-code-beginner-install-guide.md` (ASR 오류 "안티그랩티" → "안티그래비티" 정정)
+- 생성: `wiki/entities/antigravity.md`
+- 갱신: `index.md`
+
+## [2026-06-05] ingest | 왕초보를 위한 클로드코드 설치 30분 마스터 강의 (YouTube)
+
+- 소스: https://youtu.be/CYEPaefPXwg (자막 자동 추출 → raw/2026-06-05-claude-code-beginner-install-guide-transcript.md)
+- 생성: `wiki/sources/2026-06-05-claude-code-beginner-install-guide.md`
+- 생성: `wiki/concepts/ai-agent-workflow.md`
+- 갱신: `wiki/entities/claude-code.md` (출처 추가)
+- 갱신: `index.md`
+
+## [2026-06-05] ingest | How Claude Code Works
+
+- 소스: raw/assets/How Claude Code works.md (Obsidian Web Clipper로 클리핑)
+- 생성: `wiki/sources/2026-06-05-how-claude-code-works.md`
+- 생성: `wiki/concepts/agentic-loop.md`
+- 생성: `wiki/concepts/context-window.md`
+- 생성: `wiki/concepts/claude-md.md`
+- 생성: `wiki/entities/claude-code.md`
+- 생성: `wiki/entities/anthropic.md`
+- 갱신: `index.md`
+
+## [2026-06-05] ingest | LLM Wiki — 개인 지식 베이스 구축 패턴
+
+- 소스: LLM Wiki 아이디어 문서 (사용자 제공 텍스트)
+- 생성: `wiki/sources/2026-06-05-llm-wiki-pattern.md`
+- 생성: `wiki/concepts/llm-wiki-pattern.md`
+- 생성: `wiki/concepts/rag.md`
+- 생성: `wiki/concepts/memex.md`
+- 생성: `wiki/concepts/second-brain.md`
+- 생성: `wiki/entities/vannevar-bush.md`
+- 생성: `wiki/entities/obsidian.md`
+- 생성: `wiki/entities/qmd.md`
+- 생성: `wiki/overview.md`
+- 갱신: `index.md`
+
+## [2026-06-05] setup | 위키 초기 구조 셋업
+
+- CLAUDE.md 스키마 생성
+- index.md, log.md 초기화
+- 디렉토리 구조 생성 (raw/, wiki/entities/, wiki/concepts/, wiki/sources/, wiki/queries/)
+
+## [2026-06-06] query | Claude Code ↔ Wiki 관계 전략
+
+- 질의: 코인 절약·반복질문 제거·정보유실 방지를 위한 운영 전략
+- 생성: `wiki/queries/2026-06-06-claude-wiki-relationship.md`
+- 개선: `bbw-wiki/CLAUDE.md` — 비용 상한 규칙(raw/ 재읽기 금지, 최대 3페이지 로드, queries/ 캐시 우선) 추가
+- 개선: `obsidian-vault/CLAUDE.md` — 세션 시작 절차 동기화
+- 갱신: `index.md` — 헤더 안내 문구 개선, Queries 섹션 활성화

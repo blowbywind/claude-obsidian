@@ -1,0 +1,58 @@
+# BBW Wiki Index
+
+> 에이전트가 유지하는 전체 위키 카탈로그. 질의 시 이 파일을 **먼저, 그리고 유일하게** 읽는다.
+> 필요한 페이지만 선택 로드 (최대 3개). raw/ 재읽기 금지. queries/ 캐시 우선 확인.
+
+---
+
+## Sources
+
+- [LLM Wiki — 개인 지식 베이스 구축 패턴](wiki/sources/2026-06-05-llm-wiki-pattern.md) — LLM이 유지하는 영구적 위키로 RAG를 대체하는 지식 축적 패턴
+- [How Claude Code Works](wiki/sources/2026-06-05-how-claude-code-works.md) — Claude Code 공식 문서: 에이전트 루프·도구·컨텍스트·세션 관리 아키텍처
+- [왕초보를 위한 클로드코드 설치 30분 강의](wiki/sources/2026-06-05-claude-code-beginner-install-guide.md) — 한국어 유튜브 강의, 설치부터 CLAUDE.md·에이전트 워크플로우 기초까지
+- [클로드 코드를 정말 잘 쓰는 7단계 테크트](wiki/sources/2026-06-05-claude-code-7steps-mastery.md) — 설치→CLAUDE.md→커맨드→스킬→에이전트→MCP→훅스 7단계 프레임워크
+- [Claude Code + Obsidian + LM Wiki + Graphify 실습 가이드](wiki/sources/2026-06-05-claude-code-obsidian-lmwiki-graphify.md) — 브레인 트리니티의 LM Wiki + Graphify 전 과정 실습 (볼트 생성 → 스킬 → 그래프 DB)
+- [hnedu-auth 프로젝트 지침 (CLAUDE.md)](wiki/sources/2026-06-05-hnedu-auth-project.md) — 해냄에듀 통합 인증 서비스 구조·배포·보안·반복 작업 기록
+
+---
+
+## Concepts
+
+- [LLM Wiki 패턴](wiki/concepts/llm-wiki-pattern.md) — LLM이 점진적으로 유지하는 마크다운 위키 기반 지식 관리 시스템
+- [RAG (Retrieval-Augmented Generation)](wiki/concepts/rag.md) — 질의 시마다 문서에서 청크를 검색해 답변을 생성하는 방식
+- [Memex](wiki/concepts/memex.md) — Vannevar Bush(1945)가 제안한 개인 지식 저장·연결 시스템 개념
+- [세컨드 브레인](wiki/concepts/second-brain.md) — 외부 시스템에 지식을 체계적으로 축적·연결하는 개인 지식 관리 방식
+- [에이전트 루프](wiki/concepts/agentic-loop.md) — LLM 에이전트의 맥락파악→조치→검증 반복 실행 패턴
+- [컨텍스트 윈도우](wiki/concepts/context-window.md) — LLM이 한 번에 처리하는 정보 공간, 관리 전략
+- [CLAUDE.md](wiki/concepts/claude-md.md) — Claude Code 세션 간 영속하는 프로젝트별 지시 파일
+- [AI 에이전트 워크플로우](wiki/concepts/ai-agent-workflow.md) — 검증 가능한 데이터·명확한 지시로 AI 반복 작업을 자동화하는 패턴
+- [MCP (Model Context Protocol)](wiki/concepts/mcp.md) — AI와 외부 도구(노션·구글·GitHub 등)를 연결하는 다리
+- [훅스 (Hooks)](wiki/concepts/hooks.md) — Claude Code 자동화 트리거 (preToolUse/postToolUse/notification)
+- [커맨드 & 스킬스](wiki/concepts/claude-code-commands-skills.md) — 반복 업무 단축 명령(커맨드) vs 순서 실행 워크플로우(스킬스)
+- [Graphify](wiki/concepts/graphify.md) — Obsidian 마크다운을 지식 그래프(JSON)로 변환해 LLM이 그래프 탐색 쿼리를 수행하는 도구
+- [목적성 있는 수집](wiki/concepts/purposeful-collection.md) — "왜 수집했는지 설명 가능한" 의도적 큐레이션, Gold in Gold out 원칙
+- [JWT RS256 인증 패턴](wiki/concepts/jwt-rs256.md) — 비대칭키 JWT 서명, 인증 서버만 개인키 보유하고 각 서비스는 공개키 검증만 수행
+- [hnedu-auth 배포 워크플로우](wiki/concepts/hnedu-auth-deploy.md) — build → scp → docker logs 3단계 수동 프로세스 및 자동화 후보 정리
+
+---
+
+## Entities
+
+- [Vannevar Bush](wiki/entities/vannevar-bush.md) — Memex 개념을 제안한 과학자·행정가 (1945)
+- [Obsidian](wiki/entities/obsidian.md) — 마크다운 기반 로컬 노트 앱, 그래프 뷰·플러그인 생태계 보유
+- [qmd](wiki/entities/qmd.md) — 마크다운 파일용 로컬 하이브리드 검색 엔진 (BM25/벡터, MCP 지원)
+- [Claude Code](wiki/entities/claude-code.md) — Anthropic의 터미널 기반 에이전트형 코딩 도우미, bbw-wiki 유지 도구
+- [Anthropic](wiki/entities/anthropic.md) — Claude·Claude Code 개발사
+- [Antigravity](wiki/entities/antigravity.md) — Google이 만든 AI 통합 개발 환경, Gemini 연동
+- [Cowork](wiki/entities/cowork.md) — Claude 앱과 함께 사용하는 AI 도구, Claude Code로 대체 가능
+- [Graphify (도구)](wiki/entities/graphify.md) — 지식 그래프 생성 Python 라이브러리, Karpathy LM Wiki 트윗 후 48시간 만에 제작
+- [브레인 트리니티](wiki/entities/brain-trinity.md) — 한국어 PKM + AI 유튜브 채널, bbw-wiki의 주요 소스
+- [hnedu-auth](wiki/entities/hnedu-auth.md) — 해냄에듀 사내 통합 인증 서비스, JWT RS256 발급·직원·부서·역할 관리
+- [hnedu-erp](wiki/entities/hnedu-erp.md) — 해냄에듀 ERP (WinForms C# + .NET Web API), hnedu-auth JWT 검증 연동
+- [hnedu-crm](wiki/entities/hnedu-crm.md) — 해냄에듀 CRM (Next.js 15 + FastAPI), hnedu-auth JWT 검증 연동
+
+---
+
+## Queries
+
+- [Claude Code ↔ Wiki 관계 전략](wiki/queries/2026-06-06-claude-wiki-relationship.md) — 코인 절약·반복질문 제거·정보유실 방지를 위한 운영 전략 [workflow][cost]

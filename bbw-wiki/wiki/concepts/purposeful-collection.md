@@ -1,0 +1,57 @@
+---
+title: 목적성 있는 수집
+type: concept
+tags: [knowledge-management, curation, second-brain, gold-in-gold-out]
+created: 2026-06-05
+updated: 2026-06-05
+sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify]
+---
+
+## 정의
+
+단순히 인터넷에서 자료를 긁어모으는 것이 아니라, **"왜 수집하는가"를 설명할 수 있는 의도적 수집**. LM Wiki의 성패를 좌우하는 핵심 원칙으로, 브레인 트리니티가 강조하는 개념이다.
+
+## Gold In, Gold Out
+
+브레인 트리니티가 3년 전부터 사용해온 표현. "Garbage in, garbage out"의 반대 개념:
+
+- **Garbage in, garbage out**: 의미 없는 자료 → 의미 없는 아웃풋
+- **Gold in, gold out**: 목적 있는 수집(Gold) → 가치 있는 아웃풋
+
+여기서 "Gold"는 인터넷에서 수집했더라도 **내가 의미를 느끼고 목적을 갖고 수집한 지식**을 의미한다.
+
+## 판별 기준
+
+> "내가 왜 수집했는지 한 문장으로 적을 수 없으면 의도적 수집이 아니다."
+
+수집 시 반드시 남겨야 할 것:
+1. 이것을 수집한 이유 (why)
+2. 내가 이것으로 만들고 싶은 것 (intent)
+3. 이것이 내 기존 지식과 어떻게 연결되는가 (context)
+
+## LM Wiki와의 관계
+
+인제스트 시 AI가 사용자에게 "이 소스를 왜 수집했는가"를 질문하는 단계가 권장되는 이유가 바로 이 원칙. 사용자의 관점 입력이 없으면 AI는 소스의 내용만 정리하고, 사용자의 **지식 체계**와 연결하지 못한다.
+
+## 핵심 맥락(Core Context)와의 연결
+
+수집 목적을 일관되게 유지하려면 사전에 작성한 핵심 맥락이 필요:
+- 나는 누구인가 (역할, 가치관)
+- 왜 지식을 기록하는가
+- 어떤 아웃풋을 만들고 싶은가
+
+이 세 가지가 CLAUDE.md에 반영되어, AI가 수집된 자료의 관련성을 판단하는 기준이 된다.
+
+## 관련 개념
+
+- [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]] — 이 원칙이 전제되어야 제대로 작동
+- [[wiki/concepts/second-brain|세컨드 브레인]] — 목적성 있는 수집의 저장 목적지
+- [[wiki/concepts/claude-md|CLAUDE.md]] — 핵심 맥락이 반영되는 파일
+
+## 관련 엔티티
+
+- [[wiki/entities/brain-trinity|브레인 트리니티]] — 이 개념을 강조하는 채널
+
+## 출처
+
+- [[wiki/sources/2026-06-05-claude-code-obsidian-lmwiki-graphify]]

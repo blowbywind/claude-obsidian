@@ -1,0 +1,10 @@
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Plugin binaries and sensitive config
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/data.json
+
+# OS
+.DS_Store
