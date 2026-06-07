@@ -3,8 +3,8 @@ title: Obsidian
 type: entity
 tags: [product, software, note-taking]
 created: 2026-06-05
-updated: 2026-06-05
-sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify]
+updated: 2026-06-07
+sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
 ---
 
 ## 개요
@@ -32,10 +32,20 @@ sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-gr
 Settings → Files and links에서 Attachment folder를 `raw/assets/`로 설정.
 Hotkeys에서 "Download attachments" 단축키 설정 → 클립 후 이미지 로컬 다운로드.
 
+## AI OS에서의 역할 (Nick Milo 프레임워크)
+
+- **Ideaverse 호스팅**: ACE(Atlas·Calendar·Efforts) 폴더 구조로 17,000개+ 노트 관리
+- **Layer 1 역할**: AI OS의 핵심 — 내 생각과 AI 생성 콘텐츠의 저장소
+- **마크다운 이식성**: Obsidian이 사라져도 모든 노트는 어떤 앱에서도 열 수 있는 표준 마크다운
+- **Daily Brief 수신함**: Calendar 폴더가 AI가 생성하는 일일 브리핑 저장 위치
+
 ## 주요 연결
 
 - [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]] — 이 위키의 탐색 IDE
+- [[wiki/concepts/ai-os|AI OS]] — Obsidian이 Layer 1 역할
+- [[wiki/concepts/ace-folder-framework|ACE 폴더 프레임워크]] — Nick Milo의 볼트 구조
 
 ## 출처
 
 - [[wiki/sources/2026-06-05-llm-wiki-pattern]]
+- [[wiki/sources/2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]]

@@ -1,0 +1,48 @@
+---
+title: 컨텍스트 엔지니어링 (Context Engineering)
+type: concept
+tags: [context-engineering, rag, mcp, memory, ai-agent]
+created: 2026-06-07
+updated: 2026-06-07
+sources: [2026-06-07-harness-engineering-guide]
+---
+
+## 정의
+
+단일 프롬프트 최적화를 넘어, 모델이 정보에 기반한 결정을 내릴 수 있도록 문맥(Context) 전체를 설계하는 기술. Andrej Karpathy가 2025년에 언급하며 널리 알려진 개념이다.
+
+> "프롬프트 엔지니어링은 어떻게 물어볼지(what to ask), 컨텍스트 엔지니어링은 무엇을 보낼지(what to send), 하네스 엔지니어링은 전체가 어떻게 작동하는지(how it operates)에 대한 것이다." — Louis Bouchard
+
+## 상세
+
+### 프롬프트 엔지니어링과의 차이
+
+- 프롬프트 엔지니어링: 한 번의 질문을 최적화 (입력 중심)
+- 컨텍스트 엔지니어링: 에이전트가 접근하는 정보 전체를 설계 (시스템 중심)
+
+### 핵심 기술
+
+- **RAG**: 외부 문서 검색 + 모델 결합으로 최신·전문 정보 제공
+- **MCP**: 외부 서비스와 모델을 연결하는 표준 프로토콜
+- **메모리 시스템**: 대화 간 문맥 유지 (CLAUDE.md, claude-progress.txt 등)
+- **Tool 사용**: 모델이 외부 도구를 직접 호출
+
+### 한계
+
+컨텍스트를 잘 구성해도 에이전트가 장기간 안정적으로 작동하는 것을 보장하기 어렵다. 이 한계를 극복하기 위해 [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]이 등장했다.
+
+### OpenAI의 핵심 통찰
+
+> "에이전트 관점에서, 인컨텍스트(in-context)로 접근할 수 없는 정보는 존재하지 않는 것과 같다. Slack 대화, 구글 문서, 사람들의 머릿속에만 있는 정보는 에이전트가 접근할 수 없다." — OpenAI
+
+## 관련 개념
+
+- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 컨텍스트 엔지니어링의 다음 단계
+- [[bbw-wiki/wiki/concepts/rag|RAG]] — 컨텍스트 엔지니어링의 핵심 기법
+- [[bbw-wiki/wiki/concepts/mcp|MCP]] — 외부 서비스 컨텍스트 연결 표준
+- [[bbw-wiki/wiki/concepts/context-window|컨텍스트 윈도우]] — 컨텍스트가 담기는 공간
+- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]] — 프로젝트 컨텍스트 파일
+
+## 출처
+
+- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]

@@ -3,9 +3,8 @@ title: Claude Code
 type: entity
 tags: [product, developer-tool, ai, agentic]
 created: 2026-06-05
-updated: 2026-06-05
-
-sources: [2026-06-05-how-claude-code-works, 2026-06-05-claude-code-beginner-install-guide, 2026-06-05-claude-code-7steps-mastery]
+updated: 2026-06-07
+sources: [2026-06-05-how-claude-code-works, 2026-06-05-claude-code-beginner-install-guide, 2026-06-05-claude-code-7steps-mastery, 2026-06-07-ainow-claude-code-master-guide, 2026-06-07-harness-engineering-guide]
 ---
 
 ## 개요
@@ -47,8 +46,16 @@ bbw-wiki를 포함한 bbw의 개인 프로젝트 전반을 관리하는 핵심 �
 - [[wiki/concepts/hooks|훅스]] — 자동화 트리거
 - [[wiki/concepts/claude-code-commands-skills|커맨드 & 스킬스]] — 반복 업무 자동화 단위
 
+## 하네스 엔지니어링 관점
+
+Claude Code 자체가 하네스 엔지니어링 도구다. CLAUDE.md(컨텍스트)·Hooks(피드백 루프)·권한 모델(인간 개입)·Skills(점진적 정보 공개)·Sub-agents(병렬 처리)·MCP(외부 연결)가 하네스의 5대 구성요소를 모두 구현한다.
+
+- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]
+
 ## 출처
 
 - [[wiki/sources/2026-06-05-how-claude-code-works]]
 - [[wiki/sources/2026-06-05-claude-code-beginner-install-guide]]
 - [[wiki/sources/2026-06-05-claude-code-7steps-mastery]]
+- [[wiki/sources/2026-06-07-ainow-claude-code-master-guide]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide]]

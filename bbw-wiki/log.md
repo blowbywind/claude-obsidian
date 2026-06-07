@@ -4,6 +4,27 @@
 
 ---
 
+## [2026-06-07] ingest | 에이나우 클로드코드 실전 마스터가이드 v1.0
+
+- 소스: bbw-wiki/raw/에이나우_클로드코드_실전마스터가이드_v1.0.pdf
+- 생성: `wiki/sources/2026-06-07-ainow-claude-code-master-guide.md`
+- 생성: `wiki/concepts/boris-self-learning-loop.md`
+- 생성: `wiki/entities/ainow.md`
+- 생성: `wiki/entities/boris-cherny.md`
+- 갱신: `wiki/concepts/claude-md.md` (하네스 관점 추가)
+- 갱신: `wiki/entities/claude-code.md` (하네스 엔지니어링 섹션 추가)
+- 갱신: `index.md`
+
+## [2026-06-07] ingest | 하네스 엔지니어링 기초 가이드북
+
+- 소스: bbw-wiki/raw/하네스+엔지니어링+기초+가이드북.pdf
+- 생성: `wiki/sources/2026-06-07-harness-engineering-guide.md`
+- 생성: `wiki/concepts/harness-engineering.md`
+- 생성: `wiki/concepts/context-engineering.md`
+- 생성: `wiki/concepts/generator-evaluator-pattern.md`
+- 생성: `wiki/entities/mitchell-hashimoto.md`
+- 갱신: `index.md`
+
 ## [2026-06-05] ingest | hnedu-auth 프로젝트 지침 (CLAUDE.md)
 
 - 소스: /home/bbw/projects/hnedu_auth/CLAUDE.md (프로젝트 직접 읽기)
@@ -89,6 +110,30 @@
 - CLAUDE.md 스키마 생성
 - index.md, log.md 초기화
 - 디렉토리 구조 생성 (raw/, wiki/entities/, wiki/concepts/, wiki/sources/, wiki/queries/)
+
+## [2026-06-07] ingest | LLM Wiki를 업그레이드하는 외부 지식 시스템: Zotero × NotebookLM (YouTube)
+
+- 소스: https://youtu.be/ulhEyDIxj6Q (yt-dlp 자막 추출 → raw/2026-06-07-zotero-notebooklm-llm-wiki-upgrade-transcript.md)
+- 생성: `wiki/sources/2026-06-07-zotero-notebooklm-llm-wiki-upgrade.md`
+- 생성: `wiki/concepts/external-knowledge-system.md` (3계층 외부 지식 아키텍처)
+- 생성: `wiki/entities/zotero.md`
+- 생성: `wiki/entities/notebooklm.md`
+- 갱신: `wiki/entities/brain-trinity.md` (소스 추가)
+- 갱신: `wiki/concepts/mcp.md` (Zotero MCP·NotebookLM MCP 사례 추가)
+- 갱신: `index.md`
+
+## [2026-06-07] ingest | How I Use Obsidian + Claude Cowork to Run My Life (YouTube)
+
+- 소스: https://youtu.be/rRa9td4oe7k (yt-dlp 자막 추출 → raw/2026-06-07-obsidian-claude-cowork-ai-os-nick-milo-transcript.md)
+- 생성: `wiki/sources/2026-06-07-obsidian-claude-cowork-ai-os-nick-milo.md`
+- 생성: `wiki/concepts/ai-os.md` (AI OS 3레이어 아키텍처)
+- 생성: `wiki/concepts/me-md.md` (AI 포터블 아이덴티티)
+- 생성: `wiki/concepts/ace-folder-framework.md` (Atlas·Calendar·Efforts)
+- 생성: `wiki/concepts/vault-map.md` (Vault Map & Skill Map)
+- 생성: `wiki/entities/nick-milo.md`
+- 갱신: `wiki/entities/cowork.md` (상세 기능·모델 전략·데이터 정책 추가)
+- 갱신: `wiki/entities/obsidian.md` (AI OS Layer 1 역할·ACE 구조 추가)
+- 갱신: `index.md`
 
 ## [2026-06-06] query | Claude Code ↔ Wiki 관계 전략
 

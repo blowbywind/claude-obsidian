@@ -7,6 +7,10 @@
 
 ## Sources
 
+- [에이나우 클로드코드 실전 마스터가이드 v1.0](wiki/sources/2026-06-07-ainow-claude-code-master-guide.md) — Boris Cherny 42가지 팁·해커톤 노하우·업종별 실전 프로젝트를 담은 한국어 Claude Code 실전 가이드북
+- [하네스 엔지니어링 기초 가이드북](wiki/sources/2026-06-07-harness-engineering-guide.md) — Hashimoto 정의부터 OpenAI·Anthropic·Stripe 실전 사례까지, 프롬프트→컨텍스트→하네스 3단계 진화 체계
+- [LLM Wiki를 업그레이드하는 외부 지식 시스템: Zotero × NotebookLM × Obsidian × Claude Code](wiki/sources/2026-06-07-zotero-notebooklm-llm-wiki-upgrade.md) — Zotero(원본 도서관)+NotebookLM(심층 Q&A)으로 LLM Wiki를 완성하는 3계층 외부 지식 아키텍처
+- [How I Use Obsidian + Claude Cowork to Run My Life](wiki/sources/2026-06-07-obsidian-claude-cowork-ai-os-nick-milo.md) — Nick Milo의 AI OS 3레이어 아키텍처: Ideaverse·번역층·Cowork 통합 실전 가이드
 - [LLM Wiki — 개인 지식 베이스 구축 패턴](wiki/sources/2026-06-05-llm-wiki-pattern.md) — LLM이 유지하는 영구적 위키로 RAG를 대체하는 지식 축적 패턴
 - [How Claude Code Works](wiki/sources/2026-06-05-how-claude-code-works.md) — Claude Code 공식 문서: 에이전트 루프·도구·컨텍스트·세션 관리 아키텍처
 - [왕초보를 위한 클로드코드 설치 30분 강의](wiki/sources/2026-06-05-claude-code-beginner-install-guide.md) — 한국어 유튜브 강의, 설치부터 CLAUDE.md·에이전트 워크플로우 기초까지
@@ -18,6 +22,15 @@
 
 ## Concepts
 
+- [하네스 엔지니어링](wiki/concepts/harness-engineering.md) — AI 에이전트를 제약·툴·피드백·관찰로 제어하는 2026년 신 패러다임 (Hashimoto 정의)
+- [컨텍스트 엔지니어링](wiki/concepts/context-engineering.md) — 모델에게 적절한 정보를 적절한 시점에 제공하는 문맥 설계 기술 (Karpathy 2025)
+- [Generator-Evaluator 패턴](wiki/concepts/generator-evaluator-pattern.md) — 생성과 평가를 분리하는 Anthropic 멀티 에이전트 설계 패턴
+- [Boris 자기학습 루프](wiki/concepts/boris-self-learning-loop.md) — 에이전트 실수마다 CLAUDE.md에 방지 규칙을 추가해 시스템을 점진적으로 성장시키는 방법론
+- [외부 지식 시스템](wiki/concepts/external-knowledge-system.md) — Zotero·LLM Wiki·NotebookLM 3계층 외부 지식 아키텍처, Claude Code MCP로 통합
+- [AI OS (AI 운영체제)](wiki/concepts/ai-os.md) — Ideaverse·번역층·외부 AI 3레이어로 구성된 이식 가능한 개인 AI 시스템
+- [ME.MD (AI 포터블 아이덴티티)](wiki/concepts/me-md.md) — AI-agnostic 포터블 아이덴티티 파일, CLAUDE.md의 범용 버전
+- [ACE 폴더 프레임워크](wiki/concepts/ace-folder-framework.md) — Nick Milo의 Atlas·Calendar·Efforts Obsidian 볼트 구조
+- [Vault Map & Skill Map](wiki/concepts/vault-map.md) — AI가 볼트를 탐색하고 스킬을 선택하도록 안내하는 번역층 핵심 파일
 - [LLM Wiki 패턴](wiki/concepts/llm-wiki-pattern.md) — LLM이 점진적으로 유지하는 마크다운 위키 기반 지식 관리 시스템
 - [RAG (Retrieval-Augmented Generation)](wiki/concepts/rag.md) — 질의 시마다 문서에서 청크를 검색해 답변을 생성하는 방식
 - [Memex](wiki/concepts/memex.md) — Vannevar Bush(1945)가 제안한 개인 지식 저장·연결 시스템 개념
@@ -38,6 +51,12 @@
 
 ## Entities
 
+- [에이나우](wiki/entities/ainow.md) — 신영선이 운영하는 1만 명 한국어 AI 커뮤니티, Claude Code·하네스 엔지니어링 실전 가이드 출판
+- [Boris Cherny](wiki/entities/boris-cherny.md) — Anthropic Staff Engineer, Claude Code 창시자, 42가지 팁·자기학습 루프 방법론
+- [Mitchell Hashimoto](wiki/entities/mitchell-hashimoto.md) — HashiCorp 공동창업자·Terraform 창시자, 하네스 엔지니어링 개념 최초 정의 (2026.02.05)
+- [Zotero](wiki/entities/zotero.md) — 원본 소스 레퍼런스 매니저, Zotero MCP로 Claude Code 연동
+- [NotebookLM](wiki/entities/notebooklm.md) — Google AI 연구 도구, 고정 소스 기반 Q&A·아웃풋 생성, notebooklm.py MCP 연동
+- [Nick Milo](wiki/entities/nick-milo.md) — Ideaverse·ACE·AI OS 프레임워크 창시자, Obsidian PKM 전문가
 - [Vannevar Bush](wiki/entities/vannevar-bush.md) — Memex 개념을 제안한 과학자·행정가 (1945)
 - [Obsidian](wiki/entities/obsidian.md) — 마크다운 기반 로컬 노트 앱, 그래프 뷰·플러그인 생태계 보유
 - [qmd](wiki/entities/qmd.md) — 마크다운 파일용 로컬 하이브리드 검색 엔진 (BM25/벡터, MCP 지원)

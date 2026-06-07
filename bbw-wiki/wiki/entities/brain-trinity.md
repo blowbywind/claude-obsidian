@@ -3,8 +3,8 @@ title: 브레인 트리니티
 type: entity
 tags: [person, youtube, knowledge-management, ai]
 created: 2026-06-05
-updated: 2026-06-05
-sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-code-7steps-mastery, 2026-06-05-claude-code-beginner-install-guide]
+updated: 2026-06-07
+sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-code-7steps-mastery, 2026-06-05-claude-code-beginner-install-guide, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
 ---
 
 ## 개요
