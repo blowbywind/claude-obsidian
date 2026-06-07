@@ -67,6 +67,12 @@ obsidian-vault/
 4. **엔티티 페이지** — 언급된 엔티티 기존 페이지 갱신 또는 신규 생성
 5. **index.md 갱신** — 새 페이지 카탈로그 추가
 6. **log.md 추가** — `## [YYYY-MM-DD] ingest | <제목>` 형식으로 append
+7. **Git 동기화** — 인제스트 완료 후 반드시 아래 순서로 실행:
+   ```bash
+   git add -A
+   git commit -m "feat: ingest <소스 제목 요약>"
+   git push
+   ```
 
 ### 4-3. 질의 (Query)
 
