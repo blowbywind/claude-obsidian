@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [클로드코드 직접 만든 사람이 직접 공개한 사용법 - '하네스'](wiki/sources/2026-06-08-claude-code-harness-castlestudio.md) — Anthropic 실험: 동일 모델 $9(고장) vs $200(완동)의 유일한 차이는 Planner-Generator-Evaluator 구조
 - [AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유](wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev.md) — 하재상·알렉스(Meta 엔지니어)의 AI 시대 위임 마인드셋·에이전트 프로덕티비티·컨텍스트 인텔리전스 실전 강연
 - [에이나우 클로드코드 실전 마스터가이드 v1.0](wiki/sources/2026-06-07-ainow-claude-code-master-guide.md) — Boris Cherny 42가지 팁·해커톤 노하우·업종별 실전 프로젝트를 담은 한국어 Claude Code 실전 가이드북
 - [하네스 엔지니어링 기초 가이드북](wiki/sources/2026-06-07-harness-engineering-guide.md) — Hashimoto 정의부터 OpenAI·Anthropic·Stripe 실전 사례까지, 프롬프트→컨텍스트→하네스 3단계 진화 체계
@@ -54,6 +55,7 @@
 
 ## Entities
 
+- [castlestudio](wiki/entities/castlestudio.md) — AI 활용법 한국어 유튜브 채널, Anthropic 하네스 실험 결과 해설
 - [하재상 (실밸개발자)](wiki/entities/silval-dev-jaesung.md) — Meta 8년차 엔지니어·실밸개발자 유튜버, AI 오케스트레이터 마인드셋·컨텍스트 인텔리전스 제안자
 - [알렉스 (커리어에커 알렉스)](wiki/entities/career-echo-alex.md) — Meta 8년차 엔지니어·커리어에커 유튜버(~20만), AI 네이티브·24시간 에이전트 전문
 - [에이나우](wiki/entities/ainow.md) — 신영선이 운영하는 1만 명 한국어 AI 커뮤니티, Claude Code·하네스 엔지니어링 실전 가이드 출판

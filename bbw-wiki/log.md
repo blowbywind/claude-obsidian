@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-06-08] ingest | 클로드코드 직접 만든 사람이 직접 공개한 사용법 - '하네스'
+
+- 소스: https://youtu.be/KfVgbdOvlQ4 (YouTube 자막 추출, castlestudio, 2026-04-02)
+- 생성: `wiki/sources/2026-06-08-claude-code-harness-castlestudio.md`
+- 생성: `wiki/entities/castlestudio.md`
+- 갱신: `wiki/concepts/generator-evaluator-pattern.md` (컨텍스트 불안·$9 vs $200 실험 데이터 추가)
+- 갱신: `index.md`
+
 ## [2026-06-08] ingest | AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유
 
 - 소스: https://youtu.be/wtNdUANBIl0 (YouTube 자막 추출, 하재상·알렉스, 2026-05-31)
