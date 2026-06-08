@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유](wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev.md) — 하재상·알렉스(Meta 엔지니어)의 AI 시대 위임 마인드셋·에이전트 프로덕티비티·컨텍스트 인텔리전스 실전 강연
 - [에이나우 클로드코드 실전 마스터가이드 v1.0](wiki/sources/2026-06-07-ainow-claude-code-master-guide.md) — Boris Cherny 42가지 팁·해커톤 노하우·업종별 실전 프로젝트를 담은 한국어 Claude Code 실전 가이드북
 - [하네스 엔지니어링 기초 가이드북](wiki/sources/2026-06-07-harness-engineering-guide.md) — Hashimoto 정의부터 OpenAI·Anthropic·Stripe 실전 사례까지, 프롬프트→컨텍스트→하네스 3단계 진화 체계
 - [LLM Wiki를 업그레이드하는 외부 지식 시스템: Zotero × NotebookLM × Obsidian × Claude Code](wiki/sources/2026-06-07-zotero-notebooklm-llm-wiki-upgrade.md) — Zotero(원본 도서관)+NotebookLM(심층 Q&A)으로 LLM Wiki를 완성하는 3계층 외부 지식 아키텍처
@@ -22,6 +23,8 @@
 
 ## Concepts
 
+- [AI 오케스트레이터 마인드셋](wiki/concepts/ai-orchestrator-mindset.md) — 직접 실행하는 사람에서 에이전트에게 위임·조율하는 사람으로의 전환, 워크플로우 재정의 4단계
+- [컨텍스트 인텔리전스](wiki/concepts/context-intelligence.md) — 세컨 브레인에 구조·인덱스를 부여해 에이전트가 필요할 때 필요한 정보만 가져오게 하는 전략 (Meta 사례: 2h→30min)
 - [하네스 엔지니어링](wiki/concepts/harness-engineering.md) — AI 에이전트를 제약·툴·피드백·관찰로 제어하는 2026년 신 패러다임 (Hashimoto 정의)
 - [컨텍스트 엔지니어링](wiki/concepts/context-engineering.md) — 모델에게 적절한 정보를 적절한 시점에 제공하는 문맥 설계 기술 (Karpathy 2025)
 - [Generator-Evaluator 패턴](wiki/concepts/generator-evaluator-pattern.md) — 생성과 평가를 분리하는 Anthropic 멀티 에이전트 설계 패턴
@@ -51,6 +54,8 @@
 
 ## Entities
 
+- [하재상 (실밸개발자)](wiki/entities/silval-dev-jaesung.md) — Meta 8년차 엔지니어·실밸개발자 유튜버, AI 오케스트레이터 마인드셋·컨텍스트 인텔리전스 제안자
+- [알렉스 (커리어에커 알렉스)](wiki/entities/career-echo-alex.md) — Meta 8년차 엔지니어·커리어에커 유튜버(~20만), AI 네이티브·24시간 에이전트 전문
 - [에이나우](wiki/entities/ainow.md) — 신영선이 운영하는 1만 명 한국어 AI 커뮤니티, Claude Code·하네스 엔지니어링 실전 가이드 출판
 - [Boris Cherny](wiki/entities/boris-cherny.md) — Anthropic Staff Engineer, Claude Code 창시자, 42가지 팁·자기학습 루프 방법론
 - [Mitchell Hashimoto](wiki/entities/mitchell-hashimoto.md) — HashiCorp 공동창업자·Terraform 창시자, 하네스 엔지니어링 개념 최초 정의 (2026.02.05)

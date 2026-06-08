@@ -4,6 +4,18 @@
 
 ---
 
+## [2026-06-08] ingest | AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유
+
+- 소스: https://youtu.be/wtNdUANBIl0 (YouTube 자막 추출, 하재상·알렉스, 2026-05-31)
+- 생성: `wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev.md`
+- 생성: `wiki/concepts/ai-orchestrator-mindset.md`
+- 생성: `wiki/concepts/context-intelligence.md`
+- 생성: `wiki/entities/silval-dev-jaesung.md`
+- 생성: `wiki/entities/career-echo-alex.md`
+- 갱신: `wiki/concepts/second-brain.md` (에이전트용 세컨 브레인 섹션 추가)
+- 갱신: `wiki/concepts/context-engineering.md` (에이전트 프로덕티비티 연결 추가)
+- 갱신: `index.md`
+
 ## [2026-06-07] ingest | 에이나우 클로드코드 실전 마스터가이드 v1.0
 
 - 소스: bbw-wiki/raw/에이나우_클로드코드_실전마스터가이드_v1.0.pdf

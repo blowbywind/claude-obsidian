@@ -43,6 +43,17 @@ sources: [2026-06-07-harness-engineering-guide]
 - [[bbw-wiki/wiki/concepts/context-window|컨텍스트 윈도우]] — 컨텍스트가 담기는 공간
 - [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]] — 프로젝트 컨텍스트 파일
 
+## 에이전트 프로덕티비티와의 연결 (2026)
+
+하재상(실밸개발자)은 컨텍스트 엔지니어링을 **에이전트 생산성의 가장 본질적인 요소**로 강조한다:
+
+> "같은 모델, 같은 도구, 같은 프롬프트라도 컨텍스트가 어떻게 정리되어 있냐에 따라 결과가 완전히 달라진다."
+
+- 모델은 점점 좋아지고, 하네스도 좋아진다
+- 결국 사람이 설계해야 하는 것은 **어떤 정보를 에이전트에게, 언제, 얼마나** 주느냐
+- 이를 체계화한 것이 [[wiki/concepts/context-intelligence|컨텍스트 인텔리전스]]
+
 ## 출처
 
 - [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev|AI를 기존 방식에 얹지 마세요]]
