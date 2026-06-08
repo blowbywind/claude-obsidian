@@ -32,6 +32,25 @@ sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-gr
 Settings → Files and links에서 Attachment folder를 `raw/assets/`로 설정.
 Hotkeys에서 "Download attachments" 단축키 설정 → 클립 후 이미지 로컬 다운로드.
 
+## CSS 스니펫으로 외관 커스터마이징
+
+Obsidian은 테마를 통째로 바꾸지 않고 **CSS 스니펫**으로 원하는 부분만 덮어쓸 수 있다.
+
+### 설치 방법
+1. 설정 → 외관 → 하단 스크롤 → CSS 스니펫 → 폴더 아이콘
+2. 스니펫 폴더에 `.css` 파일 복사
+3. 새로고침 후 토글 활성화 (여러 파일 동시 적용 가능)
+
+### Claude Code로 실시간 CSS 수정
+VS Code + Claude Code 확장에서 Obsidian 볼트 폴더를 열면 자연어로 즉시 수정 가능:
+- "폰트를 고딕으로 바꿔줘", "강조색을 주황으로 변경해줘"
+- 저장 즉시 Obsidian 화면에 반영
+
+### Claude 스타일 CSS 참고
+오후다섯씨(Mr.5pm)가 제작한 Claude 인터페이스 스타일 CSS:
+- 다크 브라운 배경, 주황 강조색, 명조체(북극 폰트), 깔끔한 테이블
+- 자세한 내용: [[wiki/sources/2026-06-08-obsidian-claude-style-css-mr5pm|CSS 스타일링 튜토리얼]]
+
 ## AI OS에서의 역할 (Nick Milo 프레임워크)
 
 - **Ideaverse 호스팅**: ACE(Atlas·Calendar·Efforts) 폴더 구조로 17,000개+ 노트 관리

@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-06-08] ingest | 옵시디언 아직도 그냥 쓰세요? 한방에 클로드 스타일로 바뀝니다!
+
+- 소스: https://youtu.be/Q33WveI7NqU (YouTube 자막 추출, 오후다섯씨, 2026-06-06)
+- 생성: `wiki/sources/2026-06-08-obsidian-claude-style-css-mr5pm.md`
+- 생성: `wiki/entities/mr5pm.md`
+- 갱신: `wiki/entities/obsidian.md` (CSS 스니펫 커스터마이징 섹션 추가)
+- 갱신: `index.md`
+
 ## [2026-06-08] ingest | 클로드코드 직접 만든 사람이 직접 공개한 사용법 - '하네스'
 
 - 소스: https://youtu.be/KfVgbdOvlQ4 (YouTube 자막 추출, castlestudio, 2026-04-02)

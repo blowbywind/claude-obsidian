@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [옵시디언 아직도 그냥 쓰세요? 클로드 스타일로 바뀝니다!](wiki/sources/2026-06-08-obsidian-claude-style-css-mr5pm.md) — CSS 스니펫+Claude Code로 Obsidian을 Claude 인터페이스 스타일(다크·주황·명조)로 실시간 커스터마이징하는 워크플로우
 - [클로드코드 직접 만든 사람이 직접 공개한 사용법 - '하네스'](wiki/sources/2026-06-08-claude-code-harness-castlestudio.md) — Anthropic 실험: 동일 모델 $9(고장) vs $200(완동)의 유일한 차이는 Planner-Generator-Evaluator 구조
 - [AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유](wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev.md) — 하재상·알렉스(Meta 엔지니어)의 AI 시대 위임 마인드셋·에이전트 프로덕티비티·컨텍스트 인텔리전스 실전 강연
 - [에이나우 클로드코드 실전 마스터가이드 v1.0](wiki/sources/2026-06-07-ainow-claude-code-master-guide.md) — Boris Cherny 42가지 팁·해커톤 노하우·업종별 실전 프로젝트를 담은 한국어 Claude Code 실전 가이드북
@@ -55,6 +56,7 @@
 
 ## Entities
 
+- [오후다섯씨 (Mr.5pm)](wiki/entities/mr5pm.md) — AI 활용·생산성 유튜브 채널, Claude 스타일 Obsidian CSS 스니펫 제작·배포
 - [castlestudio](wiki/entities/castlestudio.md) — AI 활용법 한국어 유튜브 채널, Anthropic 하네스 실험 결과 해설
 - [하재상 (실밸개발자)](wiki/entities/silval-dev-jaesung.md) — Meta 8년차 엔지니어·실밸개발자 유튜버, AI 오케스트레이터 마인드셋·컨텍스트 인텔리전스 제안자
 - [알렉스 (커리어에커 알렉스)](wiki/entities/career-echo-alex.md) — Meta 8년차 엔지니어·커리어에커 유튜버(~20만), AI 네이티브·24시간 에이전트 전문
