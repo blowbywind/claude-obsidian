@@ -219,3 +219,10 @@
 - 갱신: `wiki/entities/boris-cherny.md` (루프 철학 발언 추가)
 - 갱신: `wiki/concepts/agentic-loop.md` (loop.md·운영 감시 루프 섹션 추가)
 - 갱신: `index.md`
+
+## [2026-06-10] update | 중복 인제스트 정리 — raw 임시 파일 삭제
+
+- 삭제: `raw/2026-06-09-ai-native-hermes-report.md` (사전 요약본, `리포트.md`로 완전 대체)
+- 삭제: `raw/2026-06-09-hermes-subs.ko.vtt` (처리 완료된 원시 VTT)
+- 삭제: `raw/2026-06-10-hermes-subs-2.ko.vtt` (처리 완료된 원시 VTT)
+- wiki/ 페이지는 이미 통합 완료 상태 — 변경 없음
