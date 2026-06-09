@@ -181,3 +181,11 @@
 - 생성: `wiki/concepts/ai-native-team.md` (헤르메스·Claude Code 역할 분리 팀 구조)
 - 생성: `wiki/concepts/autonomous-learning-loop.md` (크론잡 야간 자율 학습 루프)
 - 갱신: `index.md`
+
+## [2026-06-09] ingest | AI 네이티브 헤르메스 리포트 (자막 전문 재추출·심화 인제스트)
+
+- 자막 추출: yt-dlp → raw/2026-06-09-hermes-subs.ko.vtt
+- 생성: `raw/2026-06-09-ai-native-hermes-리포트.md` (상세 분석 리포트, 12섹션)
+- 갱신: `wiki/sources/2026-06-09-ai-native-hermes-report.md` (Codex 연결, 팀명, 설치법, 메모리 경고 추가)
+- 갱신: `wiki/entities/hermes-agent.md` (설치 방법 상세, Codex 연결 정보 추가)
+- 갱신: `wiki/concepts/ai-native-team.md` (Session Send, 팀명, 도구 종속성 제거 내용 추가)

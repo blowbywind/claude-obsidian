@@ -31,7 +31,12 @@ sources: [2026-06-09-ai-native-hermes-report]
 
 ### 맥락 공유 방식
 - 10개 에이전트가 **같은 옵시디언 위키 공유** → 맥락 즉시 연결
-- 에이전트 간 Session Send(AI 간 대화)로 업무 지시·보고
+- **Session Send(AI 간 대화)**: 오케스트레이터(시원/C1)가 다른 에이전트에게 업무 지시 → 에이전트끼리 대화 → 최종 결과 인간에게 보고
+- 도구 종속성 제거: Codex든 Claude Code든 Gemini든 위키만 있으면 맥락 즉시 연결
+
+### 팀 명칭 (김요일 사례)
+- 헤르메스 에이전트 팀: **린네이티브(Lean Native)**
+- Claude Code 에이전트 팀: **린 프로젝트**
 
 ## 관련 개념
 - [[wiki/concepts/autonomous-learning-loop|야간 자율 학습 루프]] — 야간에 헤르메스 에이전트 자율 학습
