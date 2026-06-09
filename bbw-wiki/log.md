@@ -201,3 +201,11 @@
 - 생성: `wiki/entities/openclaw.md`
 - 갱신: `wiki/concepts/ai-native-team.md` (Session Send = Agent Teams 확인)
 - 갱신: `index.md`
+
+## [2026-06-10] update | 헤르메스 리포트 기반 위키 5개 페이지 심화 업데이트
+
+- 갱신: `wiki/sources/2026-06-09-ai-native-hermes-report.md` (핵심 원문 발췌·실제 작업물·BBW 포인트·검증 메모 반영)
+- 갱신: `wiki/entities/kimyoil.md` (회사명·컨설팅·제작 서비스·ERP 구상 추가)
+- 갱신: `wiki/entities/hermes-agent.md` (행동 기준 규칙 적용법·Codex 비용 상세 추가)
+- 갱신: `wiki/entities/opendesign.md` (사용 맥락·조합 학습 전략 상세화)
+- 갱신: `wiki/concepts/ai-native-team.md` (실제 작업물·ERP 구상·Session Send 상세·핵심 인용 추가)
