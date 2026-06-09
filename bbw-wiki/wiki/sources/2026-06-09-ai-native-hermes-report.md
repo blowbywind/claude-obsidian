@@ -73,4 +73,4 @@ date_published: 2026-06-09
 - 팀명: 헤르메스=린네이티브, Claude Code=린 프로젝트 (추정, 미확인)
 - OpenDesign 공식 URL 불명확
 - AI 네이티브 ERP는 현재 구상 단계 (미출시)
-- 상세 분석: `raw/2026-06-09-ai-native-hermes-리포트.md`
+- 상세 분석: `raw/2026-06-09-ai-native-hermes-report-full.md`
