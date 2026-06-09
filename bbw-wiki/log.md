@@ -209,3 +209,13 @@
 - 갱신: `wiki/entities/hermes-agent.md` (행동 기준 규칙 적용법·Codex 비용 상세 추가)
 - 갱신: `wiki/entities/opendesign.md` (사용 맥락·조합 학습 전략 상세화)
 - 갱신: `wiki/concepts/ai-native-team.md` (실제 작업물·ERP 구상·Session Send 상세·핵심 인용 추가)
+
+## [2026-06-10] ingest | 프롬프트의 시대는 끝났다 — 루프를 설계하라 (김요일)
+
+- 소스: https://youtu.be/oZUeRib1Xec (yt-dlp 자막 추출 → raw/2026-06-10-hermes-subs-2.ko.vtt)
+- 생성: `wiki/sources/2026-06-10-loop-design-kimyoil.md`
+- 생성: `wiki/concepts/loop-md.md` (루프.md 패턴 — 3기준·PR 모니터링·자동/인간 경계선)
+- 갱신: `wiki/entities/kimyoil.md` (루프 설계 방법론 추가)
+- 갱신: `wiki/entities/boris-cherny.md` (루프 철학 발언 추가)
+- 갱신: `wiki/concepts/agentic-loop.md` (loop.md·운영 감시 루프 섹션 추가)
+- 갱신: `index.md`
