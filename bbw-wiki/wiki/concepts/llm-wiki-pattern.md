@@ -3,8 +3,8 @@ title: LLM Wiki 패턴
 type: concept
 tags: [knowledge-management, llm, wiki, architecture]
 created: 2026-06-05
-updated: 2026-06-05
-sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify]
+updated: 2026-06-10
+sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-10-free-roaming-agents-comparison]
 ---
 
 ## 정의
@@ -56,6 +56,14 @@ Andrej Karpathy 제안 → 브레인 트리니티가 실제 구현한 순서:
 4. Obsidian Web Clipper 커스텀 템플릿 5종 생성 (article/youtube/podcast/book/research)
 5. /ingest, /query, /lint 스킬 생성 (2~3회 직접 수행 후 스킬화 권장)
 6. Graphify로 그래프 DB 보완
+
+## 마크다운의 토큰 효율성
+김요일(2026.06.10 영상)이 인용한 수치: 마크다운은 HTML 대비 **토큰 소모량 65–90% 감소**.
+- HTML은 웹태그·CSS 클래스 등이 많아 LLM이 파싱할 때 무거움
+- 마크다운은 필요한 데이터만 압축 → 처리 속도 빠르고, 동일 비용에 더 많은 컨텍스트
+- 에이전트 직원 관점: B(마크다운 환경)가 A(HTML 환경)보다 같은 일을 더 빠르게, 더 저렴하게 처리
+
+> "AI 에이전트가 B라는 직원이 될 수 있도록 환경을 만들어 주는게 마크다운이다." — 김요일
 
 ## Graphify와의 결합
 

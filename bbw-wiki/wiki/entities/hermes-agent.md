@@ -4,7 +4,7 @@ type: entity
 tags: [product]
 created: 2026-06-09
 updated: 2026-06-10
-sources: [2026-06-09-ai-native-hermes-report]
+sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison]
 ---
 
 ## 개요
@@ -39,12 +39,32 @@ CLAUDE.md와 동일 개념으로 에이전트마다 행동 기준 규칙을 적�
   - 2026년 4월 토큰 기반 과금 전환 (5시간 롤링 윈도우, $100–200/월)
 - Claude(Opus 4.8), Gemini도 연결 가능
 
+## 자기 진화형 아키텍처
+OpenClaw와의 핵심 차이: 헤르메스는 **학습 중심 자기 진화형** 구조를 가진다.
+- 작업 중 미스 발생 시 스스로 마크다운에 히스토리·이슈 기록
+- 기록이 쌓일수록 자율 성장 → 장기 에이전트 육성에 최적
+- OpenClaw보다 보안성이 높다는 평가 있음
+
+## OpenClaw vs 헤르메스 선택 기준
+| 상황 | 추천 |
+|---|---|
+| 하나의 에이전트를 장기 육성·전문화 | 헤르메스 에이전트 |
+| 여러 에이전트를 병렬로 대량 처리 | OpenClaw |
+| ChatGPT 구독 중 (Codex 무료 연동) | 헤르메스 에이전트 |
+
+## ChatGPT 구독 연동
+ChatGPT 구독자는 Codex 모델을 구독 플랜으로 헤르메스에 **무료 연동** 가능.
+OpenClaw는 API 과금만 지원되어 사용할수록 추가 비용 발생.
+
 ## 설치 방법
-1. 구글 "헤르메스 에이전트" 검색 → 공식 홈페이지 데스크톱 앱 설치
-2. 앱 안에서 텔레그램 등 채널 연결
-3. Claude Code 또는 Codex에게 모델 세팅 명령
-   - `"헤르메스 에이전트 설치했는데 Opus 4.8로 연결해줘"`
-4. 대화하면서 에이전트 프로필 분기
+터미널 명령 2개로 완료:
+```bash
+# 1. 설치
+hermes install   # (공식 사이트 명령어)
+# 2. 세팅 (LLM 모델 선택 + 채널 연결)
+hermes setup
+```
+구글 "헤르메스 에이전트" 검색 → 공식 사이트에서 정확한 명령어 확인 권장.
 
 ## 주요 연결
 - [[wiki/entities/openclaw|OpenClaw]] — 유사한 로컬 에이전트 오픈소스
@@ -54,3 +74,4 @@ CLAUDE.md와 동일 개념으로 에이전트마다 행동 기준 규칙을 적�
 
 ## 출처
 - [[wiki/sources/2026-06-09-ai-native-hermes-report]]
+- [[wiki/sources/2026-06-10-free-roaming-agents-comparison]]

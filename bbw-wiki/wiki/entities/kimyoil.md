@@ -4,7 +4,7 @@ type: entity
 tags: [person]
 created: 2026-06-09
 updated: 2026-06-10
-sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-loop-design-kimyoil]
+sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-loop-design-kimyoil, 2026-06-10-free-roaming-agents-comparison]
 ---
 
 ## 개요
@@ -38,3 +38,4 @@ sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-loop-design-kimyoil]
 ## 출처
 - [[wiki/sources/2026-06-10-loop-design-kimyoil]]
 - [[wiki/sources/2026-06-09-ai-native-hermes-report]]
+- [[wiki/sources/2026-06-10-free-roaming-agents-comparison]]

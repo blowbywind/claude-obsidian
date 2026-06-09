@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [자유령 에이전트 3종 비교 — 헤르메스·OpenClaw·Gemini Spark](wiki/sources/2026-06-10-free-roaming-agents-comparison.md) — 로컬(헤르메스·OpenClaw) vs 클라우드(Gemini Spark) 비교, LM 위키×옵시디언 실무 UX 워크플로우, 마크다운 토큰 65-90% 절감
 - [프롬프트의 시대는 끝났다 — 루프를 설계하라](wiki/sources/2026-06-10-loop-design-kimyoil.md) — 김요일이 해설하는 Boris Cherny 루프 철학: 프롬프트→loop.md 진화, 3가지 검증 기준, PR 모니터링 루프
 - [AI 네이티브 운영 방법 — 헤르메스 에이전트 실무 적용기](wiki/sources/2026-06-09-ai-native-hermes-report.md) — 김요일의 헤르메스 5명+Claude Code 5명 AI 네이티브 팀, 야간 자율 학습 루프, 옵시디언 위키 맥락 공유 실전기
 - [옵시디언 아직도 그냥 쓰세요? 클로드 스타일로 바뀝니다!](wiki/sources/2026-06-08-obsidian-claude-style-css-mr5pm.md) — CSS 스니펫+Claude Code로 Obsidian을 Claude 인터페이스 스타일(다크·주황·명조)로 실시간 커스터마이징하는 워크플로우
@@ -27,6 +28,7 @@
 
 ## Concepts
 
+- [자유령 에이전트](wiki/concepts/free-roaming-agent.md) — 개인 소유 자율 AI 에이전트 카테고리: 헤르메스·OpenClaw·Gemini Spark 3종 비교, 로컬 vs 클라우드, 선택 기준
 - [루프.md 패턴](wiki/concepts/loop-md.md) — AI 완료 선언 전 자기 검증 강제하는 메타 레이어: 필수 통과·측정·평가 3기준 + PR 모니터링 루프
 - [AI 네이티브 팀 구성](wiki/concepts/ai-native-team.md) — 헤르메스(에이전시)·Claude Code(인하우스) 역할 분리 기반 10명 AI 팀 운영 구조
 - [야간 자율 학습 루프](wiki/concepts/autonomous-learning-loop.md) — 크론잡으로 에이전트가 취침 중 자율 학습, 결과를 옵시디언 위키화해 메모리 효율 유지
@@ -61,6 +63,7 @@
 
 ## Entities
 
+- [Gemini Spark](wiki/entities/gemini-spark.md) — Google IO 2026 발표 클라우드 개인 AI 에이전트, Google 생태계 통합, 한국 1-4개월 출시 예상
 - [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유
 - [헤르메스 에이전트](wiki/entities/hermes-agent.md) — 텔레그램 연결 멀티 에이전트 플랫폼, 크론잡·장기 기억·모바일 원격 실행
 - [OpenClaw](wiki/entities/openclaw.md) — 로컬 셀프호스팅 AI 에이전트 (2026.01, Telegram·Slack 등 22채널, 헤르메스 유사)

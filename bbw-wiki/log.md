@@ -226,3 +226,15 @@
 - 삭제: `raw/2026-06-09-hermes-subs.ko.vtt` (처리 완료된 원시 VTT)
 - 삭제: `raw/2026-06-10-hermes-subs-2.ko.vtt` (처리 완료된 원시 VTT)
 - wiki/ 페이지는 이미 통합 완료 상태 — 변경 없음
+
+## [2026-06-10] ingest | 자유령 에이전트 3종 비교 — 헤르메스·OpenClaw·Gemini Spark (김요일)
+
+- 소스: https://youtu.be/nmlYSLmmRBg (yt-dlp 자막 추출 → raw/2026-06-10-yt-subs-nmlYSLmmRBg.ko.vtt)
+- 생성: `wiki/sources/2026-06-10-free-roaming-agents-comparison.md`
+- 생성: `wiki/entities/gemini-spark.md` (Google IO 2026 클라우드 개인 에이전트)
+- 생성: `wiki/concepts/free-roaming-agent.md` (자유령 에이전트 카테고리 개념)
+- 갱신: `wiki/entities/hermes-agent.md` (자기 진화형 아키텍처, ChatGPT 구독 연동, 선택 기준 추가)
+- 갱신: `wiki/entities/openclaw.md` (헤르메스 vs OpenClaw 선택 기준 비교표 추가)
+- 갱신: `wiki/entities/kimyoil.md` (새 소스 참조 추가)
+- 갱신: `wiki/concepts/llm-wiki-pattern.md` (마크다운 토큰 65-90% 절감 수치 추가)
+- 갱신: `index.md`
