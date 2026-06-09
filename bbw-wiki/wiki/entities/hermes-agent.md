@@ -8,7 +8,7 @@ sources: [2026-06-09-ai-native-hermes-report]
 ---
 
 ## 개요
-텔레그램 연결 기반 멀티 에이전트 플랫폼. "오픈 클로(Open Claw)와 유사한 로컬 에이전트"로 소개되며, 여러 AI 도구(Codex, Claude, Gemini)를 연결해 실행시키는 작업 관리자 개념이다. 고유 ID를 가진 개별 에이전트 생성, 크론잡(예약 작업), 로컬 데이터 접근, 장기 기억 + 학습 루프 기능을 제공한다.
+**Nous Research** 개발 오픈소스 에이전트 프레임워크. 2026년 2월 출시, GitHub 18,800+ stars. [[wiki/entities/openclaw|OpenClaw]]와 유사한 로컬 에이전트로, 여러 AI 도구(Codex, Claude, Gemini)를 연결해 실행시키는 작업 관리자 개념이다. 고유 ID를 가진 개별 에이전트 생성, 크론잡(예약 작업), 로컬 데이터 접근, 장기 기억 + 학습 루프 기능을 제공한다.
 
 ### 설치 방법
 1. 구글 "헤르메스 에이전트" 검색 → 공식 홈페이지 데스크톱 앱 설치
@@ -37,6 +37,7 @@ sources: [2026-06-09-ai-native-hermes-report]
 5. 장기 기억 + 자율 학습 루프
 
 ## 주요 연결
+- [[wiki/entities/openclaw|OpenClaw]] — 유사한 로컬 에이전트 오픈소스
 - [[wiki/concepts/ai-native-team|AI 네이티브 팀 구성]]
 - [[wiki/concepts/autonomous-learning-loop|야간 자율 학습 루프]]
 - [[wiki/entities/kimyoil|김요일]]

@@ -189,3 +189,15 @@
 - 갱신: `wiki/sources/2026-06-09-ai-native-hermes-report.md` (Codex 연결, 팀명, 설치법, 메모리 경고 추가)
 - 갱신: `wiki/entities/hermes-agent.md` (설치 방법 상세, Codex 연결 정보 추가)
 - 갱신: `wiki/concepts/ai-native-team.md` (Session Send, 팀명, 도구 종속성 제거 내용 추가)
+
+## [2026-06-10] update | 헤르메스 리포트 불명확 항목 웹 검색 검증
+
+- 오픈 클로 → OpenClaw (2026.01 출시 오픈소스) 확인
+- 헤르메스 = Nous Research 개발, 2026.02 출시 확인
+- Codex = OpenAI Codex CLI (토큰 기반 과금) 확인
+- Session Send = Claude Code Agent Teams (v2.1.80+) 확인
+- 갱신: `raw/2026-06-09-ai-native-hermes-리포트.md` (검증 결과 반영, 섹션 7에 Session Send 추가)
+- 갱신: `wiki/entities/hermes-agent.md` (Nous Research, GitHub stars 추가)
+- 생성: `wiki/entities/openclaw.md`
+- 갱신: `wiki/concepts/ai-native-team.md` (Session Send = Agent Teams 확인)
+- 갱신: `index.md`

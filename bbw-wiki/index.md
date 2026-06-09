@@ -61,6 +61,7 @@
 
 - [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유
 - [헤르메스 에이전트](wiki/entities/hermes-agent.md) — 텔레그램 연결 멀티 에이전트 플랫폼, 크론잡·장기 기억·모바일 원격 실행
+- [OpenClaw](wiki/entities/openclaw.md) — 로컬 셀프호스팅 AI 에이전트 (2026.01, Telegram·Slack 등 22채널, 헤르메스 유사)
 - [OpenDesign](wiki/entities/opendesign.md) — Claude Design 로컬화 오픈소스, 무한 루프 UI 실습 도구
 - [오후다섯씨 (Mr.5pm)](wiki/entities/mr5pm.md) — AI 활용·생산성 유튜브 채널, Claude 스타일 Obsidian CSS 스니펫 제작·배포
 - [castlestudio](wiki/entities/castlestudio.md) — AI 활용법 한국어 유튜브 채널, Anthropic 하네스 실험 결과 해설
