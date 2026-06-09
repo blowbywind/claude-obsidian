@@ -170,3 +170,14 @@
 - 개선: `bbw-wiki/CLAUDE.md` — 비용 상한 규칙(raw/ 재읽기 금지, 최대 3페이지 로드, queries/ 캐시 우선) 추가
 - 개선: `obsidian-vault/CLAUDE.md` — 세션 시작 절차 동기화
 - 갱신: `index.md` — 헤더 안내 문구 개선, Queries 섹션 활성화
+
+## [2026-06-09] ingest | AI 네이티브 운영 방법 — 헤르메스 에이전트 실무 적용기
+
+- 소스: https://youtu.be/vrc0Uv2BfRk (raw/2026-06-09-ai-native-hermes-report.md)
+- 생성: `wiki/sources/2026-06-09-ai-native-hermes-report.md`
+- 생성: `wiki/entities/kimyoil.md`
+- 생성: `wiki/entities/hermes-agent.md`
+- 생성: `wiki/entities/opendesign.md`
+- 생성: `wiki/concepts/ai-native-team.md` (헤르메스·Claude Code 역할 분리 팀 구조)
+- 생성: `wiki/concepts/autonomous-learning-loop.md` (크론잡 야간 자율 학습 루프)
+- 갱신: `index.md`

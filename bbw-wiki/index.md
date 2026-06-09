@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [AI 네이티브 운영 방법 — 헤르메스 에이전트 실무 적용기](wiki/sources/2026-06-09-ai-native-hermes-report.md) — 김요일의 헤르메스 5명+Claude Code 5명 AI 네이티브 팀, 야간 자율 학습 루프, 옵시디언 위키 맥락 공유 실전기
 - [옵시디언 아직도 그냥 쓰세요? 클로드 스타일로 바뀝니다!](wiki/sources/2026-06-08-obsidian-claude-style-css-mr5pm.md) — CSS 스니펫+Claude Code로 Obsidian을 Claude 인터페이스 스타일(다크·주황·명조)로 실시간 커스터마이징하는 워크플로우
 - [클로드코드 직접 만든 사람이 직접 공개한 사용법 - '하네스'](wiki/sources/2026-06-08-claude-code-harness-castlestudio.md) — Anthropic 실험: 동일 모델 $9(고장) vs $200(완동)의 유일한 차이는 Planner-Generator-Evaluator 구조
 - [AI를 기존 방식에 얹지 마세요 — 워크플로우를 통째로 갈아엎어야 하는 이유](wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev.md) — 하재상·알렉스(Meta 엔지니어)의 AI 시대 위임 마인드셋·에이전트 프로덕티비티·컨텍스트 인텔리전스 실전 강연
@@ -25,6 +26,8 @@
 
 ## Concepts
 
+- [AI 네이티브 팀 구성](wiki/concepts/ai-native-team.md) — 헤르메스(에이전시)·Claude Code(인하우스) 역할 분리 기반 10명 AI 팀 운영 구조
+- [야간 자율 학습 루프](wiki/concepts/autonomous-learning-loop.md) — 크론잡으로 에이전트가 취침 중 자율 학습, 결과를 옵시디언 위키화해 메모리 효율 유지
 - [AI 오케스트레이터 마인드셋](wiki/concepts/ai-orchestrator-mindset.md) — 직접 실행하는 사람에서 에이전트에게 위임·조율하는 사람으로의 전환, 워크플로우 재정의 4단계
 - [컨텍스트 인텔리전스](wiki/concepts/context-intelligence.md) — 세컨 브레인에 구조·인덱스를 부여해 에이전트가 필요할 때 필요한 정보만 가져오게 하는 전략 (Meta 사례: 2h→30min)
 - [하네스 엔지니어링](wiki/concepts/harness-engineering.md) — AI 에이전트를 제약·툴·피드백·관찰로 제어하는 2026년 신 패러다임 (Hashimoto 정의)
@@ -56,6 +59,9 @@
 
 ## Entities
 
+- [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유
+- [헤르메스 에이전트](wiki/entities/hermes-agent.md) — 텔레그램 연결 멀티 에이전트 플랫폼, 크론잡·장기 기억·모바일 원격 실행
+- [OpenDesign](wiki/entities/opendesign.md) — Claude Design 로컬화 오픈소스, 무한 루프 UI 실습 도구
 - [오후다섯씨 (Mr.5pm)](wiki/entities/mr5pm.md) — AI 활용·생산성 유튜브 채널, Claude 스타일 Obsidian CSS 스니펫 제작·배포
 - [castlestudio](wiki/entities/castlestudio.md) — AI 활용법 한국어 유튜브 채널, Anthropic 하네스 실험 결과 해설
 - [하재상 (실밸개발자)](wiki/entities/silval-dev-jaesung.md) — Meta 8년차 엔지니어·실밸개발자 유튜버, AI 오케스트레이터 마인드셋·컨텍스트 인텔리전스 제안자
