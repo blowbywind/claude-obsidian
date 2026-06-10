@@ -238,3 +238,13 @@
 - 갱신: `wiki/entities/kimyoil.md` (새 소스 참조 추가)
 - 갱신: `wiki/concepts/llm-wiki-pattern.md` (마크다운 토큰 65-90% 절감 수치 추가)
 - 갱신: `index.md`
+
+## [2026-06-10] ingest | [60회 AI&UX세미나] AI 네이티브 UX/UI 디자인 시대 (유훈식 교수)
+
+- 소스: https://www.youtube.com/watch?v=1kgeuDilots (yt-dlp 자막 추출 → raw/2026-06-10-yt-subs-1kgeuDilots.ko.vtt)
+- 생성: `wiki/sources/2026-05-28-ai-native-ux-lm-wiki-60th-seminar.md`
+- 생성: `wiki/entities/yu-hunsik.md` (유훈식 교수 — 서울 미디어 대학원대학교, AI4UX)
+- 생성: `wiki/concepts/synthetic-user.md` (합성 사용자 개념)
+- 갱신: `wiki/concepts/ai-native-team.md` (AI 임베디드 vs AI 네이티브, 노션 AX 4단계 추가)
+- 갱신: `wiki/concepts/llm-wiki-pattern.md` (마크다운 85% 토큰 절감 + 35% 속도향상 추가)
+- 갱신: `index.md`

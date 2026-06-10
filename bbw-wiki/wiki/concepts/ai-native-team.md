@@ -4,7 +4,7 @@ type: concept
 tags: [multi-agent, ai-native, team, hermes, claude-code]
 created: 2026-06-09
 updated: 2026-06-10
-sources: [2026-06-09-ai-native-hermes-report]
+sources: [2026-06-09-ai-native-hermes-report, 2026-05-28-ai-native-ux-lm-wiki-60th-seminar]
 ---
 
 ## 정의
@@ -73,6 +73,17 @@ sources: [2026-06-09-ai-native-hermes-report]
 | 스킬 인벤토리 | 사용 가능한 스킬·플러그인 목록 |
 | 토큰 대시보드 | 작업별 토큰 사용량 분석 |
 
+## AI 임베디드 vs AI 네이티브 (유훈식 교수 정의)
+
+| 구분 | AI 임베디드 | AI 네이티브 |
+|---|---|---|
+| 접근 | AI를 기존 조직에 적용 | 조직 구조를 AI 중심으로 재설계 |
+| 전환 | 쉬움 (개인 단위 가능) | 어려움 (시스템 재설계 필요) |
+| 인력 | 기존 조직 유지 | 1인당 에이전트 20–100개, 최소 인력 |
+| 사례 | — | Jack Dorsey의 Block, Elon Musk의 MicroHard |
+
+**노션 AX 4단계**: 도구 → 비서 → **팀원(3단계 — 재설계 필요)** → AI 시스템
+
 ## 관련 개념
 - [[wiki/concepts/autonomous-learning-loop|야간 자율 학습 루프]] — 헤르메스 에이전트의 야간 학습 설계
 - [[wiki/concepts/context-intelligence|컨텍스트 인텔리전스]] — 옵시디언 위키로 팀 전체 맥락 공유
@@ -85,3 +96,4 @@ sources: [2026-06-09-ai-native-hermes-report]
 
 ## 출처
 - [[wiki/sources/2026-06-09-ai-native-hermes-report]]
+- [[wiki/sources/2026-05-28-ai-native-ux-lm-wiki-60th-seminar]]
