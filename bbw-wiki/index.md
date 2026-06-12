@@ -8,6 +8,7 @@
 ## Sources
 
 - [SeaweedFS — 분산 오브젝트 스토리지 종합 문서](wiki/sources/2026-06-12-seaweedfs-docs.md) — v4.23 BBW 운용 현황, Needle·Volume·Filer·S3 아키텍처, Erasure Coding, MinIO 비교, AWS SDK 연동, Docker 배포
+- [LLM Wiki가 망하는 진짜 이유 — Brain Trinity AI OS 설계](wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity.md) — LLM Wiki 실패 3원인(목적 부재·완벽주의·방법론만 복제), LLM Wiki=얕은 컴파일, 철학→역할→행동→지식 계층, GOLD IN GOLD OUT
 - [Hermes Agent v0.16.0 — 실제 설치·명령 체계·BBW 운용 현황](wiki/sources/2026-06-12-hermes-agents.md) — hermes --help/status/config 직접 조사: gateway·cron·skills·MCP·ACP·worktree·oneshot 전체 명령 체계, BBW P0 미완료 목록
 - [hermes dashboard 외부 접속 — KT hairpin NAT 성공 사례](wiki/sources/2026-06-12-hermes-external-access.md) — KT GiGA WiFi Home hairpin NAT으로 snowball.me.kr:9119 접속 성공, 실패 시도 목록, Caddy trusted_proxies 설정
 - [Caddy v2 공식 문서 — 리버스 프록시·자동 HTTPS·Caddyfile 종합](wiki/sources/2026-06-12-caddy-v2-docs.md) — 자동 HTTPS 원리, Caddyfile 문법, Docker 배포, inode 바인드 마운트 함정, HTTP/3 설정
@@ -45,7 +46,8 @@
 - [Generator-Evaluator 패턴](wiki/concepts/generator-evaluator-pattern.md) — 생성과 평가를 분리하는 Anthropic 멀티 에이전트 설계 패턴
 - [Boris 자기학습 루프](wiki/concepts/boris-self-learning-loop.md) — 에이전트 실수마다 CLAUDE.md에 방지 규칙을 추가해 시스템을 점진적으로 성장시키는 방법론
 - [외부 지식 시스템](wiki/concepts/external-knowledge-system.md) — Zotero·LLM Wiki·NotebookLM 3계층 외부 지식 아키텍처, Claude Code MCP로 통합
-- [AI OS (AI 운영체제)](wiki/concepts/ai-os.md) — Ideaverse·번역층·외부 AI 3레이어로 구성된 이식 가능한 개인 AI 시스템
+- [Brain Trinity](wiki/concepts/brain-trinity.md) — 삶의 철학→역할→목표→행동→지식 계층 기반 AI OS 설계 프레임워크, LLM Wiki=얕은 컴파일, My Notes=깊은 이해, GOLD IN GOLD OUT
+- [AI OS (AI 운영체제)](wiki/concepts/ai-os.md) — Ideaverse·번역층·외부 AI 3레이어로 구성된 이식 가능한 개인 AI 시스템 (Brain Trinity 관점 추가)
 - [ME.MD (AI 포터블 아이덴티티)](wiki/concepts/me-md.md) — AI-agnostic 포터블 아이덴티티 파일, CLAUDE.md의 범용 버전
 - [ACE 폴더 프레임워크](wiki/concepts/ace-folder-framework.md) — Nick Milo의 Atlas·Calendar·Efforts Obsidian 볼트 구조
 - [Vault Map & Skill Map](wiki/concepts/vault-map.md) — AI가 볼트를 탐색하고 스킬을 선택하도록 안내하는 번역층 핵심 파일

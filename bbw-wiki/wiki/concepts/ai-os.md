@@ -60,6 +60,17 @@ AI OS의 핵심. Obsidian과 외부 AI 사이의 다리. 3대 파일:
 - [[wiki/entities/obsidian|Obsidian]] — Layer 1 호스팅 앱
 - [[wiki/entities/cowork|Cowork]] — Layer 3 현재 AI 도구
 
+## 다른 관점: Brain Trinity (브라이언)
+
+브라이언의 AI OS는 도구 아키텍처보다 **삶의 목적**을 출발점으로 삼는다는 점에서 다르다.
+
+- 상위 계층: 철학(북극성) → 삶의 영역 → 역할 → 목표 → 프로젝트/태스크
+- 하위 계층(Workspace): My Notes(인간 깊은 이해) + LLM Wiki(AI 얕은 컴파일)
+- LLM Wiki는 전체 시스템의 작은 부품 — 시스템 전체가 될 수 없음
+
+→ [[wiki/concepts/brain-trinity|Brain Trinity]] 참조
+
 ## 출처
 
 - [[wiki/sources/2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]]
+- [[wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity]]

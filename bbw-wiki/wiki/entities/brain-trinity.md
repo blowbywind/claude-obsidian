@@ -3,8 +3,8 @@ title: 브레인 트리니티
 type: entity
 tags: [person, youtube, knowledge-management, ai]
 created: 2026-06-05
-updated: 2026-06-07
-sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-code-7steps-mastery, 2026-06-05-claude-code-beginner-install-guide, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
+updated: 2026-06-12
+sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-code-7steps-mastery, 2026-06-05-claude-code-beginner-install-guide, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade, 2026-05-16-llm-wiki-failure-brain-trinity]
 ---
 
 ## 개요
@@ -25,6 +25,7 @@ sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-cod
 
 ## 주요 연결
 
+- [[wiki/concepts/brain-trinity|Brain Trinity 프레임워크]] — 철학→역할→행동→지식 계층 구조
 - [[wiki/concepts/purposeful-collection|목적성 있는 수집]]
 - [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]]
 - [[wiki/concepts/second-brain|세컨드 브레인]]
@@ -33,6 +34,7 @@ sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-cod
 
 ## 출처
 
+- [[wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity]]
 - [[wiki/sources/2026-06-05-claude-code-obsidian-lmwiki-graphify]]
 - [[wiki/sources/2026-06-05-claude-code-7steps-mastery]]
 - [[wiki/sources/2026-06-05-claude-code-beginner-install-guide]]

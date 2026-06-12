@@ -282,3 +282,11 @@
 - 생성: `wiki/entities/seaweedfs.md` (BBW v4.23 운용 현황, 포트, Docker 설정)
 - 생성: `wiki/concepts/seaweedfs-architecture.md` (Needle·Volume·Filer·S3 3계층, EC RS(10,4), 운용 모드)
 - 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 1개 추가)
+
+## [2026-06-12] ingest | LLM Wiki가 망하는 진짜 이유 — Brain Trinity AI OS 설계
+
+- 생성: `wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity.md` (YouTube 자막 기반, 브라이언/Brain Trinity)
+- 생성: `wiki/concepts/brain-trinity.md` (철학→역할→목표→행동→지식 계층, LLM Wiki=얕은 컴파일, GOLD IN GOLD OUT)
+- 갱신: `wiki/concepts/ai-os.md` (Brain Trinity 대안 관점 섹션 추가)
+- 갱신: `wiki/entities/brain-trinity.md` (새 소스·Brain Trinity 개념 링크 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
