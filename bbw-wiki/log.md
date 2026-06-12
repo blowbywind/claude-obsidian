@@ -312,3 +312,10 @@
 - 생성: `wiki/concepts/bigdata-pipeline.md` (5단계 파이프라인·ETL·분석 기법·ELK 스택)
 - 생성: `wiki/entities/gisulnote-alex.md` (기술노트with 알렉 채널)
 - 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 1개 추가)
+
+## [2026-06-13] ingest | IT 기술 지식 맵 20분 — 기술노트with 알렉 (바이브코더용 CS 전체 흐름)
+
+- 생성: `wiki/sources/2026-06-13-it-knowledge-map-gisulnote.md` (YouTube 자막 기반)
+- 생성: `wiki/concepts/it-knowledge-map.md` (CS 계층 구조·언어vs프레임워크·폭포수/애자일·Docker/K8s)
+- 갱신: `wiki/entities/gisulnote-alex.md` (새 소스·IT 지식맵 링크 추가, 태그 확장)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
