@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [Hermes Agent v0.16.0 — 실제 설치·명령 체계·BBW 운용 현황](wiki/sources/2026-06-12-hermes-agents.md) — hermes --help/status/config 직접 조사: gateway·cron·skills·MCP·ACP·worktree·oneshot 전체 명령 체계, BBW P0 미완료 목록
 - [hermes dashboard 외부 접속 — KT hairpin NAT 성공 사례](wiki/sources/2026-06-12-hermes-external-access.md) — KT GiGA WiFi Home hairpin NAT으로 snowball.me.kr:9119 접속 성공, 실패 시도 목록, Caddy trusted_proxies 설정
 - [Caddy v2 공식 문서 — 리버스 프록시·자동 HTTPS·Caddyfile 종합](wiki/sources/2026-06-12-caddy-v2-docs.md) — 자동 HTTPS 원리, Caddyfile 문법, Docker 배포, inode 바인드 마운트 함정, HTTP/3 설정
 - [[60회 AI&UX세미나] AI 네이티브 UX/UI 디자인 시대](wiki/sources/2026-05-28-ai-native-ux-lm-wiki-60th-seminar.md) — 유훈식 교수의 6단계 워크플로우, AI 임베디드 vs AI 네이티브, 합성 사용자, 마크다운 85% 토큰 절감+35% 속도향상
@@ -64,6 +65,7 @@
 - [hnedu-auth 배포 워크플로우](wiki/concepts/hnedu-auth-deploy.md) — build → scp → docker logs 3단계 수동 프로세스 및 자동화 후보 정리
 - [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
 - [KT hairpin NAT](wiki/concepts/kt-hairpin-nat.md) — KT GiGA WiFi Home의 NAT loopback 동작, remote_ip:172.30.1.254 진단법, 서버 자체 테스트 실패 이유
+- [Hermes 아키텍처](wiki/concepts/hermes-architecture.md) — gateway·스킬·크론·MCP/ACP·프로필·컨텍스트 압축 6개 레이어, oneshot/worktree/send 패턴
 
 ---
 
@@ -73,7 +75,7 @@
 - [유훈식 교수](wiki/entities/yu-hunsik.md) — 서울 미디어 대학원대학교, AI4UX 채널 운영, AI 네이티브 UX 6단계 워크플로우·합성 사용자 제안
 - [Gemini Spark](wiki/entities/gemini-spark.md) — Google IO 2026 발표 클라우드 개인 AI 에이전트, Google 생태계 통합, 한국 1-4개월 출시 예상
 - [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유
-- [헤르메스 에이전트](wiki/entities/hermes-agent.md) — 텔레그램 연결 멀티 에이전트 플랫폼, 크론잡·장기 기억·모바일 원격 실행
+- [헤르메스 에이전트](wiki/entities/hermes-agent.md) — v0.16.0 설치 완료, gpt-5.5/Codex OAuth, docker 터미널, dashboard :9119 외부 접속 가능, gateway·cron·skills·MCP 지원
 - [OpenClaw](wiki/entities/openclaw.md) — 로컬 셀프호스팅 AI 에이전트 (2026.01, Telegram·Slack 등 22채널, 헤르메스 유사)
 - [OpenDesign](wiki/entities/opendesign.md) — Claude Design 로컬화 오픈소스, 무한 루프 UI 실습 도구
 - [오후다섯씨 (Mr.5pm)](wiki/entities/mr5pm.md) — AI 활용·생산성 유튜브 채널, Claude 스타일 Obsidian CSS 스니펫 제작·배포

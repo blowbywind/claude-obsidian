@@ -268,3 +268,10 @@
 - 수정: "KT 라우터 hairpin NAT 미지원" → 실제로는 지원함 (포트 9119 확인)
 - 수정: "WebFetch 타임아웃 = ISP 전면 차단" → 불확실, LAN 브라우저 테스트에서는 성공
 - 추가: trusted_proxies 설정 방법, 포트 19120 내부 HTTP 리스너 패턴
+
+## [2026-06-12] ingest | Hermes Agent v0.16.0 — 전체 명령 체계·BBW 운용 현황 학습
+
+- 생성: `wiki/sources/2026-06-12-hermes-agents.md` (hermes --help/status/config 직접 조사 기반)
+- 생성: `wiki/concepts/hermes-architecture.md` (6개 레이어: 추론·실행·통신·자동화·확장·통합)
+- 갱신: `wiki/entities/hermes-agent.md` (BBW 설치 현황·전체 명령·P0 미완료 목록 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 설명 갱신)
