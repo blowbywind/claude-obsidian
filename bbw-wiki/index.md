@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [[확장판] 네트워크 기초 + OSI 7 Layer, TCP/IP 4계층, L4 L7 스위치, SSL 종료 지점](wiki/sources/2026-06-13-network-infra-extended-gisulnote.md) — 기술노트 알렉: 기초편 확장, OSI 7계층↔TCP/IP 4계층 매핑, L4/L7 스위치 차이, SSL 종료 지점(웹서버→WAS 구간 HTTP)
 - [쉽게 이해하는 네트워크 및 인프라 구성도](wiki/sources/2026-06-13-network-infra-gisulnote.md) — 기술노트 알렉: 인터넷/웹 구분, IP·TCP·HTTP 프로토콜, 라우터·스위치·방화벽·CDN·DMZ, 웹서버-WAS-DB 3계층, 이중화(Primary/Standby), 온프레미스 전체 구성도
 - [서비스 기획·설계·개발·배포·출시·운영 전체 과정 — 20분 완전 정복](wiki/sources/2026-06-13-service-dev-lifecycle-gisulnote.md) — 기술노트 알렉: MVP·페르소나·ERD·API설계→프론트/백엔드·Git브랜치→빌드·클라우드배포→도메인·HTTPS→앱스토어 심사→운영·수익화
 - [컴퓨터 구조·OS 2부 — 메모리 교체·CPU 스케줄링·프로세스/스레드·스레싱](wiki/sources/2026-06-13-computer-architecture-os-pt2-gisulnote.md) — 기술노트 알렉: FIFO/LRU/OPT 교체기법, 가상메모리, 라운드로빈, CISC/RISC, 프로세스vs스레드, 컨텍스트스위칭, 스레싱

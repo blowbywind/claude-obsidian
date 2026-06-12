@@ -1,10 +1,10 @@
 ---
 title: 네트워크 & 인프라 구성
 type: concept
-tags: [network, infra, tcp-ip, http, routing, firewall, cdn, load-balancer, web-server, was, database, dmz]
+tags: [network, infra, tcp-ip, http, osi-7-layer, l4-switch, l7-switch, ssl-termination, routing, firewall, cdn, load-balancer, web-server, was, database, dmz]
 created: 2026-06-13
 updated: 2026-06-13
-sources: [2026-06-13-network-infra-gisulnote]
+sources: [2026-06-13-network-infra-gisulnote, 2026-06-13-network-infra-extended-gisulnote]
 ---
 
 ## 정의
@@ -69,6 +69,45 @@ sources: [2026-06-13-network-infra-gisulnote]
 | 22 | SSH |
 | 21 | FTP (보통 방화벽 차단) |
 
+## OSI 7 Layer vs TCP/IP 4계층
+
+동일한 네트워크 스택을 바라보는 두 관점. 실무에서는 TCP/IP 4계층을 주로 참조.
+
+| TCP/IP 4계층 | OSI 7계층 | 프로토콜 |
+|-------------|-----------|---------|
+| 응용 계층 | 응용(7)·표현(6)·세션(5) | HTTP, FTP, DNS |
+| 전송 계층 | 전송(4) | **TCP**, UDP |
+| 인터넷 계층 | 네트워크(3) | **IP** |
+| 물리/링크 계층 | 데이터링크(2)·물리(1) | 이더넷, Wi-Fi |
+
+**데이터 흐름**:
+```
+클라이언트: HTTP → TCP → IP → 이더넷
+                                ↓ (인터넷)
+서버:       이더넷 → IP → TCP → HTTP
+```
+
+## L4 스위치 vs L7 스위치
+
+| 구분 | 동작 계층 | 분기 기준 |
+|------|----------|----------|
+| **L4 스위치** | TCP(4계층) | IP + 포트 |
+| **L7 스위치** | HTTP(7계층) | URL, 쿠키, 헤더 |
+
+- 실무에서 Nginx가 L7 리버스 프록시 + 로드밸런서 역할을 함께 담당
+
+## SSL 종료 지점 (SSL Termination)
+
+```
+외부: 클라이언트 ─HTTPS(443)─▶ 웹서버(Nginx)
+내부:                            웹서버(Nginx) ─HTTP(8080)─▶ WAS
+                                 ↑ SSL 종료 여기서
+```
+
+- HTTPS = HTTP + SSL 암호화 레이어
+- 웹서버에서 SSL 처리 후 내부는 HTTP로 통신
+- 이유: 내부망은 외부 위협이 없고, 인증서 처리 오버헤드를 줄이기 위함
+
 ## 서버 3계층 구조
 
 ```
@@ -130,3 +169,4 @@ WAS → Primary DB ─(리플리케이션)─→ Standby DB
 ## 출처
 
 - [[wiki/sources/2026-06-13-network-infra-gisulnote]]
+- [[wiki/sources/2026-06-13-network-infra-extended-gisulnote]] — OSI 7 Layer·L4/L7·SSL 종료 추가

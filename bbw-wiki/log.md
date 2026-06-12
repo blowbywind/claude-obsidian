@@ -348,3 +348,10 @@
 - 생성: `wiki/concepts/network-infra.md` (IP·TCP·HTTP, 방화벽·CDN·DMZ, 웹서버-WAS-DB 3계층, 이중화, 온프레미스 전체 흐름)
 - 갱신: `wiki/entities/gisulnote-alex.md` (6번째 소스·네트워크 개념 링크 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+## [2026-06-13] ingest | [확장판] 네트워크 기초 + OSI 7 Layer, L4/L7 스위치, SSL 종료 지점 — 기술노트with 알렉
+
+- 생성: `wiki/sources/2026-06-13-network-infra-extended-gisulnote.md` (YouTube 자막 기반, https://youtu.be/Q5xY0tn9Axg)
+- 갱신: `wiki/concepts/network-infra.md` (OSI 7 Layer·TCP/IP 4계층 매핑, L4/L7 스위치, SSL 종료 지점 추가)
+- 갱신: `wiki/entities/gisulnote-alex.md` (7번째 소스·확장판 링크 추가)
+- 갱신: `index.md` (Sources 1개 추가)
