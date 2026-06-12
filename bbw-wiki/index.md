@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [hermes dashboard 외부 접속 — KT hairpin NAT 성공 사례](wiki/sources/2026-06-12-hermes-external-access.md) — KT GiGA WiFi Home hairpin NAT으로 snowball.me.kr:9119 접속 성공, 실패 시도 목록, Caddy trusted_proxies 설정
 - [Caddy v2 공식 문서 — 리버스 프록시·자동 HTTPS·Caddyfile 종합](wiki/sources/2026-06-12-caddy-v2-docs.md) — 자동 HTTPS 원리, Caddyfile 문법, Docker 배포, inode 바인드 마운트 함정, HTTP/3 설정
 - [[60회 AI&UX세미나] AI 네이티브 UX/UI 디자인 시대](wiki/sources/2026-05-28-ai-native-ux-lm-wiki-60th-seminar.md) — 유훈식 교수의 6단계 워크플로우, AI 임베디드 vs AI 네이티브, 합성 사용자, 마크다운 85% 토큰 절감+35% 속도향상
 - [자유령 에이전트 3종 비교 — 헤르메스·OpenClaw·Gemini Spark](wiki/sources/2026-06-10-free-roaming-agents-comparison.md) — 로컬(헤르메스·OpenClaw) vs 클라우드(Gemini Spark) 비교, LM 위키×옵시디언 실무 UX 워크플로우, 마크다운 토큰 65-90% 절감
@@ -62,6 +63,7 @@
 - [JWT RS256 인증 패턴](wiki/concepts/jwt-rs256.md) — 비대칭키 JWT 서명, 인증 서버만 개인키 보유하고 각 서비스는 공개키 검증만 수행
 - [hnedu-auth 배포 워크플로우](wiki/concepts/hnedu-auth-deploy.md) — build → scp → docker logs 3단계 수동 프로세스 및 자동화 후보 정리
 - [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
+- [KT hairpin NAT](wiki/concepts/kt-hairpin-nat.md) — KT GiGA WiFi Home의 NAT loopback 동작, remote_ip:172.30.1.254 진단법, 서버 자체 테스트 실패 이유
 
 ---
 

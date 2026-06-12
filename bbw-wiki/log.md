@@ -255,3 +255,16 @@
 - 생성: `wiki/concepts/caddy.md` (Caddyfile 문법, 자동 HTTPS, reverse_proxy, log, handle, Docker 함정 전체)
 - 생성: `wiki/entities/caddy.md` (Caddy 소프트웨어 엔티티 — v2.11.4, bbw 홈서버 운용 현황)
 - 갱신: `index.md` (Sources/Concepts/Entities 3섹션에 Caddy 항목 추가)
+
+## [2026-06-12] update | hermes 외부 접속 성공 — KT hairpin NAT 확인 및 기록
+
+- 생성: `wiki/sources/2026-06-12-hermes-external-access.md` (실패 시도 14개 + 성공 구성 + 로그 증거)
+- 생성: `wiki/concepts/kt-hairpin-nat.md` (KT hairpin NAT 동작 원리, 테스트 제한사항)
+- 갱신: `claude/projects/web-infra.md` (hermes 외부 접속 완료 섹션 추가, 서비스 목록 갱신)
+- 갱신: `index.md` (2개 항목 추가)
+
+## [2026-06-12] update | lessons.md — hairpin NAT 오해 수정 및 성공 기록
+
+- 수정: "KT 라우터 hairpin NAT 미지원" → 실제로는 지원함 (포트 9119 확인)
+- 수정: "WebFetch 타임아웃 = ISP 전면 차단" → 불확실, LAN 브라우저 테스트에서는 성공
+- 추가: trusted_proxies 설정 방법, 포트 19120 내부 HTTP 리스너 패턴

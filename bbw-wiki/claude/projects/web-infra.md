@@ -9,10 +9,11 @@
 
 ## 현재 상태
 - 위치: `/opt/web-infra`
-- 서비스: caddy (80/443), postgres (내부), adminer (127.0.0.1:8080), seaweedfs (내부)
+- 서비스: caddy (80/443/9119), hermes-dashboard (19119 내부), postgres (내부), adminer (127.0.0.1:8080), seaweedfs (내부)
 - DB: PostgreSQL 16 / user: bbw / db: bbw_db
 - git 관리 중 (docker-compose.yml, Caddyfile, backup.sh)
 - 백업: 매일 03:00 systemd timer → `/mnt/storage/backups/`
+- **hermes 외부 접속**: `https://snowball.me.kr:9119/` ✅ (2026-06-12 확인)
 
 ## 자동 복구 설정
 
@@ -47,6 +48,36 @@ sudo systemctl enable --now caddy-ufw-watch.service
 - `docker compose up/down` 시 포트 노출 서비스는 트래픽 적은 시간에
 - 대용량 파일 전송은 서버에서 직접 (로컬 업로드 금지)
 
+## hermes 외부 접속 (2026-06-12 완료)
+
+**접속 URL**: `https://snowball.me.kr:9119/`
+
+**증거**: Caddy `access-9119.log`에 `remote_ip: 172.30.1.254` (KT 라우터 IP) 2회 세션
+- [07:51] 완전 페이지 로드 + WebSocket 터미널(`/api/pty`) 연결
+- [20:27] 재접속 + WebSocket 터미널 연결
+
+**동작 원리**: KT GiGA WiFi Home 라우터의 **hairpin NAT**
+- LAN 기기 → `snowball.me.kr:9119` (DNS: 221.165.64.216) → 라우터 포트포워딩 → 서버(172.30.1.92:9119) → docker-proxy → Caddy → hermes
+- 라우터가 source IP를 자신의 LAN IP(172.30.1.254)로 SNAT → Caddy에 172.30.1.254로 기록
+
+**⚠️ 테스트 시 주의**: 서버(172.30.1.92) 자체에서 221.165.64.216:9119 접속 테스트는 항상 실패 (hairpin 불가). 반드시 다른 LAN 기기(노트북, 폰)에서 테스트.
+
+**최종 Caddyfile 핵심 설정**:
+```caddyfile
+{
+    servers {
+        trusted_proxies static 127.0.0.1 172.18.0.0/16
+    }
+}
+snowball.me.kr:9119 {
+    log { output file /var/log/caddy/access-9119.log; format json }
+    reverse_proxy hermes-dashboard:19119
+}
+```
+
+---
+
 ## 작업 히스토리
+- 2026-06-12: hermes 외부 접속 완료 — trusted_proxies·access log 볼륨·9119 포트 전체 구성. Caddy remote_ip: 172.30.1.254 확인.
 - 2026-06-11: 자동 복구 인프라 추가 (caddy-ufw-watch.service, apply-ufw.sh) — 컨테이너 재시작 시 ufw-docker 규칙 만료 이슈 영구 해결
 - 2026-06-08: ufw-docker 설치, postgres 보안 강화, /opt 이전, 디스크 확장 (98G→455G), /mnt/storage 구성, 백업 자동화, SSL 복구
