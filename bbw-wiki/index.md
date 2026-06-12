@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [AI시대 빅데이터 분석 입문 — 파이프라인·ETL·ELK스택·활용사례](wiki/sources/2026-06-13-bigdata-pipeline-gisulnote.md) — 기술노트 알렉: YouTube추천·장바구니·할인최적화 사례, 5단계 파이프라인, Filebeat→Logstash→ES→Python→FastAPI 소규모 스택
 - [옵시디언 LLM Wiki — 자료 선별 3기준·볼트 구조 결정법](wiki/sources/2026-06-12-llm-wiki-selection-criteria.md) — 칼퇴연구소: 반복사용·의사결정영향·업무연결 3기준(2개↑만 넣기), 라벨 규칙 2가지, 볼트는 하나로 시작·부서=속성으로
 - [SeaweedFS — 분산 오브젝트 스토리지 종합 문서](wiki/sources/2026-06-12-seaweedfs-docs.md) — v4.23 BBW 운용 현황, Needle·Volume·Filer·S3 아키텍처, Erasure Coding, MinIO 비교, AWS SDK 연동, Docker 배포
 - [Hermes Agent VPS 풀 셋업 튜토리얼 (샘 호트만)](wiki/sources/2026-06-09-hermes-vps-setup-samhottman.md) — VPS vs 로컬 선택 기준, Hostinger 원클릭 배포, Slack 게이트웨이 4가지 토큰, GitHub GIT_TOKEN 자동 백업, fallback 모델 체인
@@ -71,6 +72,7 @@
 - [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
 - [KT hairpin NAT](wiki/concepts/kt-hairpin-nat.md) — KT GiGA WiFi Home의 NAT loopback 동작, remote_ip:172.30.1.254 진단법, 서버 자체 테스트 실패 이유
 - [Hermes 아키텍처](wiki/concepts/hermes-architecture.md) — gateway·스킬·크론·MCP/ACP·프로필·컨텍스트 압축 6개 레이어, oneshot/worktree/send 패턴
+- [빅데이터 분석 파이프라인](wiki/concepts/bigdata-pipeline.md) — 수집→정제→저장→분석→API 5단계, ETL·상관관계·군집 분석, ELK+Python 소규모 스택, 수요예측·추천·장애예측 활용처
 - [SeaweedFS 아키텍처](wiki/concepts/seaweedfs-architecture.md) — Needle(45B 오버헤드)·Volume(.dat/.idx)·Filer 메타데이터·S3 게이트웨이 3계층, Erasure Coding RS(10,4), weed server/mini/cluster 모드
 
 ---
@@ -109,6 +111,7 @@
 - [hnedu-erp](wiki/entities/hnedu-erp.md) — 해냄에듀 ERP (WinForms C# + .NET Web API), hnedu-auth JWT 검증 연동
 - [hnedu-crm](wiki/entities/hnedu-crm.md) — 해냄에듀 CRM (Next.js 15 + FastAPI), hnedu-auth JWT 검증 연동
 - [칼퇴연구소┃AI생산성](wiki/entities/kaltwi-research.md) — LLM Wiki 실무 운영 노하우·AI 생산성 한국어 YouTube 채널, 전자책 출판 준비 중
+- [기술노트with 알렉](wiki/entities/gisulnote-alex.md) — 빅데이터·ADSP·백엔드 개발 한국어 YouTube 채널, 실무 사례 중심 입문~중급
 
 ---
 

@@ -305,3 +305,10 @@
 - 갱신: `wiki/concepts/purposeful-collection.md` (실용 선별 기준 3가지·5분 규칙·라벨 규칙 2가지 추가)
 - 갱신: `wiki/concepts/llm-wiki-pattern.md` (새 소스 링크 추가)
 - 갱신: `index.md` (Sources 1개, Entities 1개 추가)
+
+## [2026-06-13] ingest | AI시대 빅데이터 분석 입문 — 기술노트with 알렉
+
+- 생성: `wiki/sources/2026-06-13-bigdata-pipeline-gisulnote.md` (YouTube 자막 기반, 기술노트with 알렉)
+- 생성: `wiki/concepts/bigdata-pipeline.md` (5단계 파이프라인·ETL·분석 기법·ELK 스택)
+- 생성: `wiki/entities/gisulnote-alex.md` (기술노트with 알렉 채널)
+- 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 1개 추가)
