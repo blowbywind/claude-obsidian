@@ -100,6 +100,7 @@ CPU → 프로세스A 실행 → 프로세스B 실행 → 프로세스C 실행 �
 ## 연결된 개념
 
 - [[wiki/concepts/computer-architecture-os|컴퓨터 구조 & 운영체제]] — 이 영상의 핵심 개념 정리
+- [[wiki/sources/2026-06-13-computer-architecture-os-pt2-gisulnote]] — 2부 (메모리 교체·CPU 스케줄링·프로세스/스레드)
 - [[wiki/concepts/it-knowledge-map|IT 기술 지식 맵]] — 상위 흐름 개요 (컴퓨터 구조 섹션)
 
 ## 연결된 엔티티

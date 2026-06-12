@@ -326,3 +326,11 @@
 - 생성: `wiki/concepts/computer-architecture-os.md` (폰노이만·컴파일vs인터프리터·메모리 계층·시분할·OS 역할)
 - 갱신: `wiki/entities/gisulnote-alex.md` (3번째 소스·개념 링크 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+## [2026-06-13] ingest | 컴퓨터구조·OS 2부 — 기술노트with 알렉 (메모리 교체·CPU 스케줄링·프로세스/스레드)
+
+- 생성: `wiki/sources/2026-06-13-computer-architecture-os-pt2-gisulnote.md` (YouTube 자막 기반)
+- 갱신: `wiki/concepts/computer-architecture-os.md` (메모리 교체 기법·CPU 스케줄링·프로세스/스레드·스레싱 추가)
+- 갱신: `wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md` (2부 링크 추가)
+- 갱신: `wiki/entities/gisulnote-alex.md` (4번째 소스 추가)
+- 갱신: `index.md` (Sources 1개 추가)

@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [컴퓨터 구조·OS 2부 — 메모리 교체·CPU 스케줄링·프로세스/스레드·스레싱](wiki/sources/2026-06-13-computer-architecture-os-pt2-gisulnote.md) — 기술노트 알렉: FIFO/LRU/OPT 교체기법, 가상메모리, 라운드로빈, CISC/RISC, 프로세스vs스레드, 컨텍스트스위칭, 스레싱
 - [컴퓨터 구조·OS 1부 — 폰노이만·프로세스·시분할·메모리 계층](wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md) — 기술노트 알렉: CPU·메모리·디스크 구조, 컴파일vs인터프리터, 프로그램→프로세스 흐름, 시분할 스케줄링 (2부 예고: 페이징·스레드)
 - [IT 기술 지식 맵 20분 — 바이브코더용 CS 전체 흐름](wiki/sources/2026-06-13-it-knowledge-map-gisulnote.md) — 기술노트 알렉: 프론트/백엔드·언어vs프레임워크·폭포수/애자일·컴퓨터구조·HTTP/IP·3-tier·Docker/K8s 계층 흐름
 - [AI시대 빅데이터 분석 입문 — 파이프라인·ETL·ELK스택·활용사례](wiki/sources/2026-06-13-bigdata-pipeline-gisulnote.md) — 기술노트 알렉: YouTube추천·장바구니·할인최적화 사례, 5단계 파이프라인, Filebeat→Logstash→ES→Python→FastAPI 소규모 스택
