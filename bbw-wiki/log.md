@@ -319,3 +319,10 @@
 - 생성: `wiki/concepts/it-knowledge-map.md` (CS 계층 구조·언어vs프레임워크·폭포수/애자일·Docker/K8s)
 - 갱신: `wiki/entities/gisulnote-alex.md` (새 소스·IT 지식맵 링크 추가, 태그 확장)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+## [2026-06-13] ingest | 컴퓨터구조·OS 1부 — 기술노트with 알렉 (폰노이만·프로세스·시분할)
+
+- 생성: `wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md` (YouTube 자막 기반)
+- 생성: `wiki/concepts/computer-architecture-os.md` (폰노이만·컴파일vs인터프리터·메모리 계층·시분할·OS 역할)
+- 갱신: `wiki/entities/gisulnote-alex.md` (3번째 소스·개념 링크 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)

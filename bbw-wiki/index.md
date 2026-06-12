@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [컴퓨터 구조·OS 1부 — 폰노이만·프로세스·시분할·메모리 계층](wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md) — 기술노트 알렉: CPU·메모리·디스크 구조, 컴파일vs인터프리터, 프로그램→프로세스 흐름, 시분할 스케줄링 (2부 예고: 페이징·스레드)
 - [IT 기술 지식 맵 20분 — 바이브코더용 CS 전체 흐름](wiki/sources/2026-06-13-it-knowledge-map-gisulnote.md) — 기술노트 알렉: 프론트/백엔드·언어vs프레임워크·폭포수/애자일·컴퓨터구조·HTTP/IP·3-tier·Docker/K8s 계층 흐름
 - [AI시대 빅데이터 분석 입문 — 파이프라인·ETL·ELK스택·활용사례](wiki/sources/2026-06-13-bigdata-pipeline-gisulnote.md) — 기술노트 알렉: YouTube추천·장바구니·할인최적화 사례, 5단계 파이프라인, Filebeat→Logstash→ES→Python→FastAPI 소규모 스택
 - [옵시디언 LLM Wiki — 자료 선별 3기준·볼트 구조 결정법](wiki/sources/2026-06-12-llm-wiki-selection-criteria.md) — 칼퇴연구소: 반복사용·의사결정영향·업무연결 3기준(2개↑만 넣기), 라벨 규칙 2가지, 볼트는 하나로 시작·부서=속성으로
@@ -73,6 +74,7 @@
 - [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
 - [KT hairpin NAT](wiki/concepts/kt-hairpin-nat.md) — KT GiGA WiFi Home의 NAT loopback 동작, remote_ip:172.30.1.254 진단법, 서버 자체 테스트 실패 이유
 - [Hermes 아키텍처](wiki/concepts/hermes-architecture.md) — gateway·스킬·크론·MCP/ACP·프로필·컨텍스트 압축 6개 레이어, oneshot/worktree/send 패턴
+- [컴퓨터 구조 & 운영체제](wiki/concepts/computer-architecture-os.md) — 폰노이만 구조, 컴파일/인터프리터 언어, 프로그램→프로세스→CPU 흐름, 메모리 계층, 시분할, OS 역할
 - [IT 기술 지식 맵 (비전공자·바이브코더용)](wiki/concepts/it-knowledge-map.md) — CS 전공 지식 체계 전체: 소프트웨어개발→언어/프레임워크→컴퓨터구조→네트워크→아키텍처→클라우드 계층 구조
 - [빅데이터 분석 파이프라인](wiki/concepts/bigdata-pipeline.md) — 수집→정제→저장→분석→API 5단계, ETL·상관관계·군집 분석, ELK+Python 소규모 스택, 수요예측·추천·장애예측 활용처
 - [SeaweedFS 아키텍처](wiki/concepts/seaweedfs-architecture.md) — Needle(45B 오버헤드)·Volume(.dat/.idx)·Filer 메타데이터·S3 게이트웨이 3계층, Erasure Coding RS(10,4), weed server/mini/cluster 모드
