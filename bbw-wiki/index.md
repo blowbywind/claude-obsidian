@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [SeaweedFS — 분산 오브젝트 스토리지 종합 문서](wiki/sources/2026-06-12-seaweedfs-docs.md) — v4.23 BBW 운용 현황, Needle·Volume·Filer·S3 아키텍처, Erasure Coding, MinIO 비교, AWS SDK 연동, Docker 배포
 - [Hermes Agent v0.16.0 — 실제 설치·명령 체계·BBW 운용 현황](wiki/sources/2026-06-12-hermes-agents.md) — hermes --help/status/config 직접 조사: gateway·cron·skills·MCP·ACP·worktree·oneshot 전체 명령 체계, BBW P0 미완료 목록
 - [hermes dashboard 외부 접속 — KT hairpin NAT 성공 사례](wiki/sources/2026-06-12-hermes-external-access.md) — KT GiGA WiFi Home hairpin NAT으로 snowball.me.kr:9119 접속 성공, 실패 시도 목록, Caddy trusted_proxies 설정
 - [Caddy v2 공식 문서 — 리버스 프록시·자동 HTTPS·Caddyfile 종합](wiki/sources/2026-06-12-caddy-v2-docs.md) — 자동 HTTPS 원리, Caddyfile 문법, Docker 배포, inode 바인드 마운트 함정, HTTP/3 설정
@@ -66,11 +67,13 @@
 - [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
 - [KT hairpin NAT](wiki/concepts/kt-hairpin-nat.md) — KT GiGA WiFi Home의 NAT loopback 동작, remote_ip:172.30.1.254 진단법, 서버 자체 테스트 실패 이유
 - [Hermes 아키텍처](wiki/concepts/hermes-architecture.md) — gateway·스킬·크론·MCP/ACP·프로필·컨텍스트 압축 6개 레이어, oneshot/worktree/send 패턴
+- [SeaweedFS 아키텍처](wiki/concepts/seaweedfs-architecture.md) — Needle(45B 오버헤드)·Volume(.dat/.idx)·Filer 메타데이터·S3 게이트웨이 3계층, Erasure Coding RS(10,4), weed server/mini/cluster 모드
 
 ---
 
 ## Entities
 
+- [SeaweedFS](wiki/entities/seaweedfs.md) — Apache-2.0 분산 오브젝트 스토리지, v4.23 BBW 운용 중 (storage_seaweedfs), S3 API·FUSE·WebDAV 지원, MinIO 대안
 - [Caddy (Web Server)](wiki/entities/caddy.md) — Go 기반 오픈소스 웹서버·리버스프록시, 자동 HTTPS, v2.11.4, GitHub 73.3k stars, bbw 홈서버 운용 중
 - [유훈식 교수](wiki/entities/yu-hunsik.md) — 서울 미디어 대학원대학교, AI4UX 채널 운영, AI 네이티브 UX 6단계 워크플로우·합성 사용자 제안
 - [Gemini Spark](wiki/entities/gemini-spark.md) — Google IO 2026 발표 클라우드 개인 AI 에이전트, Google 생태계 통합, 한국 1-4개월 출시 예상

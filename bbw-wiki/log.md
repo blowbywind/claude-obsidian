@@ -275,3 +275,10 @@
 - 생성: `wiki/concepts/hermes-architecture.md` (6개 레이어: 추론·실행·통신·자동화·확장·통합)
 - 갱신: `wiki/entities/hermes-agent.md` (BBW 설치 현황·전체 명령·P0 미완료 목록 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 설명 갱신)
+
+## [2026-06-12] ingest | SeaweedFS — 분산 오브젝트 스토리지 종합 학습
+
+- 생성: `wiki/sources/2026-06-12-seaweedfs-docs.md` (GitHub Wiki + DeepWiki + 벤치마크 조사 기반)
+- 생성: `wiki/entities/seaweedfs.md` (BBW v4.23 운용 현황, 포트, Docker 설정)
+- 생성: `wiki/concepts/seaweedfs-architecture.md` (Needle·Volume·Filer·S3 3계층, EC RS(10,4), 운용 모드)
+- 갱신: `index.md` (Sources 1개, Concepts 1개, Entities 1개 추가)
