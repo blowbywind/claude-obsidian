@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [Caddy v2 공식 문서 — 리버스 프록시·자동 HTTPS·Caddyfile 종합](wiki/sources/2026-06-12-caddy-v2-docs.md) — 자동 HTTPS 원리, Caddyfile 문법, Docker 배포, inode 바인드 마운트 함정, HTTP/3 설정
 - [[60회 AI&UX세미나] AI 네이티브 UX/UI 디자인 시대](wiki/sources/2026-05-28-ai-native-ux-lm-wiki-60th-seminar.md) — 유훈식 교수의 6단계 워크플로우, AI 임베디드 vs AI 네이티브, 합성 사용자, 마크다운 85% 토큰 절감+35% 속도향상
 - [자유령 에이전트 3종 비교 — 헤르메스·OpenClaw·Gemini Spark](wiki/sources/2026-06-10-free-roaming-agents-comparison.md) — 로컬(헤르메스·OpenClaw) vs 클라우드(Gemini Spark) 비교, LM 위키×옵시디언 실무 UX 워크플로우, 마크다운 토큰 65-90% 절감
 - [프롬프트의 시대는 끝났다 — 루프를 설계하라](wiki/sources/2026-06-10-loop-design-kimyoil.md) — 김요일이 해설하는 Boris Cherny 루프 철학: 프롬프트→loop.md 진화, 3가지 검증 기준, PR 모니터링 루프
@@ -60,11 +61,13 @@
 - [목적성 있는 수집](wiki/concepts/purposeful-collection.md) — "왜 수집했는지 설명 가능한" 의도적 큐레이션, Gold in Gold out 원칙
 - [JWT RS256 인증 패턴](wiki/concepts/jwt-rs256.md) — 비대칭키 JWT 서명, 인증 서버만 개인키 보유하고 각 서비스는 공개키 검증만 수행
 - [hnedu-auth 배포 워크플로우](wiki/concepts/hnedu-auth-deploy.md) — build → scp → docker logs 3단계 수동 프로세스 및 자동화 후보 정리
+- [Caddy](wiki/concepts/caddy.md) — 자동 HTTPS·Caddyfile·reverse_proxy·log 디렉티브, Docker inode 함정, caddy reload vs restart, HTTP/3 설정법
 
 ---
 
 ## Entities
 
+- [Caddy (Web Server)](wiki/entities/caddy.md) — Go 기반 오픈소스 웹서버·리버스프록시, 자동 HTTPS, v2.11.4, GitHub 73.3k stars, bbw 홈서버 운용 중
 - [유훈식 교수](wiki/entities/yu-hunsik.md) — 서울 미디어 대학원대학교, AI4UX 채널 운영, AI 네이티브 UX 6단계 워크플로우·합성 사용자 제안
 - [Gemini Spark](wiki/entities/gemini-spark.md) — Google IO 2026 발표 클라우드 개인 AI 에이전트, Google 생태계 통합, 한국 1-4개월 출시 예상
 - [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유

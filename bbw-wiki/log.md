@@ -248,3 +248,10 @@
 - 갱신: `wiki/concepts/ai-native-team.md` (AI 임베디드 vs AI 네이티브, 노션 AX 4단계 추가)
 - 갱신: `wiki/concepts/llm-wiki-pattern.md` (마크다운 85% 토큰 절감 + 35% 속도향상 추가)
 - 갱신: `index.md`
+
+## [2026-06-12] ingest | Caddy v2 웹 서버 — 자동 HTTPS·Caddyfile·Docker 배포 종합
+
+- 생성: `wiki/sources/2026-06-12-caddy-v2-docs.md` (공식 문서 기반 소스 페이지)
+- 생성: `wiki/concepts/caddy.md` (Caddyfile 문법, 자동 HTTPS, reverse_proxy, log, handle, Docker 함정 전체)
+- 생성: `wiki/entities/caddy.md` (Caddy 소프트웨어 엔티티 — v2.11.4, bbw 홈서버 운용 현황)
+- 갱신: `index.md` (Sources/Concepts/Entities 3섹션에 Caddy 항목 추가)

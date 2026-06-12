@@ -20,5 +20,19 @@
 - HTML에 `role="combobox"`, `aria-controls="radix-..."`, `bg-[#353534]` 등이 보이면 admin-ui 코드
 - 수정 전 반드시 `find`로 프로젝트 구조 확인
 
+## 현재 보안 상태 (2026-06-11 기준)
+- **패치 완료**: INJ 10개 + JWT-007 + XSS 파일 제거
+- **미구현 수용**: JWT-009 access token 블랙리스트 (JWT-007 15m TTL로 실질적 완화)
+- **잔여 항목**: 실서비스 연동 후 7-4(ERP), 8-4(CRM) 통합 테스트
+
+## 주요 API 엔드포인트
+- `POST /api/v1/auth/login` — JWT 발급
+- `POST /api/v1/auth/refresh` — 토큰 갱신
+- `GET /api/v1/auth/public-key` — RS256 공개키 (ERP·CRM 검증용)
+- `GET /api/v1/admin/employees` — 직원 목록 (requireAdmin)
+- `GET /api/v1/admin/audit-logs` — 감사 로그
+
 ## 작업 히스토리
+- 2026-06-11: 보안 감사 + 전체 취약점 패치 (INJ 10개 + JWT-007) + 배포
+- 2026-06-11: admin-ui 관리자 무한 루프 버그 수정 (isAdminToken 검증 추가)
 - 2026-06-04: 부서 드롭다운·사이드바 UI 수정 (잘못된 파일 수정 사고 → 교훈)
