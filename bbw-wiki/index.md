@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [서비스 기획·설계·개발·배포·출시·운영 전체 과정 — 20분 완전 정복](wiki/sources/2026-06-13-service-dev-lifecycle-gisulnote.md) — 기술노트 알렉: MVP·페르소나·ERD·API설계→프론트/백엔드·Git브랜치→빌드·클라우드배포→도메인·HTTPS→앱스토어 심사→운영·수익화
 - [컴퓨터 구조·OS 2부 — 메모리 교체·CPU 스케줄링·프로세스/스레드·스레싱](wiki/sources/2026-06-13-computer-architecture-os-pt2-gisulnote.md) — 기술노트 알렉: FIFO/LRU/OPT 교체기법, 가상메모리, 라운드로빈, CISC/RISC, 프로세스vs스레드, 컨텍스트스위칭, 스레싱
 - [컴퓨터 구조·OS 1부 — 폰노이만·프로세스·시분할·메모리 계층](wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md) — 기술노트 알렉: CPU·메모리·디스크 구조, 컴파일vs인터프리터, 프로그램→프로세스 흐름, 시분할 스케줄링 (2부 예고: 페이징·스레드)
 - [IT 기술 지식 맵 20분 — 바이브코더용 CS 전체 흐름](wiki/sources/2026-06-13-it-knowledge-map-gisulnote.md) — 기술노트 알렉: 프론트/백엔드·언어vs프레임워크·폭포수/애자일·컴퓨터구조·HTTP/IP·3-tier·Docker/K8s 계층 흐름
@@ -78,6 +79,7 @@
 - [컴퓨터 구조 & 운영체제](wiki/concepts/computer-architecture-os.md) — 폰노이만 구조, 컴파일/인터프리터 언어, 프로그램→프로세스→CPU 흐름, 메모리 계층, 시분할, OS 역할
 - [IT 기술 지식 맵 (비전공자·바이브코더용)](wiki/concepts/it-knowledge-map.md) — CS 전공 지식 체계 전체: 소프트웨어개발→언어/프레임워크→컴퓨터구조→네트워크→아키텍처→클라우드 계층 구조
 - [빅데이터 분석 파이프라인](wiki/concepts/bigdata-pipeline.md) — 수집→정제→저장→분석→API 5단계, ETL·상관관계·군집 분석, ELK+Python 소규모 스택, 수요예측·추천·장애예측 활용처
+- [서비스 개발 라이프사이클](wiki/concepts/service-dev-lifecycle.md) — 기획(MVP)→설계(ERD·API)→개발(프론트·백·DB·Git)→테스트→배포(클라우드·도메인·HTTPS)→출시(앱스토어)→운영 7단계 전체 흐름
 - [SeaweedFS 아키텍처](wiki/concepts/seaweedfs-architecture.md) — Needle(45B 오버헤드)·Volume(.dat/.idx)·Filer 메타데이터·S3 게이트웨이 3계층, Erasure Coding RS(10,4), weed server/mini/cluster 모드
 
 ---

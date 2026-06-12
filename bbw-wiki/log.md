@@ -334,3 +334,10 @@
 - 갱신: `wiki/sources/2026-06-13-computer-architecture-os-pt1-gisulnote.md` (2부 링크 추가)
 - 갱신: `wiki/entities/gisulnote-alex.md` (4번째 소스 추가)
 - 갱신: `index.md` (Sources 1개 추가)
+
+## [2026-06-13] ingest | 서비스 기획·설계·개발·배포·출시·운영 전체 과정 — 기술노트with 알렉
+
+- 생성: `wiki/sources/2026-06-13-service-dev-lifecycle-gisulnote.md` (YouTube 자막 기반, https://youtu.be/w7scifW4FpY)
+- 생성: `wiki/concepts/service-dev-lifecycle.md` (기획(MVP)→설계(ERD·API)→개발→테스트→배포(클라우드·HTTPS)→출시(앱스토어)→운영 7단계)
+- 갱신: `wiki/entities/gisulnote-alex.md` (5번째 소스·서비스 라이프사이클 링크 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
