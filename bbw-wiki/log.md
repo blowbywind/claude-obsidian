@@ -355,3 +355,10 @@
 - 갱신: `wiki/concepts/network-infra.md` (OSI 7 Layer·TCP/IP 4계층 매핑, L4/L7 스위치, SSL 종료 지점 추가)
 - 갱신: `wiki/entities/gisulnote-alex.md` (7번째 소스·확장판 링크 추가)
 - 갱신: `index.md` (Sources 1개 추가)
+
+## [2026-06-13] ingest | AI가 짠 코드 배포 전 보안 점검 — 기술노트with 알렉
+
+- 생성: `wiki/sources/2026-06-13-vibe-coding-security-gisulnote.md` (YouTube 자막 기반, https://youtu.be/kNqOW6G5sh8)
+- 생성: `wiki/concepts/web-security-basics.md` (OWASP Top 10, 보안 4구간, CSP·패스워드 해싱, AI 점검 워크플로우)
+- 갱신: `wiki/entities/gisulnote-alex.md` (8번째 소스 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)

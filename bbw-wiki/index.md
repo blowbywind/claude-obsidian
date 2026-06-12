@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [AI가 짠 코드 배포 전 보안점검 — OWASP Top 10 · URL 스캔 · AI 보완 워크플로우](wiki/sources/2026-06-13-vibe-coding-security-gisulnote.md) — 기술노트 알렉: 네트워크·서버·DB·소스코드 4구간 보안, OWASP 10대 취약점, CSP 헤더 누락·평문 패스워드 탐지, AI 보완 워크플로우
 - [[확장판] 네트워크 기초 + OSI 7 Layer, TCP/IP 4계층, L4 L7 스위치, SSL 종료 지점](wiki/sources/2026-06-13-network-infra-extended-gisulnote.md) — 기술노트 알렉: 기초편 확장, OSI 7계층↔TCP/IP 4계층 매핑, L4/L7 스위치 차이, SSL 종료 지점(웹서버→WAS 구간 HTTP)
 - [쉽게 이해하는 네트워크 및 인프라 구성도](wiki/sources/2026-06-13-network-infra-gisulnote.md) — 기술노트 알렉: 인터넷/웹 구분, IP·TCP·HTTP 프로토콜, 라우터·스위치·방화벽·CDN·DMZ, 웹서버-WAS-DB 3계층, 이중화(Primary/Standby), 온프레미스 전체 구성도
 - [서비스 기획·설계·개발·배포·출시·운영 전체 과정 — 20분 완전 정복](wiki/sources/2026-06-13-service-dev-lifecycle-gisulnote.md) — 기술노트 알렉: MVP·페르소나·ERD·API설계→프론트/백엔드·Git브랜치→빌드·클라우드배포→도메인·HTTPS→앱스토어 심사→운영·수익화
@@ -81,6 +82,7 @@
 - [컴퓨터 구조 & 운영체제](wiki/concepts/computer-architecture-os.md) — 폰노이만 구조, 컴파일/인터프리터 언어, 프로그램→프로세스→CPU 흐름, 메모리 계층, 시분할, OS 역할
 - [IT 기술 지식 맵 (비전공자·바이브코더용)](wiki/concepts/it-knowledge-map.md) — CS 전공 지식 체계 전체: 소프트웨어개발→언어/프레임워크→컴퓨터구조→네트워크→아키텍처→클라우드 계층 구조
 - [빅데이터 분석 파이프라인](wiki/concepts/bigdata-pipeline.md) — 수집→정제→저장→분석→API 5단계, ETL·상관관계·군집 분석, ELK+Python 소규모 스택, 수요예측·추천·장애예측 활용처
+- [웹 보안 기초](wiki/concepts/web-security-basics.md) — OWASP Top 10, 네트워크·서버·DB·소스코드 4구간, CSP 헤더·패스워드 해싱, 바이브코더 보안 점검 워크플로우
 - [네트워크 & 인프라 구성](wiki/concepts/network-infra.md) — IP·TCP·HTTP 프로토콜, 방화벽·CDN·DMZ·로드밸런서, 웹서버-WAS-DB 3계층, 이중화(Primary/Standby), 온프레미스 전체 요청 흐름
 - [서비스 개발 라이프사이클](wiki/concepts/service-dev-lifecycle.md) — 기획(MVP)→설계(ERD·API)→개발(프론트·백·DB·Git)→테스트→배포(클라우드·도메인·HTTPS)→출시(앱스토어)→운영 7단계 전체 흐름
 - [SeaweedFS 아키텍처](wiki/concepts/seaweedfs-architecture.md) — Needle(45B 오버헤드)·Volume(.dat/.idx)·Filer 메타데이터·S3 게이트웨이 3계층, Erasure Coding RS(10,4), weed server/mini/cluster 모드

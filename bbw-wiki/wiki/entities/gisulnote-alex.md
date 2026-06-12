@@ -4,7 +4,7 @@ type: entity
 tags: [person, youtube, data-engineering, bigdata, it-fundamentals, service-development, network]
 created: 2026-06-13
 updated: 2026-06-13
-sources: [2026-06-13-bigdata-pipeline-gisulnote, 2026-06-13-it-knowledge-map-gisulnote, 2026-06-13-computer-architecture-os-pt1-gisulnote, 2026-06-13-computer-architecture-os-pt2-gisulnote, 2026-06-13-service-dev-lifecycle-gisulnote, 2026-06-13-network-infra-gisulnote, 2026-06-13-network-infra-extended-gisulnote]
+sources: [2026-06-13-bigdata-pipeline-gisulnote, 2026-06-13-it-knowledge-map-gisulnote, 2026-06-13-computer-architecture-os-pt1-gisulnote, 2026-06-13-computer-architecture-os-pt2-gisulnote, 2026-06-13-service-dev-lifecycle-gisulnote, 2026-06-13-network-infra-gisulnote, 2026-06-13-network-infra-extended-gisulnote, 2026-06-13-vibe-coding-security-gisulnote]
 ---
 
 ## 개요
@@ -20,6 +20,7 @@ IT 기술 기초·빅데이터·데이터 분석·ADSP 자격증 관련 한국�
 - [[wiki/sources/2026-06-13-service-dev-lifecycle-gisulnote]] — 서비스 기획·설계·개발·배포·출시·운영 전체 과정
 - [[wiki/sources/2026-06-13-network-infra-gisulnote]] — 네트워크·인프라 구성도 (IP·TCP·HTTP·방화벽·CDN·이중화)
 - [[wiki/sources/2026-06-13-network-infra-extended-gisulnote]] — 네트워크 확장판 (OSI 7 Layer·L4/L7 스위치·SSL 종료 지점)
+- [[wiki/sources/2026-06-13-vibe-coding-security-gisulnote]] — 바이브코딩 보안 점검 (OWASP Top 10·CSP·평문 패스워드·AI 보완 워크플로우)
 - [[wiki/concepts/bigdata-pipeline|빅데이터 분석 파이프라인]]
 - [[wiki/concepts/it-knowledge-map|IT 기술 지식 맵]]
 - [[wiki/concepts/computer-architecture-os|컴퓨터 구조 & 운영체제]]
@@ -35,3 +36,4 @@ IT 기술 기초·빅데이터·데이터 분석·ADSP 자격증 관련 한국�
 - https://youtu.be/w7scifW4FpY
 - https://youtu.be/wqzmZ97vAOY
 - https://youtu.be/Q5xY0tn9Axg
+- https://youtu.be/kNqOW6G5sh8
