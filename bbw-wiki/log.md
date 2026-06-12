@@ -341,3 +341,10 @@
 - 생성: `wiki/concepts/service-dev-lifecycle.md` (기획(MVP)→설계(ERD·API)→개발→테스트→배포(클라우드·HTTPS)→출시(앱스토어)→운영 7단계)
 - 갱신: `wiki/entities/gisulnote-alex.md` (5번째 소스·서비스 라이프사이클 링크 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+## [2026-06-13] ingest | 쉽게 이해하는 네트워크 및 인프라 구성도 — 기술노트with 알렉
+
+- 생성: `wiki/sources/2026-06-13-network-infra-gisulnote.md` (YouTube 자막 기반, https://youtu.be/wqzmZ97vAOY)
+- 생성: `wiki/concepts/network-infra.md` (IP·TCP·HTTP, 방화벽·CDN·DMZ, 웹서버-WAS-DB 3계층, 이중화, 온프레미스 전체 흐름)
+- 갱신: `wiki/entities/gisulnote-alex.md` (6번째 소스·네트워크 개념 링크 추가)
+- 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
