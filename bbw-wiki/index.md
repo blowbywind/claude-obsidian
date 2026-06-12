@@ -8,6 +8,7 @@
 ## Sources
 
 - [SeaweedFS — 분산 오브젝트 스토리지 종합 문서](wiki/sources/2026-06-12-seaweedfs-docs.md) — v4.23 BBW 운용 현황, Needle·Volume·Filer·S3 아키텍처, Erasure Coding, MinIO 비교, AWS SDK 연동, Docker 배포
+- [Hermes Agent VPS 풀 셋업 튜토리얼 (샘 호트만)](wiki/sources/2026-06-09-hermes-vps-setup-samhottman.md) — VPS vs 로컬 선택 기준, Hostinger 원클릭 배포, Slack 게이트웨이 4가지 토큰, GitHub GIT_TOKEN 자동 백업, fallback 모델 체인
 - [LLM Wiki가 망하는 진짜 이유 — Brain Trinity AI OS 설계](wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity.md) — LLM Wiki 실패 3원인(목적 부재·완벽주의·방법론만 복제), LLM Wiki=얕은 컴파일, 철학→역할→행동→지식 계층, GOLD IN GOLD OUT
 - [Hermes Agent v0.16.0 — 실제 설치·명령 체계·BBW 운용 현황](wiki/sources/2026-06-12-hermes-agents.md) — hermes --help/status/config 직접 조사: gateway·cron·skills·MCP·ACP·worktree·oneshot 전체 명령 체계, BBW P0 미완료 목록
 - [hermes dashboard 외부 접속 — KT hairpin NAT 성공 사례](wiki/sources/2026-06-12-hermes-external-access.md) — KT GiGA WiFi Home hairpin NAT으로 snowball.me.kr:9119 접속 성공, 실패 시도 목록, Caddy trusted_proxies 설정
@@ -80,7 +81,8 @@
 - [유훈식 교수](wiki/entities/yu-hunsik.md) — 서울 미디어 대학원대학교, AI4UX 채널 운영, AI 네이티브 UX 6단계 워크플로우·합성 사용자 제안
 - [Gemini Spark](wiki/entities/gemini-spark.md) — Google IO 2026 발표 클라우드 개인 AI 에이전트, Google 생태계 통합, 한국 1-4개월 출시 예상
 - [김요일](wiki/entities/kimyoil.md) — 1인 기업 대표, 헤르메스+Claude Code AI 네이티브 팀 운영 실전기 공유
-- [헤르메스 에이전트](wiki/entities/hermes-agent.md) — v0.16.0 설치 완료, gpt-5.5/Codex OAuth, docker 터미널, dashboard :9119 외부 접속 가능, gateway·cron·skills·MCP 지원
+- [헤르메스 에이전트](wiki/entities/hermes-agent.md) — v0.16.0 설치 완료, gpt-5.5/Codex OAuth, docker 터미널, dashboard :9119 외부 접속 가능, gateway·cron·skills·MCP 지원, GitHub 백업·fallback 모델 설정법 추가
+- [샘 호트만 (Sam Hottman)](wiki/entities/sam-hottman.md) — AI 엔지니어의 시선 유튜버, 자동화·RAG·Hermes VPS 설치 튜토리얼 제작자
 - [OpenClaw](wiki/entities/openclaw.md) — 로컬 셀프호스팅 AI 에이전트 (2026.01, Telegram·Slack 등 22채널, 헤르메스 유사)
 - [OpenDesign](wiki/entities/opendesign.md) — Claude Design 로컬화 오픈소스, 무한 루프 UI 실습 도구
 - [오후다섯씨 (Mr.5pm)](wiki/entities/mr5pm.md) — AI 활용·생산성 유튜브 채널, Claude 스타일 Obsidian CSS 스니펫 제작·배포

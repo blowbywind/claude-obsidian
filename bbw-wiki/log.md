@@ -290,3 +290,10 @@
 - 갱신: `wiki/concepts/ai-os.md` (Brain Trinity 대안 관점 섹션 추가)
 - 갱신: `wiki/entities/brain-trinity.md` (새 소스·Brain Trinity 개념 링크 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+## [2026-06-12] ingest | Hermes Agent VPS 풀 셋업 튜토리얼 — 샘 호트만
+
+- 생성: `wiki/sources/2026-06-09-hermes-vps-setup-samhottman.md` (YouTube 자막 기반, 단계별 설치 가이드)
+- 생성: `wiki/entities/sam-hottman.md` (샘 호트만, AI 엔지니어의 시선 채널)
+- 갱신: `wiki/entities/hermes-agent.md` (GitHub 백업·폴백 모델 섹션 추가, 새 소스 링크)
+- 갱신: `index.md` (Sources 1개, Entities 2개 추가·갱신)

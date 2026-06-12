@@ -4,7 +4,7 @@ type: entity
 tags: [product, ai-agent, multi-agent, open-source]
 created: 2026-06-09
 updated: 2026-06-12
-sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison, 2026-06-12-hermes-agents]
+sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison, 2026-06-12-hermes-agents, 2026-06-09-hermes-vps-setup-samhottman]
 ---
 
 ## 개요
@@ -100,11 +100,34 @@ hermes security               # OSV.dev 공급망 감사
 | ChatGPT 구독 중 (Codex 무료 연동) | 헤르메스 |
 | 보안 우선 | 헤르메스 (보안성 높다는 평가) |
 
+## GitHub 자동 백업
+
+스킬·메모리 변경 시 자동 커밋. 민감한 토큰 값은 자동 제외.
+
+```bash
+hermes config set GIT_TOKEN <fine-grained-PAT>
+# PAT 권한: 특정 private 레포 → Contents Read/Write
+# 이후 에이전트에게 "의미 있는 변경 시마다 GitHub에 커밋해줘" 요청
+```
+
+## 폴백 모델 설정
+
+주 모델 장애 시 자동 전환. OpenRouter 무료/저렴 모델 활용 권장.
+
+```bash
+hermes fallback add     # 폴백 추가 (OpenRouter → 모델 선택)
+hermes fallback list    # 현재 폴백 체인 확인
+hermes fallback remove  # 폴백 제거
+```
+
+**주의**: 헤르메스는 여러 스킬 동시 호출 시 컨텍스트 윈도우에 올라가므로 폴백 모델도 어느 정도 성능이 필요. 지나치게 저렴한 모델은 멀티 스킬 시 성능 저하.
+
 ## 설치 방법
 
 ```bash
-hermes install   # 공식 사이트 명령어
-hermes setup     # 대화형 설정 (모델 선택 + 채널 연결)
+hermes install          # 공식 사이트 명령어
+hermes setup full       # 풀 셋업 (모델·도구·브라우저·검색 전체 대화형 선택)
+hermes setup quick      # 빠른 설정
 ```
 
 ## 주요 연결
@@ -119,6 +142,7 @@ hermes setup     # 대화형 설정 (모델 선택 + 채널 연결)
 ## 출처
 
 - [[wiki/sources/2026-06-12-hermes-agents]] — 실제 설치 직접 조사 (v0.16.0, 전체 명령 체계)
+- [[wiki/sources/2026-06-09-hermes-vps-setup-samhottman]] — VPS 풀 셋업 튜토리얼 (GitHub 백업·폴백 모델·Slack 게이트웨이)
 - [[wiki/sources/2026-06-09-ai-native-hermes-report]] — AI 네이티브 팀 운영 실무
 - [[wiki/sources/2026-06-10-free-roaming-agents-comparison]] — 자유령 에이전트 3종 비교
 - [[wiki/sources/2026-06-12-hermes-external-access]] — dashboard 외부 접속 설정
