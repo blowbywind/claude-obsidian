@@ -3,8 +3,8 @@ title: 목적성 있는 수집
 type: concept
 tags: [knowledge-management, curation, second-brain, gold-in-gold-out]
 created: 2026-06-05
-updated: 2026-06-05
-sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify]
+updated: 2026-06-12
+sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-12-llm-wiki-selection-criteria]
 ---
 
 ## 정의
@@ -28,6 +28,24 @@ sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify]
 1. 이것을 수집한 이유 (why)
 2. 내가 이것으로 만들고 싶은 것 (intent)
 3. 이것이 내 기존 지식과 어떻게 연결되는가 (context)
+
+## 실용 선별 기준 3가지 (칼퇴연구소, 2026)
+
+3가지 중 **2개 이상** 통과해야 넣기:
+
+1. **반복해서 다시 쓰는가?** — 한 번 보고 끝나는 임시 자료 제외, 반복 참고·업무 기준은 포함
+2. **의사 결정에 영향을 주는가?** — AI 답변 방향을 바꿔 줄 자료인가? 일반 인터넷 정보는 제외
+3. **내 업무나 프로젝트와 연결되는가?** — 연결 고리를 설명할 수 없으면 보류
+
+**5분 규칙**: 정리하는데 5분 이상 걸리면 보류. 어차피 발생하는 것들만 흘려보내면 충분.
+
+> "위키는 채우는게 목표가 아닙니다. 어차피 발생하는 것들을 흘려보내는 통로입니다." — 칼퇴연구소
+
+### 입장 라벨 규칙
+
+통과한 자료도 그냥 넣으면 안 됨. 두 가지 라벨을 붙여야 한다:
+- **출처와 맥락**: 회의록이라면 언제/누가/결정 내용/이유/다음 할 일까지
+- **AI 읽기 형태**: 한 줄 요약 + 핵심 3개 + 관련 프로젝트 + 파일명에서 의미가 드러나도록
 
 ## LM Wiki와의 관계
 

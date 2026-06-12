@@ -84,3 +84,4 @@ Andrej Karpathy 제안 → 브레인 트리니티가 실제 구현한 순서:
 
 - [[wiki/sources/2026-06-05-llm-wiki-pattern]]
 - [[wiki/sources/2026-06-05-claude-code-obsidian-lmwiki-graphify]]
+- [[wiki/sources/2026-06-12-llm-wiki-selection-criteria]]

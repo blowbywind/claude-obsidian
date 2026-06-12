@@ -7,6 +7,7 @@
 
 ## Sources
 
+- [옵시디언 LLM Wiki — 자료 선별 3기준·볼트 구조 결정법](wiki/sources/2026-06-12-llm-wiki-selection-criteria.md) — 칼퇴연구소: 반복사용·의사결정영향·업무연결 3기준(2개↑만 넣기), 라벨 규칙 2가지, 볼트는 하나로 시작·부서=속성으로
 - [SeaweedFS — 분산 오브젝트 스토리지 종합 문서](wiki/sources/2026-06-12-seaweedfs-docs.md) — v4.23 BBW 운용 현황, Needle·Volume·Filer·S3 아키텍처, Erasure Coding, MinIO 비교, AWS SDK 연동, Docker 배포
 - [Hermes Agent VPS 풀 셋업 튜토리얼 (샘 호트만)](wiki/sources/2026-06-09-hermes-vps-setup-samhottman.md) — VPS vs 로컬 선택 기준, Hostinger 원클릭 배포, Slack 게이트웨이 4가지 토큰, GitHub GIT_TOKEN 자동 백업, fallback 모델 체인
 - [LLM Wiki가 망하는 진짜 이유 — Brain Trinity AI OS 설계](wiki/sources/2026-05-16-llm-wiki-failure-brain-trinity.md) — LLM Wiki 실패 3원인(목적 부재·완벽주의·방법론만 복제), LLM Wiki=얕은 컴파일, 철학→역할→행동→지식 계층, GOLD IN GOLD OUT
@@ -107,6 +108,7 @@
 - [hnedu-auth](wiki/entities/hnedu-auth.md) — 해냄에듀 사내 통합 인증 서비스, JWT RS256 발급·직원·부서·역할 관리
 - [hnedu-erp](wiki/entities/hnedu-erp.md) — 해냄에듀 ERP (WinForms C# + .NET Web API), hnedu-auth JWT 검증 연동
 - [hnedu-crm](wiki/entities/hnedu-crm.md) — 해냄에듀 CRM (Next.js 15 + FastAPI), hnedu-auth JWT 검증 연동
+- [칼퇴연구소┃AI생산성](wiki/entities/kaltwi-research.md) — LLM Wiki 실무 운영 노하우·AI 생산성 한국어 YouTube 채널, 전자책 출판 준비 중
 
 ---
 
