@@ -2,6 +2,11 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 ---
+## 2026-06-20T09:41Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, 36m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
+프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (09:41Z 타임스탬프, 봇 상태 변경 없음)
+비고: localhost 포트 미노출 - Docker 172.18.0.8:9200 경유 API 정상 응답, 동기화 성공
 ## 2026-06-20T08:40Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 DOWN (localhost 미노출) / 172.18.0.8:9200 UP (Docker 내부) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
@@ -422,3 +427,15 @@ ai-ops memory: 10 files, 942 lines
 최근 커밋: 55be4a5 프로젝트 대화 컨텍스트 한정 | 8e7e431 프로젝트 삭제 라우트 | 641c01a 하드닝 백로그 WIP
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 29개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T09:47Z 메모리 통계 갱신 (autobots-scheduler)
+Vault md: 463 (+1) | Vault all: 505 (+1)
+wiki/: 165 (sources:32, concepts:98[drafts:29], entities:33, queries:1) +1 concept
+claude/ md: 33 (=)
+90-agent-logs/ 78 md (daily:73) +1
+session-log.md: 3561라인 (+180) | work-in-progress.md: 47라인 (=)
+변경: INDEX.md 09:47Z 타임스탬프 갱신
+
+---

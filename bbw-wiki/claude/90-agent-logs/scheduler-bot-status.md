@@ -2225,3 +2225,51 @@ wiki/: 133 (+1) (sources: 32, concepts: 66 (+1), entities: 33, queries: 1)
 ai-ops memory: 8파일 837라인 (+12, 이전 825)
 session-log.md: 428라인 (+44, 이전 384) | work-in-progress.md: 47라인 (=)
 변경: vault +1md +1all, wiki/concepts +1, session-log +44라인 — 나머지 변경 없음
+
+---
+
+## 2026-06-20T09:20Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 462 (+4, 이전 458) | Vault all: 504 (+4, 이전 500)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 164 (+3) (sources: 32, concepts: 97[drafts:29], entities: 33)
+wiki/concepts/_drafts: 29 (+2) -- 검토 대기
+90-agent-logs/ (bbw-wiki 루트): 77 (+1)
+ai-ops memory: 10파일 942라인 -- lessons.md: 180라인(+12, 이전 168), 20.8K
+session-log.md: 3245라인 (+199, 이전 3046) | work-in-progress.md: 47라인 (=)
+변경: vault +4md +4all, wiki/concepts +3(drafts+2), lessons.md +12라인, session-log +199라인
+[cron_success] 2026-06-20T09:20Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T09:32Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 462 (=, 이전 462) | Vault all: 504 (=, 이전 504)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 164 (=) (sources: 32, concepts: 97[drafts:29], entities: 33)
+90-agent-logs (bbw-wiki root): 77 (=) | daily: 72, tasks: 2, failures: 1, weekly: 2
+session-log.md: 3381lines (+136, prev 3245) | work-in-progress.md: 47lines (=)
+변경: session-log +136lines -- vault/wiki/claude 변경 없음
+[cron_success] 2026-06-20T09:32Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T09:20Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 462 (+4, 이전 458) | Vault all: 504 (+4, 이전 500)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 164 (+3) (sources: 32, concepts: 97[drafts:29], entities: 33)
+wiki/concepts/_drafts: 29 (+2) -- 검토 대기
+90-agent-logs/ (bbw-wiki 루트): 77 (+1)
+ai-ops memory: 10파일 942라인 -- lessons.md: 180라인(+12, 이전 168), 20.8K
+session-log.md: 3245라인 (+199, 이전 3046) | work-in-progress.md: 47라인 (=)
+변경: vault +4md +4all, wiki/concepts +3(drafts+2), lessons.md +12라인, session-log +199라인
+[cron_success] 2026-06-20T09:20Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T09:37Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend UP [healthy] | hermes-dashboard UP [aiohttp Session closed 오류] | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | db_adminer UP
+봇: 8/8 active -- 아서 / 덱스 / 해리 / 키엘 / 리안 / 리나 / 로운 / 눈꽃
+바이너리: claude OK | codex OK | agy OK
+이슈 1: autobots_backend — draft 아카이브 ENOENT (2026-06-20-kiel-ai-경쟁-인텔리전스-도구-비교.md)
+이슈 2: hermes-dashboard — aiohttp RuntimeError Session is closed 반복 (Slack WebSocket 재연결 실패)
+상태 변화: 컨테이너 전체 UP, 기능 이슈 2건 감지 (비정상 종료 없음)
+[cron_success] 2026-06-20T09:37Z bot=autobots-scheduler: 봇 상태 확인 완료
