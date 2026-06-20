@@ -831,3 +831,38 @@ Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-dashboard=UP(6
 Vault md: 528 (+8 since 18:30Z) | Vault all: 573 (+8) | session-log: 9986L (+284) | 90-agent-logs: 124 md (=)
 
 ---
+## 2026-06-20T19:30Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
+Vault md: 557 (+11 since 546) / 655 all (+64)
+claude/ md: 34 (=) -- projects:11, decisions:9, 루트:4, 90-agent-logs:10
+wiki/: 197 md (sources:32, concepts:126[_drafts:42], entities:37) +9 concepts, +6 drafts
+90-agent-logs/ (bbw-wiki 루트): 127 md (daily:122, tasks:2, failures:1, weekly:2) +2
+session-log.md: 10497라인 (+183 since 10314) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 타임스탬프 갱신 (19:30Z), kiel updated_at 15:23Z→19:16Z, INDEX.md 통계 갱신
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 42개 -- 사용자 검토 필요
+
+---
+
+
+## 2026-06-20T20:21Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d)
+인프라: autobots_backend=UP(healthy, 4h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP(6d) | db_postgres=UP(6d)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 2 updated (arthur 15:26Z→19:33Z, snow 15:23Z→19:46Z) / 7 skipped
+봇 최근갱신: arthur 19:33Z | snow 19:46Z | kiel 19:16Z | stellina 19:06Z | lian 19:04Z | roun 19:02Z | rina 18:33Z | dex 18:18Z | haeri 18:16Z
+Vault md: 579 | Vault all: 624 | session-log: 11090L | 90-agent-logs: 132 md
+인프라 정정: hermes-dashboard/ai-ops-ui 이전 DOWN 오탐 — docker ps 확인 결과 UP 6d
+
+---
+
+## 2026-06-20T20:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8 healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d)
+Vault md: 580 (+1) / 625 all | wiki/ 215 md (concepts:144[_drafts:54]) | 90-agent-logs 132 md
+session-log.md: 11178라인 (+88) | 봇: 9/9 active (변경 없음)
+변경: autobots.md 20:31Z, INDEX.md 통계 갱신
+WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기 | 주의: _drafts 54개 검토 필요
+
+---
