@@ -3376,3 +3376,137 @@ wiki/: 151 md (=) (sources:32, concepts:80[drafts:1], entities:37)
 session-log.md: 9,108라인 (+179 vs 8,929) | work-in-progress.md: 47라인 (=)
 50-prompts/: 6 md (=)
 [cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21 01:30 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up 11min, RestartCount=0) | Docker health check: OK
+Bots: 9/9 active | Inactive: 0
+NEW: stellina 신규 봇 감지 (이전 8개 -> 현재 9개, last_learning_at 없음)
+
+Bot roster:
+  arthur   - active - Codex           | last_learning: 2026-06-19T19:30
+  dex      - active - Claude Code     | last_learning: 2026-06-20T10:51
+  haeri    - active - Claude Code     | last_learning: 2026-06-19T18:15
+  kiel     - active - Claude Code     | last_learning: 2026-06-20T09:07
+  lian     - active - Antigravity     | last_learning: 2026-06-19T19:00
+  rina     - active - Antigravity     | last_learning: 2026-06-20T08:23
+  roun     - active - Codex           | last_learning: 2026-06-19T19:00
+  snow     - active - Antigravity     | last_learning: 2026-06-19T19:45
+  stellina - active - Claude Code     | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up 11min (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket Session is closed 반복 오류 (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack 연결 오류 지속 (RuntimeError: Session is closed)
+INFO: stellina 신규 봇 (이전 8개 -> 현재 9개)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-21 01:30 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up 11min, RestartCount=0) | Docker health check: OK
+Bots: 9/9 active | Inactive: 0
+NEW: stellina 신규 봇 감지 (이전 8개 -> 현재 9개, last_learning_at 없음)
+
+Bot roster:
+  arthur   - active - Codex           | last_learning: 2026-06-19T19:30
+  dex      - active - Claude Code     | last_learning: 2026-06-20T10:51
+  haeri    - active - Claude Code     | last_learning: 2026-06-19T18:15
+  kiel     - active - Claude Code     | last_learning: 2026-06-20T09:07
+  lian     - active - Antigravity     | last_learning: 2026-06-19T19:00
+  rina     - active - Antigravity     | last_learning: 2026-06-20T08:23
+  roun     - active - Codex           | last_learning: 2026-06-19T19:00
+  snow     - active - Antigravity     | last_learning: 2026-06-19T19:45
+  stellina - active - Claude Code     | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up 11min (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket Session is closed 반복 오류 (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack 연결 오류 지속 (RuntimeError: Session is closed)
+INFO: stellina 신규 봇 (이전 8개 -> 현재 9개)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-21 02:42 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~1h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~1h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+
+## 2026-06-21T08:00Z 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 502 md / 547 전체 (+2/+2)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 151 md (sources:32, concepts:80[_drafts:4], entities:37) (=)
+90-agent-logs/ (bbw-wiki 루트): 119 md (+2) — daily:114(+2), tasks:2, failures:1, weekly:2
+session-log.md: 9262라인 (+88 vs 9174) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인 (=)
+
+---
+
+---
+
+## 2026-06-21 02:42 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~1h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~1h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
