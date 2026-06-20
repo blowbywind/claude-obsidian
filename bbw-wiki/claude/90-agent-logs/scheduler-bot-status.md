@@ -2463,17 +2463,6 @@ Infra:
 NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
 [cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
 
----
-
-## 2026-06-20T12:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
-Vault md: 474 (+12, 이전 462) | Vault all: 516 (+12, 이전 504)
-claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
-wiki/: 166 (+2, 이전 164) -- sources: 32, concepts: 99[drafts:30(+1)], entities: 33, queries: 1, root: 1
-90-agent-logs (bbw-wiki root): 92파일 (+15, 이전 77)
-ai-ops memory: 이전 기록 유지 (10파일, 접근제한)
-session-log.md: 5121라인 (+1876, 이전 3245) | work-in-progress.md: 47라인 (=)
-변경: vault +12md +12all, wiki/concepts +2(drafts+1), 90-agent-logs +15파일, session-log +1876라인
-[cron_success] 2026-06-20T12:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
 
 
 ---
@@ -2503,3 +2492,128 @@ Infra:
 
 NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
 [cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T01:01Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 412 (+1) | Vault all: 454 (+1)
+claude/ md: 33 (=) — projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 133 (+1) (sources: 32, concepts: 66 (+1), entities: 33, queries: 1)
+ai-ops memory: 8파일 837라인 (+12, 이전 825)
+session-log.md: 428라인 (+44, 이전 384) | work-in-progress.md: 47라인 (=)
+변경: vault +1md +1all, wiki/concepts +1, session-log +44라인 — 나머지 변경 없음
+
+
+---
+
+## 2026-06-20T14:15Z Check
+Backend: OK (healthy) | RestartCount=0 | Up ~7min (재시작: 14:08Z)
+Bots: 9/9 active (12:56Z 마지막 확인 기준 — backend 재시작 후 health OK)
+
+Bot status (last known):
+  arthur   - active - Codex(o4-mini)
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex(o4-mini)
+  snow     - active - Antigravity
+  stellina - active - Claude Code
+
+Infra:
+  autobots_backend: Up ~7min (healthy, 재시작 14:08Z) | API 200 응답 확인
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  db_adminer: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: autobots_backend 재시작 감지 (12:56Z->14:08Z 사이 재시작, RestartCount=0)
+[cron_success] 2026-06-20T14:15Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T12:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 474 (+12, 이전 462) | Vault all: 516 (+12, 이전 504)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 (+2, 이전 164) -- sources: 32, concepts: 99[drafts:30(+1)], entities: 33, queries: 1, root: 1
+90-agent-logs (bbw-wiki root): 92파일 (+15, 이전 77)
+ai-ops memory: 이전 기록 유지 (10파일, 접근제한)
+session-log.md: 5121라인 (+1876, 이전 3245) | work-in-progress.md: 47라인 (=)
+변경: vault +12md +12all, wiki/concepts +2(drafts+1), 90-agent-logs +15파일, session-log +1876라인
+[cron_success] 2026-06-20T12:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T14:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 486 (+4, 이전 482) | Vault all: 530 (+5, 이전 525)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+claude/ 라인 합계: 11,968 (+185, 이전 11,783)
+wiki/: 166 (=) -- sources: 32, concepts: 99, entities: 33
+ai-ops memory: 11파일 992라인 (+11, 이전 981)
+session-log.md: 6,671라인 (+596, 이전 6,075) | work-in-progress.md: 47라인 (=)
+변경: vault +4md +5all, claude/ lines +185, session-log +596라인 -- wiki/ai-ops 변경 없음
+[cron_success] 2026-06-20T14:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+
+---
+
+## 2026-06-20T12:56Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 9/9 active (+1 stellina 신규 확인)
+
+Bot roster:
+  arthur   - active - Codex
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex
+  snow     - active - Antigravity
+  stellina - active - Claude Code  [NEW]
+
+Infra:
+  autobots_backend: Up ~1h (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
+[cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T14:26Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend healthy | Up 17min (재시작: 14:08Z)
+Bots: 9/9 active
+
+Docker containers:
+  autobots_backend:  healthy | Up 17 min | 9200/tcp
+  hermes-dashboard:  running | Up 6 days
+  ai-ops-ui:         running | Up 6 days
+  web_caddy:         running | Up 6 days
+  db_postgres:       running | Up 6 days
+  db_adminer:        running | Up 6 days
+  storage_seaweedfs: running | Up 6 days
+
+NOTE: PATCH /api/chat/.../read -> 415 (Unsupported Media Type) 1건 (pre-existing 이슈)
+STATUS: ALL OK
+[cron_success] 2026-06-20T14:26Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T14:47Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 489 (+3, 이전 486) | Vault all: 533 (+3, 이전 530)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+claude/ 라인 합계: 12,480 (+512, 이전 11,968)
+wiki/: 166 (=) -- sources: 32, concepts: 99, entities: 33, queries: 1
+ai-ops memory: 11파일 992라인 (=)
+session-log.md: 7,086라인 (+415, 이전 6,671) | work-in-progress.md: 47라인 (=)
+변경: vault +3md +3all, claude/ lines +512, session-log +415라인 -- wiki/ai-ops 변경 없음
+[cron_success] 2026-06-20T14:47Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료

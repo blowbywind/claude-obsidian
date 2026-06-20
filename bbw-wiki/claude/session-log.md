@@ -1,3 +1,712 @@
+## 2026-06-20 15:02 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:57 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:56 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:56 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 14:54 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:52 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:51 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:51 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:50 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:49 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:48 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:47 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:46 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:43 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:42 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:41 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:40 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:39 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:38 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:37 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:36 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:35 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:35 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 14:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:33 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:33 — obsidian-vault
+
+**최근 커밋:**
+- 5509a2c chore(wiki): 위키 동기화 2026-06-20T14:30Z -- vault 485md/528all, session 6512lines
+- 91cbaec chore(wiki): 위키 동기화 2026-06-20T14:00Z -- vault 485파일, session 6489lines
+- 99d640e chore(wiki): 위키 동기화 2026-06-20T13:34Z -- vault 482/525, session 6190lines
+- 3495b73 chore(wiki): 위키 동기화 2026-06-20T22:30Z -- vault 482/525, session 6090lines
+- 92be224 chore(wiki): scheduler-bot-status 상태 갱신
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+
+---
+
+## 2026-06-20 23:32 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:31 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:27 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:27 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:26 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:25 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:24 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:22 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:21 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:21 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:20 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:18 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:17 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:16 — obsidian-vault
+
+**최근 커밋:**
+- 5509a2c chore(wiki): 위키 동기화 2026-06-20T14:30Z -- vault 485md/528all, session 6512lines
+- 91cbaec chore(wiki): 위키 동기화 2026-06-20T14:00Z -- vault 485파일, session 6489lines
+- 99d640e chore(wiki): 위키 동기화 2026-06-20T13:34Z -- vault 482/525, session 6190lines
+- 3495b73 chore(wiki): 위키 동기화 2026-06-20T22:30Z -- vault 482/525, session 6090lines
+- 92be224 chore(wiki): scheduler-bot-status 상태 갱신
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+
+---
+
+## 2026-06-20 14:16 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:16 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:14 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:13 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:12 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:11 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:10 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 23:07 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:06 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:06 — ai-ops
+
+**최근 커밋:**
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 14:04 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 14:02 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 23:02 — ai-ops
+
+**최근 커밋:**
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/docker-compose.yml`
+
+---
+
 ## 2026-06-20 23:01 — ai-ops
 
 **최근 커밋:**
@@ -6509,4 +7218,17 @@ session-log.md: 6075라인 (이전 13:02Z) | work-in-progress.md: 47라인 (=)
 변경: autobots.md 타임스탬프 갱신 (13:35Z), index.md 통계 섹션 추가, session-log 항목 추가
 최근 커밋: 1701728 런타임 교차 fallback | 9e2f3ef Codex 봇 챗 배선 | 7b96549 봇 Agents/Skills 배선
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T14:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, 31m) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d) | web_caddy UP (6d) | db_postgres UP (6d)
+Vault md: 487 (+1 since 14:17Z) | Vault all: 581 (+1)
+claude/ md: 33 (=) -- projects: 11, decisions: 9
+90-agent-logs/ (bbw-wiki 루트): 100 md (daily:95) +1
+session-log.md: 6829라인 (+158) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina
+변경: autobots.md 상태 갱신 (backend UP) | INDEX.md 통계 갱신 | session-log 추가
+WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요

@@ -1,6 +1,15 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+
+## 2026-06-20T15:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (Docker healthy, 4m) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d)
+Vault md: 490 (=) / 534 all (=) | session-log 7228라인 (+164) | daily 98 (+1)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+변경: autobots.md 상태 갱신 (backend 확인불가→UP) | INDEX.md stats 갱신
+비고: backend Up 4min (healthy) — 재시작 감지, docker ps 확인으로 상태 복원
+
+---
 ## 2026-06-20T13:10Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 DOWN (localhost 미노출, Docker 172.18.0.8:9200 경유 API 정상) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 9/9 active — 전원 active (8→9 봇 수 증가 확인)
@@ -602,3 +611,67 @@ vault: 482 md (+3) / 525 all (+4) | 90-agent-logs: 95 (+9) | session-log: 6088L
 인프라: backend UP (Docker healthy, 13:27Z) | hermes UP (6d) | ai-ops-ui UP (6d)
 변경: autobots.md 타임스탬프 갱신 | index.md 통계 섹션 추가 | session-log 항목 추가
 비고: 봇 9/9 active (stellina 포함) | wiki/ 166 md (=) | drafts 30개 사용자 검토 필요
+
+---
+## 2026-06-20T14:03Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 확인불가 (docker 미접근) | hermes-dashboard: 마지막확인 6d | ai-ops-ui: 마지막확인 6d
+Vault md: 485 (=) | Vault all: 528 (=)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 98 md (daily:93, tasks:2, failures:1, weekly:2) +2
+session-log.md: 6535 lines (↑23 since 14:30Z) | work-in-progress.md: 47 lines (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina (마지막 확인 13:51Z)
+변경: autobots.md 타임스탬프 갱신 (14:03Z), INDEX.md 통계 갱신 (agent-logs 96→98, session +23)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+비고: INDEX.md 14:30Z 타임스탬프 선행 갱신 확인 (병렬 인스턴스) -- 14:03Z로 정정
+
+
+---
+
+## 2026-06-20T14:11Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 9/9 active - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 갱신 (14:11Z 타임스탬프, 봇 상태 변경 없음, delta=+0)
+비고: profile-sync-now.py PATCH 200 OK - 동기화 정상 완료
+
+---
+
+## 2026-06-20T14:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 DOWN (localhost/Docker 미접근) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 487 (+1 since 14:17Z) | Vault all: 531 (오류값 580→531 수정)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 100 md (daily:95, tasks:2, failures:1, weekly:2) +1
+session-log.md: 6829 lines (↑158 since 14:17Z) | work-in-progress.md: 47 lines (=)
+봇: 9/9 active (마지막 확인 14:11Z — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+변경: autobots.md 타임스탬프 갱신 (14:31Z), INDEX.md 통계 갱신 (vault all 오류 수정·session·agent-logs)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+## 2026-06-20T14:35Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8 healthy) | hermes:19119 미확인 | ai-ops-ui:7771 미확인
+Vault md: 487 (=) / 531 all (=) | 90-agent-logs: 100 md (daily:95, tasks:2, failures:1, weekly:2) +1
+claude/ md: 33 (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+session-log.md: 6845라인 (+16) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: INDEX.md 통계 갱신 (session-log 6829→6845, 타임스탬프 14:35Z), autobots.md backend 상태 정정 (확인불가→UP)
+최근 커밋: c14d15f agy 심링크 깨짐 내성 | 3ee1247 agy 3-way fallback | 27d2447 프로젝트 경로 fallback
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+## 2026-06-20T15:30Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 확인불가 (docker 미접근) | hermes 마지막확인 UP (6d) | ai-ops-ui 마지막확인 UP (6d)
+Vault md: 490 (=) | Vault all: 534 (=)
+claude/ md: 33 (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki root): 103 md (daily:98) +1
+session-log.md: 7228라인 (+164) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 992 lines (11 files, =)
+봇: 9/9 active (마지막 확인 14:11Z)
+변경: autobots.md 타임스탬프 갱신 (15:30Z), INDEX.md session-log/agent-logs 통계 갱신
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
