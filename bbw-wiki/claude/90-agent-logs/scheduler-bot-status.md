@@ -3510,3 +3510,106 @@ Docker containers:
 
 WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
 STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-21T메모리_통계_갱신 (autobots-scheduler)
+vault: 505 md (+3) / 550 전체 (+3)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9 | 총 16,016라인 (+914)
+wiki/: 151 md (=) (sources:32, concepts:80[drafts:5/+1], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 122 md (+3) — daily:117(+3), tasks:2, failures:1, weekly:2
+session-log.md: 9,540라인 (+278 vs 9,262) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인 (=)
+
+---
+
+## 2026-06-20T18:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 511 md (+9 vs 09:00Z) / 547 전체
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9 | 총 16,023라인
+wiki/: 153 md (+2) (sources:32, concepts:82[drafts:6/+2], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 122 md (+3)
+session-log.md: 9,560라인 (+278 vs 9,282) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인 (=)
+[cron_success] 2026-06-20T18:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T18:22Z 봇 상태 확인 (autobots-scheduler)
+인프라 컨테이너:
+  autobots_backend     : HEALTHY (Up 2시간+, /health 200 OK)
+  hermes-dashboard     : UP (6 days)
+  ai-ops-ui            : UP (6 days)
+  web_caddy            : UP (6 days)
+  db_postgres          : UP (6 days)
+  db_adminer           : UP (6 days)
+  storage_seaweedfs    : UP (6 days)
+
+봇 목록 (02:51 KST 확인 이후 변화 없음):
+  arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina - 전원 active
+  total=9 | active=9 | inactive=0
+
+상태 변화: 없음
+STATUS: OK
+[cron_success] 2026-06-20T18:22Z bot=autobots-scheduler: 봇 상태 확인 완료

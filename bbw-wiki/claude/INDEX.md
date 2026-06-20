@@ -40,17 +40,17 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T08:00Z (autobots-scheduler) -- session-log 9262라인, vault 502 md
+> 마지막 갱신: 2026-06-20T18:16Z (autobots-scheduler) -- session-log 9540라인, vault 505 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 502 md / 547 전체 | +2/+2 |
+| vault 전체 | 505 md / 550 전체 | +3/+3 |
 | wiki/ | 151 md (sources:32, concepts:80[_drafts:4], entities:37) | = |
 | wiki/concepts/_drafts | 4 | 검토 대기(_unresolved) |
 | claude/ | 33 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:9) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 119 md (daily:114, tasks:2, failures:1, weekly:2) | +2 |
-| session-log.md | 9262라인 | +88 |
+| 90-agent-logs/ (bbw-wiki 루트) | 122 md (daily:117, tasks:2, failures:1, weekly:2) | +3 |
+| session-log.md | 9540라인 | +278 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)

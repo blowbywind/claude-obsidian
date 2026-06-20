@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | 봇 9/9 active
-갱신: 2026-06-20T17:51Z (autobots-scheduler profile-sync)
+상태: backend UP | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | 봇 9/9 active
+갱신: 2026-06-20T18:21Z (autobots-scheduler profile-sync)
 
 ## runtime_providers 상태 (2026-06-20T17:51Z 동기화)
 | ID | 상태 |
@@ -51,9 +51,9 @@
 | snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
 | stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
 
-## 프로파일 동기화 최근 결과 (2026-06-20T17:51Z)
-- Bot 상태: 9/9 active (변경 없음)
-- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+## 프로파일 동기화 최근 결과 (2026-06-20T18:20Z)
+- Bot 상태: 9/9 active
+- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy
+- Findings: 변경 없음 — 9 bots all at correct status
 - 프로파일 변경: 0개 updated / 9개 skipped
-- runtime last_verified: 17:49Z (4개 healthy 프로바이더)
-- infra: autobots_backend UP (healthy) | hermes_dashboard UP | ai_ops_ui UP | web_caddy UP
+- agent-status.json 기준: 2026-06-20T18:20Z

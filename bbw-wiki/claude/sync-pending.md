@@ -18,6 +18,16 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 
 
+## 2026-06-20T18:21Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+인프라: autobots_backend=UP(healthy, 2h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP | db_postgres=UP
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — gateway healthy → active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy last_verified 갱신, run-gemini=unavailable(=)
+Vault md: 518 | session-log: 9606L | 90-agent-logs: 132 md
+
+---
+
 ## 2026-06-21T05:50Z 프로파일 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
 프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
