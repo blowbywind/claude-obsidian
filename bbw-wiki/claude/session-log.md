@@ -1,3 +1,25 @@
+## 2026-06-20 22:01 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+**미커밋 스테이지 파일:**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/docker-compose.yml`
+
+---
+
 ## 2026-06-20 22:00 — ai-ops
 
 **최근 커밋:**
