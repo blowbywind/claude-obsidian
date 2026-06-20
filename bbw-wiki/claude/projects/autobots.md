@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP (172.18.0.8:9200, healthy, 5h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | 봇 9/9 active
-갱신: 2026-06-20T21:01Z (autobots-scheduler wiki-sync)
+상태: backend UP (healthy, 5h) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | 봇 9/9 active | hermes Slack WebSocket DEGRADED
+갱신: 2026-06-20T21:31Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-20T21:01Z 동기화)
+## runtime_providers 상태 (2026-06-20T21:21Z 동기화)
 | ID | 상태 |
 |----|------|
 | claude | healthy |
@@ -40,7 +40,7 @@
 
 
 
-## 봇 로스터 (DB 기준, 2026-06-20 20:21 UTC)
+## 봇 로스터 (DB 기준, 2026-06-20 21:21 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
 | arthur | 아서 | active | gpt-5.5 | 2026-06-20T19:33Z |
@@ -53,9 +53,9 @@
 | snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20T19:46Z |
 | stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T19:06Z |
 
-## 프로파일 동기화 최근 결과 (2026-06-20T20:14Z)
+## 프로파일 동기화 최근 결과 (2026-06-20T21:21Z)
 - Bot 상태: 9/9 active
-- Runtime: claude:healthy | codex:healthy | agy:healthy | obsidian-mcp:healthy
+- Runtime: claude:healthy | codex:healthy | agy:healthy | obsidian-mcp:healthy | run-gemini:unavailable
 - Findings: 변경 없음 — 9 bots all at correct status
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-20T20:12Z
+- DB 직접 조회 기준 (autobots_backend Docker Up 5h+ healthy, localhost:9200 호스트 미노출 환경)

@@ -1,6 +1,18 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T21:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (last_checked 20:50Z) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes-docker=down(의도적)
+Runtime: claude/codex/agy/obsidian-mcp=healthy | hermes-docker=down(의도적) | run-gemini=unavailable(=)
+Vault md: 596 (+?) | Vault all: 641 | wiki: 221 md (+3 since prev) | claude/: 34 md (=)
+90-agent-logs/ (bbw-wiki 루트): 142 md (daily:137, tasks:2, failures:1, weekly:2) | +6 since last
+session-log.md: 11803라인 (+295 since 2026-06-21T09:00Z 기록) | work-in-progress.md: 47라인 (=)
+wiki/concepts/_drafts: 29 순수 + 21 _promoted 대기 (총 50)
+변경: INDEX.md 통계 갱신 (wiki+3, daily+6, session+295) | autobots.md 타임스탬프 갱신
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+
 ## 2026-06-20T19:11Z 프로파일 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
 인프라: autobots_backend=UP(healthy, 3h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP(6d) | db_postgres=UP(6d) | storage_seaweedfs=UP(6d)
