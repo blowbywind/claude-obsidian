@@ -1,6 +1,32 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T22:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8, 6h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes-docker=absent(의도적)
+Runtime: 봇 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+Vault md: 604 (+8) | Vault all: 649 | wiki: 224 md (+2) | claude/: 34 md (=)
+90-agent-logs/ (bbw-wiki 루트): 147 md (daily:142, tasks:2, failures:1, weekly:2) | +1
+session-log.md: 12123라인 (+142) | work-in-progress.md: 47라인 (=)
+wiki/concepts/_drafts: 26 순수 + 24 _promoted 대기 + 4 _unresolved (총 54)
+변경: INDEX.md 통계 갱신 (wiki +2, session +142, daily +1)
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+
+
+## 2026-06-20T22:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP(6h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes-docker=absent(의도적)
+Runtime: 봇 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+Vault md: 613 (+9) | Vault all: 658 | wiki: 227 md (+3) | claude/: 34 md (=)
+90-agent-logs/ (bbw-wiki 루트): 153 md (daily:148, tasks:2, failures:1, weekly:2) | +6
+session-log.md: 12529라인 (+323) | work-in-progress.md: 47라인 (=)
+wiki/concepts/_drafts: 23 순수 + 27 _promoted 대기 (총 50)
+변경: autobots.md 타임스탬프 갱신 (22:31Z), INDEX.md 통계 갱신 (vault/wiki/session/agent-logs)
+신규: wiki/concepts 6개 드래프트→승격 (a2a-protocol, ai-수학-연구-에이전트, langgraph, sdd-3문서-패턴, spec, tanstack)
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+---
+
 ## 2026-06-20T21:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (last_checked 20:50Z) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes-docker=down(의도적)
 Runtime: claude/codex/agy/obsidian-mcp=healthy | hermes-docker=down(의도적) | run-gemini=unavailable(=)
@@ -876,5 +902,34 @@ Vault md: 580 (+1) / 625 all | wiki/ 215 md (concepts:144[_drafts:54]) | 90-agen
 session-log.md: 11178라인 (+88) | 봇: 9/9 active (변경 없음)
 변경: autobots.md 20:31Z, INDEX.md 통계 갱신
 WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기 | 주의: _drafts 54개 검토 필요
+
+---
+
+---
+
+## 2026-06-20T21:52Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+인프라: autobots_backend=UP(healthy, 6h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP(6d) | db_postgres=UP(6d) | storage_seaweedfs=UP(6d)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (봇 상태 변경 없음 — 전원 active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable(=)
+Vault md: 602 | Vault all: 647 | session-log: 12041L | 90-agent-logs: 146 md
+비고: localhost:9200 호스트 미노출 — Docker 172.18.0.8:9200 경유 API 정상 응답
+
+---
+
+
+---
+
+## 2026-06-20T22:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
+Vault md: 604 / 649 all | wiki/ 224 md (sources:32, concepts:153[root:99,_drafts:26,_promoted:24,_unresolved:4], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 147 md (daily:142, tasks:2, failures:1, weekly:2) | +1
+session-log.md: 12123라인 (+142 since 11981) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active (최근갱신 2026-06-20)
+변경: autobots.md 타임스탬프 갱신 (22:01Z), INDEX.md 통계 갱신 (vault/wiki/session/agent-logs)
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 26개 순수 드래프트 + 24개 _promoted 검토 대기
 
 ---

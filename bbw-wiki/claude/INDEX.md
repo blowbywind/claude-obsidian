@@ -40,16 +40,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20T21:33Z (autobots-scheduler) -- session-log 11817라인, wiki 221 md
+> 마지막 갱신: 2026-06-20T22:31Z (autobots-scheduler) -- session-log 12483라인, wiki 227 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| wiki/ | 221 md (sources:32, concepts:150[root:96, _drafts:29, _promoted:21, _unresolved:4], entities:37) | +3 |
-| wiki/concepts/_drafts | 29 순수 + 21 _promoted 대기 + 4 _unresolved | ⚠ 검토 대기 |
+| wiki/ | 227 md (sources:32, concepts:152[root:102, _drafts:23, _promoted:27], entities:37) | +2 |
+| wiki/concepts/_drafts | 23 순수 + 27 _promoted 대기 | ⚠ 검토 대기 |
 | claude/ | 34 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 143 md (daily:138, tasks:2, failures:1, weekly:2) | +7 |
-| session-log.md | 11817라인 | +309 |
+| 90-agent-logs/ (bbw-wiki 루트) | 153 md (daily:148, tasks:2, failures:1, weekly:2) | +3 |
+| session-log.md | 12483라인 | +156 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -59,14 +59,14 @@
 | MEMORY.md | 15 | 1.9K | 2026-06-20 |
 | autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
-| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-18 |
 | codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
+| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
 | lessons.md | 191 | 21K | 2026-06-20 |
-| responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
+| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
-| ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
+| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
 | **합계** | **992** | — | 11파일 |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)

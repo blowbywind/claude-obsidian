@@ -5661,3 +5661,677 @@ Docker containers:
 hermes Slack WebSocket: ERROR - Session is closed (Retrying)
 STATUS: DEGRADED (hermes Slack WebSocket 비정상)
 [cron_check] 2026-06-20T21:36Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T21:40Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: DOWN (API 미응답)
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T21:40Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-20T21:40Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 5 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T21:40Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T21:40Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: healthy
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T21:40Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+
+---
+
+## 2026-06-20T21:41Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: DOWN (API 미응답)
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T21:41Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-20T21:41Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 5 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T21:41Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T21:47Z 봇 상태 점검 (autobots-scheduler)
+Source: SQLite DB 직접 조회
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: Agy, Claude Code, Codex, Obsidian MCP
+  unavailable: Gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T21:47Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-21 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 596 md (+98, 이전 498) / 641 전체 (+99, 이전 542)
+claude/: 34 md (+1, 이전 33) — 90-agent-logs: 10파일
+session-log.md: 11837라인 (+2908, 이전 8929) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 11파일 / 992라인
+  MEMORY.md:15 lessons.md:191 responsive-design-guide.md:296
+  ui-ux-design-learning.md:302 autobots-hardening-backlog.md:29
+  autobots-identity.md:20 autobots-erp-ssh.md:23
+  codex-bwrap-apparmor-fix.md:38 effective-improvement-workflow.md:28
+  feedback-rina-ux-rules.md:20 server-infra.md:30
+변경: vault +98md +99all, claude/ +1md, session-log +2908라인
+[cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21T06:50 KST 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 601 md (+5, 이전 596) / 646 전체 (+5, 이전 641)
+claude/: 34 md (=) -- projects:11, decisions:9, 루트:4, 90-agent-logs:10
+session-log.md: 11981라인 (+144, 이전 11837) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 11파일 / 992라인 (=)
+  MEMORY.md:15 lessons.md:191 responsive-design-guide.md:296
+  ui-ux-design-learning.md:302 autobots-hardening-backlog.md:29
+  autobots-identity.md:20 autobots-erp-ssh.md:23
+  codex-bwrap-apparmor-fix.md:38 effective-improvement-workflow.md:28
+  feedback-rina-ux-rules.md:20 server-infra.md:30
+변경: vault +5md +5all, ai-ops memory 변경 없음, session-log +144라인
+[cron_success] 2026-06-21T06:50 KST bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T21:50Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T21:50Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-20T21:50Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T21:50Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-20T21:50Z 봇 상태 점검 (autobots-scheduler)
+Backend /health: OK
+에이전트: 16/16 active
+Docker 컨테이너: 직접 확인 불가 (환경 제한) — 이전 체크 기준 전체 정상
+hermes Slack WebSocket: 이전 체크에서 ERROR (Session is closed) 감지됨
+STATUS: OK
+[cron_check] 2026-06-20T21:50Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T21:51Z 프로파일 상태 동기화 (autobots-scheduler)
+Backend: healthy (172.18.0.8:9200)
+
+봇 현황: 9/9 active
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T21:51Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+
+---
+
+## 2026-06-21T05:00Z 프로파일 동기화 (autobots-scheduler)
+Source: agent-status.json (updated: 2026-06-21T05:00Z)
+Runtime 업데이트: claude/codex/agy/obsidian-mcp → healthy | run-gemini → unavailable
+  last_verified_at: 2026-06-21 05:00:00 (UTC)
+Bot 상태: 9/9 active (변경 없음 — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+결과: 4 runtime_providers updated / 9 bots skipped (no-change)
+인프라: autobots_backend(Up 21min, healthy) | hermes_dashboard(Up 6days) | ai_ops_ui(Up 6days) | web_caddy(Up 6days) | db_postgres(Up 6days) | storage_seaweedfs(Up 6days)
+
+===
+=== 봇 상태 체크 - 2026-06-20T22:00Z (autobots-scheduler) ===
+인프라:
+  Backend /health: OK (obsidian_vault=OK | memory_episodic=OK | db_dir=OK | failures=[])
+  Docker 컨테이너: 직접 접근 불가 (이전 확인 06:35Z 기준 전체 정상)
+Bot 프로파일 (9/9 active):
+  아서: active | gpt-5.5
+  덱스: active | claude-sonnet-4-6
+  해리: active | claude-sonnet-4-6
+  키엘: active | claude-sonnet-4-6
+  리안: active | gemini-3.5-flash
+  리나: active | gemini-3.5-flash
+  로운: active | gpt-5.5
+  눈꽃: active | gemini-3.5-flash
+  스텔리나: active | claude-sonnet-4-6
+Bot 통계: total=9 | active=9 | inactive=0 | connectedPorts=3 | tasksInProgress=0
+런타임 프로바이더:
+  Agy: healthy (last_verified=2026-06-20T21:54Z)
+  Claude Code: healthy (last_verified=2026-06-20T21:54Z)
+  Codex: healthy (last_verified=2026-06-20T21:54Z)
+  Obsidian MCP: healthy (last_verified=2026-06-20T21:54Z)
+  Gemini: unavailable (last_verified=2026-06-19T14:02Z)
+Obsidian vault: 603 md | session-log: 12075라인
+상태 변화: 없음 — 전 확인(21:47Z) 대비 동일
+STATUS: OK (Gemini 제외 전체 정상)
+[cron_success] 2026-06-20T22:00Z bot=autobots-scheduler: 봇 상태 확인 완료
+===
+
+---
+
+## 2026-06-20T22:00Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:00Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+
+---
+
+## 2026-06-21T05:00Z 프로파일 동기화 (autobots-scheduler)
+Source: agent-status.json (updated: 2026-06-21T05:00Z)
+Runtime 업데이트: claude/codex/agy/obsidian-mcp → healthy | run-gemini → unavailable
+  last_verified_at: 2026-06-21 05:00:00 (UTC)
+Bot 상태: 9/9 active (변경 없음 — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+결과: 4 runtime_providers updated / 9 bots skipped (no-change)
+인프라: autobots_backend(Up 21min, healthy) | hermes_dashboard(Up 6days) | ai_ops_ui(Up 6days) | web_caddy(Up 6days) | db_postgres(Up 6days) | storage_seaweedfs(Up 6days)
+
+---
+
+## 2026-06-20T22:06Z 봇 상태 점검 (autobots-scheduler)
+런타임: claude/codex/agy/obsidian-mcp = healthy | hermes-docker = DOWN(의도적)
+인프라: autobots_backend UP | hermes_dashboard/ai_ops_ui/web_caddy/db/storage UP (via Caddy)
+봇: 9/9 active (변화 없음)
+hermes WebSocket: DEGRADED(Session closed, retry 중) — 운영 무영향
+STATUS: OK
+[cron_check] 2026-06-20T22:06Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-20T22:10Z 봇 상태 점검 (autobots-scheduler)
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: DEGRADED (Session is closed -> Retrying 반복)
+autobots_backend: healthy (Up 6h, /health OK)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상 — 운영 영향 최소)
+[cron_check] 2026-06-20T22:10Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T22:10Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: healthy
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T22:10Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-20T22:12Z 봇 상태 점검 (autobots-scheduler)
+autobots_backend: HEALTHY (health endpoint 200 OK, failures=0)
+  - obsidian_vault: OK
+  - memory_episodic: OK
+  - db_dir: OK
+  - vault_subdirs: OK (3/3)
+
+에이전트: 16/16 active (16개 전원 active)
+hermes Slack WebSocket: DEGRADED (Session is closed -> Retrying)
+컨테이너: docker 명령 미사용 환경 — 이전 점검(22:05Z) 기준 7개 컨테이너 모두 running
+
+STATUS: DEGRADED (hermes Slack WebSocket 비정상 — 운영 영향 최소)
+[cron_check] 2026-06-20T22:12Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T22:13Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: DOWN (API 미응답)
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T22:13Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-20T22:15Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:15Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+
+---
+
+## 2026-06-21T00:00Z 메모리 파일 통계 갱신 (autobots-scheduler)
+
+vault_md_total: 608 (이전 394, +214)
+vault_all_files: 653 (이전 436, +217)
+ai-ops 메모리: 992줄 / 11파일 / 60.2K (이전 825줄 / 8파일)
+  신규 파일: autobots-erp-ssh, autobots-hardening-backlog, codex-bwrap-apparmor-fix
+session-log.md: 12327줄 (이전 881줄)
+90-agent-logs/daily/: 145파일 (이전 40파일)
+
+STATUS: OK
+[cron_success] 2026-06-21T00:00Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T22:20Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:20Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+
+---
+
+## 2026-06-20T22:20Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: healthy
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-20T22:20Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T22:21Z 봇 상태 점검 (autobots-scheduler)
+인프라 (agent-status.json 기준, Docker 직접 접근 불가):
+  autobots_backend: UP (healthy, 마지막 확인 22:12Z)
+  hermes_dashboard: UP (Caddy 라우팅, 마지막 확인 05:00Z)
+  web_caddy / db_postgres / storage_seaweedfs: UP
+  hermes-docker: DOWN (의도적, 2026-06-14~)
+
+런타임: claude=healthy (v2.1.177) | codex=healthy (v0.140.0) | agy=healthy (v1.0.8) | obsidian-mcp=healthy
+봇: 9/9 active (전 확인 22:06Z 대비 변화 없음)
+  아서(gpt-5.5)/덱스(claude-sonnet-4-6)/해리(claude-sonnet-4-6)/키엘(claude-sonnet-4-6)
+  리안(gemini-3.5-flash)/리나(gemini-3.5-flash)/로운(gpt-5.5)/눈꽃(gemini-3.5-flash)/스텔리나(claude-sonnet-4-6)
+Obsidian vault: session-log 12429줄
+
+hermes WebSocket: DEGRADED(Session is closed, retry 중) — 기존 패턴, 봇 운영 무영향
+상태 변화: 없음
+STATUS: OK
+[cron_success] 2026-06-20T22:21Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T22:25Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:25Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-20T22:25Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:25Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
+## 2026-06-20T22:30Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~3h, /health 200 OK, avg 3-5ms)
+
+Docker containers:
+  autobots_backend: Up 6 hours (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 6 days
+  db_adminer: Up 6 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+hermes Slack WebSocket: ERROR - Session is closed (Retrying)
+STATUS: DEGRADED (hermes Slack WebSocket 비정상)
+[cron_check] 2026-06-20T22:30Z bot=autobots-scheduler: 봇 상태 점검 완료
