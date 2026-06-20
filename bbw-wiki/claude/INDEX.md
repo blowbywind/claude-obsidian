@@ -40,16 +40,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20T23:02Z (autobots-scheduler) -- session-log 12859라인, wiki 230 md
+> 마지막 갱신: 2026-06-21T00:00Z (autobots-scheduler) -- session-log 13015라인, wiki 231 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| wiki/ | 230 md (sources:32, concepts:159[root:105, _drafts:54], entities:37, overview:1, queries:1) | +2 |
+| wiki/ | 231 md (sources:32, concepts:160[root:106, _drafts:54], entities:37, overview:1, queries:1) | +1 |
 | wiki/concepts/_drafts | 54 (구 _promoted·_unresolved 통합) | ⚠ 검토 대기 |
 | claude/ | 34 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 155 md (daily:150, tasks:2, failures:1, weekly:2) | +1 |
-| session-log.md | 12859라인 | +153 |
+| 90-agent-logs/ (bbw-wiki 루트) | 157 md (daily:152, tasks:2, failures:1, weekly:2) | +2 |
+| session-log.md | 13015라인 | +156 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -59,14 +59,14 @@
 | MEMORY.md | 15 | 1.9K | 2026-06-20 |
 | autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
-| autobots-identity.md | 20 | 1.5K | 2026-06-18 |
-| codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
+| codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 191 | 21K | 2026-06-20 |
-| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
+| lessons.md | 191 | 22K | 2026-06-20 |
+| responsive-design-guide.md | 296 | 9.0K | 2026-06-19 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
-| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
+| ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
 | **합계** | **992** | — | 11파일 |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
