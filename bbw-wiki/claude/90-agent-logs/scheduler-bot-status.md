@@ -2958,18 +2958,6 @@ session-log.md: 428라인 (+44, 이전 384) | work-in-progress.md: 47라인 (=)
 
 ---
 
-## 2026-06-20T12:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
-Vault md: 474 (+12, 이전 462) | Vault all: 516 (+12, 이전 504)
-claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
-wiki/: 166 (+2, 이전 164) -- sources: 32, concepts: 99[drafts:30(+1)], entities: 33, queries: 1, root: 1
-90-agent-logs (bbw-wiki root): 92파일 (+15, 이전 77)
-ai-ops memory: 이전 기록 유지 (10파일, 접근제한)
-session-log.md: 5121라인 (+1876, 이전 3245) | work-in-progress.md: 47라인 (=)
-변경: vault +12md +12all, wiki/concepts +2(drafts+1), 90-agent-logs +15파일, session-log +1876라인
-[cron_success] 2026-06-20T12:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
-
----
-
 ## 2026-06-20T16:32Z 메모리 파일 통계 갱신 (autobots-scheduler)
 Vault md: 493 (=) | Vault all: 537 (=)
 claude/ md: 33 (=) — projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
@@ -3613,3 +3601,27 @@ STATUS: DEGRADED (hermes Slack 비정상)
 상태 변화: 없음
 STATUS: OK
 [cron_success] 2026-06-20T18:22Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T12:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 474 (+12, 이전 462) | Vault all: 516 (+12, 이전 504)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 (+2, 이전 164) -- sources: 32, concepts: 99[drafts:30(+1)], entities: 33, queries: 1, root: 1
+90-agent-logs (bbw-wiki root): 92파일 (+15, 이전 77)
+ai-ops memory: 이전 기록 유지 (10파일, 접근제한)
+session-log.md: 5121라인 (+1876, 이전 3245) | work-in-progress.md: 47라인 (=)
+변경: vault +12md +12all, wiki/concepts +2(drafts+1), 90-agent-logs +15파일, session-log +1876라인
+[cron_success] 2026-06-20T12:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21 메모리 통계 갱신 (autobots-scheduler)
+vault: ~512 md / ~558 전체 (+18/+18 vs 2026-06-20T16:17Z 494md)
+claude/: 33 md (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 150 md (sources:32, concepts:79, entities:37, queries:1, overview:1) -- _unresolved:0
+90-agent-logs/ (bbw-wiki root): 129 md (+18) -- daily:121(+15), tasks:5(+3), failures:1(=), weekly:2(=)
+session-log.md: 9702 lines (+1394 vs 8308) | work-in-progress.md: 47 lines (=)
+50-prompts/: 6 md (=) | ai-ops memory: 11 files (=)
+bots: 9 total (stellina 추가 -- 기존 8+1)
+[cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
