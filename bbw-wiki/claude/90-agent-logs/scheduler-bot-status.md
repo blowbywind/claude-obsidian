@@ -2617,3 +2617,101 @@ ai-ops memory: 11파일 992라인 (=)
 session-log.md: 7,086라인 (+415, 이전 6,671) | work-in-progress.md: 47라인 (=)
 변경: vault +3md +3all, claude/ lines +512, session-log +415라인 -- wiki/ai-ops 변경 없음
 [cron_success] 2026-06-20T14:47Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T15:16Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 490 (+1, 이전 489) | Vault all: 534 (+1, 이전 533)
+claude/ md: 33 (=) — projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+claude/ 라인 합계: 12,823 (+343, 이전 12,480)
+wiki/: 166 (=) — sources: 32, concepts: 99[drafts:30], entities: 33, queries: 1
+90-agent-logs/ (vault 루트): 103 md (+7, 이전 96)
+ai-ops memory: 11파일 992라인 (=)
+session-log.md: 7,379라인 (+293, 이전 7,086) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+변경: vault +1md +1all, claude/ lines +343, session-log +293, 90-agent-logs +7 — wiki/ai-ops 변경 없음
+[cron_success] 2026-06-20T15:16Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+
+---
+
+## 2026-06-20T12:56Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 9/9 active (+1 stellina 신규 확인)
+
+Bot roster:
+  arthur   - active - Codex
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex
+  snow     - active - Antigravity
+  stellina - active - Claude Code  [NEW]
+
+Infra:
+  autobots_backend: Up ~1h (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
+[cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T12:56Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 9/9 active (+1 stellina 신규 확인)
+
+Bot roster:
+  arthur   - active - Codex
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex
+  snow     - active - Antigravity
+  stellina - active - Claude Code  [NEW]
+
+Infra:
+  autobots_backend: Up ~1h (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
+[cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T15:22Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~24min (healthy, restarted ~14:58Z)
+Bots: 9/9 active (변경 없음)
+
+Bot roster:
+  arthur   - active - gpt-5.5      - Codex
+  dex      - active - claude-sonnet-4-6 - Claude Code
+  haeri    - active - claude-sonnet-4-6 - Claude Code
+  kiel     - active - claude-sonnet-4-6 - Claude Code
+  lian     - active - gemini-3.5-flash  - Antigravity
+  rina     - active - gemini-3.5-flash  - Antigravity
+  roun     - active - gpt-5.5      - Codex
+  snow     - active - gemini-3.5-flash  - Antigravity
+  stellina - active - claude-sonnet-4-6 - Claude Code
+
+Infra:
+  autobots_backend: Up ~24min (healthy) [재시작 감지]
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+
+NOTE: 전 sync(14:40Z) 대비 변경 없음. autobots_backend 재시작 이력 확인.
+[cron_success] 2026-06-20T15:22Z bot=autobots-scheduler: 봇 상태 확인 완료

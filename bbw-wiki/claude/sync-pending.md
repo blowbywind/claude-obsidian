@@ -675,3 +675,25 @@ ai-ops memory: 992 lines (11 files, =)
 변경: autobots.md 타임스탬프 갱신 (15:30Z), INDEX.md session-log/agent-logs 통계 갱신
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+## 2026-06-20T15:21Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, 23m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
+프로파일: 9/9 active - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 상태 갱신 (hermes-dashboard/ai-ops-ui DOWN->UP 정정, 15:21Z 타임스탬프)
+비고: API /bots 정상 응답 (172.18.0.8:9200), 봇 상태 변경 없음 - 0 updated / 9 skipped
+
+---
+
+---
+
+## 2026-06-20T15:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, 33m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
+Vault md: 495 (+5 since 15:01Z) | Vault all: 539 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 167 md (+1) (sources:32, concepts:100[drafts:30], entities:33)
+90-agent-logs/ (bbw-wiki 루트): 107 md (daily:102, tasks:2, failures:1, weekly:2) +4
+session-log.md: 7540라인 (+161) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 타임스탬프 갱신 (15:31Z), INDEX.md 통계 갱신
+신규: wiki/concepts/image-generation-guideline.md, bot-status-2026-06-21.md 등 4개 일별로그
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요

@@ -44,6 +44,7 @@
 
 ## Concepts
 
+- [API 기반 이미지 생성 가이드라인](wiki/concepts/image-generation-guideline.md) — API 환경에서 고품질 이미지 생성 및 프롬프트 확장을 적용하기 위한 UI/UX 디자인 가이드라인
 - [합성 사용자](wiki/concepts/synthetic-user.md) — 실제 UX 데이터 기반 LLM 모델링 가상 사용자: 실시간 대화, 데이터 누적 후 조사 대체 가능
 - [자유령 에이전트](wiki/concepts/free-roaming-agent.md) — 개인 소유 자율 AI 에이전트 카테고리: 헤르메스·OpenClaw·Gemini Spark 3종 비교, 로컬 vs 클라우드, 선택 기준
 - [루프.md 패턴](wiki/concepts/loop-md.md) — AI 완료 선언 전 자기 검증 강제하는 메타 레이어: 필수 통과·측정·평가 3기준 + PR 모니터링 루프
