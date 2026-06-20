@@ -11,3 +11,4 @@
 | 02:23 | DB 직접 조회 (healthy) | - | - | - | 9/9 active, 승인대기 0건 |
 | 02:27 | DB 직접 조회 (healthy) | - | - | - | 9/9 active, 승인대기 0건 |
 | 17:31 | healthy (UP) | DOWN(의도적) | DOWN | Up | wiki-sync 완료 — vault 500md, 봇 9/9 active |
+| 04:20 | healthy (Up 3h) | Up 6d | Up 6d | Up 6d | 정상 — 전 서비스 이상 없음 |

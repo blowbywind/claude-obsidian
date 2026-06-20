@@ -1,6 +1,17 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T19:11Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+인프라: autobots_backend=UP(healthy, 3h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP(6d) | db_postgres=UP(6d) | storage_seaweedfs=UP(6d)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — gateway healthy → active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy last_checked 갱신, run-gemini=unavailable(=)
+agent-status.json: autobots_backend_9200 down→UP 수정 (18:25Z 스테일 수정)
+Vault md: 546 | Vault all: 591 | claude/ md: 34 | session-log: 10266L | 90-agent-logs: 125 md
+
+---
+
 ## 2026-06-20T17:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (Docker 172.18.0.8 /bots OK) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
 Vault md: 500 (+2 since 17:02Z) | Vault all: 545 (+3)
@@ -809,5 +820,14 @@ session-log.md: 9702라인 (+594 since 17:31Z) | work-in-progress.md: 47라인 (
 최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 9개 신규 드래프트 -- 사용자 검토 필요 (haeri/dex 작성)
+
+---
+
+## 2026-06-20T18:52Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d)
+인프라: autobots_backend=UP(healthy, 3h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP | db_postgres=UP
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (봇 상태 변경 없음 — gateway healthy, active 유지)
+Vault md: 528 (+8 since 18:30Z) | Vault all: 573 (+8) | session-log: 9986L (+284) | 90-agent-logs: 124 md (=)
 
 ---

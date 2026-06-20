@@ -1,6 +1,6 @@
 ---
 date: 2026-06-21
-time: "17:54 UTC"
+time: "18:41 UTC (03:41 KST)"
 task: profile-sync
 scheduler: autobots-scheduler
 ---
@@ -44,4 +44,12 @@ scheduler: autobots-scheduler
 - node:sqlite (Node.js v22 experimental) WAL 호환 이슈 감지
   - npx tsx sync-profiles.ts 실행 시 DB 데이터 0행으로 읽힘
   - Python sqlite3로 WAL checkpoint(PASSIVE) 후 동기화 수행
-  - autobots_backend 컨테이너(9200) 현재 미가동 상태
+  - autobots_backend: Up 2 hours (healthy) (Docker 내부 전용, 외부 포트 미노출)
+
+## 실행 이력 (오늘)
+
+| 시간 | 수정 | 비고 |
+|------|------|------|
+| 03:11 KST | 0/9 | 정기 동기화 |
+| 17:54 UTC | 0/9 | 정기 동기화 |
+| 18:41 UTC (03:41+1 KST) | 0/9 | 정기 동기화 |

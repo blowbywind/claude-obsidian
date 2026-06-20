@@ -3625,3 +3625,112 @@ session-log.md: 9702 lines (+1394 vs 8308) | work-in-progress.md: 47 lines (=)
 50-prompts/: 6 md (=) | ai-ops memory: 11 files (=)
 bots: 9 total (stellina 추가 -- 기존 8+1)
 [cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21 02:51 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up ~2h, HTTP 200) | Docker health: OK
+Stats: total=9 | active=9 | inactive=0 | pendingApproval=0 | connectedPorts=3 | tasksInProgress=0
+stellina 신규 봇 유지 (9번째, last_learning_at=None)
+
+Bot roster:
+  arthur   (아서)    - active - Codex        | last_learning: 2026-06-19T19:30Z
+  dex      (덱스)    - active - Claude Code  | last_learning: 2026-06-20T10:51Z
+  haeri    (해리)    - active - Claude Code  | last_learning: 2026-06-19T18:15Z
+  kiel     (키엘)    - active - Claude Code  | last_learning: 2026-06-20T09:07Z
+  lian     (리안)    - active - Antigravity  | last_learning: 2026-06-19T19:00Z
+  rina     (리나)    - active - Antigravity  | last_learning: 2026-06-20T08:23Z
+  roun     (로운)    - active - Codex        | last_learning: 2026-06-19T19:00Z
+  snow     (눈꽃)    - active - Antigravity  | last_learning: 2026-06-19T19:45Z
+  stellina (스텔리나) - active - Claude Code  | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up ~2h (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket RuntimeError: Session is closed (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack WebSocket 오류 지속 (Session is closed -> Retrying 반복)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T19:00Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 527 (+15 vs 이전 512) | Vault all: 572 (+14 vs 이전 558)
+claude/: 33 md (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 171 md (+21 vs 이전 150) -- sources:32, concepts:100[drafts:21], entities:37, queries:1, overview:1
+90-agent-logs/ (bbw-wiki root): 124 md (-5 vs 이전 129)
+session-log.md: 9918 lines (+216 vs 이전 9702) | work-in-progress.md: 47 lines (=)
+50-prompts/: 6 md (=) | ai-ops memory: 11 files 992 lines (=)
+bots: 9 total (=)
+[cron_success] 2026-06-20T19:00Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T18:46Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 526 md (+32) / 571 전체 (+31) — 기준: 2026-06-20T16:17Z 494md/540all
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 170 md (+20) — sources:32, concepts:99[_drafts:21], entities:37
+90-agent-logs/ (bbw-wiki root): 124 md (+13) — daily:119(+13), tasks:2(=), failures:1(=), weekly:2(=)
+session-log.md: 9,904라인 (+1,596 vs 8,308) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (claude:3, codex:2, hermes:1, gemini:0)
+[cron_success] 2026-06-20T18:46Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21T04:20 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (docker healthcheck OK)
+Containers: 7/7 running
+
+  autobots_backend:  Up 3h (healthy) | restart=0
+  hermes-dashboard:  Up 6days
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+STATUS: ALL OK
+[cron_success] 2026-06-21T04:20 KST bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-21T04:30 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (HTTP 200, docker healthcheck OK)
+Containers: 7/7 running
+
+  autobots_backend:  Up 3h (healthy) | restart=0
+  hermes-dashboard:  Up 6days
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+STATUS: ALL OK
+[cron_success] 2026-06-21T04:30 KST bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T17:16Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 498 md (+4) / 542 전체 (+2)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9 | 총 15,102라인
+wiki/: 151 md (+1) (sources:32, concepts:80[drafts:4], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 115 md (+4)
+session-log.md: 8,929라인 (+621 vs 8308) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인
+
+---
+
+## 2026-06-20T19:30Z 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 557 md / 602 전체 (+63/+62 vs 494/540)
+claude/: 34 md (+1) -- projects:11(=), decisions:9(=), 루트:4(=), 90-agent-logs:10(+1)
+wiki/: 197 md (+47) -- sources:32(=), concepts:126(+47), entities:37(=), queries:1(=)
+90-agent-logs/ (bbw-wiki 루트): 127 md (+16) -- daily:122(+16), tasks:2, failures:1, weekly:2
+session-log.md: 10497라인 (+2189 vs 8308) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=) | ai-ops memory: 11파일 992라인 ~60K (=)
+[cron_success] 2026-06-20T19:30Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
