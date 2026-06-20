@@ -2273,3 +2273,48 @@ session-log.md: 3245라인 (+199, 이전 3046) | work-in-progress.md: 47라인 (
 이슈 2: hermes-dashboard — aiohttp RuntimeError Session is closed 반복 (Slack WebSocket 재연결 실패)
 상태 변화: 컨테이너 전체 UP, 기능 이슈 2건 감지 (비정상 종료 없음)
 [cron_success] 2026-06-20T09:37Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T09:20Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 462 (+4, 이전 458) | Vault all: 504 (+4, 이전 500)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 164 (+3) (sources: 32, concepts: 97[drafts:29], entities: 33)
+wiki/concepts/_drafts: 29 (+2) -- 검토 대기
+90-agent-logs/ (bbw-wiki 루트): 77 (+1)
+ai-ops memory: 10파일 942라인 -- lessons.md: 180라인(+12, 이전 168), 20.8K
+session-log.md: 3245라인 (+199, 이전 3046) | work-in-progress.md: 47라인 (=)
+변경: vault +4md +4all, wiki/concepts +3(drafts+2), lessons.md +12라인, session-log +199라인
+[cron_success] 2026-06-20T09:20Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T10:07Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend UP [healthy] | hermes-dashboard UP [로그 정상] | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | db_adminer UP
+봇: 8/8 active -- 아서(o4-mini/Codex) / 덱스(sonnet/Claude) / 해리(sonnet/Claude) / 키엘(sonnet/Claude) / 리안(gemini/AGY) / 리나(gemini/AGY) / 로운(o4-mini/Codex) / 눈꽃(gemini/AGY)
+이전 이슈: hermes-dashboard aiohttp Session closed (09:37Z) → 현재 로그 정상, 자연 복구 추정
+상태 변화: 없음 (전체 컨테이너 정상 운행)
+[cron_success] 2026-06-20T10:07Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T01:01Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 412 (+1) | Vault all: 454 (+1)
+claude/ md: 33 (=) — projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 133 (+1) (sources: 32, concepts: 66 (+1), entities: 33, queries: 1)
+ai-ops memory: 8파일 837라인 (+12, 이전 825)
+session-log.md: 428라인 (+44, 이전 384) | work-in-progress.md: 47라인 (=)
+변경: vault +1md +1all, wiki/concepts +1, session-log +44라인 — 나머지 변경 없음
+
+---
+
+## 2026-06-20T10:30Z 메모리 통계 갱신 (autobots-scheduler)
+Vault md: 466 (+54, 이전 412) | Vault all: 508 (+54, 이전 454)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 165 (+32) (sources: 32, concepts: 98[drafts:29], entities: 33, queries: 3)
+wiki/concepts/_drafts: 29 (+29) -- 검토 대기
+90-agent-logs/ (bbw-wiki 루트): 80 (+3, 이전 77)
+ai-ops memory: 10파일 942라인 ~54.9K (+2파일 +105라인 +37.7K)
+session-log.md: 3909라인 (+3481, 이전 428) | work-in-progress.md: 47라인 (=)
+변경: vault +54md +54all, wiki/ +32, concepts _drafts 29개 누적, ai-ops memory +2파일, session-log 대폭 증가
+[cron_success] 2026-06-20T10:30Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료

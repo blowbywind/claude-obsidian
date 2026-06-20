@@ -439,3 +439,19 @@ session-log.md: 3561라인 (+180) | work-in-progress.md: 47라인 (=)
 변경: INDEX.md 09:47Z 타임스탬프 갱신
 
 ---
+
+## 2026-06-20T10:02Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, 57m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
+Vault md: 465 (+2 since 09:47Z) | Vault all: 507 (+2)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 165 md (sources:32, concepts:98[drafts:29], entities:33, queries:1) (=)
+90-agent-logs/ (bbw-wiki 루트): 79 md (daily:74, tasks:2, failures:1, weekly:2) +1
+session-log.md: 3738 lines (↑177 since 09:47Z) | work-in-progress.md: 47 lines (=)
+봇: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 상태 DOWN→UP 수정 (10:02Z), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 커밋: 55be4a5 프로젝트 대화 컨텍스트 한정 | 8e7e431 프로젝트 삭제 라우트 | 641c01a 하드닝 백로그 WIP
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 29개 -- 사용자 검토 필요
+
+---
+
