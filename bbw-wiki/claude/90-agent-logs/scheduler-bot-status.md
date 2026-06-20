@@ -2839,3 +2839,32 @@ Infra:
 
 NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
 [cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T12:56Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 9/9 active (+1 stellina 신규 확인)
+
+Bot roster:
+  arthur   - active - Codex
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex
+  snow     - active - Antigravity
+  stellina - active - Claude Code  [NEW]
+
+Infra:
+  autobots_backend: Up ~1h (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
+[cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료
