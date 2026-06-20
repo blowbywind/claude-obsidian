@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | 봇 9/9 active
-갱신: 2026-06-20T15:32Z (autobots-scheduler wiki-sync)
+상태: backend UP | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | 봇 9/9 active
+갱신: 2026-06-20T16:32Z (autobots-scheduler wiki-sync)
 
-## runtime_providers 상태 (2026-06-21 동기화)
+## runtime_providers 상태 (2026-06-21T16:21Z 동기화)
 | ID | 상태 |
 |----|------|
 | claude | healthy |
@@ -27,34 +27,32 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 15:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 16:21 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
-| autobots | 2026-06-20 14:59 UTC | synced |
-| hnedu-erp | 2026-06-20 13:28 UTC | synced |
+| autobots | 2026-06-20 16:00 UTC | synced |
+| hnedu-erp | 2026-06-20 16:19 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
 | hnedu-crm | 2026-06-15 21:51 UTC | synced |
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-20 14:53 UTC)
+## 봇 로스터 (DB 기준, 2026-06-21 16:21 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
-| arthur | 아서 | active | gpt-5.5 | 2026-06-20T13:21Z |
-| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-20T10:53Z |
-| haeri | 해리 | active | claude-sonnet-4-6 | 2026-06-19T18:17Z |
-| kiel | 키엘 | active | claude-sonnet-4-6 | 2026-06-20T09:08Z |
-| lian | 리안 | active | gemini-3.5-flash | 2026-06-20T13:57Z |
-| rina | 리나 | active | gemini-3.5-flash | 2026-06-20T13:57Z |
-| roun | 로운 | active | gpt-5.5 | 2026-06-20T13:21Z |
-| snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20T13:57Z |
-| stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T13:32Z |
+| arthur | 아서 | active | gpt-5.5 | 2026-06-20T15:26Z |
+| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
+| haeri | 해리 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
+| kiel | 키엘 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
+| lian | 리안 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
+| rina | 리나 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
+| roun | 로운 | active | gpt-5.5 | 2026-06-20T15:23Z |
+| snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
+| stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
 
-## 프로파일 동기화 최근 결과 (2026-06-20T15:22Z)
-- Bot 상태: 9/9 active
-- Runtime: claude:healthy | codex:healthy | agy:healthy | obsidian-mcp:healthy
-- Findings: 변경 없음 — 9 bots all at correct status (hermes/ai-ops-ui UP 정정)
-- 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-20T15:22Z
-- autobots_backend 재시작 감지: ~14:58Z (uptime 24min at 15:22Z check)
+## 프로파일 동기화 최근 결과 (2026-06-21T16:21Z)
+- Bot 상태: 9/9 active (변경 없음)
+- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+- 변경 감지: hnedu-erp 최근 활동 13:28 → 16:19 갱신 | autobots_backend 재시작됨
+- infra: autobots_backend(9200) UP (재시작) | hermes_dashboard UP | ai_ops_ui UP | web_caddy UP | storage_seaweedfs UP

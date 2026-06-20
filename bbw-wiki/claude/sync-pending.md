@@ -2,6 +2,21 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy) | hermes-dashboard: UP (6d+) | ai-ops-ui: UP (6d+)
+Vault md: 492 (+2 since 15:32Z) | Vault all: 587 (+48)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 150 md (sources:32, concepts:75[drafts:4 -- 26개 정리됨], entities:37, queries:1) concepts↓ entities↑
+90-agent-logs/ (bbw-wiki 루트): 110 md (daily:105, tasks:2, failures:1, weekly:2) +3
+session-log.md: 8038 lines (↑810 since 15:32Z) | work-in-progress.md: 47 lines (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 16:01Z 선행 갱신 확인 (병렬 인스턴스), INDEX.md 통계 갱신
+최근 커밋: 29a60df 봇 실행 경로 중앙화(SSOT) | c14d15f agy 심링크 내성 | 3ee1247 agy 3-way fallback
+주의: wiki/concepts/_drafts/ 4개 미결(_unresolved) -- 정리 완료 (30개→4개)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+
+---
+
 ## 2026-06-20T15:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (Docker healthy, 4m) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d)
 Vault md: 490 (=) / 534 all (=) | session-log 7228라인 (+164) | daily 98 (+1)
@@ -704,5 +719,28 @@ Vault md: 495 (=) / 539 all (=) | session-log 7562라인 (+22) | daily 102 (=)
 봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
 변경: autobots.md 타임스탬프 갱신 (15:32Z) | INDEX.md 통계 갱신 | session-log 항목 추가
 비고: 직전 sync(15:31Z)에서 1분 — vault 변경 없음, session-log +22라인만
+
+---
+
+## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
+인프라: 확인 불가 (네트워크 접근 제한) | 마지막 확인(16:01Z): backend UP | hermes UP | ai-ops-ui UP
+Vault md: 492 (=) / 536 all (=) | session-log 8103라인 (+65) | daily 107 (+2)
+봇: 9/9 active (16:01Z 기준)
+변경: INDEX.md 수치 보정 (wiki/ 167→150, _drafts→_unresolved:4, entities 33→37, daily 105→107) | autobots.md 16:02Z | session-log 항목 추가
+비고: wiki/concepts/_drafts/ 재구성 완료 확인 — _unresolved 4개만 잔존 (미검토 drafts)
+
+---
+
+## 2026-06-20T16:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy) | hermes-dashboard: UP | ai-ops-ui: UP
+Vault md: 493 (-1 since 16:17Z) | Vault all: 537 (-3)
+claude/ md: 33 (=) -- projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 150 md (sources:32, concepts:79[_unresolved:4], entities:37) (=)
+90-agent-logs/ (bbw-wiki 루트): 111 md (daily:106) (=)
+session-log.md: 8463라인 (+155 since 16:17Z) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+변경: autobots.md 타임스탬프 정정 (2026-06-21 오탐 -> 16:32Z), INDEX.md 통계 갱신, session-log 항목 추가
+최근 커밋: 04753ed gitignore DB 백업 | cc77e20 PLAN 매트릭스 | 0cebd04 run-gemini 메타
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---

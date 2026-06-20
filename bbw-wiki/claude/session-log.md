@@ -1,3 +1,832 @@
+## 2026-06-20 16:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:33 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+
+## 2026-06-20T16:32Z (KST: 2026-06-21 01:32) -- autobots-scheduler
+
+인프라: autobots_backend:9200 UP (healthy) | hermes-dashboard: UP | ai-ops-ui: UP
+Vault md: 493 (-1 since 16:17Z) | Vault all: 537 (-3)
+claude/ md: 33 (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 150 md (sources:32, concepts:79[_unresolved:4], entities:37) (=)
+90-agent-logs/ (bbw-wiki root): 111 md (daily:106) (=)
+session-log.md: 8463라인 (+155 since 16:17Z) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active (마지막 확인 autobots.md 기준)
+변경: autobots.md 타임스탬프 정정 (2026-06-21 오탐 -> 16:32Z 갱신), INDEX.md 통계 갱신
+최근 커밋: 04753ed gitignore DB 백업 | cc77e20 PLAN 매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+
+---
+## 2026-06-21 01:31 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:30 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:27 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:26 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:26 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:25 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:24 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:21 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:21 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:20 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:20 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:20 — hnedu_erp
+
+**최근 커밋:**
+- 73d1a06 feat(prototype): rename to ERP, set light theme default, update demo user
+- 6c27c61 feat(prototype): add panel collapse/expand for left and right panels
+- 40ea845 chore: add AI tool ignore files and update gitignore
+- 9d333cf refactor(docs): restructure project layout and rename documents
+- df86216 feat: 가상 DB 구축 — 비상연락망 기반 실제 직원 데이터 29명 반영
+
+**변경 파일 (마지막 커밋):**
+- `docs/DESIGN.md`
+- `prototype/css/login.css`
+- `prototype/index.html`
+- `prototype/js/app.js`
+- `prototype/js/db.js`
+- `prototype/js/forms.js`
+- `prototype/js/tasks.js`
+- `prototype/login.html`
+
+---
+
+## 2026-06-20 16:20 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:18 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:18 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 16:17 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 16:16 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:16 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:15 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:13 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 16:12 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:12 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 01:12 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 16:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:10 — obsidian-vault
+
+**최근 커밋:**
+- a19e200 chore(wiki-sync): 2026-06-20T15:32Z 위키 동기화 — session-log +22라인, 봇 9/9 active
+- 1ed510b chore(wiki): 위키 동기화 2026-06-20T15:31Z -- vault 495md/539all, session 7540lines, backend UP(healthy)
+- 06ca476 chore(wiki): 위키 동기화 2026-06-20T15:01Z -- vault 490md/534all, session 7228lines, backend UP(healthy)
+- 5509a2c chore(wiki): 위키 동기화 2026-06-20T14:30Z -- vault 485md/528all, session 6512lines
+- 91cbaec chore(wiki): 위키 동기화 2026-06-20T14:00Z -- vault 485파일, session 6489lines
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-21 봇 상태 점검 (autobots-scheduler)
+
+| 컨테이너 | 상태 |
+|---|---|
+| autobots_backend | healthy — vault/DB/memory 모두 OK |
+| hermes-dashboard | Up 6d |
+| ai-ops-ui | Up 6d |
+| web_caddy | Up 6d (80/443 정상) |
+| db_postgres | Up 6d |
+| storage_seaweedfs | Up 6d |
+
+이상 없음.
+
+---
+
+## 2026-06-20 16:06 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:06 — ai-ops
+
+**최근 커밋:**
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+
+**변경 파일 (마지막 커밋):**
+- `PLAN_WIKI.md`
+- `plan/PLAN.md`
+- `references/PLAN.md`
+
+---
+
+## 2026-06-21 01:05 — ai-ops
+
+**최근 커밋:**
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/check-schema.ts`
+- `autobots/backend/db/client.ts`
+- `autobots/backend/db/gen-schema.ts`
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/package.json`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/channels.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/cron.ts`
+
+---
+
+## 2026-06-20 16:04 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:04 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy) | hermes-dashboard: UP | ai-ops-ui: UP
+Vault md: 492 (+2) | Vault all: 587 (+48) | session-log 8038L (+810) | daily 105 (+2)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+wiki/: 150 md -- concepts:75[drafts:4 정리완료], entities:37(+4), sources:32
+변경: autobots.md 16:01Z 선행갱신 확인 | drafts 30→4 정리 확인
+비고: 병렬 인스턴스 16:01Z 선행 동기화 -- 검증 후 통계 갱신만 수행
+
+---
+
+## 2026-06-21 01:03 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 16:02 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 01:02 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 16:01 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 16:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:56 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:56 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:55 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:55 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:53 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:53 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:52 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:51 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:49 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:48 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:48 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:46 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:43 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:42 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:42 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:41 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:38 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:37 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:36 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:36 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-21 00:35 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
 ## 2026-06-21 00:33 — ai-ops
 
 **최근 커밋:**
@@ -7666,5 +8495,24 @@ session-log.md: 7562라인 (+22 since 15:31Z) | work-in-progress.md: 47라인 (=
 봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
 변경: autobots.md 15:32Z 타임스탬프, INDEX.md 통계 갱신 (session-log/agent-logs)
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T16:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, ~1h) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d) | web_caddy UP (6d) | db_postgres UP (6d)
+Vault md: 492 (-5 since 00:10Z) / all: 536 | session-log 8038라인 (+140) | daily 105 (+1)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 상태 갱신 (hermes/ai-ops-ui UP 확인) | INDEX.md 통계 갱신 | session-log 항목 추가
+최근 커밋: 29a60df 런타임 SSOT 중앙화 | c14d15f agy 바이너리 자동탐색 | 3ee1247 agy 3-way fallback
+신규 파일: episodic/ 봇 학습 로그 11개 추가 감지 | wiki/concepts 3개 갱신
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
+인프라: 확인 불가 (Docker 네트워크 외부 접근 제한) | 마지막 확인: 16:01Z — backend UP | hermes UP | ai-ops-ui UP
+Vault md: 492 (=) / 536 all (=) | session-log 8103라인 (+65) | daily 107 (+2)
+봇: 9/9 active (마지막 확인 16:01Z — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+변경: INDEX.md 수치 수정 (wiki/ 167→150, _drafts 30→4[_unresolved], entities 33→37, daily 105→107, session-log 8038→8103) | autobots.md 타임스탬프 갱신 | sync-pending.md 항목 추가
+비고: wiki/concepts/_drafts 재구성 확인 — 30개 drafts가 _unresolved 서브폴더 4개로 재편 (나머지 26개 프로모션 또는 삭제)
+주의: wiki/concepts/_drafts/_unresolved/ 4개 미검토 (2026-06-20-dex-pkm, 2026-06-20-kiel-ai-경쟁, 2026-06-20-rina-css, 2026-06-20-rina-view-transitions)
 
 ---
