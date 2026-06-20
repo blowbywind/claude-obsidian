@@ -10,10 +10,6 @@ sources: [[episodic/2026-06-18-arthur-learning]]
 
 # shadcn/ui 토큰 계층 패턴
 
-# shadcn/ui 토큰 계층 패턴
-
-## 본문
-
 **핵심 정의**
 
 shadcn/ui의 토큰 계층은 설계 토큰을 두 단계로 분리하는 구조다. Primitive 계층에서 색상·크기 같은 raw 값을 정의하고, Semantic 계층에서 이를 UI 역할(예: primary-button, error-text)에 매핑한다.

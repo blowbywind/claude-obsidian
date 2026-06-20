@@ -1504,16 +1504,6 @@ Runtime healthy=[agy/claude/codex/obsidian-mcp] | unknown=[run-gemini]
 
 ---
 
-## 2026-06-19T11:01Z 위키 동기화 (autobots-scheduler)
-Backend API: unreachable from sandbox
-Vault md: 367 (=) | Vault all: 409 (=)
-claude/ md: 30 (=) - projects: 10, decisions: 8, root: 3, 90-agent-logs: 9
-_drafts: 20 (검토 대기)
-Bot 상태: 8/8 active (변경 없음)
-변경 사항: 없음 - 10:35Z 이후 vault/ai-ops 무변동
-
----
-
 ## 2026-06-19T12:01Z 메모리 통계 갱신 (autobots-scheduler)
 Vault md: 368 (+1) | Vault all: 410 (+1)
 claude/ md: 31 (+1) — projects: 11, decisions: 8, 루트: 3, 90-agent-logs: 9
@@ -1816,3 +1806,149 @@ wiki/: 136 (+3) (sources: 32, concepts: 70 (+4/drafts:22), entities: 33, queries
 ai-ops memory: 10파일 (+2) 926라인 (+89, 이전 837)
 session-log.md: 1322라인 (+894, 이전 428) | work-in-progress.md: 47라인 (=)
 변경: vault +11md +11all, wiki/concepts +4, session-log +894라인, ai-ops memory +2파일 +89라인
+
+---
+
+## 2026-06-20T06:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 433 (+5) | Vault all: 475 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 142 (+3) (sources: 32, concepts: 75 (+3/drafts:22), entities: 33, queries: 1)
+90-agent-logs/ daily: 65 (+24) | total: 70 (+24)
+ai-ops memory: 10 files 926 lines (=)
+session-log.md: 1823 lines (+283, prev 1540) | work-in-progress.md: 47 lines (=)
+changes: vault +5md +5all, wiki/concepts +3, 90-agent-logs +24, session-log +283 -- ai-ops memory no change
+
+---
+
+## 2026-06-20T06:30Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 433 (+5) | Vault all: 475 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 142 (+3) (sources: 32, concepts: 75[drafts:22], entities: 33, queries: 1, root: 1)
+ai-ops memory: 10파일 926라인 (=) ~76K
+session-log.md: 1823라인 (+283) | work-in-progress.md: 47라인 (=)
+변경: vault +5md +5all, wiki/concepts +3, session-log +283라인 -- ai-ops memory 변경 없음
+
+---
+
+## 2026-06-20T06:33Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 DOWN | hermes:19119 UP | ai-ops-ui:7771 UP
+Vault md: 433 (=) | Vault all: 475 (=)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 142 md (root:1, sources:32, concepts:75[drafts:22], entities:33, queries:1) (=)
+session-log.md: 1829 lines (+6 since 06:31Z) | work-in-progress.md: 47 lines (=)
+변경: session-log.md +6라인 외 나머지 변동 없음
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+주의: autobots_backend:9200 DOWN -- docker compose up -d backend 필요
+
+---
+
+## 2026-06-18T16:22Z 프로파일 동기화 (autobots-scheduler)
+Source: agent-status.json (updated: 2026-06-18T16:22Z)
+Backend API: DOWN (15:55Z 하강 후 ~27분 지속) — wiki sync only
+Runtime 상태: claude/codex/agy/obsidian-mcp → healthy | run-gemini → unknown
+Bot 상태: 8/8 active (변경 없음 — 이미 최신 상태)
+결과: 0 updated / 8 skipped | hermes-docker: DB에 없음 (드롭됨)
+인프라: autobots:9200 DOWN (15:55Z~, ~27분) | hermes:19119 DOWN (~192분) | ai-ops-ui:7771 DOWN (~192분)
+
+---
+
+## 2026-06-20T06:46Z 봇 상태 확인 (autobots-scheduler)
+인프라: docker 미노출(sandbox 한계) — 06:05Z 최종 확인: 전 컨테이너 UP [healthy]
+봇: 8/8 active — 아서 / 덱스 / 해리 / 키엘 / 리안 / 리나 / 로운 / 눈꽃
+Runtime: claude/codex/agy/obsidian-mcp = healthy | hermes-docker = down(의도적)
+참고: autobots_backend:9200 포트는 Docker 내부망 전용(호스트 미노출) — 컨테이너 정상
+상태 변화: 없음
+[cron_success] 2026-06-20T06:46Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T07:00Z 봇 상태 점검 (autobots-scheduler)
+Backend: autobots_backend:9200 UP (healthy, started 04:23Z)
+Docker containers: 7/7 running | autobots_backend 3h healthy | hermes-dashboard/ai-ops-ui/web_caddy/db_adminer/db_postgres/storage_seaweedfs Up 5d
+봇: 8/8 active — arthur/dex/haeri/kiel/lian/rina/roun/snow
+Runtime: claude/codex/agy/obsidian-mcp = healthy | run-gemini = unknown
+Vault md: 443 | Vault all: 485 | claude/ md: 33
+session-log.md: 2099라인 | work-in-progress.md: 47라인
+상태 변화: 없음 — 전체 정상
+[cron_success] 2026-06-20T07:00Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T03:16Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 417 (+4) | Vault all: 459 (=)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 133 (=) (sources: 32, concepts: 66[drafts:22], entities: 33, queries: 1, root: 1)
+ai-ops memory: 10파일 902라인 ~48.2K (+2파일 +65라인 — autobots-erp-ssh, autobots-hardening-backlog 신규)
+session-log.md: 776라인 (+48, 이전 728) | work-in-progress.md: 47라인 (=)
+변경: ai-ops memory +2파일(erp-ssh, hardening-backlog), lessons/server-infra/MEMORY 갱신, session-log +48라인
+
+---
+
+## 2026-06-20T06:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 433 (+5) | Vault all: 475 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 142 (+3) (sources: 32, concepts: 75 (+3/drafts:22), entities: 33, queries: 1)
+90-agent-logs/ daily: 65 (+24) | total: 70 (+24)
+ai-ops memory: 10 files 926 lines (=)
+session-log.md: 1823 lines (+283, prev 1540) | work-in-progress.md: 47 lines (=)
+changes: vault +5md +5all, wiki/concepts +3, 90-agent-logs +24, session-log +283 -- ai-ops memory no change
+
+---
+
+## 2026-06-20T07:16Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 449 (+16, 이전 433) | Vault all: 491 (+16, 이전 475)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 156 (+14, 이전 142) (sources: 32, concepts: 89[drafts:24], entities: 33, queries: 1, root: 1)
+ai-ops memory: 10파일 926라인 (=) ~76K
+session-log.md: 2223라인 (+400, 이전 1823) | work-in-progress.md: 47라인 (=)
+변경: vault +16md +16all, wiki/concepts +14(drafts+2), session-log +400라인(봇 로그 축적)
+[cron_success] 2026-06-20T07:16Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T06:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 433 (+5) | Vault all: 475 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 142 (+3) (sources: 32, concepts: 75 (+3/drafts:22), entities: 33, queries: 1)
+90-agent-logs/ daily: 65 (+24) | total: 70 (+24)
+ai-ops memory: 10 files 926 lines (=)
+session-log.md: 1823 lines (+283, prev 1540) | work-in-progress.md: 47 lines (=)
+changes: vault +5md +5all, wiki/concepts +3, 90-agent-logs +24, session-log +283 -- ai-ops memory no change
+
+---
+
+## 2026-06-20T06:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 433 (+5) | Vault all: 475 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 142 (+3) (sources: 32, concepts: 75 (+3/drafts:22), entities: 33, queries: 1)
+90-agent-logs/ daily: 65 (+24) | total: 70 (+24)
+ai-ops memory: 10 files 926 lines (=)
+session-log.md: 1823 lines (+283, prev 1540) | work-in-progress.md: 47 lines (=)
+changes: vault +5md +5all, wiki/concepts +3, 90-agent-logs +24, session-log +283 -- ai-ops memory no change
+
+---
+
+## 2026-06-20T07:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 451 (+2, 이전 449) | Vault all: 493 (+2, 이전 491)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+claude/ lines: 6716 (+147, 이전 6569) | session-log: 2337 (+114, 이전 2223)
+wiki/: 156 (=) | 90-agent-logs/ daily: 69 (+2) | total: 74 (+2)
+ai-ops memory: 10 files 926 lines 53107 bytes (직접 확인 완료)
+  lessons.md: 168lines 19233B | responsive-design-guide: 296lines 9123B
+  ui-ux-design-learning: 302lines 11807B | server-infra: 31lines 1437B
+work-in-progress.md: 47 lines (=, mtime 2026-06-19)
+changes: vault +2md +2all, claude/ +147lines, session-log +114lines, ai-ops memory=()
+[cron_success] 2026-06-20T07:31Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T07:47Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP (autobots_backend:9200 healthy) | 컨테이너 재시작 감지 (Up 5min, ~07:40Z 재시작)
+Docker containers: autobots_backend UP(healthy/5min) | hermes-dashboard UP(5d) | ai-ops-ui UP(5d) | web_caddy UP(5d)
+Runtime 상태: claude/codex/agy/obsidian-mcp -> healthy | run-gemini -> unknown | hermes-docker -> down(의도적)
+Bot 상태: 8/8 active (arthur/dex/haeri/kiel/lian/rina/roun/snow)
+인프라: autobots_backend:9200 UP(07:40Z 복구, 이전 DOWN since 06:25Z) | hermes_dashboard:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 452 | Vault all: 494 | claude/ md: 33 (projects:11, decisions:9, 90-agent-logs:9)
+session-log.md: 2436라인

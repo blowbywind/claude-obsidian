@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy, 1h) / hermes UP (5d) / ui UP (5d) / 봇 8/8 active | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) / hermes UP (container) / ui UP (container) / 봇 8/8 active | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -40,17 +40,17 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20 06:31 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-20T08:01Z (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 433 md / 475 전체 | +1 md |
-| wiki/ | 142 (root:1, sources:32, concepts:75[drafts:22], entities:33, queries:1) | +1 concept |
-| wiki/concepts/_drafts | 22 | ⚠ 검토 대기 |
+| vault 전체 | 452 md / 494 전체 | = |
+| wiki/ | 157 (root:1, sources:32, concepts:90[drafts:24], entities:33, queries:1) | = |
+| wiki/concepts/_drafts | 24 | ⚠ 검토 대기 |
 | claude/ | 33 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:9) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 70 md (daily:65, tasks:2, failures:1, weekly:2) | +1 daily |
-| session-log.md | 1823라인 | +109 |
+| 90-agent-logs/ (bbw-wiki 루트) | 74 md (daily:69, tasks:2, failures:1, weekly:2) | = |
+| session-log.md | 2535라인 | +99 since 07:46Z |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -59,15 +59,15 @@
 |------|------|------|----------|
 | MEMORY.md | 14 | 1.7K | 2026-06-20 |
 | autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
-| autobots-hardening-backlog.md | 24 | 2.7K | 2026-06-20 |
+| autobots-hardening-backlog.md | 29 | 3.9K | 2026-06-20 |
 | autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
+| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 168 | 18.8K | 2026-06-20 |
-| responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
-| server-infra.md | 31 | 1.4K | 2026-06-20 |
-| ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
-| **합계** | **926** | **~51.9K** | = (변동 없음) |
+| lessons.md | 168 | 19.2K | 2026-06-20 |
+| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
+| server-infra.md | 30 | 1.8K | 2026-06-20 |
+| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
+| **합계** | **930** | **~53K** | +3 lines, +1K |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
 

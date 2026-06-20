@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP | 경로: `/home/bbw/ai-ops/autobots/` | 외부: `https://snowball.me.kr/autobots/`
-갱신: 2026-06-20 06:31 UTC (scheduler sync)
+상태: backend UP (healthy) | hermes UP (container, 5d) | ai-ops-ui UP (container, 5d) | 경로: `/home/bbw/ai-ops/autobots/` | 외부: `https://snowball.me.kr/autobots/`
+갱신: 2026-06-20 08:01 UTC (scheduler sync)
 
 ## 배포 워크플로
 - **프론트 변경**: `pnpm build` → 재시작 불필요
@@ -18,11 +18,11 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 06:02 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 08:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
-| autobots | 2026-06-20 05:57 UTC | synced |
-| hnedu-erp | 2026-06-20 02:35 UTC | synced |
+| autobots | 2026-06-20 07:39 UTC | synced |
+| hnedu-erp | 2026-06-20 07:34 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
 | hnedu-crm | 2026-06-15 21:51 UTC | synced |
@@ -31,11 +31,11 @@
 
 
 
-## 봇 로스터 (DB 기준, 2026-06-20 06:20 UTC)
+## 봇 로스터 (DB 기준, 2026-06-20 07:50 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
 | arthur | 아서 | active | o4-mini | 2026-06-19T19:32Z |
-| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-19T18:17Z |
+| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-20T07:11Z |
 | haeri | 해리 | active | claude-sonnet-4-6 | 2026-06-19T18:17Z |
 | kiel | 키엘 | active | claude-sonnet-4-6 | 2026-06-19T19:17Z |
 | lian | 리안 | active | gemini-2.0-flash | 2026-06-19T19:02Z |

@@ -309,3 +309,41 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
 
 ---
+
+
+## 2026-06-20T06:50Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, 2h) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (06:50Z 타임스탬프, 봇 상태 변경 없음)
+비고: localhost:9200 호스트 포트 미노출 - Docker 내부 IP(172.18.0.8) 경로로 API 정상 응답
+
+---
+
+---
+
+## 2026-06-20T07:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, 3h) | hermes-dashboard: UP (container, 5d) | ai-ops-ui: UP (container, 5d)
+Vault md: 442 (+7 since 07:00Z) | Vault all: 484 (+7)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 149 md (root:1, sources:32, concepts:82[drafts:22], entities:33, queries:1) +6 concepts
+90-agent-logs/ (bbw-wiki root): 72 md (daily:66, tasks:2, failures:1, weekly:2) +1
+session-log.md: 2099 lines (+156 since 07:00Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 926 lines (10 files, =)
+신규 concepts: claude-mythos, prisma-n-1, design, agent-finops, oauth-2-1, shadcn-ui-token, frontmatter, calm (+8 changed/new)
+변경: INDEX.md 통계 갱신 (vault +7, wiki/concepts +6, session +156)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+---
+
+## 2026-06-20T07:30Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8 healthy) | hermes: UP (container) | ai-ops-ui: UP (container)
+Vault md: 451 (+7 since 07:10Z) | Vault all: 484
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 156 md (sources:32, concepts:89[drafts:24], entities:33, queries:1) +4 concepts, +2 drafts
+90-agent-logs/ (bbw-wiki 루트): 74 md (daily:70, tasks:2, failures:1, weekly:2) +2
+session-log.md: 2337 lines (+238 since 07:10Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 927 lines (10 files, =)
+변경: autobots.md 타임스탬프 갱신 (07:30Z), INDEX.md 통계 갱신 (vault/wiki/session)
+최근 커밋: 641c01a 하드닝 백로그 WIP | 778041d stripLeadingCruft | 052f4d0 gitignore
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 24개 -- 사용자 검토 필요
