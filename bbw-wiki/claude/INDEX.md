@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend DOWN (localhost 미노출) / hermes UP / ui UP / 봇 8/8 active | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (Docker healthy) / hermes UP (6d) / ui UP (6d) / 봇 8/8 active | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -40,7 +40,7 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20T21:32Z (autobots-scheduler) — session-log 5370라인 반영
+> 마지막 갱신: 2026-06-20T12:31Z (autobots-scheduler) — session-log 5370라인 반영
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|

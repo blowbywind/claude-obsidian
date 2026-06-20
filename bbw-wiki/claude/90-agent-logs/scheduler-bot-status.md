@@ -2761,3 +2761,81 @@ Bot status:
   storage_seaweedfs: Up 6 days
 
 [cron_success] 2026-06-20T11:30Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T12:46Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 477 (+3, 이전 474) | Vault all: 519 (+3, 이전 516)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 (=) -- sources: 32, concepts: 99[drafts:30], entities: 33, queries: 1
+90-agent-logs (bbw-wiki root): 95파일 (+3, 이전 92)
+session-log.md: 5542라인 (+421, 이전 5121) | work-in-progress.md: 47라인 (=)
+변경: vault +3md +3all, 90-agent-logs +3파일, session-log +421라인 -- 나머지 변경 없음
+[cron_success] 2026-06-20T12:46Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T12:50Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 8/8 active | Tasks: 0 | Gateways: 3 | PendingApproval: 0
+Bot roster: arthur/dex/haeri/kiel/lian/rina/roun/snow - all active
+Infra: autobots_backend UP(healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(5d) | db_postgres UP(6d) | seaweedfs UP(6d)
+NOTE: PATCH /api/chat/read -> 415 non-critical (client Content-Type missing)
+[cron_success] 2026-06-20T12:50Z bot=autobots-scheduler
+
+
+---
+
+## 2026-06-20T11:30Z 봇 상태 확인 (autobots-scheduler)
+Backend: OK (200) | Container: autobots_backend Up 3min (healthy)
+Bots: 8/8 active | 이상 없음
+
+Bot status:
+  arthur  - active - Codex (o4-mini)         | last_learning: 2026-06-19T19:32
+  dex     - active - Claude Code (sonnet-4-6) | last_learning: 2026-06-20T07:10
+  haeri   - active - Claude Code (sonnet-4-6) | last_learning: 2026-06-19T18:15
+  kiel    - active - Claude Code (sonnet-4-6) | last_learning: 2026-06-20T09:07
+  lian    - active - Antigravity (gemini-2.0) | last_learning: 2026-06-19T19:00
+  rina    - active - Antigravity (gemini-2.0) | last_learning: 2026-06-20T08:23
+  roun    - active - Codex (o4-mini)          | last_learning: 2026-06-19T19:00
+  snow    - active - Antigravity (gemini-2.0) | last_learning: 2026-06-19T19:45
+
+인프라:
+  autobots_backend: Up 3min (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+[cron_success] 2026-06-20T11:30Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-20T12:56Z 봇 상태 점검 (autobots-scheduler)
+Backend API: UP | autobots_backend Up ~1h (healthy)
+Bots: 9/9 active (+1 stellina 신규 확인)
+
+Bot roster:
+  arthur   - active - Codex
+  dex      - active - Claude Code
+  haeri    - active - Claude Code
+  kiel     - active - Claude Code
+  lian     - active - Antigravity
+  rina     - active - Antigravity
+  roun     - active - Codex
+  snow     - active - Antigravity
+  stellina - active - Claude Code  [NEW]
+
+Infra:
+  autobots_backend: Up ~1h (healthy)
+  hermes-dashboard: Up 6 days
+  ai-ops-ui: Up 6 days
+  web_caddy: Up 5 days
+  db_postgres: Up 6 days
+  storage_seaweedfs: Up 6 days
+
+NOTE: stellina 봇이 처음으로 확인됨 (이전 8/8 -> 현재 9/9)
+[cron_success] 2026-06-20T12:56Z bot=autobots-scheduler: 봇 상태 확인 완료

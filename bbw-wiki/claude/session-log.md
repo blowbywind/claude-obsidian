@@ -1,3 +1,313 @@
+## 2026-06-20 22:00 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 21:57 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:56 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:55 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:53 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:52 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:52 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:51 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:50 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 12:49 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 12:48 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:47 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 21:46 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 12:45 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:45 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 21:42 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 21:41 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:40 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:40 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:38 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:37 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 21:36 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
+## 2026-06-20 12:35 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 21:35 — ai-ops
+
+**최근 커밋:**
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/pipeline-executor.ts`
+
+---
+
 ## 2026-06-20 21:34 — ai-ops
 
 **최근 커밋:**
