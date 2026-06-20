@@ -1,3 +1,811 @@
+## 2026-06-20 18:32 — obsidian-vault
+
+**최근 커밋:**
+- 0c7a293 chore(wiki): 위키 동기화 2026-06-20T08:30Z -- vault 455/497, wiki 159(concepts:92 drafts:26), session 2768lines
+- 3f69dc2 chore(sync): 위키 동기화 2026-06-20T08:01Z
+- f962b6e sync(wiki): 2026-06-20T06:31Z 위키 동기화
+- cecc820 chore(sync): 위키 동기화 2026-06-20T07:00Z
+- 137210d chore(sync): 위키 동기화 2026-06-20T05:01Z
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-20 18:31 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:30 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:26 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:26 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:25 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:23 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 09:21 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:21 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:20 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:20 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:18 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:16 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:16 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:15 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:12 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:12 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:11 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:10 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:09 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:09 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:08 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:07 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:06 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:05 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 18:03 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 09:03 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 09:01 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 18:00 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:56 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:55 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:52 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:51 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:51 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:50 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:49 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:49 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:48 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:46 — obsidian-vault
+
+**최근 커밋:**
+- 0c7a293 chore(wiki): 위키 동기화 2026-06-20T08:30Z -- vault 455/497, wiki 159(concepts:92 drafts:26), session 2768lines
+- 3f69dc2 chore(sync): 위키 동기화 2026-06-20T08:01Z
+- f962b6e sync(wiki): 2026-06-20T06:31Z 위키 동기화
+- cecc820 chore(sync): 위키 동기화 2026-06-20T07:00Z
+- 137210d chore(sync): 위키 동기화 2026-06-20T05:01Z
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-20 17:46 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:45 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:43 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:43 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:41 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:40 — ai-ops
+
+**최근 커밋:**
+- 55be4a5 feat(autobots): 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:39 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 08:36 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:35 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:32 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:26 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:25 — frontend
+
+**최근 커밋:**
+- 628334b fix(projects): 봇 로스터 클리핑 버그 — 컨테이너 overflowX:auto 제거
+- 7108a9b feat(projects): 프로젝트 삭제 버튼 + slug 후행 구분자 정리
+- 27c88eb fix(chat): 봇 로터스 클리핑 버그 — 컨테이너 overflow-x-auto 제거
+- f56743b feat(learning): 진화 탭에 봇별 챗 성공/실패 통계 표시
+- 3e08220 fix(chat,projects): 모바일 SSE 먹통 방지 — reactive 스트리밍 상태 + 워치독
+
+**변경 파일 (마지막 커밋):**
+- `app/projects/page.tsx`
+
+---
+
+## 2026-06-20 17:25 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:25 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:20 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:20 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:18 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:17 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:17 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:15 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:12 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 08:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 08:10 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 17:10 — ai-ops
+
+**최근 커밋:**
+- 8e7e431 feat(autobots): 프로젝트 삭제 라우트 추가 + slug 후행 구분자 정리
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:07 — ai-ops
+
+**최근 커밋:**
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 17:06 — frontend
+
+**최근 커밋:**
+- 27c88eb fix(chat): 봇 로터스 클리핑 버그 — 컨테이너 overflow-x-auto 제거
+- f56743b feat(learning): 진화 탭에 봇별 챗 성공/실패 통계 표시
+- 3e08220 fix(chat,projects): 모바일 SSE 먹통 방지 — reactive 스트리밍 상태 + 워치독
+- 4c174a8 fix(bots): 자가학습 토글 즉시 저장 (탭 전환 시 해제되던 문제)
+- 550a989 feat(cron): 봇 자가학습 스케줄 스트립 추가
+
+**변경 파일 (마지막 커밋):**
+- `app/chat/page.tsx`
+
+---
+
+## 2026-06-20 08:05 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 08:03 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20T08:02Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (/health OK, 8 bots) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 452 (=) | Vault all: 494 (=)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 157 md (sources:32, concepts:90[drafts:24], entities:33, queries:1) =
+90-agent-logs/ (bbw-wiki 루트): 74 (=)
+session-log.md: 2535 lines | work-in-progress.md: 47 lines (=)
+변경: session-log 동기화 기록 추가 (INDEX.md는 08:01Z 이미 갱신됨)
+봇: 8/8 active -- dex 최근갱신 07:11Z, rina 03:58Z
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 24개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20 17:03 — ai-ops
+
+**최근 커밋:**
+- 641c01a feat(autobots): 하드닝 백로그 WIP 마무리 — FS 브라우즈/프로필 생성/프로젝트 생성 라우트
+- 778041d fix(autobots): 큐레이션 본문 선행 군더더기 제거 강화 (stripLeadingCruft)
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-20 17:02 — ai-ops
 
 **최근 커밋:**
@@ -2548,3 +3356,55 @@ ai-ops memory: 927 lines (10 files)
 변경: autobots.md 타임스탬프 갱신 (07:10Z), INDEX.md 통계 갱신
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T08:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (08:30Z 확인) | hermes: DOWN (의도적) | ai-ops-ui: DOWN (의도적)
+Vault md: 455 (+4 since 07:30Z) | Vault all: 497 (+13)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 159 md (sources:32, concepts:92[drafts:26], entities:33) +3 concepts, +2 drafts
+90-agent-logs/ (bbw-wiki 루트): 78 md (daily:72, tasks:3, failures:1, weekly:2) +4
+session-log.md: 2788 lines (+451 since 07:30Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 930 lines (10 files, +3)
+변경: autobots.md 활동 타임스탬프 갱신 (08:14Z), INDEX.md 통계 갱신
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 26개 -- 사용자 검토 필요 (+2 since 07:30Z)
+
+
+---
+
+## 2026-06-20T09:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, ~30m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
+Vault md: 458 (+3 since 08:31Z) | Vault all: ~500
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 161 md (sources:32, concepts:94[drafts:27], entities:33, queries:1) +2 concepts, +1 draft
+90-agent-logs/ (bbw-wiki 루트): 76 md (=)
+session-log.md: 3053 lines (265 since 08:31Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 930 lines (10 files, =)
+봇: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 타임스탬프 갱신됨 (09:01Z), session-log.md 동기화 항목 추가
+최근 커밋 (08:31Z 이후): 55be4a5 프로젝트 대화를 해당 프로젝트 기준으로 컨텍스트 한정 (08:36Z KST)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 27개 -- 사용자 검토 필요 (+1 since 08:31Z)
+
+
+---
+
+## 2026-06-20T09:16Z 봇 상태 확인 (autobots-scheduler 5m)
+인프라: autobots_backend:9200 UP (healthy, ok=true) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d) | web_caddy UP (5d)
+봇: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active (변경 없음)
+비고: 09:12Z autobots.md에 backend DOWN 기록 -- 09:16Z 재확인 결과 healthy (재시작 09:04Z KST)
+
+---
+
+## 2026-06-19T14:01Z — Obsidian 위키 동기화 (autobots-scheduler)
+
+Vault md: 371 (+1) | Vault all: 413 (+1)
+claude/ md: 31 (=) | projects: 11, decisions: 8, 90-agent-logs: 9(read-only)
+wiki/concepts: 44 (drafts 20개 root소유 — 승격 대기)
+ai-ops 변경: chat.ts·stream-engine.ts 13:01Z 수정 (sync-profiles 버그픽스 — 이전 세션 기록됨)
+신규 커밋: 없음 (13:01Z 이후 변동 없음)
+Backend API: sandbox 접근 불가 (scheduler 환경 제한)
+프로젝트 노트: autobots.md 갱신시간 14:01Z 업데이트
+이슈: 90-agent-logs/ + INDEX.md root 소유 — scheduler 쓰기 불가 (지속 이슈)
