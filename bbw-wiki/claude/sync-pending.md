@@ -2,6 +2,20 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 ---
+## 2026-06-20T12:02Z wiki-sync (autobots-scheduler)
+vault: 473 md (+2) / 515 all (+2) | 90-agent-logs daily 81 (+2) | session-log 4966L (+183)
+변경: INDEX.md 통계 확인 (12:01Z 기갱신) | autobots.md 확인 (12:02Z 기갱신)
+비고: 직전 스케줄러 인스턴스 동시갱신 완료 — 검증만 수행, 이중갱신 없음
+
+---
+## 2026-06-20T11:41Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (localhost socket) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (11:41Z 타임스탬프, 봇 상태 변경 없음, delta=+0)
+비고: dex 10:53Z / kiel 09:08Z / rina 08:25Z 최근 갱신 유지
+
+---
+
 ## 2026-06-20T09:41Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (Docker healthy, 36m) | hermes-dashboard: UP (6d) | ai-ops-ui: UP (6d)
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
@@ -508,3 +522,42 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
 
 ---
+
+## 2026-06-20T11:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, 3m) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
+Vault md: 471 (+2 since 11:10Z) | Vault all: 513 (+2)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 84 md (daily:79, tasks:2, failures:1, weekly:2) +2
+session-log.md: 4634라인 (↑261 since 11:10Z) | work-in-progress.md: 47라인 (=)
+봇: 8/8 active -- dex 10:53Z, kiel 09:08Z, rina 08:25Z 최근갱신
+변경: autobots.md 상태 갱신 (11:32Z), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 커밋: 7b96549 봇 Agents·Skills 실행 배선 | 6e2be84 Memory 경로 수정 | 08d946b 봇 자율 역량 제안 큐
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T11:40Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 DOWN (localhost 미노출, Docker 172.18.0.8 경유 API OK) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (11:40Z 타임스탬프, 봇 상태 변경 없음)
+비고: localhost 포트 미노출이나 Docker 내부 IP 경유 API 정상 응답 -- 동기화 성공
+
+---
+
+---
+
+## 2026-06-20T12:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, 34m) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
+Vault md: 473 (+2 since 11:32Z) | Vault all: 515 (+2)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 86 md (daily:81, tasks:2, failures:1, weekly:2) +2
+session-log.md: 4966 lines (↑332 since 11:32Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 970 lines (=)
+봇: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 타임스탬프 갱신 (12:31Z), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 커밋: 7b96549 봇 Agents·Skills 실행 배선+계측 | 6e2be84 Memory 경로 수정 | 08d946b 봇 자율 역량 제안 큐
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
