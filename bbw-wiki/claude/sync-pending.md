@@ -1,6 +1,12 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T13:10Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 DOWN (localhost 미노출, Docker 172.18.0.8:9200 경유 API 정상) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 9/9 active — 전원 active (8→9 봇 수 증가 확인)
+변경: autobots.md 갱신 (13:10Z 타임스탬프, 봇 상태 변경 없음, delta=+0)
+비고: Docker 내부 IP 경유 동기화 성공
+
 ---
 ## 2026-06-20T12:02Z wiki-sync (autobots-scheduler)
 vault: 473 md (+2) / 515 all (+2) | 90-agent-logs daily 81 (+2) | session-log 4966L (+183)
@@ -561,3 +567,15 @@ ai-ops memory: 970 lines (=)
 최근 커밋: 7b96549 봇 Agents·Skills 실행 배선+계측 | 6e2be84 Memory 경로 수정 | 08d946b 봇 자율 역량 제안 큐
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+## 2026-06-20T13:02Z wiki-sync (autobots-scheduler)
+vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
+변경: autobots.md 봇 9/9 (stellina 신규) | INDEX.md 통계 갱신 | session-log 항목 추가
+비고: stellina(스텔리나 claude-sonnet-4-6) 봇 신규 등록 확인 — 위키 반영 완료
+
+---
+## 2026-06-20T13:02Z wiki-sync (autobots-scheduler)
+vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
+변경: autobots.md 봇 9/9 (stellina 신규) | INDEX.md 통계 갱신 | session-log 항목 추가
+비고: stellina(스텔리나 claude-sonnet-4-6) 봇 신규 등록 확인 — 위키 반영 완료
