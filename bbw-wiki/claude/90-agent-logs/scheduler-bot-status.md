@@ -5122,3 +5122,14 @@ Backend /health: OK | Vault: OK | DB: OK
 에이전트: 16/16 활성
 STATUS: OK
 [cron_success] 2026-06-20T21:02Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-21T09:00Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend=UP(healthy, 5h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP | db_postgres=UP
+봇: 9/9 active - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+Vault md: 587 (all) | wiki/ 218 md (sources:32, concepts:147[_drafts:54+18promoted], entities:37)
+claude/ md: 34 | session-log: 11508L | 90-agent-logs: 136 md
+변경: INDEX.md 통계 갱신, autobots.md 타임스탬프 갱신
+untracked: wiki/concepts/_drafts/_promoted 18개 + wiki/concepts 12개 신규 개념
+커밋: 변경+신규 파일 일괄 스테이징 후 push

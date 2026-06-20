@@ -3,7 +3,7 @@
 상태: backend UP (172.18.0.8:9200, healthy, 5h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | 봇 9/9 active
 갱신: 2026-06-20T21:01Z (autobots-scheduler wiki-sync)
 
-## runtime_providers 상태 (2026-06-20T20:01Z 동기화)
+## runtime_providers 상태 (2026-06-20T21:01Z 동기화)
 | ID | 상태 |
 |----|------|
 | claude | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 21:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 21:01 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-20 20:02 UTC | synced |
