@@ -1,0 +1,1 @@
+{"ts": "2026-06-21T02:25:32+09:00", "task": "봇 상태 5분 간격 확인", "status": "all_ok", "containers": {"autobots_backend": "healthy", "hermes-dashboard": "up", "ai-ops-ui": "up", "web_caddy": "up", "db_adminer": "up", "db_postgres": "up", "storage_seaweedfs": "up"}, "health_detail": {"obsidian_vault": true, "memory_episodic": true, "db_dir": true, "vault_subdirs": true}, "failures": []}

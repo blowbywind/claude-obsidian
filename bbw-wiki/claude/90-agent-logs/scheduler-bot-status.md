@@ -3169,3 +3169,210 @@ Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | r
   NOTE: hermes_19119·ai-ops-ui_7771 직접 포트 미노출 (Caddy 경유 정상)
 STATUS: NORMAL (9/9 봇 정상 | 인프라 정상)
 [cron_success] 2026-06-20T16:56Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+
+---
+
+## 2026-06-21T05:00Z 프로파일 동기화 (autobots-scheduler)
+Source: agent-status.json (updated: 2026-06-21T05:00Z)
+Runtime 업데이트: claude/codex/agy/obsidian-mcp → healthy | run-gemini → unavailable
+  last_verified_at: 2026-06-21 05:00:00 (UTC)
+Bot 상태: 9/9 active (변경 없음 — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+결과: 4 runtime_providers updated / 9 bots skipped (no-change)
+인프라: autobots_backend(Up 21min, healthy) | hermes_dashboard(Up 6days) | ai_ops_ui(Up 6days) | web_caddy(Up 6days) | db_postgres(Up 6days) | storage_seaweedfs(Up 6days)
+
+
+---
+
+## 2026-06-20T17:03Z 프로젝트 활동 스캔 (autobots-scheduler / cron-007)
+Source: /api/projects (autobots_backend 직접 조회)
+
+| 프로젝트 | 최근 활동 (UTC) | 상태 |
+|---------|----------------|------|
+| autobots | 2026-06-20T17:00:39Z | synced |
+| hnedu-erp | 2026-06-20T16:24:42Z | synced |
+| hnedu-auth | 2026-06-19T12:02:19Z | synced |
+| bbw-ebook | 2026-06-18T05:03:36Z | synced |
+| hnedu-crm | 2026-06-15T21:51:02Z | synced |
+| pdf-to-html | 2026-06-12T23:51:02Z | synced |
+| firecrawl | 2026-06-11T12:00:00Z | synced |
+
+Obsidian wiki (autobots.md): 17:02Z에 이미 갱신됨 — 변경 없음
+[cron_success] 2026-06-20T17:03Z bot=autobots-scheduler: 프로젝트 활동 시간 갱신 완료 (7개 프로젝트 확인)
+
+---
+
+## 2026-06-21 01:30 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up 11min, RestartCount=0) | Docker health check: OK
+Bots: 9/9 active | Inactive: 0
+NEW: stellina 신규 봇 감지 (이전 8개 -> 현재 9개, last_learning_at 없음)
+
+Bot roster:
+  arthur   - active - Codex           | last_learning: 2026-06-19T19:30
+  dex      - active - Claude Code     | last_learning: 2026-06-20T10:51
+  haeri    - active - Claude Code     | last_learning: 2026-06-19T18:15
+  kiel     - active - Claude Code     | last_learning: 2026-06-20T09:07
+  lian     - active - Antigravity     | last_learning: 2026-06-19T19:00
+  rina     - active - Antigravity     | last_learning: 2026-06-20T08:23
+  roun     - active - Codex           | last_learning: 2026-06-19T19:00
+  snow     - active - Antigravity     | last_learning: 2026-06-19T19:45
+  stellina - active - Claude Code     | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up 11min (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket Session is closed 반복 오류 (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack 연결 오류 지속 (RuntimeError: Session is closed)
+INFO: stellina 신규 봇 (이전 8개 -> 현재 9개)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T17:11Z 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (172.18.0.8:9200/health ok:true) | Runtime: claude/codex/agy/obsidian-mcp=healthy | hermes-docker=DOWN(의도적)
+Bots: 9/9 active | Inactive: 0
+
+Bot roster:
+  아서     - active | gpt-5.5           | Codex
+  덱스     - active | claude-sonnet-4-6 | Claude Code
+  해리     - active | claude-sonnet-4-6 | Claude Code
+  키엘     - active | claude-sonnet-4-6 | Claude Code
+  리안     - active | gemini-3.5-flash  | Antigravity
+  리나     - active | gemini-3.5-flash  | Antigravity
+  로운     - active | gpt-5.5           | Codex
+  눈꽃     - active | gemini-3.5-flash  | Antigravity
+  스텔리나  - active | claude-sonnet-4-6 | Claude Code
+
+Docker infra: autobots_backend(healthy) / hermes-dashboard / ai-ops-ui / web_caddy / db_postgres / db_adminer / storage_seaweedfs — 모두 UP
+STATUS: OK (모든 봇 정상, 상태 변화 없음)
+
+---
+
+## 2026-06-20T01:01Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 412 (+1) | Vault all: 454 (+1)
+claude/ md: 33 (=) — projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 133 (+1) (sources: 32, concepts: 66 (+1), entities: 33, queries: 1)
+ai-ops memory: 8파일 837라인 (+12, 이전 825)
+session-log.md: 428라인 (+44, 이전 384) | work-in-progress.md: 47라인 (=)
+변경: vault +1md +1all, wiki/concepts +1, session-log +44라인 — 나머지 변경 없음
+
+---
+
+## 2026-06-20T17:16Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 498 md (+4) / 542 전체 (+2)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9 | 총 15,102라인
+wiki/: 151 md (+1) (sources:32, concepts:80[drafts:4], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 115 md (+4)
+session-log.md: 8,929라인 (+621 vs 8308) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인
+
+---
+
+## 2026-06-20T17:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 498 (+5) | Vault all: 542 (+5)
+claude/ md: 33 (=) — projects: 11, decisions: 9, 90-agent-logs daily: 110 (+4)
+wiki/: 151 (+1) (sources: 32, concepts: 80 (+1), entities: 37)
+ai-ops memory: 11파일 992라인 (=)
+session-log.md: 8943라인 (+460, 이전 8483) | work-in-progress.md: 47라인 (=)
+변경: vault +5md +5all, 90-agent-logs/daily +4, wiki/concepts +1, session-log +460라인
+
+---
+
+## 2026-06-21 01:30 KST 봇 상태 점검 (autobots-scheduler)
+Backend: healthy (Up 11min, RestartCount=0) | Docker health check: OK
+Bots: 9/9 active | Inactive: 0
+NEW: stellina 신규 봇 감지 (이전 8개 -> 현재 9개, last_learning_at 없음)
+
+Bot roster:
+  arthur   - active - Codex           | last_learning: 2026-06-19T19:30
+  dex      - active - Claude Code     | last_learning: 2026-06-20T10:51
+  haeri    - active - Claude Code     | last_learning: 2026-06-19T18:15
+  kiel     - active - Claude Code     | last_learning: 2026-06-20T09:07
+  lian     - active - Antigravity     | last_learning: 2026-06-19T19:00
+  rina     - active - Antigravity     | last_learning: 2026-06-20T08:23
+  roun     - active - Codex           | last_learning: 2026-06-19T19:00
+  snow     - active - Antigravity     | last_learning: 2026-06-19T19:45
+  stellina - active - Claude Code     | last_learning: -
+
+Docker containers:
+  autobots_backend:  Up 11min (healthy)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket Session is closed 반복 오류 (Retrying)
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack 연결 오류 지속 (RuntimeError: Session is closed)
+INFO: stellina 신규 봇 (이전 8개 -> 현재 9개)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-21 02:21 KST Bot Status Check (autobots-scheduler)
+Backend: healthy (Up ~1hr, RestartCount=0) | Docker health check: OK
+Bots: 9/9 active | Inactive: 0 | Pending approval: 0
+Gateways: 3 (Claude Code, Codex, Antigravity)
+
+Bot roster:
+  arthur   - active - Codex        | last_learning: 2026-06-19T19:30
+  dex      - active - Claude Code  | last_learning: 2026-06-20T10:51
+  haeri    - active - Claude Code  | last_learning: 2026-06-19T18:15
+  kiel     - active - Claude Code  | last_learning: 2026-06-20T09:07
+  lian     - active - Antigravity  | last_learning: 2026-06-19T19:00
+  rina     - active - Antigravity  | last_learning: 2026-06-20T08:23
+  roun     - active - Codex        | last_learning: 2026-06-19T19:00
+  snow     - active - Antigravity  | last_learning: 2026-06-19T19:45
+  stellina - active - Claude Code  | last_learning: -
+
+Docker:
+  autobots_backend:  healthy (~1hr)
+  hermes-dashboard:  Up 6days - WARN: Slack WebSocket 'Session is closed' 반복
+  ai-ops-ui:         Up 6days
+  web_caddy:         Up 6days
+  db_postgres:       Up 6days
+  db_adminer:        Up 6days
+  storage_seaweedfs: Up 6days
+
+WARN: hermes-dashboard Slack 연결 오류 지속 (RuntimeError: Session is closed)
+STATUS: DEGRADED (hermes Slack 비정상)
+
+---
+
+## 2026-06-20T12:17Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 474 (+12, 이전 462) | Vault all: 516 (+12, 이전 504)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 (+2, 이전 164) -- sources: 32, concepts: 99[drafts:30(+1)], entities: 33, queries: 1, root: 1
+90-agent-logs (bbw-wiki root): 92파일 (+15, 이전 77)
+ai-ops memory: 이전 기록 유지 (10파일, 접근제한)
+session-log.md: 5121라인 (+1876, 이전 3245) | work-in-progress.md: 47라인 (=)
+변경: vault +12md +12all, wiki/concepts +2(drafts+1), 90-agent-logs +15파일, session-log +1876라인
+[cron_success] 2026-06-20T12:17Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-20T17:30Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 500 md (+6 from 494) / 545 전체 (+5 from 540)
+claude/: 33 md (=) — projects:11(=), decisions:9(=), 루트:4(=), 90-agent-logs:9(=)
+wiki/: 151 md (+1) — sources:32(=), concepts:80(+1), entities:37(=)
+90-agent-logs/ (bbw-wiki 루트): 117 md (+6 from 111)
+session-log.md: 9108라인 (+800 vs 8308) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+변경: vault +6md+5all, wiki/concepts +1, 90-agent-logs +6, session-log +800라인
+
+---
+
+## 2026-06-21T메모리 통계 갱신 (autobots-scheduler)
+vault: 500 md (+2) / 545 전체 (+3)
+claude/: 33 md (=) -- projects:11, decisions:9, 루트:4, 90-agent-logs:9 | 총 15,373라인 (+271)
+wiki/: 151 md (=) (sources:32, concepts:80[drafts:1], entities:37)
+90-agent-logs/ (bbw-wiki 루트): 117 md (+2)
+session-log.md: 9,108라인 (+179 vs 8,929) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+[cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료

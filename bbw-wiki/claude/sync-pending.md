@@ -1,6 +1,21 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T17:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8 /bots OK) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
+Vault md: 500 (+2 since 17:02Z) | Vault all: 545 (+3)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 151 md (sources:32, concepts:80[_drafts:4], entities:37) (=)
+90-agent-logs/ (bbw-wiki 루트): 117 md (daily:112, tasks:2, failures:1, weekly:2) +2
+session-log.md: 9108 lines (↑293 since 17:02Z) | work-in-progress.md: 47 lines (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 타임스탬프 갱신 (17:31Z), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 4개 미검토
+
+---
+
 
 
 ## 2026-06-21T05:50Z 프로파일 동기화 (autobots-scheduler)
@@ -752,5 +767,20 @@ session-log.md: 8463라인 (+155 since 16:17Z) | work-in-progress.md: 47라인 (
 변경: autobots.md 타임스탬프 정정 (2026-06-21 오탐 -> 16:32Z), INDEX.md 통계 갱신, session-log 항목 추가
 최근 커밋: 04753ed gitignore DB 백업 | cc77e20 PLAN 매트릭스 | 0cebd04 run-gemini 메타
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+
+---
+
+## 2026-06-20T17:02Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8 /health OK) | hermes-dashboard DOWN (의도적 중단) | ai-ops-ui DOWN
+Vault md: 498 (+5 since 16:32Z) | Vault all: 542 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 151 md (sources:32, concepts:80[_drafts:4], entities:37, queries:1) +1 concept
+90-agent-logs/ (bbw-wiki 루트): 115 md (daily:110) +4
+session-log.md: 8788 lines (325 since 16:32Z) | work-in-progress.md: 47 lines (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 타임스탬프.infra 상태 갱신 (17:02Z), sync-pending 항목 추가
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 4개 미검토
 
 ---

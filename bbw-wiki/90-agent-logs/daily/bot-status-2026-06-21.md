@@ -7,3 +7,7 @@
 | 00:26 | healthy (Up 28m) | Up 6d | Up 6d | Up 6d | 정상 전체 서비스 이상 없음 |
 | 00:56 | healthy (Up 58m) | Up 6d | Up 6d | Up 6d | 정상 — 변화 없음 |
 | 01:53 | healthy (Up 34m) | Up 6d | Up 6d | Up 6d | 정상 — 변화 없음 |
+| 02:00 | healthy (Up 41m) | Up 6d WARNING | Up 6d | Up 6d | hermes: Slack WebSocket Session closed 재시도 중 (자동복구, 재시작 0회) |
+| 02:23 | DB 직접 조회 (healthy) | - | - | - | 9/9 active, 승인대기 0건 |
+| 02:27 | DB 직접 조회 (healthy) | - | - | - | 9/9 active, 승인대기 0건 |
+| 17:31 | healthy (UP) | DOWN(의도적) | DOWN | Up | wiki-sync 완료 — vault 500md, 봇 9/9 active |
