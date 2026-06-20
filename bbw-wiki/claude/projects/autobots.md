@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend healthy (172.18.0.8:9200, Docker healthy) | 봇 9/9 active
-갱신: 2026-06-20T22:32Z (autobots-scheduler 위키-동기화)
+상태: backend UP (healthy, 7h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | 봇 9/9 active
+갱신: 2026-06-20T23:02Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-20T22:20Z 동기화)
+## runtime_providers 상태 (2026-06-20T22:41Z 동기화)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,18 +27,18 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 22:02 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 23:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
-| autobots | 2026-06-20 21:36 UTC | synced |
-| hnedu-erp | 2026-06-20 16:24 UTC | synced |
+| autobots | 2026-06-20 23:00 UTC | synced |
+| hnedu-erp | 2026-06-20 22:11 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
 | hnedu-crm | 2026-06-15 21:51 UTC | synced |
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-20 22:20 UTC)
+## 봇 로스터 (DB 기준, 2026-06-20 22:41 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|----------|
 | arthur | 아서 | active | gpt-5.5 | 2026-06-20 19:33:02Z |
@@ -51,9 +51,9 @@
 | snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20 19:46:37Z |
 | stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20 19:06:27Z |
 
-## 프로파일 동기화 최근 결과 (2026-06-20T22:20Z)
+## 프로파일 동기화 최근 결과 (2026-06-20T23:01Z)
 - Bot 상태: 9/9 active
-- Runtime: agy:healthy | claude:healthy | codex:healthy | obsidian-mcp:healthy | run-gemini:unavailable
+- Runtime: claude:healthy | codex:healthy | agy:healthy | obsidian-mcp:healthy | run-gemini:unavailable
 - Findings: 변경 없음 — 9 bots all at correct status
 - 프로파일 변경: 0개 updated / 9개 skipped
-- DB 직접 조회 기준 (backend Docker 내부 healthy, localhost:9200 호스트 미노출 환경)
+- DB 직접 조회 기준 (backend Docker 내부 정상, localhost:9200 호스트 미노출 환경)

@@ -1,6 +1,18 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+
+## 2026-06-20T23:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200, healthy, 7h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+Vault md: 618 (+5 since 22:32Z) | wiki/: 230 md (+3) | 90-agent-logs: 155 md (daily:150) (+1) | session-log: 12891라인 | claude/: 34 md (=)
+봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md/INDEX.md 23:02Z 갱신 (병렬 인스턴스 선행) | session-log +32라인 추가
+신규: wiki/concepts 3개 승격 (bento-grid, vercel-ai-sdk-5, 기존-mcp-업데이트) | _drafts pure 23->20, _promoted 27->30
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+주의: _drafts/ 20 순수 + 30 _promoted + 4 _unresolved
+
+---
+
 ## 2026-06-20T22:32Z 위키 동기화 수정 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (172.18.0.8 /bots 정상) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | run-gemini=unavailable
 Runtime: 봇 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
