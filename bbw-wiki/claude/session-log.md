@@ -1,3 +1,87 @@
+## 2026-06-20 22:35 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 22:34 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 13:34 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:33 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 13:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 13:32 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:32 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
 ## 2026-06-20 22:31 — ai-ops
 
 **최근 커밋:**
@@ -6101,5 +6185,36 @@ session-log.md: 5719라인 (+349 since 12:31Z) | work-in-progress.md: 47라인 (
 ai-ops memory: 11 files, 981 lines (=)
 봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active (stellina 신규 확인)
 변경: autobots.md 봇 카운트 8→9 + stellina 행 추가 | INDEX.md 통계 갱신 (vault +3, session +349) | session-log 본 항목 추가
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T13:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend 상태 미확인 (localhost/Docker IP 소켓 불응 -- 직전 13:31Z 프로파일 sync UP 확인) | hermes: 미확인 | ai-ops-ui: 미확인
+Vault md: 482 (=) | Vault all: 525 (=)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 95 md (daily:90, tasks:2, failures:1, weekly:2) (=)
+session-log.md: 6147라인 (+21 since 13:31Z) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 11 files, 981 lines (=)
+봇: 9/9 active (13:31Z 기준 autobots.md)
+변경: INDEX.md session-log 통계 갱신 (6075->6147) | session-log 본 항목 추가
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+비고: 13:31Z 병렬 인스턴스가 주요 갱신 완료 -- 본 인스턴스는 delta 반영
+
+---
+
+## 2026-06-20T13:35Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (Docker healthy, 재기동 13:27Z) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d)
+Vault md: 482 (+3 since 13:02Z) | Vault all: 525 (+4)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33, queries:1) (=)
+90-agent-logs/ (bbw-wiki 루트): 95 md (daily:90) +9 since 13:02Z
+session-log.md: 6075라인 (이전 13:02Z) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina
+변경: autobots.md 타임스탬프 갱신 (13:35Z), index.md 통계 섹션 추가, session-log 항목 추가
+최근 커밋: 1701728 런타임 교차 fallback | 9e2f3ef Codex 봇 챗 배선 | 7b96549 봇 Agents/Skills 배선
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요

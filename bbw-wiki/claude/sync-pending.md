@@ -579,3 +579,26 @@ vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
 vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
 변경: autobots.md 봇 9/9 (stellina 신규) | INDEX.md 통계 갱신 | session-log 항목 추가
 비고: stellina(스텔리나 claude-sonnet-4-6) 봇 신규 등록 확인 — 위키 반영 완료
+
+## 2026-06-20T13:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, 3m) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
+Vault md: 482 (+2 since 13:16Z) | Vault all: 525 (+3)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 95 md (daily:90, tasks:2, failures:1, weekly:2) +2
+session-log.md: 6075 lines (↑196 since 13:16Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 981 lines (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 타임스탬프 갱신 (13:31Z), INDEX.md 통계 갱신 (vault/session/agent-logs/봇수 8→9)
+최근 커밋: 1701728 런타임 토큰 소진 fallback+Codex | 9e2f3ef Codex 봇 챗 배선 | 7b96549 봇 실행 배선+계측
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
+
+---
+## 2026-06-20T13:35Z 위키 동기화 (autobots-scheduler)
+vault: 482 md (+3) / 525 all (+4) | 90-agent-logs: 95 (+9) | session-log: 6088L
+인프라: backend UP (Docker healthy, 13:27Z) | hermes UP (6d) | ai-ops-ui UP (6d)
+변경: autobots.md 타임스탬프 갱신 | index.md 통계 섹션 추가 | session-log 항목 추가
+비고: 봇 9/9 active (stellina 포함) | wiki/ 166 md (=) | drafts 30개 사용자 검토 필요
