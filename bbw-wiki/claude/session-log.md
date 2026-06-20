@@ -1,3 +1,198 @@
+## 2026-06-20 06:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:30 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:26 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:26 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:23 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:21 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:21 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:20 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:17 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:17 — obsidian-vault
+
+**최근 커밋:**
+- cecc820 chore(sync): 위키 동기화 2026-06-20T07:00Z
+- 137210d chore(sync): 위키 동기화 2026-06-20T05:01Z
+- b550a9e feat: ingest 바이브코딩 보안 점검 — OWASP Top 10·CSP·AI 워크플로우 (기술노트with 알렉)
+- bf48c97 feat: ingest 네트워크 확장판 — OSI 7 Layer·L4/L7 스위치·SSL 종료 지점 (기술노트with 알렉)
+- 2f3f751 feat: ingest 네트워크·인프라 구성도 — 기술노트with 알렉 (IP·TCP·방화벽·CDN·웹서버-WAS-DB 이중화)
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/.obsidian/graph.json`
+- `bbw-wiki/00-inbox/requests/.gitkeep`
+- `bbw-wiki/00-inbox/requests/WC-20260613-212321-79381.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-205502-283777.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-210001-285749.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-210501-287700.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-211001-289664.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-211501-292084.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-212001-294240.md`
+- `bbw-wiki/00-inbox/requests/WC-20260614-212501-296071.md`
+
+---
+
+## 2026-06-20 06:16 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:15 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 15:12 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:10 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:06 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 15:05 — ai-ops
+
+**최근 커밋:**
+- 052f4d0 chore: gitignore에 .claude/settings.local.json 추가
+- 4030769 feat(autobots): 쓰기 라우트 보수적 body schema 도입
+- f1a2f1e feat(autobots): 실용 입력 방어 — 전역 bodyLimit + 인바운드 가드
+- ff35401 feat(autobots): webhook SSRF 가드 — 사설/loopback/링크로컬 대상 차단
+- 2a451b3 feat(autobots): Phase 3 — 미검증 AI 큐레이션 노트 RAG 게이트
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 06:03 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 06:01 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
 ## 2026-06-20 15:00 — ai-ops
 
 **최근 커밋:**

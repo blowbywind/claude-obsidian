@@ -1806,3 +1806,13 @@ wiki/: 139 (+1) (sources: 32, concepts: 72 (+1), entities: 33, queries: 1)
 ai-ops memory: 10 files 926 lines (=) -- MEMORY+server-infra+lessons+effective-wf+rina-ux+responsive+ui-ux+autobots-identity+erp-ssh+hardening-backlog
 session-log.md: 1540 lines (+112, prev 1428) | work-in-progress.md: 47 lines (=)
 changes: vault +3md +3all, wiki/concepts +1, session-log +112 lines -- ai-ops memory no change
+
+---
+
+## 2026-06-20T14:30Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 423 (+11) | Vault all: 465 (+11)
+claude/ md: 33 (=) - projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 136 (+3) (sources: 32, concepts: 70 (+4/drafts:22), entities: 33, queries: 1)
+ai-ops memory: 10파일 (+2) 926라인 (+89, 이전 837)
+session-log.md: 1322라인 (+894, 이전 428) | work-in-progress.md: 47라인 (=)
+변경: vault +11md +11all, wiki/concepts +4, session-log +894라인, ai-ops memory +2파일 +89라인

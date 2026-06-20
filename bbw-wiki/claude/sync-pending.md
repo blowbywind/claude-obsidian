@@ -3,6 +3,14 @@
 
 ---
 
+## 2026-06-20T06:11Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (06:11Z 타임스탬프, 봇 상태 변경 없음)
+비고: backend UP, 상태 동기화 정상 완료
+
+---
+
 ## 2026-06-20T05:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (healthy, 36m) | hermes: UP (container, 5d) | ai-ops-ui: UP (container, 5d)
 Vault md: 422 (+2 since 04:31Z) | Vault all: 513 (+51)
@@ -269,5 +277,35 @@ wiki/: 138 (sources:32, concepts:71[drafts:22], entities:33, queries:1) +2
 session-log.md: 1444 lines (+246) | work-in-progress.md: 47 lines (=)
 WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기
 주의: 컨테이너 전체 DOWN -- docker compose 재기동 필요
+
+---
+
+## 2026-06-20T06:02Z 위키 동기화 (autobots-scheduler)
+인프라: backend 확인불가 (docker 미접근) | hermes: 마지막 확인 06:01Z UP | ai-ops-ui: 마지막 확인 06:01Z UP
+Vault md: 430 (+5 since 06:01Z) | Vault all: 472 (+5)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 140 md (sources:32, concepts:73[drafts:22], entities:33, queries:1) +2 concepts
+90-agent-logs/ (bbw-wiki 루트): 69 (daily:64, tasks:2, failures:1, weekly:2) +3
+session-log.md: 1640 lines (+196 since 06:01Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 926 lines (=)
+변경: autobots.md 타임스탬프(06:00Z→06:02Z), INDEX.md 통계 갱신 (vault/wiki/agent-logs/session)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T06:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 DOWN (localhost 미접근) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 433 (+1 since 06:02Z) | Vault all: 475 (+3)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 142 md (sources:32, concepts:75[drafts:22], entities:33, queries:1) +1 concept
+90-agent-logs/ (bbw-wiki 루트): 70 md (daily:65, tasks:2, failures:1, weekly:2) =
+session-log.md: 1823 lines (↑109 since 06:02Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 926 lines (=)
+변경: autobots.md 타임스탬프 갱신 (06:31Z), INDEX.md 통계 갱신
+신규: wiki/concepts/tool.md, wiki/concepts/ai-코딩-도구-시장-지형도-2026.md -- 드래프트 승격 확인됨
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+최근 커밋: 052f4d0 gitignore | 4030769 body schema | f1a2f1e bodyLimit+가드
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
 
 ---
