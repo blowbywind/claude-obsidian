@@ -2715,3 +2715,25 @@ Infra:
 
 NOTE: 전 sync(14:40Z) 대비 변경 없음. autobots_backend 재시작 이력 확인.
 [cron_success] 2026-06-20T15:22Z bot=autobots-scheduler: 봇 상태 확인 완료
+
+---
+
+## 2026-06-20T15:31Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 495 md / 539 전체 (+5/+5 vs 490/534)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 167 (sources:32, concepts:100[drafts:30], entities:33) (+1 concept)
+90-agent-logs/ (bbw-wiki 루트): 107 md (+4) — daily:102(+4), tasks:2, failures:1, weekly:2
+session-log.md: 7562라인 (+183 vs 7379) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 992라인 (변경 없음)
+
+---
+
+## 2026-06-20T15:32Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 495 md (+12) / 539 전체 (+13)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 167 (+1) — sources:32, concepts:100[drafts:30], entities:33, queries:1
+90-agent-logs/ (bbw-wiki 루트): 107 md (+11) — daily:102(+11), tasks:2, failures:1, weekly:2
+session-log.md: 7540라인 (+1222 vs 6318) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 (=)

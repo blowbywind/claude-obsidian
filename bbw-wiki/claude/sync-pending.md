@@ -697,3 +697,12 @@ session-log.md: 7540라인 (+161) | work-in-progress.md: 47라인 (=)
 변경: autobots.md 타임스탬프 갱신 (15:31Z), INDEX.md 통계 갱신
 신규: wiki/concepts/image-generation-guideline.md, bot-status-2026-06-21.md 등 4개 일별로그
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+## 2026-06-20T15:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8, localhost 미노출) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 495 (=) / 539 all (=) | session-log 7562라인 (+22) | daily 102 (=)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+변경: autobots.md 타임스탬프 갱신 (15:32Z) | INDEX.md 통계 갱신 | session-log 항목 추가
+비고: 직전 sync(15:31Z)에서 1분 — vault 변경 없음, session-log +22라인만
+
+---

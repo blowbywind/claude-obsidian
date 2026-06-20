@@ -1,3 +1,61 @@
+## 2026-06-21 00:33 — ai-ops
+
+**최근 커밋:**
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+- c14d15f feat(autobots): agy 실 바이너리 런타임 자동 탐색 — 심링크 깨짐 내성
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/seed.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/runtimes.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+- `autobots/backend/watchers/learning-executor.ts`
+
+---
+
+## 2026-06-20 15:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 00:33 — obsidian-vault
+
+**최근 커밋:**
+- 06ca476 chore(wiki): 위키 동기화 2026-06-20T15:01Z -- vault 490md/534all, session 7228lines, backend UP(healthy)
+- 5509a2c chore(wiki): 위키 동기화 2026-06-20T14:30Z -- vault 485md/528all, session 6512lines
+- 91cbaec chore(wiki): 위키 동기화 2026-06-20T14:00Z -- vault 485파일, session 6489lines
+- 99d640e chore(wiki): 위키 동기화 2026-06-20T13:34Z -- vault 482/525, session 6190lines
+- 3495b73 chore(wiki): 위키 동기화 2026-06-20T22:30Z -- vault 482/525, session 6090lines
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/90-agent-logs/daily/bot-status-2026-06-20.md`
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-20-23.md`
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-20-27.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-20-1412.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-20-1421.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-20-1440.md`
+- `bbw-wiki/90-agent-logs/tasks/audit-2026-06-20.jsonl`
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+
+**미커밋 스테이지 파일:**
+- `bbw-wiki/90-agent-logs/daily/bot-status-2026-06-21.md`
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-21-01.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-20-1521.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-20-1522.md`
+- `bbw-wiki/90-agent-logs/weekly/2026-W25.md`
+
+---
+
 ## 2026-06-21 00:32 — ai-ops
 
 **최근 커밋:**
@@ -7598,3 +7656,15 @@ wiki/: 167 md (+1) | 90-agent-logs/: 107 md (daily:102) +4 | session-log: 7540L 
 봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
 변경: autobots.md 타임스탬프 갱신, INDEX.md 통계 갱신, 신규 concepts/image-generation-guideline.md
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+## 2026-06-20T15:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8, localhost 미노출) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 495 (=) | Vault all: 539 (=)
+wiki/: 167 md (sources:32, concepts:100[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 107 md (daily:102, tasks:2, failures:1, weekly:2) (=)
+session-log.md: 7562라인 (+22 since 15:31Z) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: autobots.md 15:32Z 타임스탬프, INDEX.md 통계 갱신 (session-log/agent-logs)
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---

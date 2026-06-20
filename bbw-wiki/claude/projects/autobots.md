@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: backend UP | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | 봇 9/9 active
-갱신: 2026-06-20T15:31Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-20T15:32Z (autobots-scheduler wiki-sync)
 
 ## runtime_providers 상태 (2026-06-21 동기화)
 | ID | 상태 |
