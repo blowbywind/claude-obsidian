@@ -40,18 +40,18 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20T08:01Z (autobots-scheduler)
+> 마지막 갱신: 2026-06-20 03:16 UTC (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 452 md / 494 전체 | = |
-| wiki/ | 157 (root:1, sources:32, concepts:90[drafts:24], entities:33, queries:1) | = |
-| wiki/concepts/_drafts | 24 | ⚠ 검토 대기 |
+| vault 전체 | 417 md / 459 전체 | = md / -49 all |
+| wiki/ | 133 (root:1, sources:32, concepts:66[drafts:22], entities:33, queries:1) | = |
+| wiki/concepts/_drafts | 22 | ⚠ 검토 대기 |
 | claude/ | 33 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:9) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 74 md (daily:69, tasks:2, failures:1, weekly:2) | = |
-| session-log.md | 2535라인 | +99 since 07:46Z |
-| work-in-progress.md | 47라인 | = |
+| 90-agent-logs/ (bbw-wiki 루트) | 63 md (daily:58, tasks:2, failures:1, weekly:2) | = |
+| session-log.md | 776라인 | ↑48 |
+| work-in-progress.md | 47라인 | — |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
@@ -59,15 +59,15 @@
 |------|------|------|----------|
 | MEMORY.md | 14 | 1.7K | 2026-06-20 |
 | autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
-| autobots-hardening-backlog.md | 29 | 3.9K | 2026-06-20 |
-| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
+| autobots-hardening-backlog.md | 23 | 2.2K | 2026-06-20 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-18 |
+| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 168 | 19.2K | 2026-06-20 |
-| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
-| server-infra.md | 30 | 1.8K | 2026-06-20 |
-| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
-| **합계** | **930** | **~53K** | +3 lines, +1K |
+| lessons.md | 145 | 15.7K | 2026-06-20 |
+| responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
+| server-infra.md | 31 | 1.4K | 2026-06-20 |
+| ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
+| **합계** | **902** | **~48.2K** | +77라인, +2파일 (autobots-erp-ssh, autobots-hardening-backlog 신규) |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
 
