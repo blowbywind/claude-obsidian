@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | 봇 9/9 active
-갱신: 2026-06-20T18:21Z (autobots-scheduler profile-sync)
+상태: backend UP (172.18.0.8:9200) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN | web_caddy UP | db_postgres UP | 봇 9/9 active
+갱신: 2026-06-21T18:30Z (autobots-scheduler wiki-sync)
 
 ## runtime_providers 상태 (2026-06-20T17:51Z 동기화)
 | ID | 상태 |
@@ -42,8 +42,8 @@
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
 | arthur | 아서 | active | gpt-5.5 | 2026-06-20T15:26Z |
-| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
-| haeri | 해리 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
+| dex | 덱스 | active | claude-sonnet-4-6 | 2026-06-20T18:18Z |
+| haeri | 해리 | active | claude-sonnet-4-6 | 2026-06-20T18:16Z |
 | kiel | 키엘 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
 | lian | 리안 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
 | rina | 리나 | active | gemini-3.5-flash | 2026-06-20T15:23Z |

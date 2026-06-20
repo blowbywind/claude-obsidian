@@ -794,3 +794,20 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 4개 미검토
 
 ---
+
+## 2026-06-21T18:30Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
+Vault md: 520 (+15 since 17:31Z) / 565 all (+15)
+claude/ md: 33 (=) -- projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 164 md (sources:32, concepts:93[_drafts:9,_promoted:2,_unresolved:4], entities:37) +13
+90-agent-logs/ (bbw-wiki 루트): 124 md (daily:119, tasks:2, failures:1, weekly:2) +7
+session-log.md: 9702라인 (+594 since 17:31Z) | work-in-progress.md: 47라인 (=)
+봇: 9/9 active -- dex 18:18Z, haeri 18:16Z, arthur 15:26Z, 나머지 15:23Z
+변경: autobots.md 상태/타임스탬프 갱신 (18:30Z), dex/haeri updated_at 갱신, INDEX.md 통계 갱신
+신규 드래프트: dex(MOC/obsidian/taxonomy 3개) + haeri(execution/llm/mutation/non/rag-triad/ToT 6개) = 9개
+승격완료: _promoted/ 2개 (dex-pkm, kiel-ai-경쟁인텔리전스)
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 9개 신규 드래프트 -- 사용자 검토 필요 (haeri/dex 작성)
+
+---

@@ -1,3 +1,51 @@
+## 2026-06-21 03:32 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 18:32 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 03:31 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 03:30 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
 ## 2026-06-21 03:28 — ai-ops
 
 **최근 커밋:**
@@ -9700,3 +9748,14 @@ wiki/: 151 md (sources:32, concepts:80[_drafts:4 _unresolved], entities:37) — 
 WIP: hnedu_auth TOTP MFA 구현 완료 — 배포(.221) 대기
 
 ---
+
+## 2026-06-21T18:30Z — 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
+Vault: 520 md (+15 since 17:31Z) / 565 all (+15)
+wiki/: 164 md — sources:32, concepts:93[_drafts:9, _promoted:2, _unresolved:4], entities:37 (+13 since last sync)
+90-agent-logs/: 124 md (daily:119) (+7)
+session-log: 9702라인 (+594 since 17:31Z) | WIP: 47라인 (=)
+봇: 9/9 active (dex 18:18Z, haeri 18:16Z 최근갱신)
+최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 | 0cebd04 run-gemini 메타
+신규 드래프트: dex(MOC/obsidian/taxonomy) + haeri(execution/llm/mutation/non/rag-triad/ToT) 9개
+WIP: hnedu_auth TOTP MFA 구현 완료 — 배포(.221) 대기
