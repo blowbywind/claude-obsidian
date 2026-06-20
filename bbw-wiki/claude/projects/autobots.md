@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: backend UP (Docker 172.18.0.8:9200, healthy) | hermes-dashboard UP (container, 6d) | ai-ops-ui UP (container, 6d) | 봇 9/9 active
-갱신: 2026-06-20 13:35 UTC (scheduler wiki-sync)
+갱신: 2026-06-20 13:51 UTC (scheduler wiki-sync)
 
 ## 배포 워크플로
 - **프론트 변경**: `pnpm build` → 재시작 불필요
@@ -29,7 +29,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-20 13:21 UTC)
+## 봇 로스터 (DB 기준, 2026-06-20 13:51 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
 | arthur | 아서 | active | gpt-5.5 | 2026-06-20T13:21Z |
@@ -40,5 +40,5 @@
 | rina | 리나 | active | gemini-2.0-flash | 2026-06-20T08:25Z |
 | roun | 로운 | active | gpt-5.5 | 2026-06-20T13:21Z |
 | snow | 눈꽃 | active | gemini-2.0-flash | 2026-06-19T19:48Z |
-| stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T12:51Z |
+| stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T13:32Z |
 

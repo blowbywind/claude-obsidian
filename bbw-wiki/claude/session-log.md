@@ -1,3 +1,272 @@
+## 2026-06-20 23:00 — ai-ops
+
+**최근 커밋:**
+- 3ee1247 feat(autobots): Antigravity(agy) 실런타임 배선 — 3-way fallback 완성
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/docker-compose.yml`
+
+---
+
+## 2026-06-20 22:58 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:52 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 13:51 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 13:50 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:50 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:49 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:48 — obsidian-vault
+
+**최근 커밋:**
+- 99d640e chore(wiki): 위키 동기화 2026-06-20T13:34Z -- vault 482/525, session 6190lines
+- 3495b73 chore(wiki): 위키 동기화 2026-06-20T22:30Z -- vault 482/525, session 6090lines
+- 92be224 chore(wiki): scheduler-bot-status 상태 갱신
+- be3ec56 chore(wiki): session-log 추가 항목 포함 (2026-06-20 22:01)
+- 458cd39 chore(wiki): 위키 동기화 2026-06-20T22:00Z -- vault 479/476, session 5697lines
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-20-25.md`
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-20 22:48 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:47 — obsidian-vault
+
+**최근 커밋:**
+- 99d640e chore(wiki): 위키 동기화 2026-06-20T13:34Z -- vault 482/525, session 6190lines
+- 3495b73 chore(wiki): 위키 동기화 2026-06-20T22:30Z -- vault 482/525, session 6090lines
+- 92be224 chore(wiki): scheduler-bot-status 상태 갱신
+- be3ec56 chore(wiki): session-log 추가 항목 포함 (2026-06-20 22:01)
+- 458cd39 chore(wiki): 위키 동기화 2026-06-20T22:00Z -- vault 479/476, session 5697lines
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-20-25.md`
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-20 22:47 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 13:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:46 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:45 — ai-ops
+
+**최근 커밋:**
+- 27d2447 feat(autobots): 프로젝트 경로에도 런타임 토큰 소진 fallback 확장
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-20 22:42 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 13:42 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:41 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 13:40 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:40 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
+## 2026-06-20 22:38 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 13:36 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-20 22:36 — ai-ops
+
+**최근 커밋:**
+- 1701728 feat(autobots): 런타임 토큰 소진 시 교차 fallback + Codex 모델 정합
+- 9e2f3ef feat(autobots): Codex 봇 챗 경로 실제 codex 런타임 배선
+- 7b96549 feat(autobots): 봇이 Agents·Skills 를 실제 사용하도록 실행 배선 + 계측
+- 6e2be84 fix(autobots): Memory 화면 "내용이 없습니다" — memory 파일 경로 라우팅 불일치 수정
+- 08d946b feat(autobots): 봇 자율 역량 제안 큐 + Agent CRUD/연결 런타임 API
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
 ## 2026-06-20 22:35 — ai-ops
 
 **최근 커밋:**

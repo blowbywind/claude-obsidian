@@ -240,6 +240,17 @@ session-log.md: 384라인 (+112) | work-in-progress.md: 47라인 (=)
 
 
 
+## 2026-06-20T13:46Z 메모리 통계 갱신 (autobots-scheduler)
+vault: 483 md / 526 전체 (+1/+1)
+claude/: 33 md (=) — projects:11, decisions:9, 루트:4, 90-agent-logs:9
+wiki/: 166 (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 96 md (+1) — daily:91(+1), tasks:2, failures:1, weekly:2
+session-log.md: 6318라인 (+128 vs 6190) | work-in-progress.md: 47라인 (=)
+50-prompts/: 6 md (=)
+ai-ops memory: 11파일 (+1) — codex-bwrap-apparmor-fix.md 신규 추가 (MEMORY.md 인덱스 반영됨)
+
+---
+
 ## 2026-06-20 14:00 Check
 Backend: OK (healthy) | RestartCount=0 | Up 36min
 Bots: 8/8 active
