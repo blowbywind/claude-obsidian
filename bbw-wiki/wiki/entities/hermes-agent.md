@@ -3,7 +3,7 @@ title: 헤르메스 에이전트 (Hermes Agent)
 type: entity
 tags: [product, ai-agent, multi-agent, open-source]
 created: 2026-06-09
-updated: 2026-06-12
+updated: 2026-06-13
 sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison, 2026-06-12-hermes-agents, 2026-06-09-hermes-vps-setup-samhottman]
 ---
 
@@ -25,6 +25,8 @@ sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-com
 **현재 설정**: gpt-5.5 via OpenAI Codex OAuth / docker 터미널 백엔드
 **대시보드**: `https://snowball.me.kr:9119/` (Caddy 역방향 프록시, 2026-06-12 외부 접속 확인)
 **P0 미완료**: gateway 중복 실행 중 (정리 필요), Telegram 미설정
+
+> **[CRITICAL — 2026-06-13 확인]** 공식 경고: 동일 데이터 디렉터리에 두 gateway 프로세스 동시 실행 시 **session·memory 파일 concurrent write로 데이터 손상** 발생. BBW 현재 상태(hermes-dashboard ×2 + hermes 컨테이너 + ~/.hermes = gateway 최대 4개)는 금지 패턴 위반. P0-3 완료 전까지 위험 실재. 권장: 단일 컨테이너 + 복수 profile 구조.
 
 ## Claude Code와의 역할 분리
 

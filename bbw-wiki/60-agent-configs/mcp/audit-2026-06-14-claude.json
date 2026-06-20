@@ -1,0 +1,47 @@
+{
+  "agent": "claude",
+  "date": "2026-06-14",
+  "mcp_servers": {
+    "obsidian": {
+      "command": "node",
+      "args": [
+        "/home/bbw/.local/lib/node_modules/obsidian-mcp/build/main.js",
+        "/home/bbw/obsidian-vault/bbw-wiki"
+      ],
+      "disabled_tools": [
+        "delete-note",
+        "delete_note",
+        "delete_notes",
+        "deleteNote",
+        "remove-note",
+        "remove_note",
+        "move-note",
+        "move_note",
+        "permanent-delete",
+        "permanent_delete",
+        "remove-tags",
+        "remove_tags"
+      ],
+      "disabled_count": 12
+    },
+    "obsidian-gateway": {
+      "command": "node",
+      "args": [
+        "/home/bbw/ai-ops/mcp-servers/obsidian-gateway/index.js"
+      ],
+      "disabled_tools": [],
+      "disabled_count": 0
+    },
+    "repo-index": {
+      "command": "node",
+      "args": [
+        "/home/bbw/ai-ops/mcp-servers/repo-index/index.js",
+        "--allowed-root",
+        "/home/bbw/projects"
+      ],
+      "disabled_tools": [],
+      "disabled_count": 0
+    }
+  },
+  "warnings": []
+}

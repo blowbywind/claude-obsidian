@@ -356,9 +356,214 @@
 - 갱신: `wiki/entities/gisulnote-alex.md` (7번째 소스·확장판 링크 추가)
 - 갱신: `index.md` (Sources 1개 추가)
 
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v5 — 2차 검증 라운드: 일관성·정확성 수정 12건
+
+- **2차 라운드 수정 12건** (v5 플랜, 1,773 → 1,819줄)
+- P3-3 잘못된 참조 정정: "(P0-8 이미 완료)" → "(§5.1 Codex 기준선에서 완료됨)"
+- §5.4 MCP 위협 모델에 Symlink bypass (CVE-2025-53109/110) + realpath + octal/hex 항목 추가
+- §5.6 "초기 상태" JSON을 신규 스키마(canary_pass_rate·llm_latency_ms·error_count_1h)로 통합 재작성
+- P2-1 wrapper 코드 예시에 IFS=$'\n\t' + PROJECT_ROOT whitelist 검증 추가
+- P3-1 Obsidian Gateway에 realpath() + symlink bypass CVE 방어 명시
+- PM-4·PM-6 §4.3 원칙 번호 오기 수정: firecrawl = 원칙 6 → 원칙 8
+- PM-5 hnedu_auth Dev Gate 경로 오류: /var/web-infra → ~/projects/hnedu_auth (로컬 개발)
+- P0-7 Hermes 행에 "P0-3b 정리 후 재실행" 주석 추가
+- P0-9 adversarial smoke test에 symlink bypass 테스트 케이스 추가
+- R3 심각도 "중" → "높음" 상향 (R19와 동일 원인: 데이터 손상)
+- session_bookmark 미정의 용어 → work-in-progress.md 구체 경로로 명확화
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v5 — 웹리서치 보안 발견사항 전면 반영
+
+- 작업: AI_AGENT_OPS_PLAN.md v4 → v5 업그레이드 (1,691 → 1,773줄)
+- **Shell wrapper 보안 강화**: `IFS=$'\n\t'`, `eval` 완전 금지, whitelist regex, secrets 파일 기반 처리 (§9.3, R21)
+- **Hermes 데이터 손상 경고**: P0-3에 공식 경고 추가 — 동일 데이터 디렉터리에 두 gateway 동시 실행 금지 (R19)
+- **Canary eval 패턴 도입**: §5.6 `canary_pass_rate`·`llm_latency_ms`·`error_count_1h` 필드, 4조건 degraded 트리거
+- **MCP CVE-2025-53109/110**: P1-5 위협 6(symlink bypass + realpath 대응) 추가, 완료 기준 5→6개 (R20)
+- **SSRF 방어 강화**: P3-4 octal/hex 인코딩 우회 위험·코드 레벨 구현 요구, 방어 항목 5→7개
+- **항목 수 불일치 수정**: Phase 0 완료 기준 9→10개 (P0-3 분리), Phase 4 완료 기준 7→8개, 헤더 0/7→0/8
+- **리스크 레지스트리**: R19·R20·R21 신규 3개 추가 (총 21개)
+- **§14.3 웹 리서치 출처**: 8개 소스(이번 세션 4개 신규: Bash hardening, Anthropic MCP advisory, Hermes docs, Health monitoring patterns)
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v7 — 5차 보강: 웹리서치 기반 수치 명시 4건 + P3-2 구현 상세
+
+- **5차 라운드 수정 5건** (v6→v7)
+- §5.6: 'N분 내 복구' → 30분 (업계 표준); canary eval 5분 백그라운드 주기; 토큰 10배+ → Critical 에스컬레이션 추가
+- §11.2: 'N분마다 PR 상태 확인' → 10분마다 (P4-8과 일치)
+- P2-6: mktemp+jq+mv POSIX rename 보장 패턴 코드 예시 추가
+- P3-2: allowed_root·제외 패턴·path traversal·도구 상세·시작 명령으로 내용 대폭 보강 (3줄→20+줄)
+- 웹리서치 출처: AI Agent Monitoring Best Practices 2026 (uptimerobot·oneuptime), Atomic Write Patterns (microhowto)
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v6 — 3차 검증 라운드: 구조적 오류 6건 수정
+
+- **3차 라운드 수정 6건** (v5→v6)
+- §9.2 Phase 4 cron 테이블에 누락된 3개 스크립트 추가: stale-todo.sh·settings-parity.sh·version-snapshot.sh
+- P1-4 완료 기준에서 ADR-001 충돌 해결: P1-8이 생성하는 ADR-001과 동일 파일 → ADR-003-vault-path-migration.md로 분리
+- §5.6 "권장 추가 필드" JSON 초기값 수정: llm_latency_ms: 0 → null, canary_pass_rate: 1.0 → null (실측 전 값)
+- P2-12 통합 테스트 run-codex 인자 오류: for 루프에서 단일 인자 → 2인자 요구로 별도 실행 분리
+- P4-6 hermes --version: P0-3 이후 Docker 컨테이너 기반 → docker exec hermes-dashboard hermes --version
+- P2-3 escalated 필드 미정의: §6.2 2단계 hnedu_auth +1 보정 적용 여부를 나타냄을 주석으로 명시
+
 ## [2026-06-13] ingest | AI가 짠 코드 배포 전 보안 점검 — 기술노트with 알렉
 
 - 생성: `wiki/sources/2026-06-13-vibe-coding-security-gisulnote.md` (YouTube 자막 기반, https://youtu.be/kNqOW6G5sh8)
 - 생성: `wiki/concepts/web-security-basics.md` (OWASP Top 10, 보안 4구간, CSP·패스워드 해싱, AI 점검 워크플로우)
 - 갱신: `wiki/entities/gisulnote-alex.md` (8번째 소스 추가)
 - 갱신: `index.md` (Sources 1개, Concepts 1개 추가)
+
+---
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v8 — 6차 보강: P0 완료 기준 3건 추가·마지막 플레이스홀더 제거
+
+- P4-8 코드 주석 `# N분마다 (기본 10분)` → `# 10분마다 실행 (조정 가능)` 수정 (마지막 "N분" 플레이스홀더 제거)
+- P0-2 완료 기준 추가 (settings.json 파싱·allow 제거·deny 추가·hook bash -n)
+- P0-3 완료 기준 추가 (docker ps 1개·사용자 프로세스 없음·gateway 1개)
+- P0-8 완료 기준 추가 (agent-inventory.json 생성·7개 항목·P0-3 결과 반영)
+- 전체 검증: 플레이스홀더 0건, 완료 기준 누락 0건, 깨진 §X.Y 참조 0건, 모든 참조 파일 존재
+
+---
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v9 — 7차 보강: P1-9 Hermes 충돌·P2-2 스켈레톤·템플릿 추가
+
+- P1-9 `hermes gateway install` (P0-3 충돌) → `docker exec hermes-dashboard hermes send`로 수정 + 경고 노트
+- P2-2 run-claude bash 스켈레톤 추가 (`claude --print` 기반, 7행 출력 형식)
+- P1-3 ADR 템플릿 필드명 P1-8 실제 예시와 일치하도록 수정 (이유·영향·상태 필드 추가)
+- P2-3 classify-task `escalated` 예시 2개로 명확화 (High 유지=false, Medium→High=true)
+- §8.4 ADR 템플릿·§8.5 daily-log 템플릿 마크다운 내용 추가 (P1-3이 생성 요구하나 §8에 누락)
+- 전체 검증: 플레이스홀더 0건(§14 이력 제외), 완료 기준 누락 0건, §8 섹션 5개(8.1~8.5) 완비
+
+---
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v10 — 8차 보강: hermes cron create·claude --bare -p
+
+- P2-2 run-claude: `claude --print` → `claude --bare -p` (스크립트 환경 공식 권장 패턴, hooks·MCP 생략)
+- §5.6 canary eval 예시: `claude --bare -p` 패턴으로 업데이트
+- P4-1~P4-6·P4-8 각 섹션에 `hermes cron create <schedule>` 등록 명령 추가 (list만 있었던 완료 기준 보완)
+- CHECKLIST.json plan_version v3 → v10으로 동기화 (6차 누락 포함)
+- 전체 검증: 플레이스홀더 0건, 완료 기준 누락 0건, hermes cron create 10개 섹션 추가
+
+---
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN.md v11 — 9차 보강: claude --bare -p 전체 통일·§15 금지 추가
+
+- §9.2·P2-2·P2-2 완료 기준 `claude --print` → `claude --bare -p` 완전 통일
+- §14.3 웹리서치 표에 Claude Code headless 문서 + Hermes v0.16.0 cron CLI 실측 결과 추가
+- §15 "하지 말 것"에 hermes gateway install 금지·claude -p 단독 지양 2항 추가
+- CHECKLIST.json plan_version·session_bookmark.notes v11으로 갱신
+- 9차 검증: 플레이스홀더 0건, 완료 기준 누락 0건, §X.Y 참조 전체 유효, JSON OK
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN v12 (10차 보강)
+- P4-1 cron 스케줄 버그 수정: `"0 23 50 * * *"` (hour=50 유효하지 않음) → `"50 23 * * *"` (23:50 매일)
+- P2-4 append-log 코드 스켈레톤 추가 (redact-log 파이프라인 + >> append 보장)
+- P2-5 require-approval 코드 스켈레톤 추가 (작업 카드 생성, TASK_ID 타임스탬프·PID, exit 0 = 비실행)
+- CHECKLIST.json plan_version v12·session_bookmark.notes 갱신
+- 10차 검증: 플레이스홀더 0건, 완료 기준 누락 0건, JSON OK
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN v13 (11차 보강)
+- P2-2 run-claude `set -euo pipefail` + 파이프 버그 수정: `output=$(... | redact-log)` → `if output=$(...)` 조건식으로 교체 (claude 실패 시 7행 형식 보장)
+- §5.6 canary eval 동일 버그: `CANARY_RESP=$(timeout ...)` → `|| true` 추가 (CANARY_PASS=false 판정 경로 보장)
+- CHECKLIST.json plan_version v13 갱신
+- 11차 검증: 플레이스홀더 0건, 완료 기준 누락 0건, JSON OK
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN v14 (12~13차 보강)
+- P1-1 완료 기준 `9개` → `10개` (mkdir에서 00-inbox~99-archive 10개 생성)
+- §7 완료 기준 "5개 에이전트" 불명확 → `claude·codex·agy·hermes-docker·obsidian-mcp` 명시
+- §9.1 7행 형식 `AGENT: antigravity` → `agy`
+- §5.6 agent-status.json JSON 키 `"antigravity"` → `"agy"` / auth_method 통일
+- P0-1 완료 기준 health registry 키 `antigravity` → `agy`
+- CHECKLIST.json plan_version v14 갱신
+- 12~13차 검증: 플레이스홀더 0건, antigravity 잔재(changelog 외) 0건, JSON OK
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN v14 최종 검증 (Round 14)
+- 종합 검증 통과: 플레이스홀더 0건, antigravity 잔재 0건, §X.Y 24개 전부 유효, JSON OK
+- CHECKLIST.json session_bookmark.notes 최종 상태로 갱신
+- Round 6~14 누적 수정: 30+건 오류/개선점 해결. 플랜 v11→v14 진행.
+
+## [2026-06-13] update | AI_AGENT_OPS_PLAN v16 (15~16차 보강)
+- §3.3 테이블 헤더 `Antigravity` → `agy (Antigravity)` 통일
+- §3.6 hnedu_crm/erp `(미정)` 운영 영향도: Phase Projects 차단 안 됨 명시
+- P3-1: Node.js `@modelcontextprotocol/sdk@1.29.0` 명시, `"type": "module"` 필수 경고, path traversal 방어 포함 최소 골격 코드 추가, Claude Code settings.json 등록 스니펫 추가
+- P3-2: Claude Code settings.json mcpServers 등록 스니펫 추가, SDK 명시
+- §5.6 agent-status.json JSON 키 `"hermes"` → `"hermes-docker"`, `"obsidian"` → `"obsidian-mcp"` (inventory ID 기준 통일)
+- P0-5 검증: agent 키 5개 정확성 체크 추가 (`claude·codex·agy·hermes-docker·obsidian-mcp`)
+- §14.3 리서치 표 2행 추가 (SDK ESM + Hermes 5필드 cron 검증)
+- CHECKLIST.json plan_version v16 갱신
+- 16차 검증: 플레이스홀더 0건, JSON OK, 키 잔재 0건
+
+## Round 17 (2026-06-13) — v17 최종 검증 및 수정
+
+### §4.3 ↔ §15 교차 검증 결과
+- §4.3 원칙 9 추가: Codex·Claude Code는 git push·배포·systemctl·crontab·DB migration을 자동 실행 안 함
+- §15에 credential 읽기 금지 항목 추가 (§4.3-3 반영 누락 해소)
+
+### 추가 버그 수정
+- P2-1 run-codex: set -e + 파이프 버그 동일 패턴 수정 (P2-2와 동일하게 if output=$(...) 조건식으로)
+- §1.2 P0-3 → P0-3a/P0-3b 2행으로 분리 (§7 완료 기준과 일치)
+- 제목 "v5" 제거 (버전은 메타 행에 v17로 기재됨)
+- §5.6 Failover Matrix "Antigravity" → "agy (Antigravity)"
+- P0-7 검증 매트릭스 "Antigravity" → "agy (Antigravity)", "Obsidian" → "obsidian-mcp"
+
+### 최종 상태
+- 라인 수: 2194 | 버전: v17 | JSON OK
+- §X.Y 참조 27개 모두 유효
+- §4.3 불가침 원칙: 9개
+- §15 금지 목록: 16개
+- 실제 플레이스홀더: 0건
+- set-e 파이프 버그: P2-1, P2-2 모두 수정
+- agent-status.json 키: inventory ID 기준으로 통일
+
+## Round 18-19 (2026-06-13) — v18 보강
+
+### 발견 및 수정
+1. P3-1 스켈레톤 도구 1개 vs §10.1 명세 6개 불일치 → 6개 도구 목록 주석 + 완료 기준 강화
+2. PM-4 firecrawl codex 컬럼 오류 (금지 → PR 전 코드 수정 가능, 직접 push 금지)
+3. PM-4 claude 컬럼 §3.3 불일치 → §3.3 기준으로 정확화 (firecrawl=코드 리뷰, bbw_ebook=설계·분석만)
+4. Phase 2 classify-task→라우팅 워크플로우 미문서화 → §9.3 신규 섹션 (기존 §9.3 → §9.4)
+
+### v18 최종 상태
+- 라인 수: 2237 | §X.Y 참조 29개 모두 유효
+- §9.3 라우팅 워크플로우 신규 추가
+- PM-4 §3.3 일관성 확보
+
+## Round 19-20 (2026-06-13) — v19 웹리서치 보강 및 최종 검증
+
+### 웹리서치 발견 (새로운 보안 위협)
+1. R22 MCP Rug-Pull Drift 공격: tools/list 이후 응답 변조 → 정적 allowlist 우회
+2. R23 MCP npm supply chain: postmark-mcp 사례 → obsidian-mcp 포함 npm 패키지 감사 필요
+3. claude --bare 훅 비활성화: settings.json deny 포함 모든 훅 비활성. wrapper 내 직접 필터링 필수
+4. Hermes cron 제약: workdir 잡 순차·재귀 생성 불가·프롬프트 스캔 내장
+5. R3 보강: HERMES_HOME 공유 시 인증 토큰 크로스 오염 위험
+
+### v19 최종 상태
+- 라인 수: 2257 | 버전: v19 | JSON OK
+- 리스크 레지스트리: R1~R23 (23개)
+- §X.Y 참조: 30개 모두 유효
+- 실제 플레이스홀더: 0건
+- 웹리서치 기반 신규 보안 위협 2개(R22, R23) + 기존 위협 보강 3개 반영
+
+## Round 20-21 (2026-06-13) — v20 교차 검증 및 정합성 수정
+
+### Round 20 발견 및 수정 (4건)
+1. **§9.3 라우팅 타입 오류**: `type==doc/review` → `type==doc`로 수정 (review는 P2-3 명세에 없는 타입). `type==infra` 경로 누락 → `require-approval "High"` 추가
+2. **§4.1 비동기 다이어그램**: Hermes → wrapper 직접 연결로 classify-task 단계가 없었음 → `classify-task` 노드 삽입하여 §9.3과 일관성 확보
+3. **§15 R22/R23 금지 항목 누락**: "MCP tools/list 후속 응답 검증 없이 신뢰 금지" + "npm audit 없이 MCP 패키지 업그레이드 금지" 2항 추가
+4. **P3-1 R22 TODO 주석 실제 미추가**: 19차 변경이력에 "추가됨"으로 기재됐으나 코드에 없음 → `TODO(R22)` 4줄 실제 삽입
+
+### Round 21 검증 결과
+- §9.3 routing types: {code, doc, infra, research} = P2-3 명세와 완전 일치 (python 검증)
+- 리스크 IDs R1~R23 모두 존재, 고아 참조 없음 (python 검증)
+- §N.N 내부 참조 모두 유효 (python 검증)
+- §15 18개 항목 | §4.3 9개 불가침 원칙 | Phase task sections P0~P4, PM 전체 존재
+- **발견된 새 오류/개선점: 0건**
+
+### v20 최종 상태
+- 라인 수: 2272 | 버전: v20 | JSON OK
+- 리스크 레지스트리: R1~R23 (23개)
+- §X.Y 참조 모두 유효
+- 실제 플레이스홀더: 0건
+
+## [2026-06-18] lint | 위키 정리 — session-log 아카이브 + 오래된 노트 업데이트 + 링크 정리
+
+- **session-log 아카이브**: `claude/session-log.md` 507줄 → 211줄 (2026-06-10 이전 항목 `99-archive/session-log-2026-06.md`로 이동, 중복 항목 통합)
+- **노트 업데이트**: `10-projects/hnedu_auth.md` — 2026-06-11 보안 감사 결과(13개 취약점 패치) 반영, updated 날짜 수정
+- **노트 업데이트**: `10-projects/hnedu_erp.md` — updated 날짜 오류 수정(2026-06-10→2026-06-18), Phase 0 진행 내역 보완
+- **링크 확인**: claude/ 내 모든 project/decision 링크 유효성 확인 완료 (10개 프로젝트, 6개 ADR)
+- **발견 사항**: `bbw-wiki/bbw-wiki/wiki/concepts/hooks.md` — 중첩 경로의 0바이트 파일 (이름만 존재, 실제 내용 없음) 확인됨

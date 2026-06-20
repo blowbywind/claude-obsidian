@@ -3,7 +3,7 @@ title: MCP (Model Context Protocol)
 type: concept
 tags: [claude-code, integration, tools, automation]
 created: 2026-06-05
-updated: 2026-06-07
+updated: 2026-06-13
 sources: [2026-06-05-claude-code-7steps-mastery, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
 ---
 
@@ -27,6 +27,14 @@ AI(Claude Code 등)와 외부 도구를 연결하는 다리 역할의 프로토�
 > 구글 캘린더 + 노션 참고 → 피그마에 랜딩 페이지 생성
 
 → 단일 명령으로 여러 외부 서비스를 가로질러 작업 자동화
+
+## 보안 주의사항 (2026-06-13 추가)
+
+- **CVE-2025-53109 / CVE-2025-53110** — Anthropic 공식 Filesystem MCP: symlink로 허용 경로 우회 가능. 방어: `realpath()` + allowed-directory prefix 재검사 (코드 레벨)
+- **Token passthrough 금지**: MCP 클라이언트의 bearer token을 MCP 서버로 전달 금지. `audience` 클레임 검증 필수.
+- **SSRF 위험**: fetch 도구 사용 시 private IP 차단 필요. 라이브러리 수준 블로킹은 `octal(0177.0.0.1)`·hex 우회 가능 — 코드 레벨 직접 구현 요구.
+- **Session hijacking**: 소켓 파일 권한 `chmod 600` + 프로세스 격리 필수.
+- 관련 플랜: AI_AGENT_OPS_PLAN.md P1-5(위협 모델)·P3-1~P3-4(Gateway 구현)
 
 ## 관련 개념
 

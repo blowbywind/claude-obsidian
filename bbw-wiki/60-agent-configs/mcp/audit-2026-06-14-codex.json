@@ -1,0 +1,25 @@
+{
+  "agent": "codex",
+  "date": "2026-06-14",
+  "mcp_servers": {
+    "obsidian": {
+      "raw": "command = \"node\"\nargs ="
+    }
+  },
+  "warnings": [],
+  "disabled_tools_global": [
+    "delete-note",
+    "delete_note",
+    "delete_notes",
+    "deleteNote",
+    "remove-note",
+    "remove_note",
+    "move-note",
+    "move_note",
+    "permanent-delete",
+    "permanent_delete",
+    "remove-tags",
+    "remove_tags"
+  ],
+  "disabled_count": 12
+}

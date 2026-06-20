@@ -1,0 +1,75 @@
+
+## scan-agent-permissions 2026-06-13
+[WARN] claude: deny 규칙 누락: Read(~/.ssh/*)
+[WARN] claude: deny 규칙 누락: Read(~/.aws/*)
+[WARN] claude: deny 규칙 누락: Read(~/.config/gcloud/*)
+[WARN] claude: deny 규칙 누락: Bash(rm -rf:*)
+[WARN] claude: deny 규칙 누락: Bash(systemctl:*)
+[WARN] claude: deny 규칙 누락: Bash(git push:*)
+[OK] codex: disabled_tools 6개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 6개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 12개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 12개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 12개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 12개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨
+
+## scan-agent-permissions 2026-06-13
+[OK] claude: settings.json deny 23개 — 이상 없음
+[OK] codex: disabled_tools 12개 설정됨
+[OK] claude: binary 확인됨
+[OK] codex: binary 확인됨
+[OK] agy: binary 확인됨
+[OK] hermes-docker: Docker 컨테이너 실행 중: hermes-dashboard
+[OK] obsidian-mcp: binary 확인됨
+[OK] run-gemini: binary 확인됨

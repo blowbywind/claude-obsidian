@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "agent-inventory.schema.json",
+  "title": "Agent Inventory",
+  "description": "AI 에이전트 신원·권한 레지스트리 스키마",
+  "type": "object",
+  "required": ["updated", "agents"],
+  "properties": {
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "마지막 갱신 날짜 (YYYY-MM-DD)"
+    },
+    "schema": {
+      "type": "string",
+      "description": "이 스키마 파일 경로 (자기 참조)"
+    },
+    "agents": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/Agent" },
+      "minItems": 1
+    }
+  },
+  "definitions": {
+    "Agent": {
+      "type": "object",
+      "required": [
+        "id", "owner", "binary", "role",
+        "network_policy", "can_modify_code", "can_push", "can_delete", "can_deploy",
+        "status", "last_verified"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "에이전트 고유 식별자",
+          "examples": ["claude", "codex", "agy", "hermes-docker"]
+        },
+        "owner": {
+          "type": "string",
+          "description": "운영 책임자 (Linux 사용자명)"
+        },
+        "binary": {
+          "type": "string",
+          "description": "실행 파일 경로 또는 docker:<container_name>"
+        },
+        "version_command": {
+          "type": "string",
+          "description": "버전 확인 명령어"
+        },
+        "role": {
+          "type": "string",
+          "description": "에이전트 역할 한 줄 설명"
+        },
+        "allowed_roots": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "파일시스템 접근 허용 경로 목록"
+        },
+        "denied_paths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "접근 금지 경로 목록 (glob 패턴 허용)"
+        },
+        "network_policy": {
+          "type": "string",
+          "enum": ["unrestricted", "restricted", "local-only", "external-api", "none"],
+          "description": "네트워크 접근 정책"
+        },
+        "can_modify_code": {
+          "type": "boolean",
+          "description": "코드 파일 수정 권한"
+        },
+        "can_push": {
+          "type": "boolean",
+          "description": "git push 권한"
+        },
+        "can_delete": {
+          "oneOf": [
+            { "type": "boolean" },
+            { "type": "string", "enum": ["prompt-only", "exposed"] }
+          ],
+          "description": "파일 삭제 권한. prompt-only=사용자 확인 후, exposed=현재 노출 상태"
+        },
+        "can_deploy": {
+          "type": "boolean",
+          "description": "배포 실행 권한"
+        },
+        "auth_method": {
+          "type": "string",
+          "description": "인증 방식"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["healthy", "degraded", "unavailable", "stale", "removed"],
+          "description": "에이전트 현재 상태"
+        },
+        "notes": {
+          "type": "string",
+          "description": "추가 메모 (위험, 이슈, 주의사항)"
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date",
+          "description": "마지막 검증 날짜"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

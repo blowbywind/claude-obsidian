@@ -10,6 +10,18 @@
 ## 현재 상태
 - 위치: `/opt/web-infra`
 - 서비스: caddy (80/443/9119), hermes-dashboard (19119 내부), postgres (내부), adminer (127.0.0.1:8080), seaweedfs (내부)
+
+## Caddy 라우팅 요약 (`/opt/web-infra/Caddyfile`)
+| 경로 | 대상 | 비고 |
+|------|------|------|
+| `/autobots*` | `autobots_backend:9200` | `handle_path` (prefix 제거), basicauth |
+| `/ai-ops*` | `ai-ops-ui:7771` | `handle_path`, basicauth |
+| `/hermes*` | `hermes-dashboard:19119` | `handle_path` |
+| `/api/*`, `/assets/*` | `hermes-dashboard:19119` | `handle` (prefix 유지) |
+| `/db-admin*` | `172.18.0.2:8080` | `handle_path` |
+| `/s3*` | `172.18.0.5:8333` | `handle_path` |
+| `/auth/*` | `172.30.1.92:3000` | `handle` |
+| (기본) | `/var/www/html` | 정적 파일서버 |
 - DB: PostgreSQL 16 / user: bbw / db: bbw_db
 - git 관리 중 (docker-compose.yml, Caddyfile, backup.sh)
 - 백업: 매일 03:00 systemd timer → `/mnt/storage/backups/`

@@ -229,3 +229,45 @@ profiles: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow (0 updated / 8
 Changes: autobots.md timestamp updated, INDEX.md stats/status updated
 Recent commits: 052f4d0 gitignore .claude/settings.local.json | 4030769 body schema | ff35401 SSRF guard
 Note: wiki/concepts/_drafts/ 22 drafts -- user review needed
+
+---
+
+## 2026-06-20T05:31Z 위키 동기화 (autobots-scheduler)
+Backend API: UP (localhost:9200 /health OK) | hermes: DOWN | ai-ops-ui: DOWN
+Vault md: 422 (=) | Vault all: 464 (INDEX 오류 수정: 513→464)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
+wiki/: 136 md (sources:32, concepts:69[drafts:22], entities:33, queries:1) concepts +2
+50-prompts/: 6 (=) | 90-agent-logs/ (bbw-wiki 루트): 65 (=)
+session-log.md: 1198lines (=) | work-in-progress.md: 47lines (=)
+ai-ops memory: 926lines (=)
+프로파일: 8/8 active -- rina 최근갱신 2026-06-20T03:58Z, 나머지 2026-06-19 갱신
+변경: autobots.md 타임스탬프(05:01→05:31), INDEX.md 통계 수정 (vault all 오류·concepts +2·session = 반영)
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-20T06:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (healthy, ~1h) | hermes: UP (container, 5d) | ai-ops-ui: UP (container, 5d)
+Vault md: 425 (+3 since 05:31Z) | Vault all: 467 (+3)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 138 md (sources:32, concepts:71[drafts:22], entities:33, queries:1) +2 concepts
+90-agent-logs/ (bbw-wiki): 66 (daily:61, tasks:2, failures:1, weekly:2) +1
+session-log.md: 1408 lines (↑210 since 05:31Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 926 lines (10 files, =)
+변경: autobots.md 타임스탬프 갱신 (06:01Z), INDEX.md 통계·인프라 상태 갱신
+최근 커밋: 052f4d0 gitignore | 4030769 body schema | f1a2f1e bodyLimit+가드
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
+
+## 2026-06-20T05:31Z 위키 동기화 (autobots-scheduler)
+Backend API: DOWN | hermes: DOWN | ai-ops-ui: DOWN
+Vault md: 425 (+3) | Vault all: 467 (+3)
+claude/ md: 33 (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
+wiki/: 138 (sources:32, concepts:71[drafts:22], entities:33, queries:1) +2
+90-agent-logs/: 66 md (daily:61)
+session-log.md: 1444 lines (+246) | work-in-progress.md: 47 lines (=)
+WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기
+주의: 컨테이너 전체 DOWN -- docker compose 재기동 필요
+
+---
