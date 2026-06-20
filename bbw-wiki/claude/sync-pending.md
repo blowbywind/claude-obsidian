@@ -455,3 +455,56 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---
 
+
+## 2026-06-20T10:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8, localhost 미노출) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+Vault md: 467 (+1 since 10:16Z) | Vault all: 509 (+1)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 165 md (sources:32, concepts:98[drafts:29], entities:33, queries:1) (=)
+90-agent-logs/ (bbw-wiki 루트): 81 md (daily:76, tasks:2, failures:1, weekly:2) +1
+session-log.md: 4031 lines (↑142 since 10:16Z) | work-in-progress.md: 47 lines (=)
+ai-ops memory: 10 files, 942 lines (=)
+봇: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 상태 갱신 (10:31Z, hermes/ui DOWN), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 커밋: 55be4a5 프로젝트 대화 컨텍스트 한정 | 8e7e431 프로젝트 삭제 라우트 | 641c01a 하드닝 백로그 WIP
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 29개 -- 사용자 검토 필요
+
+---
+
+---
+
+## 2026-06-20T10:50Z 프로파일 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker 172.18.0.8, localhost 미노출) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
+프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
+변경: autobots.md 갱신 (10:50Z 타임스탬프, 봇 로스터 최신화)
+비고: kiel 09:08Z / rina 08:25Z / dex 07:11Z 최근 갱신 반영
+
+## 2026-06-20T11:10Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, 13m) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
+Vault md: 469 (+2 since 10:46Z) | Vault all: 511 (+2)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) +1 concept, +1 draft
+90-agent-logs/ (bbw-wiki 루트): 82 md (daily:77, tasks:2, failures:1, weekly:2) +1
+session-log.md: 4373라인 (=) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 10 files, 942 lines (=)
+봇: 8/8 active -- dex 최근갱신 10:53Z, kiel 09:08Z, rina 08:25Z
+변경: autobots.md 타임스탬프 갱신 (11:01Z→11:10Z), dex updated_at 갱신 (07:11Z→10:53Z), INDEX.md 타임스탬프 갱신
+최근 커밋: 08d946b 봇 자율 역량 제안 큐 | 55be4a5 프로젝트 대화 컨텍스트 한정 | 8e7e431 프로젝트 삭제 라우트
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+## 2026-06-20T11:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (Docker healthy, localhost 미노출) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
+Vault md: 471 (+2 since 11:20Z) | Vault all: 513 (+2)
+claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
+wiki/: 166 md (sources:32, concepts:99[drafts:30], entities:33) (=)
+90-agent-logs/ (bbw-wiki 루트): 84 md (daily:79, tasks:2, failures:1, weekly:2) +2
+session-log.md: 4651 lines (↑131 since 11:20Z) | work-in-progress.md: 47 lines (=)
+봇: 8/8 active -- dex 10:53Z, kiel 09:08Z, rina 08:25Z 최근 갱신
+변경: autobots.md 타임스탬프 갱신 (11:31Z), INDEX.md 통계 갱신 (vault/session/agent-logs)
+최근 ai-ops 커밋: 7b96549 봇 실행 배선+계측 | 6e2be84 Memory 화면 수정 | 08d946b 봇 자율 역량 제안 큐
+WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
+주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
+
+---
