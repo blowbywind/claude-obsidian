@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (Docker 172.18.0.8) / hermes DOWN(의도적) / ui DOWN / 봇 9/9 active | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP / hermes-dashboard UP(6d) / ai-ops-ui UP(6d) / 봇 9/9 active | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -40,7 +40,7 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-20T18:31Z (autobots-scheduler) -- session-log 9702라인, vault 520 md
+> 마지막 갱신: 2026-06-20T18:31Z (autobots-scheduler) -- session-log 9767라인, vault 520 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
@@ -50,7 +50,7 @@
 | claude/ | 33 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:9) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | 90-agent-logs/ (bbw-wiki 루트) | 124 md (daily:119, tasks:2, failures:1, weekly:2) | +2 |
-| session-log.md | 9702라인 | +162 |
+| session-log.md | 9767라인 | +227 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
