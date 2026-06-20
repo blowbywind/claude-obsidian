@@ -1,6 +1,32 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-20T22:32Z 위키 동기화 수정 (autobots-scheduler)
+인프라: autobots_backend:9200 UP (172.18.0.8 /bots 정상) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | run-gemini=unavailable
+Runtime: 봇 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+Vault md: 613 (+9) | Vault all: 658 (+9) | wiki: 227 md (+3) | claude/: 34 md (=)
+90-agent-logs/ (bbw-wiki 루트): 153 md (daily:148, tasks:2, failures:1, weekly:2) | +6
+session-log.md: 12556라인 (+433) | work-in-progress.md: 47라인 (=)
+wiki/concepts/_drafts: 23 순수 + 27 _promoted 대기 + 0 _unresolved (이전 4 해소)
+신규 승격: a2a-protocol, ai-수학-연구-에이전트, langgraph, sdd-3문서-패턴, spec, tanstack
+변경: INDEX.md 통계 정정 (병렬 인스턴스 오류값 수정 — tasks:5→2, unresolved:4→0, session 12497→12556) | autobots.md 22:32Z 갱신
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+최근 ai-ops 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+
+---
+
+## 2026-06-20T22:32Z 위키 동기화 (autobots-scheduler)
+인프라: API 직접 조회 불가 (스케줄러 환경) | docker ps 접근 불가 (컨테이너 격리)
+Vault 통계: session-log 12497라인 (+14) | WIP 47라인 (=) | wiki 227 md (=)
+wiki/: 227 md (sources:32, concepts:156[root:102, _drafts:23, _promoted:27, _unresolved:4], entities:37, overview:1, queries:1) (=)
+90-agent-logs/ (볼트 루트): 158 md (daily:150+2, tasks:5+3, failures:1, weekly:2) (+5 since 22:31Z)
+claude/: 34 md (projects:11, decisions:9, 루트:4, 90-agent-logs:10) (=)
+변경: INDEX.md 통계 갱신 (session 12483->12497, 90-agent-logs 153->158, tasks 2->5)
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+주의: wiki/concepts/_drafts/ 27개 _promoted 검토 대기 + 4개 _unresolved
+
+---
+
 ## 2026-06-20T22:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (172.18.0.8, 6h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes-docker=absent(의도적)
 Runtime: 봇 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)

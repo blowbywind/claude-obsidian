@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: backend healthy (172.18.0.8:9200, Docker healthy) | 봇 9/9 active
-갱신: 2026-06-20T22:31Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-20T22:32Z (autobots-scheduler 위키-동기화)
 
 ## runtime_providers 상태 (2026-06-20T22:20Z 동기화)
 | ID | 상태 |

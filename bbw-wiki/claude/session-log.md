@@ -1,3 +1,51 @@
+## 2026-06-21 07:35 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 07:34 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-20 22:34 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 07:32 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
 ## 2026-06-20 22:31 — 
 
 _커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
@@ -12527,3 +12575,16 @@ claude/: 34 md (projects:11, decisions:9) (=) | 봇: 9/9 active | runtime: claud
 신규: wiki/concepts 6개 승격 (a2a-protocol, ai-수학-연구-에이전트, langgraph, sdd-3문서-패턴, spec, tanstack), 90-agent-logs daily +6
 WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- 배포(.221) 대기 | 이슈1 회사PC 신뢰루트 교체 대기
 주의: wiki/concepts/_drafts/ 23 순수 + 27 _promoted 대기 (사용자 검토 필요)
+
+
+---
+
+## 2026-06-20T22:32Z 위키 동기화 (autobots-scheduler)
+인프라: API 직접 조회 불가 (스케줄러 환경) | docker ps 접근 불가 (컨테이너 격리)
+Vault 통계: session-log 12497라인 (+14) | WIP 47라인 (=) | wiki 227 md (=)
+wiki/: 227 md (sources:32, concepts:156[root:102, _drafts:23, _promoted:27, _unresolved:4], entities:37, overview:1, queries:1) (=)
+90-agent-logs/ (볼트 루트): 158 md (daily:150+2, tasks:5+3, failures:1, weekly:2) (+5 since 22:31Z)
+claude/: 34 md (projects:11, decisions:9, 루트:4, 90-agent-logs:10) (=)
+변경: INDEX.md 통계 갱신 (session 12483->12497, 90-agent-logs 153->158, tasks 2->5)
+WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+주의: wiki/concepts/_drafts/ 27개 _promoted 검토 대기 + 4개 _unresolved
