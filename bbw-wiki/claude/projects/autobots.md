@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: backend UP | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | 봇 9/9 active
-갱신: 2026-06-20T16:32Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-20T16:53Z (autobots-scheduler wiki-sync)
 
-## runtime_providers 상태 (2026-06-21T16:21Z 동기화)
+## runtime_providers 상태 (2026-06-20T16:53Z 동기화)
 | ID | 상태 |
 |----|------|
 | claude | healthy |
@@ -27,18 +27,20 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 16:21 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-20 17:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
-| autobots | 2026-06-20 16:00 UTC | synced |
-| hnedu-erp | 2026-06-20 16:19 UTC | synced |
+| autobots | 2026-06-20 17:00 UTC | synced |
+| hnedu-erp | 2026-06-20 16:24 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
 | hnedu-crm | 2026-06-15 21:51 UTC | synced |
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21 16:21 UTC)
+
+
+## 봇 로스터 (DB 기준, 2026-06-20 16:43 UTC)
 | ID | 이름 | 상태 | 모델 | 최근 갱신 |
 |----|------|------|------|---------|
 | arthur | 아서 | active | gpt-5.5 | 2026-06-20T15:26Z |
@@ -51,8 +53,9 @@
 | snow | 눈꽃 | active | gemini-3.5-flash | 2026-06-20T15:23Z |
 | stellina | 스텔리나 | active | claude-sonnet-4-6 | 2026-06-20T15:23Z |
 
-## 프로파일 동기화 최근 결과 (2026-06-21T16:21Z)
+## 프로파일 동기화 최근 결과 (2026-06-20T16:53Z)
 - Bot 상태: 9/9 active (변경 없음)
 - Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable
-- 변경 감지: hnedu-erp 최근 활동 13:28 → 16:19 갱신 | autobots_backend 재시작됨
-- infra: autobots_backend(9200) UP (재시작) | hermes_dashboard UP | ai_ops_ui UP | web_caddy UP | storage_seaweedfs UP
+- 프로파일 변경: 0개 updated / 9개 skipped
+- runtime last_verified: 16:50:43Z
+- infra: autobots_backend UP (Up 34min, healthy) | hermes-dashboard UP (6d) | ai-ops-ui UP (6d) | web_caddy UP (6d)

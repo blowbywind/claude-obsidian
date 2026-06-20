@@ -44,6 +44,7 @@
 
 ## Concepts
 
+- [모바일 반응형 웹 UI/UX 최적화 가이드라인](wiki/concepts/mobile-responsive-guideline.md) — 모바일 기기 및 다양한 뷰포트에서 세로 텍스트 꺾임 예방, 화면 높이 한계 해결 및 스크롤바 무력화 방지를 위한 반응형 디자인 가이드라인
 - [API 기반 이미지 생성 가이드라인](wiki/concepts/image-generation-guideline.md) — API 환경에서 고품질 이미지 생성 및 프롬프트 확장을 적용하기 위한 UI/UX 디자인 가이드라인
 - [합성 사용자](wiki/concepts/synthetic-user.md) — 실제 UX 데이터 기반 LLM 모델링 가상 사용자: 실시간 대화, 데이터 누적 후 조사 대체 가능
 - [자유령 에이전트](wiki/concepts/free-roaming-agent.md) — 개인 소유 자율 AI 에이전트 카테고리: 헤르메스·OpenClaw·Gemini Spark 3종 비교, 로컬 vs 클라우드, 선택 기준

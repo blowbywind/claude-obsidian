@@ -2,6 +2,16 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+
+## 2026-06-21T05:50Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — gateway healthy → active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy 갱신, run-gemini=unavailable(=)
+Vault md: 496 | Vault all: 540 | session-log: 8660L | 90-agent-logs: 113 md (daily:110)
+
+---
+
 ## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (healthy) | hermes-dashboard: UP (6d+) | ai-ops-ui: UP (6d+)
 Vault md: 492 (+2 since 15:32Z) | Vault all: 587 (+48)
