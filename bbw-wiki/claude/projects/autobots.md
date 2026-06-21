@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T13:01Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T13:31Z (autobots-scheduler 위키-동기화)
 
 ## runtime_providers 상태 (2026-06-21T12:50Z 검증)
 | ID | 상태 |
@@ -52,11 +52,11 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T13:01Z)
+## 위키 동기화 최근 결과 (2026-06-21T13:31Z)
 - Bot 상태: 9/9 active (마지막 확인: 2026-06-21T12:50Z)
 - Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
-- Vault: 755 md (+2 since 12:47Z) | session-log: 22768라인 (+108) | 90-agent-logs: 268 md (daily:262, +2) | claude/: 37 md (=)
-- ai-ops 신규 커밋: 94aeb81(auto-save 21:36), 5b79830(auto-save 21:32)
+- Vault: 759 md (+4 since 13:01Z) | session-log: 23066라인 (+298) | 90-agent-logs: 272 md (daily:266, +4) | claude/: 37 md (=)
+- ai-ops 최신 커밋: 94aeb81 (auto-save), 신규 커밋 없음
 
 
 ## 프로파일 동기화 최근 결과 (2026-06-21T13:22Z)
