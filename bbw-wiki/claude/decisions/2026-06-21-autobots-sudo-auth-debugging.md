@@ -50,6 +50,16 @@ tags: [autobots, caddy, basic-auth, safari, fastify, sse, troubleshooting, decis
 
 **추가 결정**: 프록시 env placeholder로 upstream 헤더에 시크릿 주입 금지(불안정). 인가는 네트워크 경로/명시 토큰으로. 상태변경 UI는 `res.ok` 필수.
 
+## 후속 실패 2 (같은 날) — 거부해도 승인카드 반복 (폴링 레이스)
+
+**증상**: `botsudo` 직후 승인카드가 봇 설명보다 먼저 뜨고, **설명 전(botsudo 셸 실행 중)** 거부하면 카드가 반복 재등장. 설명이 다 나온 뒤 거부하면 정상.
+
+**근본원인**: 봇 botsudo HTTP 셸이 pending 동안 3초마다 `/internal/sudo/submit` 재제출(승인 폴링). 사용자가 거부(status=denied)해도 셸의 다음 재제출이 이를 모르고 → submit 이 새 pending 생성 → 새 카드. 반복. (설명이 다 나온 뒤엔 셸이 120s 폴링 한도를 넘겨 종료돼 재제출이 없어 정상으로 보였음.)
+
+**해결**: submit/authorize pending 분기에 "같은 sig 가 최근(DENY_BLOCK_MS=150s, 셸 폴링 120s 를 덮음) 거부됐으면 `decision:deny` 반환" → 재제출이 deny 받고 셸 중단 → 새 pending 미생성. 승인은 grant-소비 체크가 앞서 무영향. 검증: submit→deny→재submit=deny(pending 0), submit→approve→재submit=allow+jobId.
+
+**결정**: 폴링/재시도 클라이언트가 "재제출로 상태확인"하면 서버가 종료상태(거부/취소)를 같은 키로 알려줘 멱등 처리해야 함(아니면 매 폴링이 새 작업 생성).
+
 ## 관련 파일
 - 백엔드: `autobots/backend/{services/sudo-policy.ts, routes/sudo.ts, lib/bot-spawn.ts, plugins/sse.ts, routes/nav.ts}`
 - 스크립트: `autobots/scripts/bot-sudo/{sudo-executor,botsudo,install-bot-sudo.sh}`, `autobots/scripts/apply-caddy-session-cookie.sh`

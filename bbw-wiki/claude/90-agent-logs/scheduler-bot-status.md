@@ -1,5 +1,16 @@
 Autobots Scheduler - Bot Status Check Log (every 5min)
 
+## 2026-06-21T04:46Z 메모리 통계 갱신 (autobots-scheduler)
+Vault md: 685 (+297 vs 6-19) | Vault all: 730 (+300 vs 6-19)
+claude/ md: 35 (+3 vs 6-19) — projects: 11, decisions: 10, 루트: 4, 90-agent-logs: 10
+claude/ total lines: 19,661 (+15,530 vs 6-19) | session-log: 16,352줄
+wiki/ md: 250 (+120 vs 6-19) (sources: 32, concepts: 179[+116], entities: 37[+4], queries: 1)
+50-prompts: 6 (=)
+[cron_success] 2026-06-21T04:46Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+
 2026-06-18 Check #1
 Backend: OK (200)
 Total: 8 | Active: 8 | Inactive: 0 | Tasks in progress: 0
@@ -10059,3 +10070,129 @@ session-log.md: 13324라인 (+106 vs 13218)
 work-in-progress.md: 47라인 (=)
 
 [memory_stats] 2026-06-20T23:46Z bot=autobots-scheduler: 통계 갱신 완료
+
+---
+
+## 2026-06-21 메모리 파일 통계 갱신 (autobots-scheduler)
+vault: 596 md (+98, 이전 498) / 641 전체 (+99, 이전 542)
+claude/: 34 md (+1, 이전 33) — 90-agent-logs: 10파일
+session-log.md: 11837라인 (+2908, 이전 8929) | work-in-progress.md: 47라인 (=)
+ai-ops memory: 11파일 / 992라인
+  MEMORY.md:15 lessons.md:191 responsive-design-guide.md:296
+  ui-ux-design-learning.md:302 autobots-hardening-backlog.md:29
+  autobots-identity.md:20 autobots-erp-ssh.md:23
+  codex-bwrap-apparmor-fix.md:38 effective-improvement-workflow.md:28
+  feedback-rina-ux-rules.md:20 server-infra.md:30
+변경: vault +98md +99all, claude/ +1md, session-log +2908라인
+[cron_success] 2026-06-21 bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21T14:00Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 682 (+2 vs 이전 680) | Vault all: 727 (+2 vs 이전 725)
+claude/ md: 35 (=) [decisions:10, projects:11, agent-logs:10, root:4]
+session-log.md: 16213 lines (+94 vs 16119)
+wiki/: 250 md (sources:32, concepts:179[_drafts:54], entities:37) (=)
+90-agent-logs/: 198 md (daily:192, tasks:2, failures:1, weekly:2) (=)
+ai-ops memory: 11 files 992 lines (sandbox blocked)
+[cron_success] 2026-06-21T14:00Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+
+---
+
+## 2026-06-21T04:41Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend API: 미응답 (DB 직접 조회)
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+last_verified_at 갱신: 4개 → 2026-06-21T04:41Z
+통계: total=9 | active=9 | inactive=0
+STATUS: OK
+[cron_success] 2026-06-21T04:41Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+
+---
+
+## 2026-06-21T04:41Z 프로파일 상태 동기화 (autobots-scheduler)
+Source: SQLite DB 직접 조회 (WAL checkpoint)
+Backend: healthy
+
+봇 프로파일 (9/9 active):
+  arthur(아서): active | Codex | gpt-5.5
+  dex(덱스): active | Claude Code | claude-sonnet-4-6
+  haeri(해리): active | Claude Code | claude-sonnet-4-6
+  kiel(키엘): active | Claude Code | claude-sonnet-4-6
+  lian(리안): active | Antigravity | gemini-3.5-flash
+  rina(리나): active | Antigravity | gemini-3.5-flash
+  roun(로운): active | Codex | gpt-5.5
+  snow(눈꽃): active | Antigravity | gemini-3.5-flash
+  stellina(스텔리나): active | Claude Code | claude-sonnet-4-6
+
+런타임 프로바이더:
+  healthy: agy, claude, codex, obsidian-mcp
+  unavailable: run-gemini
+
+통계: total=9 | active=9 | inactive=0 | gateways=3
+STATUS: OK
+[cron_success] 2026-06-21T04:41Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+
+---
+
+## 2026-06-21T04:46Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 685 (+3 vs 이전 682) | Vault all: 730 (+3 vs 이전 727)
+claude/ md: 35 (=) [decisions:10, projects:11, agent-logs:10, root:4]
+session-log.md: 16372 lines (+159 vs 16213)
+wiki/: 250 md (sources:32, concepts:179, entities:37) (=)
+90-agent-logs/: 201 md (daily:195, tasks:2, failures:1, weekly:2, bot-status:1) (+3 vs 198)
+ai-ops memory: sandbox blocked (경로 접근 불가)
+[cron_success] 2026-06-21T04:46Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+
+---
+
+## 2026-06-21T01:40Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP healthy, 01:30Z 재시작) | web_caddy(UP) | hermes-dashboard(UP 6d) | ai-ops-ui(UP 6d) | db_postgres(UP 6d) | storage_seaweedfs(UP 6d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
+미결: run-gemini unavailable | hermes WebSocket DEGRADED
+
+---
+
+## 2026-06-21T04:55Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | NOT FOUND
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-20 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-20 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-20 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-20 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-20 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-20 18:32Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-20 19:01Z
+  snow       (눈꽃    ) - active   - Antigravity    | last_learning: 2026-06-20 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-20 19:05Z
+
+Docker containers:
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
