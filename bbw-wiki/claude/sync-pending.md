@@ -16,6 +16,14 @@ Vault md: 743 (+6 since 11:02Z) | session-log: 21571라인 (+415) | 90-agent-log
 신규 커밋 없음 (ai-ops 최신: 40a56e3)
 ---
 
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
 ## 2026-06-21T11:02Z 위키 동기화 (autobots-scheduler)
 Vault md: 737 (=) | session-log: 21156라인 (=) | 90-agent-logs: 252 md (daily:246, =) | claude/: 36 md (=)
 봇: 9/9 active (마지막 확인 10:52Z) | run-gemini=unavailable
