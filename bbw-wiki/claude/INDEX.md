@@ -11,6 +11,7 @@
 |----------|-----------|----------|------|
 | autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 22:30Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
+| ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
 | hnedu_crm | 교사 CRM. 전국 41,264명 관계 정보 통합 관리 | Phase 1 운영 중 (Vanilla SPA) | [→](projects/hnedu_crm.md) |
@@ -43,17 +44,17 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 14:00 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 14:17 UTC (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 764 md | +2 since 13:46Z |
+| vault 전체 | 766 md | = since 14:15Z |
 | wiki/ | 251 (sources:32, concepts:180[drafts:54], entities:37) | = |
 | wiki/concepts/_drafts | 54 | ⚠ 검토 대기 |
-| claude/ | 37 md | = |
+| claude/ | 38 md | +1 since 14:15Z |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ | 277 md | +2 since 13:46Z |
-| session-log.md | 23356라인 | +128 since 13:46Z |
+| 90-agent-logs/ | 278 md | = since 14:15Z |
+| session-log.md | 23538라인 | +34 since 14:15Z |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
