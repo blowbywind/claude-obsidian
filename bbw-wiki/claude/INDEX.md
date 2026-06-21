@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-21T16:00Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-21T17:02Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
@@ -44,16 +44,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 16:30 UTC / KST 2026-06-22 01:30 (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 17:02 UTC / KST 2026-06-22 02:02 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 784 md | +3 since 16:16Z |
+| vault (bbw-wiki) 전체 | 790 md | +4 since 16:46Z |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 296 md | daily:290, tasks:2, weekly:2, failures:1, bot-status:1 |
-| session-log.md | 24920라인 | +130 since 16:16Z |
+| 90-agent-logs/ (root) | 302 md | daily:296, tasks:2, weekly:2, failures:1, bot-status:1 (=) |
+| session-log.md | 25184라인 | = |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
