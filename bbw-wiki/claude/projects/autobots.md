@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T08:31Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T09:31Z (autobots-scheduler 위키동기화)
 
-## runtime_providers 상태 (2026-06-21T07:54Z 검증)
+## runtime_providers 상태 (2026-06-21T09:13Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -40,7 +40,7 @@
 
 
 
-## 봇 로스터 (DB 기준, 2026-06-21T07:54Z)
+## 봇 로스터 (DB 기준, 2026-06-21T09:31Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -54,16 +54,15 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T08:31Z)
-- Bot 상태: 9/9 active (마지막 확인: 07:54Z)
+## 위키 동기화 최근 결과 (2026-06-21T09:31Z)
+- Bot 상태: 9/9 active (마지막 확인: 09:31Z)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- Vault: 715 md (+3) | session-log: 18850라인 (+448) | 90-agent-logs: 230 md (daily:224, +3)
+- Vault: 725 md (+2) | session-log: 19689라인 (+244) | 90-agent-logs: 240 md (daily:234, +2)
 - 인프라: backend healthy | web_caddy UP | hermes WebSocket DEGRADED 지속
 
-## 프로파일 동기화 최근 결과 (2026-06-21T08:53Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T09:13Z)
 - Bot 상태: 9/9 active
-- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy
-- Findings: 변경 없음 — 9 bots all at correct status
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
+- Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T08:51Z
-- runtime_providers last_verified_at: 2026-06-21T07:54Z
+- agent-status.json 기준: 2026-06-21T09:12Z

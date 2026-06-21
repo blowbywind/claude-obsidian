@@ -1,4 +1,48 @@
+## 2026-06-21T09:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 725 (+2 since 09:16Z) | session-log: 19660라인 (+215) | 90-agent-logs: 240 md (daily:234, +2)
+봇: 9/9 active (마지막 확인 09:21Z) | run-gemini=unavailable
+autobots.md 09:31Z 갱신 | INDEX.md 통계 갱신 | sync-pending.md 항목 추가
+[cron_success] 2026-06-21T09:31Z bot=autobots-scheduler: 위키 동기화 완료
+
+---
+
 Autobots Scheduler - Bot Status Check Log (every 5min)
+
+## 2026-06-21T09:21Z 프로파일 상태 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+Bot: 9/9 active | 변경: 0개 updated / 9개 skipped
+agent-status.json: last_checked 2026-06-21T09:21Z | hermes-docker: down (deprecated)
+STATUS: ALL OK (run-gemini unavailable 기존 지속 이슈)
+[cron_success] 2026-06-21T09:21Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-21T09:16Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 723 (+38 vs 04:46Z) | Vault all: 768 (+38 vs 04:46Z)
+claude/ md: 36 (+1) — projects: 11, decisions: 11(+1), 루트: 4, 90-agent-logs: 10
+claude/ total lines: 20,814 (+1,153 vs 04:46Z) | session-log: 19,445줄 (+3,093)
+wiki/ md: 250 (=) (sources: 32, concepts: 179[=], entities: 37[=], queries: 1)
+50-prompts: 6 (=)
+[cron_success] 2026-06-21T09:16Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21T09:13Z 프로파일 상태 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+Bot: 9/9 active | 변경: 0개 updated / 9개 skipped
+agent-status.json: 2026-06-21T09:12Z | hermes-docker: down (deprecated)
+STATUS: ALL OK (run-gemini unavailable 기존 지속 이슈)
+[cron_success] 2026-06-21T09:13Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-21T09:00Z 일일 봇 상태 점검 (autobots-scheduler)
+백엔드: autobots_backend HEALTHY | 헬스체크: obsidian_vault OK | memory_episodic OK | db_dir OK
+봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나)
+런타임: agy(healthy) | claude(healthy) | codex(healthy) | obsidian-mcp(healthy) | run-gemini(unavailable) <- 지속 이상
+컨테이너: autobots_backend(healthy) | hermes-dashboard(up) | ai-ops-ui(up) | db_postgres(up) | web_caddy(up)
+금일 특이사항: snow(눈꽃) gateway Antigravity->Claude Code, 모델 gemini->claude-sonnet-4-6 변경 (07:04Z)
+STATUS: ALL OK (run-gemini unavailable 기존 지속 이슈)
 
 ## 2026-06-21T08:35Z 봇 상태 확인 (autobots-scheduler)
 인프라: autobots_backend(UP 18m, healthy) | web_caddy(UP 5h) | hermes-dashboard(UP 7d) | ai-ops-ui(UP 7d) | db_postgres(UP 7d) | storage_seaweedfs(UP 7d)
@@ -10355,6 +10399,17 @@ STATUS: DEGRADED
 인프라: autobots_backend 08:17 UTC 재시작(Up 4m, healthy)
 agent-status.json: last_checked 08:21Z 갱신
 이상: run-gemini unavailable 지속 | snow gateway 변경
+
+
+---
+
+## 2026-06-21T01:40Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP healthy, 01:30Z 재시작) | web_caddy(UP) | hermes-dashboard(UP 6d) | ai-ops-ui(UP 6d) | db_postgres(UP 6d) | storage_seaweedfs(UP 6d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
+미결: run-gemini unavailable | hermes WebSocket DEGRADED
 
 
 ---
