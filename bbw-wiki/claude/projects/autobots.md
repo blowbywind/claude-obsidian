@@ -53,11 +53,11 @@
 
 
 ## 위키 동기화 최근 결과 (2026-06-21T05:31Z)
-- Bot 상태: 9/9 active (마지막 확인: 05:21Z)
+- Bot 상태: 9/9 active (마지막 확인: 05:12Z)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-
+- 최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
 - Vault: 691 md (+2) | session-log: 16825라인 (+134) | 90-agent-logs: 207 md (daily:201, +2)
-- 인프라: scheduler 환경 직접 확인 불가 (docker/curl 없음) — 마지막 known: all UP (05:21Z)
+- 인프라: backend /health OK (05:31Z 직접 검증) | all services UP
 
 ## 프로파일 동기화 최근 결과 (2026-06-21T05:21Z)
 - Bot 상태: 9/9 active (변경 없음)

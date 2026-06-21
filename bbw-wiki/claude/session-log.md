@@ -1,3 +1,29 @@
+## 2026-06-21 05:35 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:35 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
 ## 2026-06-21 14:32 — ai-ops
 
 **최근 커밋:**
@@ -16872,3 +16898,11 @@ Vault md: 691 (+2 since 689) | session-log: 16839라인 (+148) | 90-agent-logs: 
 봇: 9/9 active (마지막 확인 05:21Z) | run-gemini=unavailable
 변경: autobots.md 05:31Z 갱신, INDEX.md 통계 갱신 (vault 689->691, session 16691->16839, logs 205->207)
 신규 커밋 없음 (ai-ops 최신: f8544fc)
+
+## 2026-06-21T05:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy — /health 직접 검증 05:31Z) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(2h+) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 691 (+2 since 689) | session-log: 16825라인 (+134 since 16691) | 90-agent-logs: 207 md (daily:201, +2) | claude/: 35 md (=)
+봇: 9/9 active | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable (2026-06-19 14:02 이후 미복구)
+최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+변경: autobots.md 05:31Z 갱신, INDEX.md 통계 갱신 (vault 689->691, session 16691->16825, 90-agent-logs 205->207), 신규 2개 일별 로그 커밋
+WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | 회사PC 신뢰루트 교체 대기 | hermes WebSocket DEGRADED 지속
