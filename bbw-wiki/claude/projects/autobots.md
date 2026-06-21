@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP (healthy, 5h) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T04:42Z (autobots-scheduler 프로파일-상태-동기화)
+상태: backend UP (healthy — /health 직접 검증 05:31Z) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | 봇 9/9 active | hermes Slack WebSocket DEGRADED
+갱신: 2026-06-21T05:31Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-21T04:41Z 검증)
+## runtime_providers 상태 (2026-06-21T05:11Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T04:41Z)
+## 봇 로스터 (DB 기준, 2026-06-21T05:21Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -52,16 +52,16 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T05:01Z)
-- Bot 상태: 9/9 active (마지막 확인: 04:42Z)
+## 위키 동기화 최근 결과 (2026-06-21T05:31Z)
+- Bot 상태: 9/9 active (마지막 확인: 05:21Z)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- 최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
-- Vault: 689 md (+7) | session-log: 16556라인 (+343) | 90-agent-logs: 205 md (daily:199, +7)
-- 인프라: scheduler 환경 직접 확인 불가 (docker/curl 없음) — 마지막 known: all UP (04:42Z)
 
-## 프로파일 동기화 최근 결과 (2026-06-21T04:42Z)
+- Vault: 691 md (+2) | session-log: 16825라인 (+134) | 90-agent-logs: 207 md (daily:201, +2)
+- 인프라: scheduler 환경 직접 확인 불가 (docker/curl 없음) — 마지막 known: all UP (05:21Z)
+
+## 프로파일 동기화 최근 결과 (2026-06-21T05:21Z)
 - Bot 상태: 9/9 active (변경 없음)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- DB 검증: runtime_providers last_verified_at = 2026-06-21 04:41:22 UTC
-- 프로파일 변경: 0개 updated (상태 일치, 업데이트 불필요)
-- 인프라: autobots_backend healthy (localhost:9200, Up 8m)
+- DB 검증: runtime_providers last_verified_at = 2026-06-21 05:21:13 UTC
+- 프로파일 변경: 0개 updated / 9개 skipped (상태 일치, 업데이트 불필요)
+- 인프라: 스케줄러 환경 직접 확인 불가 — 마지막 known: all UP (05:11Z)

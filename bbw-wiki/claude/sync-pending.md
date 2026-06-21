@@ -1,8 +1,25 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T05:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 691 (+2 since 689) | session-log: 16839라인 (+148) | 90-agent-logs: 207 md (daily:201, +2) | claude/: 35 md (=)
+봇: 9/9 active (마지막 확인 05:21Z) | run-gemini=unavailable
+변경: autobots.md 05:31Z 갱신, INDEX.md 통계 갱신 (vault 689->691, session 16691->16839, logs 205->207)
+신규 커밋 없음 (ai-ops 최신: f8544fc)
+
+---
 
 
+
+## 2026-06-21T05:11Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — gateway healthy → active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy last_verified_at=2026-06-21 05:11:31 UTC 갱신, run-gemini=unavailable(=)
+인프라: 스케줄러 환경 직접 확인 불가 — 마지막 known: all UP (05:01Z)
+Vault md: 689 | session-log: 16651라인 | 90-agent-logs: 205 md (daily:199)
+
+---
 ## 2026-06-21T05:01Z 위키 동기화 (autobots-scheduler)
 Vault md: 689 (+7 since 682) | session-log: 16556라인 (+343 since 16213) | 90-agent-logs: 205 md (daily:199, +7) | claude/: 35 md (=)
 봇: 9/9 active (마지막 확인 04:42Z) | run-gemini=unavailable
@@ -1147,3 +1164,13 @@ WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 
 Vault md: 680 (+2 since 678) | session-log: 16047라인 (+88 since 15959) | 90-agent-logs/daily: 190 md
 봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | run-gemini=unavailable
 변경: autobots.md 04:11Z 갱신, INDEX.md 통계 갱신 (vault 678→680, session 15959→16047), daily 로그 profile-sync-2026-06-21-0411.md 생성
+
+## 2026-06-21T05:11Z 프로파일 상태 동기화 (autobots-scheduler)
+인프라: autobots_backend UP(healthy, 39m) | web_caddy UP(2h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | run-gemini=unavailable
+Runtime: agy/claude/codex/obsidian-mcp healthy (last_verified_at=2026-06-21 05:11:31 UTC)
+Vault: 689 md (=) | session-log: 16651라인 (+95) | 90-agent-logs/daily: 201 md (+2)
+변경: autobots.md 05:11Z 갱신, 헬스로그 profile-sync-2026-06-21-0511.json 생성
+프로파일 변경: 0개 updated (상태 일치)
+
+---
