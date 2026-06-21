@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T10:01Z (autobots-scheduler 위키동기화)
+갱신: 2026-06-21T10:02Z (autobots-scheduler 위키동기화)
 
 ## runtime_providers 상태 (2026-06-21T09:52Z 검증)
 | ID | 상태 |
@@ -58,10 +58,10 @@
 - Vault: 730 md (+5 since 09:32Z) | session-log: 20214라인 (+502 since 09:32Z) | 90-agent-logs: 245 md (+5)
 - 인프라: backend healthy | web_caddy UP | hermes WebSocket DEGRADED 지속
 
-## 프로파일 동기화 최근 결과 (2026-06-21T09:52Z)
-- Bot 상태: 9/9 active
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
-- Findings: 변경 없음 -- 9 bots all active
-- 프로파일 변경: 0개 updated / 9개 skipped (all already active)
-- agent-status.json 기준: 2026-06-21T09:51Z
-- DB 직접 검증: 2026-06-21T09:52Z
+## 프로파일 동기화 최근 결과 (2026-06-21T10:24Z)
+- Bot 상태: 9/9 active (변경 없음)
+- Runtime: claude healthy | codex healthy | agy healthy | hermes-docker down | obsidian-mcp healthy | run-gemini unavailable
+- Findings: No bot status changes — 9 bots all at correct status
+- 프로파일 변경: 0개 updated / 9개 skipped
+- agent-status.json 기준: 2026-06-21T10:24Z
+- DB 직접 검증: 2026-06-21T10:24Z
