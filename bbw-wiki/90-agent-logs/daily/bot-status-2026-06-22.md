@@ -6,3 +6,4 @@
 |------|-----------------|-----------------|-----------|-----------|------|
 | 03:25 | healthy (Up 5h) | Up 7d WARN | Up 7d | Up 15h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), run-gemini unavailable(예정), sudo job polling 200 |
 | 03:31 | healthy (Up 5h) | Up 7d | Up 7d | Up 15h | 봇 9/9 active, /health ok — runtimes: agy/claude/codex/obsidian-mcp healthy, run-gemini unavailable(계속) |
+| 04:46 | healthy (Up 15m) | Up 7d WARN | Up 7d | Up 16h | 봇 9/9 active, /health failures:0 — **backend 재시작 감지**(이전 Up 5h→현재 Up 15m), hermes: RuntimeError Session is closed 지속(자동재시도), run-gemini unavailable(예정) |

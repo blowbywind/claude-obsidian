@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T19:01Z (autobots-scheduler wiki-sync)
+상태: autobots_backend UP (healthy, 22m+) | 봇 9/9 active | hermes-docker down (deprecated)
+갱신: 2026-06-21T19:51Z (autobots-scheduler profile-sync)
 
-## runtime_providers 상태 (2026-06-21T17:21Z 검증)
+## runtime_providers 상태 (2026-06-21T19:52Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 19:01 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 20:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T17:53Z)
+## 봇 로스터 (DB 기준, 2026-06-21T19:52Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -51,17 +51,15 @@
 | snow | 눈꽃 | Claude Code | active | claude-sonnet-4-6 |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
+## 위키 동기화 최근 결과 (2026-06-21T19:32Z)
+- Bot 상태: 9/9 active (직전 기준, docker API 미접근) | Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+- Vault: 855 md (+26 since 829) | session-log: 26845라인 (+350) | 90-agent-logs: 324 md (daily:317) | claude/: 38 md (=)
+- ai-ops git: 94aeb81 (변동 없음)
 
-
-## 위키 동기화 최근 결과 (2026-06-21T19:01Z)
-- Bot 상태: 9/9 active | Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
-- Vault: 829 md (+3 since 826) | session-log: 26495라인 (+196) | 90-agent-logs: 323 md (daily:316) | claude/: 38 md (=)
-- ai-ops git: 94aeb81 (최신)
-
-
-## 프로파일 동기화 최근 결과 (2026-06-21T18:52Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T19:51Z)
 - Bot 상태: 9/9 active (변경 없음)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- 프로파일 변경: 0개 updated / 9개 skipped
-- runtime_providers last_verified_at: 2026-06-21 18:51:29 (이전 체크 기준)
-- 인프라: autobots_backend(healthy,15m) | caddy(15h) | hermes-dashboard/ai-ops-ui/pg/seaweedfs(7d)
+- 프로파일 변경: 0 updated / 9 no-change
+- 학습 현황: snow(19:45Z)·arthur(19:31Z)·kiel(19:15Z)·stellina(19:05Z)·lian(19:03Z)·roun(19:01Z)·rina(18:31Z)·dex(18:17Z)·haeri(18:15Z)
+- runtime_providers last_verified_at: 2026-06-21 19:50:41
+- vault md: 869 | session-log: 27114라인
