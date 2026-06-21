@@ -1,3 +1,43 @@
+## 2026-06-21T11:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 743 (+7 vs 10:46Z) | Vault all: 788 (+7 vs 10:46Z)
+claude/ md: 37 (+1) — projects: 11, decisions: 12(+1), root: 4, 90-agent-logs: 10
+claude/ session-log: 21,600줄 (+710 vs 10:46Z)
+wiki/ md: 251 (+1) (sources: 32, concepts: 180(+1), entities: 37, queries: 1)
+50-prompts: 6 (=)
+[cron_success] 2026-06-21T11:31Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
+## 2026-06-21T11:15Z 봇 상태 점검 (autobots-scheduler)
+
+## 2026-06-21T11:23Z 프로파일 상태 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+Bot: 9/9 active | 변경: 0개 updated / 9개 skipped
+agent-status.json: 2026-06-21T11:11Z | hermes-docker: down (deprecated)
+STATUS: ALL OK (run-gemini unavailable 기존 지속 이슈)
+[cron_success] 2026-06-21T11:23Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+## 2026-06-21T11:21Z 프로파일 상태 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+Bot: 9/9 active | 변경: 0개 updated / 9개 skipped
+agent-status.json: 2026-06-21T11:11Z | hermes-docker: down (deprecated)
+STATUS: ALL OK (run-gemini unavailable 기존 지속 이슈)
+[cron_success] 2026-06-21T11:21Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+---
+
+**컨테이너**: autobots_backend Up 3h (healthy) | 헬스체크 OK
+
+**봇 (9/9 active)**: arthur(gpt-5.5), dex·haeri·kiel·snow·stellina(claude-sonnet-4-6), lian·rina(gemini-3.5-flash), roun(gpt-5.5) — 전원 active
+
+**런타임 (4/5 healthy)**: agy·claude·codex·obsidian-mcp=healthy | ⚠️ run-gemini=unavailable (마지막 검증 2026-06-19, 2일 미검증)
+
+[cron_success] 2026-06-21T11:15Z bot=autobots-scheduler: 봇 상태 점검 완료
+
+---
+
 ## 2026-06-21T10:46Z 메모리 파일 통계 갱신 (autobots-scheduler)
 Vault md: 736 (+11 vs 09:31Z) | Vault all: 781 (+11 vs 09:31Z)
 claude/ md: 36 (=) -- projects: 11, decisions: 11, root: 4, 90-agent-logs: 10
@@ -10662,3 +10702,24 @@ Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | 
 WARN: hermes-dashboard Slack WebSocket DEGRADED (지속)
 WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
 STATUS: DEGRADED
+
+
+---
+
+## 2026-06-21T10:42Z 프로파일 상태 동기화 (autobots-scheduler)
+인프라: autobots_backend(UP healthy ~3h) | web_caddy(UP ~7h) | hermes-dashboard(UP) | ai-ops-ui(UP) | db_postgres(UP 7d) | storage_seaweedfs(UP 7d)
+헬스체크: ok=true | failures=[] | obsidian_vault OK | memory_episodic OK | db_dir OK
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy (last_verified_at 10:42 갱신) | run-gemini=unavailable (72h+ 지속)
+미결: run-gemini unavailable (2026-06-19 14:02 이후)
+
+
+---
+
+## 2026-06-21T01:40Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP healthy, 01:30Z 재시작) | web_caddy(UP) | hermes-dashboard(UP 6d) | ai-ops-ui(UP 6d) | db_postgres(UP 6d) | storage_seaweedfs(UP 6d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
+미결: run-gemini unavailable | hermes WebSocket DEGRADED

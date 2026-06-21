@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T11:01Z (autobots-scheduler 활동시간갱신)
+상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
+갱신: 2026-06-21T11:32Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-21T10:52Z 검증)
+## runtime_providers 상태 (2026-06-21T11:23Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -40,7 +40,7 @@
 
 
 
-## 봇 로스터 (DB 기준, 2026-06-21T10:52Z)
+## 봇 로스터 (DB 기준, 2026-06-21T11:23Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -54,16 +54,15 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T11:01Z)
-- Bot 상태: 9/9 active (마지막 확인: 10:52Z)
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable (~69h)
-- Vault: 737 md (+4 since 10:31Z) | session-log: 21156라인 (+493) | 90-agent-logs: 252 md (+4)
-- 인프라: backend healthy | web_caddy UP | hermes WebSocket DEGRADED 지속
+## 위키 동기화 최근 결과 (2026-06-21T11:32Z)
+- Bot 상태: 9/9 active (마지막 확인: 11:23Z)
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
+- Vault: 743 md (+6 since 11:02Z) | session-log: 21600라인 (+444) | 90-agent-logs: 256 md (+4, daily:250) | claude/: 37 md (+1)
+- 인프라: backend healthy | web_caddy UP | hermes-docker down (deprecated)
 
-## 프로파일 동기화 최근 결과 (2026-06-21T10:52Z)
-- Bot 상태: 9/9 active (변경 없음)
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable (~68.8h+)
-- Findings: No bot status changes — 9 bots all at correct status
+## 프로파일 동기화 최근 결과 (2026-06-21T11:23Z)
+- Bot 상태: 9/9 active
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
+- Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- runtime_providers last_verified_at 갱신: agy/claude/codex/obsidian-mcp → 10:51:00
-- DB 직접 검증: 2026-06-21T10:52Z
+- agent-status.json 기준: 2026-06-21T11:11Z

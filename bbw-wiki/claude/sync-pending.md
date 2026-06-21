@@ -1,6 +1,28 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T11:32Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (+6 since 11:02Z) | session-log: 21600라인 (+444) | 90-agent-logs: 256 md (daily:250, +4) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: autobots.md 11:32Z 갱신, INDEX.md 타임스탬프 갱신
+신규 커밋 없음 (ai-ops git 미접근)
+---
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (+6 since 11:02Z) | session-log: 21571라인 (+415) | 90-agent-logs: 256 md (daily:250, +4) | claude/: 36 md (=)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: autobots.md 11:31Z 갱신, INDEX.md 통계 갱신 (vault 740->743, session 21369->21571, logs 254->256)
+신규: claude/decisions/2026-06-21-ai-ops-platform-direction.md, wiki/concepts/ui-icon-design-guideline.md
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+## 2026-06-21T11:02Z 위키 동기화 (autobots-scheduler)
+Vault md: 737 (=) | session-log: 21156라인 (=) | 90-agent-logs: 252 md (daily:246, =) | claude/: 36 md (=)
+봇: 9/9 active (마지막 확인 10:52Z) | run-gemini=unavailable
+변경: autobots.md 11:02Z 갱신, INDEX.md 타임스탬프 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
 ## 2026-06-21T11:01Z 위키 동기화 (autobots-scheduler)
 Vault md: 737 (+1 since 10:46Z) | session-log: 21156라인 (+243) | 90-agent-logs: 252 md (daily:246, +1) | claude/: 36 md (=)
 봇: 9/9 active (마지막 확인 11:00Z) | run-gemini=unavailable

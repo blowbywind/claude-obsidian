@@ -45,3 +45,15 @@ scheduler: autobots-scheduler
   - npx tsx sync-profiles.ts 실행 시 DB 데이터 0행으로 읽힘
   - Python sqlite3로 WAL checkpoint(PASSIVE) 후 동기화 수행
   - autobots_backend 컨테이너(9200) 현재 미가동 상태
+
+---
+## 11:11Z 동기화 (autobots-scheduler)
+
+봇 수정: 0개 / 스킵: 9개 | runtime_providers 갱신: 4개 | agent-status.json: OK
+
+| 항목 | 상태 |
+|------|------|
+| bot_profiles (9/9) | 변경 없음 — 모두 active |
+| agy/claude/codex/obsidian-mcp | healthy (last_verified_at 11:11:42) |
+| run-gemini | unavailable 지속 (~69h+) |
+| autobots_backend_9200 | DOWN (포트 미응답) |
