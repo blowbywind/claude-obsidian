@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-22T21:01Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) · 봇 9/9 active (갱신: 2026-06-22T23:10Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
@@ -44,16 +44,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 22:31 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-22 08:10 KST (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 908 md | +29 since 879 |
+| vault (bbw-wiki) 전체 | 918 md | +4 since 914 |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 350 md | +16 since 334 |
-| session-log.md | 28774라인 | +1301 since 27473 |
+| 90-agent-logs/ (root) | 357 md | +2 since 355 |
+| session-log.md | 29160라인 | +156 since 29004 |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -62,20 +62,20 @@
 |------|------|------|----------|
 | MEMORY.md | 20 | 2.9K | 2026-06-21 |
 | autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
-| autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
+| autobots-hardening-backlog.md | 29 | 3.9K | 2026-06-20 |
 | autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| bot-autonomous-sudo.md | 31 | 5.4K | 2026-06-21 |
+| bot-autonomous-sudo.md | 31 | 5.5K | 2026-06-21 |
 | codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 241 | 29K | 2026-06-21 |
+| lessons.md | 241 | 29.7K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
-| platform-direction-discussion.md | 36 | 3.9K | 2026-06-21 |
-| responsive-design-guide.md | 296 | 9.0K | 2026-06-19 |
+| platform-direction-discussion.md | 36 | 4.0K | 2026-06-21 |
+| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
 | rollback-prevention.md | 19 | 1.8K | 2026-06-21 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
 | token-optimization.md | 25 | 2.2K | 2026-06-21 |
-| ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
+| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
 | **합계** | **1179** | — | — |
 
 일별 통계 로그: [90-agent-logs/](../90-agent-logs/)
