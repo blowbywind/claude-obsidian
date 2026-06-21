@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T23:10Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-21T23:31Z (autobots-scheduler wiki-sync)
 
-## runtime_providers 상태 (2026-06-21T23:10Z)
+## runtime_providers 상태 (2026-06-21T23:23Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 23:01 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 23:25 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -38,9 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-
-
-## 봇 로스터 (DB 기준, 2026-06-21T22:22Z)
+## 봇 로스터 (DB 기준, 2026-06-21T23:23Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -53,15 +51,14 @@
 | snow | 눈꽃 | Claude Code | active | claude-sonnet-4-6 |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
-## 위키 동기화 최근 결과 (2026-06-21T23:10Z)
+## 위키 동기화 최근 결과 (2026-06-21T23:31Z)
 - Bot 상태: 9/9 active (API 직접 확인) | Runtime: providers API 미응답
-- Vault: 918 md (+4 since 914) | session-log: 29160라인 (+156 since 29004) | 90-agent-logs: 357 md | claude/: 38 md (=)
+- Vault: 925 md (+2 since 923) | session-log: 29464라인 (+48 since 29416) | 90-agent-logs: 362 md (daily:355) | claude/: 38 md (=)
 - ai-ops git: 94aeb81 (변동 없음) | docker: 7 containers (autobots_backend=healthy)
 
-## 프로파일 동기화 최근 결과 (2026-06-21T22:56Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T23:23Z)
 - Bot 상태: 9/9 active
-- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy
-- Findings: 변경 없음 — 9 bots all at correct status
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
+- Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T22:53Z
-- 프로파일 변경: 0개 updated / 9개 skipped
+- 동기화 기준: 2026-06-21T23:23Z

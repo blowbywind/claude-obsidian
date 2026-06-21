@@ -1,4 +1,37 @@
 
+## 2026-06-21T23:31Z wiki-sync (autobots-scheduler)
+Vault md: 925 (+2 since 923) | session-log: 29464라인 (+48 since 29416) | 90-agent-logs: 362 md (daily:355) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 23:31Z 갱신, INDEX.md 통계 갱신 (vault 923->925, session 29416->29464, 90-agent-logs 360->362)
+신규: wiki/concepts/claude.md, prisma-v7-typescript-엔진.md (drafts 승격), 90-agent-logs daily +5개
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-21T23:10Z wiki-sync (autobots-scheduler)
+Vault md: 918 (+4 since 914) | session-log: 29160라인 (+156 since 29004) | 90-agent-logs: 357 md (+2 since 355) | claude/: 38 md (=)
+
+## 2026-06-21T23:25Z wiki-sync (autobots-scheduler)
+Vault md: 923 (+44 since 879) | session-log: 29416라인 (+1943 since 27473) | 90-agent-logs: 361 md (daily:354) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-21T23:25Z 갱신, INDEX.md 통계 갱신 (vault 879->923, session 27473->29416, 90-agent-logs 334->361 daily:327->354)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-21T23:12Z wiki-sync (autobots-scheduler)
+Vault md: 918 (+39 since 879) | session-log: 29265라인 (+1792 since 27473) | 90-agent-logs: 357 md (daily:350) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-21T23:12Z 갱신, INDEX.md 통계 갱신 (vault 879->918, session 27473->29265, 90-agent-logs 334->357 daily:327->350)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+봇: 9/9 active (API 직접 확인) | runtime-providers: API 미응답
+변경: INDEX.md autobots행 형식 수정·갱신, INDEX.md 통계 갱신 (vault 914->918, session 29004->29160, 90-agent-logs 355->357), autobots.md 2026-06-21T23:10Z 갱신
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
 ## 2026-06-21T23:01Z wiki-sync (autobots-scheduler)
 Vault md: 918 (+4 since 914) | session-log: 29160라인 (+156 since 29004) | 90-agent-logs: 357 md (daily:350) | claude/: 38 md (=)
 봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable

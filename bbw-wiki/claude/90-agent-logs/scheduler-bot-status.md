@@ -13166,3 +13166,91 @@ Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | 
 WARN: hermes-dashboard Slack WebSocket DEGRADED (지속)
 WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
 STATUS: DEGRADED
+
+---
+
+## 2026-06-21T23:11Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | Up 4 hours (healthy)
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-21 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-21 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-21 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-21 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-21 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-21 18:31Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-21 19:01Z
+  snow       (눈꽃    ) - active   - Claude Code    | last_learning: 2026-06-21 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-21 19:05Z
+
+Docker containers:
+  ai-ops-ui              Up 7 days
+  autobots_backend       Up 4 hours (healthy)
+  db_adminer             Up 7 days
+  db_postgres            Up 7 days
+  hermes-dashboard       Up 7 days
+  storage_seaweedfs      Up 7 days
+  web_caddy              Up 20 hours
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: hermes-dashboard Slack WebSocket DEGRADED (지속)
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
+
+---
+
+## 2026-06-21T23:11Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | Up 4 hours (healthy)
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-21 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-21 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-21 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-21 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-21 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-21 18:31Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-21 19:01Z
+  snow       (눈꽃    ) - active   - Claude Code    | last_learning: 2026-06-21 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-21 19:05Z
+
+Docker containers:
+  ai-ops-ui              Up 7 days
+  autobots_backend       Up 4 hours (healthy)
+  db_adminer             Up 7 days
+  db_postgres            Up 7 days
+  hermes-dashboard       Up 7 days
+  storage_seaweedfs      Up 7 days
+  web_caddy              Up 20 hours
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: hermes-dashboard Slack WebSocket DEGRADED (지속)
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
+
+---
+
+## 2026-06-21T23:15Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | NOT FOUND
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-21 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-21 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-21 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-21 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-21 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-21 18:31Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-21 19:01Z
+  snow       (눈꽃    ) - active   - Claude Code    | last_learning: 2026-06-21 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-21 19:05Z
+
+Docker containers:
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
