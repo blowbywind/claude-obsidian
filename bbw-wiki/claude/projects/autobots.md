@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T07:30Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T07:54Z (autobots-scheduler 프로파일-동기화)
 
-## runtime_providers 상태 (2026-06-21T07:21Z 검증)
+## runtime_providers 상태 (2026-06-21T07:54Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,10 +27,10 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 07:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 08:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
-| autobots | 2026-06-21 06:57 UTC | synced |
+| autobots | 2026-06-21 07:59 UTC | synced |
 | hnedu-erp | 2026-06-21 06:27 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T07:16Z)
+## 봇 로스터 (DB 기준, 2026-06-21T07:54Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -59,8 +59,9 @@
 - Vault: 707 md (+6) | session-log: 17984라인 (+230) | 90-agent-logs: 222 md (daily:216, +6)
 - 인프라: backend healthy (UP) | all services UP
 
-## 프로파일 동기화 최근 결과 (2026-06-21T07:23Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T07:54Z)
 - Bot 상태: 9/9 active (변경 없음)
-- Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
-- 프로파일 상태 변경: 0개 (모든 봇 active 유지)
-- runtime_providers last_verified_at: 07:21:37Z
+- Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+- 프로파일 변경: 0개 updated / 9개 skipped (모든 봇 active 유지)
+- agent-status.json 기준: 2026-06-21T07:43Z
+- runtime_providers last_verified_at: 2026-06-21T07:54Z
