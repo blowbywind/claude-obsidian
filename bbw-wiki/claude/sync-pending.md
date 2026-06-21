@@ -5,6 +5,13 @@ Vault md: 887 (+8 since 879) | session-log: 27793라인 (+334 since 27459) | 90-
 신규 커밋: 위키 repo 커밋 예정
 ---
 
+## 2026-06-22T21:01Z wiki-sync (autobots-scheduler)
+Vault md: 888 (+1 since 887) | session-log: 27813라인 (+20 since 27793) | 90-agent-logs: 339 md (daily:332) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T21:01Z 갱신 (위키 동기화 섹션), INDEX.md 통계 갱신 (vault 887->888, session 27793->27813)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
 ## 2026-06-22T20:30Z wiki-sync (autobots-scheduler)
 Vault md: 879 (+7 since 872) | session-log: 27459라인 (+243 since 27216) | 90-agent-logs: 334 md (daily:327) | claude/: 38 md (=)
 봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
