@@ -1,3 +1,298 @@
+## 2026-06-21 11:28 — ai-ops
+
+**최근 커밋:**
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-spawn.ts`
+- `autobots/backend/plugins/sse.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/nav.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/routes/sudo.ts`
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 11:26 — ai-ops
+
+**최근 커밋:**
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-spawn.ts`
+- `autobots/backend/plugins/sse.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/nav.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/routes/sudo.ts`
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 11:25 — ai-ops
+
+**최근 커밋:**
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-spawn.ts`
+- `autobots/backend/plugins/sse.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/nav.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/routes/sudo.ts`
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 02:25 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 02:22 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:21 — ai-ops
+
+**최근 커밋:**
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-spawn.ts`
+- `autobots/backend/plugins/sse.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/nav.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/routes/sudo.ts`
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 02:20 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:20 — ai-ops
+
+**최근 커밋:**
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-spawn.ts`
+- `autobots/backend/plugins/sse.ts`
+- `autobots/backend/routes/bots-v2.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/nav.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/routes/sudo.ts`
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 02:18 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:17 — obsidian-vault
+
+**최근 커밋:**
+- 076eed3 chore(wiki): sync 2026-06-21T02:01Z — promote otel draft, update autobots status
+- c1b8260 chore: sync wiki - agent logs, concept promotions, status updates (2026-06-21)
+- 89228d5 chore(sync): session-log 갱신 2026-06-21 (autobots-scheduler)
+- bee7f5a chore(sync): 위키 동기화 2026-06-21T01:21Z (autobots-scheduler)
+- 57af308 chore: sync wiki 2026-06-21
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/90-agent-logs/daily/bot-status-2026-06-21.md`
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/wiki/concepts/_drafts/_promoted/2026-06-20-stellina-concepts-otel.md`
+- `bbw-wiki/wiki/concepts/concepts-otel.md`
+
+---
+
+## 2026-06-21 11:16 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 02:15 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:15 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 11:12 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 02:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:11 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 02:10 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:10 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 11:06 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 02:05 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:05 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 11:03 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
 ## 2026-06-21 02:02 — 
 
 _커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
