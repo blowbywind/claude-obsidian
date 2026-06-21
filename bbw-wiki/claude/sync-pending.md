@@ -1,6 +1,20 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T13:01Z wiki-sync (autobots-scheduler)
+Vault md: 755 (+3 since 12:33Z) | session-log: 22768lines (+265) | 90-agent-logs: 268 md (daily:262, +3) | claude/: 37 md (=)
+bots: 9/9 active (last check 12:50Z) | run-gemini=unavailable
+changes: autobots.md 13:01Z updated, INDEX.md stats (vault 752->755, session 22503->22768, logs 265->268)
+no new commits (ai-ops latest: 40a56e3)
+---
+
+
+## 2026-06-21T12:33Z 위키 동기화 (autobots-scheduler)
+Vault md: 752 (= since 12:31Z) | session-log: 22503라인 (+23) | 90-agent-logs: 265 md (daily:259, =) | claude/: 37 md (=)
+봇: 9/9 active (마지막 확인 12:22Z) | run-gemini=unavailable
+변경: autobots.md 12:33Z 갱신, INDEX.md 통계 갱신 (session 22480->22503), 신규 커밋 없음
+---
+
 
 ## 2026-06-21T12:11Z 프로파일 상태 동기화 (autobots-scheduler)
 Vault md: 748 (=) | session-log: 22185라인 (+156 since 12:02Z) | daily: 255 md (=)
@@ -34,6 +48,46 @@ Vault md: 743 (+6 since 11:02Z) | session-log: 21571라인 (+415) | 90-agent-log
 봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
 변경: autobots.md 11:31Z 갱신, INDEX.md 통계 갱신 (vault 740->743, session 21369->21571, logs 254->256)
 신규: claude/decisions/2026-06-21-ai-ops-platform-direction.md, wiki/concepts/ui-icon-design-guideline.md
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
+신규 커밋 없음 (ai-ops 최신: 40a56e3)
+---
+
+
+## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
+Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
+봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
+변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
 신규 커밋 없음 (ai-ops 최신: 40a56e3)
 ---
 
