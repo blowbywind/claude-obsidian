@@ -1,3 +1,299 @@
+## 2026-06-21 22:01 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 07:01 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 22:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:58 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-22 06:57 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:56 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:55 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:52 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 21:51 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:51 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:47 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:47 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:46 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-22 06:45 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:43 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:43 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-22 06:41 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:40 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:36 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:36 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:35 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:35 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-22 06:34 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-21 21:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-22 06:33 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
+## 2026-06-22 06:32 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
 ## 2026-06-21 21:31 — 
 
 _커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
@@ -28142,6 +28438,13 @@ WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | 회사PC 신뢰루트 교체 대�
 봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active, 변경 없음)
 런타임: agy/claude/codex/obsidian-mcp=healthy (last_verified 2026-06-21 20:42:13) | run-gemini=unavailable (~54.7h, 2026-06-19 14:02 이후)
 미결: run-gemini unavailable 지속 | hermes WebSocket DEGRADED 지속
+
+## 2026-06-21T05:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP(28m healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 689 (+93) / all: 734 (+93) | wiki/: 250 md (concepts:179, _drafts:54) (+29) | session-log: 16550라인 (+4733) | 90-agent-logs: 215 md (+73)
+claude/: 38 md (projects:11, decisions:10) (+4) | 봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: 90-agent-logs/daily +6 신규, wiki/concepts +29, claude/ +4 갱신
+WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | 회사PC 신뢰루트 교체 대기 | hermes WebSocket DEGRADED 지속
 
 ## 2026-06-21T05:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP(28m healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes Slack WebSocket DEGRADED(지속)
