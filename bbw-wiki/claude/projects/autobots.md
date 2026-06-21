@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-22T03:01Z (autobots-scheduler activity-sync)
+갱신: 2026-06-22T03:52Z (autobots-scheduler profile-sync)
 
 ## runtime_providers 상태 (2026-06-21T17:21Z 검증)
 | ID | 상태 |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 18:01 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 19:01 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -53,16 +53,15 @@
 
 
 
-## 위키 동기화 최근 결과 (2026-06-21T18:00Z)
-- Bot 상태: 9/9 active (직전 동기화 기준)
-- Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
-- Vault: 802 md (+4) | session-log: 25819라인 (+127) | 90-agent-logs: 314 md (daily:307, +4) | claude/: 38 md (=)
-- ai-ops 최신 커밋: 94aeb81 chore(auto-save)
+## 위키 동기화 최근 결과 (2026-06-22T08:00Z)
+- Bot 상태: 9/9 active | Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
+- Vault: 829 md (+3 since 826) | session-log: 26495라인 (+196) | 90-agent-logs: 323 md (daily:316) | claude/: 38 md (=)
+- ai-ops git: 94aeb81 (최신)
 
 
-## 프로파일 동기화 최근 결과 (2026-06-21T18:21Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T18:52Z)
 - Bot 상태: 9/9 active (변경 없음)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
 - 프로파일 변경: 0개 updated / 9개 skipped
-- runtime_providers last_verified_at: 2026-06-21 18:21:32 갱신
-- 인프라: autobots_backend(healthy,5h) | caddy(15h) | hermes/ai-ops-ui/pg/seaweedfs(7d)
+- runtime_providers last_verified_at: 2026-06-21 18:51:29 (이전 체크 기준)
+- 인프라: autobots_backend(healthy,15m) | caddy(15h) | hermes-dashboard/ai-ops-ui/pg/seaweedfs(7d)

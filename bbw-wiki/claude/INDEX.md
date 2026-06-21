@@ -44,16 +44,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 18:17 UTC / KST 2026-06-22 03:17 (autobots-scheduler)
+> 마지막 갱신: 2026-06-22 08:00 UTC / KST 2026-06-22 17:00 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 805 md | +3 since 18:00Z |
+| vault (bbw-wiki) 전체 | 829 md | +3 since 826 |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 317 md | daily:310, tasks:5, weekly:2, failures:1, bot-status:2 |
-| session-log.md | 25995라인 | +176 since 18:00Z |
+| 90-agent-logs/ (root) | 323 md | daily:316, tasks:5, weekly:2, failures:1, bot-status:2 |
+| session-log.md | 26495라인 | +196 since 26299 |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -68,7 +68,7 @@
 | codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 241 | 29.0K / 2026-06-21 |
+| lessons.md | 241 | 29K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
 | platform-direction-discussion.md | 36 | 3.9K | 2026-06-21 |
 | responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |

@@ -2,6 +2,28 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+
+## 2026-06-22T08:00Z wiki-sync (autobots-scheduler)
+Vault md: 829 (+3 since 826) | session-log: 26495라인 (+196) | 90-agent-logs: 323 md (daily:316, +2) | claude/: 38 md (=)
+봇: 9/9 active (마지막 확인: 2026-06-22T03:52Z) | run-gemini=unavailable
+변경: autobots.md 위키동기화 섹션 갱신 (08:00Z), INDEX.md 통계 갱신 (vault 826->829, session 26299->26495, 90-agent-logs 321->323)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+## 2026-06-21T18:42Z profile-sync (autobots-scheduler)
+Vault md: 825 | 90-agent-logs: 321 md (daily:314)
+봇: 9/9 active | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+변경: runtime_providers last_verified_at 갱신 4개 | bot_profiles 수정 0개
+---
+
+## 2026-06-21T18:31Z wiki-sync (autobots-scheduler)
+Vault md: 818 (+16 since 18:13Z) | session-log: 26123라인 (+176) | 90-agent-logs: 10 md (per-bot monthly, 구조 변경) | claude/: 38 md (=)
+봇: 9/9 active (직전 동기화 기준, docker 접근 불가) | run-gemini=unavailable
+변경: autobots.md 18:31Z 갱신 (위키 동기화 최근 결과 업데이트)
+신규 커밋: 미확인 (git 바이너리 없음, 직전=94aeb81)
+---
+
+
 ## 2026-06-21T18:13Z wiki-sync (autobots-scheduler)
 Vault md: 803 | session-log: 25947lines | 90-agent-logs: 315 md (daily:308) | claude/: 37 md
 봇: 9/9 active | run-gemini=unavailable
