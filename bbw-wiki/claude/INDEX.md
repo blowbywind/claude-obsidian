@@ -42,16 +42,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 10:17 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 10:31 UTC (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 731 md | +1 |
+| vault 전체 | 733 md | +2 |
 | wiki/ | 250 (sources:32, concepts:179[drafts:54], entities:37) | = |
 | wiki/concepts/_drafts | 54 | ⚠ 검토 대기 |
 | claude/ | 36 md | = |
 | 90-agent-logs/ | 10 md | = |
-| session-log.md | 20491라인 | +225 since 10:02Z |
+| session-log.md | 20663라인 | +172 since 10:17Z |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -59,20 +59,20 @@
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
 | MEMORY.md | 19 | 2.6K | 2026-06-21 |
-| autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
+| autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
 | autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| bot-autonomous-sudo.md | 31 | 5.4K | 2026-06-21 |
-| codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
+| bot-autonomous-sudo.md | 31 | 5.3K | 2026-06-21 |
+| codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
+| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
 | lessons.md | 241 | 29.0K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
-| responsive-design-guide.md | 296 | 9.0K | 2026-06-19 |
+| responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
 | rollback-prevention.md | 19 | 1.8K | 2026-06-21 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
-| token-optimization.md | 25 | 2.2K | 2026-06-21 |
-| ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
+| token-optimization.md | 25 | 2.1K | 2026-06-21 |
+| ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
 | **합계** | **1142** | — | — |
 
 일별 통계 로그: [90-agent-logs/](../90-agent-logs/)
