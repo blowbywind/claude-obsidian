@@ -13,3 +13,5 @@
 | 17:31 | healthy (UP) | DOWN(의도적) | DOWN | Up | wiki-sync 완료 — vault 500md, 봇 9/9 active |
 | 04:20 | healthy (Up 3h) | Up 6d | Up 6d | Up 6d | 정상 — 전 서비스 이상 없음 |
 | 04:45 | UP (포트:9200 OK) | DOWN(의도적) | DOWN(의도적) | Up 6d+ | 정상 — 변화 없음, agent-status.json 갱신 완료 |
+| 08:31 | healthy (Up 7h) | Up 6d WARN | Up 6d | Up 6d | hermes: Slack WebSocket RuntimeError 지속 (Session is closed, 마지막 23:31Z) — 자동재시도 중 |
+| 09:01 | healthy (Up ~2m) | Up 6d WARN | Up 6d | Up 6d | 일일 점검: 봇 9/9 active, hermes Slack WebSocket DEGRADED 지속, run-gemini unavailable, cron_error 0건 안정화 |

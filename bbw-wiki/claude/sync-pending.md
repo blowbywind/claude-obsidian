@@ -971,3 +971,13 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 26개 순수 드래프트 + 24개 _promoted 검토 대기
 
 ---
+
+## 2026-06-21T00:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+Vault md: 632 (+8 since 23:31Z) | session-log: 13460라인 | 90-agent-logs: 160 md (daily:155)
+봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md/INDEX.md 선행 갱신 확인 (00:00Z 병렬 인스턴스) | session-log +7라인
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+주의: _drafts 15개 미검토 + _promoted 39개 병합 대기
+
+---
