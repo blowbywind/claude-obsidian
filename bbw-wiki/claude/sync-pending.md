@@ -2,6 +2,16 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 ## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend 확인불가 (스케줄러 환경, 직전 02:32Z UP 유지) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+Vault md: 671 (+6 since 665) | session-log: 15309라인 (+324 since 02:32Z) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md (=)
+봇: 9/9 active (직전 상태 유지, API 미접근) | run-gemini=unavailable
+변경: INDEX.md 통계 갱신 (vault 665->671, session 14985->15309, 90-agent-logs 181->187), autobots.md 타임스탬프 03:01Z 갱신
+WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+
+
+## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
 Vault md: 671 (+6 since 665) | session-log: 15303라인 (+318) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md (=)
 봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
@@ -1042,3 +1052,13 @@ Vault md: 645 (+6 since 00:30Z) | session-log: 14037라인 (+281) | 90-agent-log
 WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
 
 ---
+
+---
+
+## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (4min, healthy) | web_caddy UP(1h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+Vault md: 671 (=+6) | session-log: 15309라인 (+393 since 02:30Z) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md
+봇: 9/9 active | runtime: 모든 봇 정상 | run-gemini=unavailable
+변경: autobots.md 03:01Z 갱신, wiki-sync/session-log 03:01Z 엔트리 추가
+주목: autobots_backend 재시작 (up 4min) | 최신커밋 9822d20 봇자율sudo+승인UI+SSE 안정화
+WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기

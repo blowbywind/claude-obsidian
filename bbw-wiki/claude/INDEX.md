@@ -41,34 +41,34 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T03:01Z (autobots-scheduler) -- session-log 15303라인, vault 671 md
+> 마지막 갱신: 2026-06-21T03:16Z (autobots-scheduler) -- session-log 15556라인, vault 672 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| bbw-wiki/ (전체) | 671 md | +6 |
+| bbw-wiki/ (전체) | 672 md | +1 |
 | claude/ | 35 md (projects:**11**, decisions:**10**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 187 md (daily:181) | +6 |
-| session-log.md | 15303라인 | +318 |
+| 90-agent-logs/ (bbw-wiki 루트) | 188 md (daily:182) | +1 |
+| session-log.md | 15556라인 | +253 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 16 | 2K | 2026-06-21 |
-| autobots-erp-ssh.md | 23 | 2K | 2026-06-20 |
-| autobots-hardening-backlog.md | 29 | 4K | 2026-06-20 |
-| autobots-identity.md | 20 | 2K | 2026-06-19 |
-| bot-autonomous-sudo.md | 21 | 3K | 2026-06-21 |
-| codex-bwrap-apparmor-fix.md | 38 | 3K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 2K | 2026-06-19 |
-| feedback-rina-ux-rules.md | 20 | 1K | 2026-06-18 |
-| lessons.md | 191 | 21K | 2026-06-20 |
-| responsive-design-guide.md | 296 | 9K | 2026-06-19 |
-| server-infra.md | 30 | 2K | 2026-06-20 |
+| MEMORY.md | 16 | 2.1K | 2026-06-21 |
+| autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
+| autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
+| bot-autonomous-sudo.md | 28 | 3.8K | 2026-06-21 |
+| codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
+| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
+| feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
+| lessons.md | 213 | 25K | 2026-06-21 |
+| responsive-design-guide.md | 296 | 9.0K | 2026-06-19 |
+| server-infra.md | 30 | 1.8K | 2026-06-20 |
 | ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
-| **합계** | **1014** | 62K | 12파일 |
+| **합계** | **1043** | ~65K | 12파일 |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
 
