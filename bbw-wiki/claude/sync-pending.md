@@ -2,6 +2,37 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+## 2026-06-21T18:13Z wiki-sync (autobots-scheduler)
+Vault md: 803 | session-log: 25947lines | 90-agent-logs: 315 md (daily:308) | claude/: 37 md
+봇: 9/9 active | run-gemini=unavailable
+변경: autobots.md 2026-06-21T18:13Z 갱신, INDEX.md 통계 갱신
+신규 커밋: 94aeb81 (ai-ops 최신)
+---
+
+
+
+## 2026-06-21T18:00Z wiki-sync (autobots-scheduler)
+Vault md: 802 (+4 since 17:44Z) | session-log: 25825라인 (+133) | 90-agent-logs: 314 md (daily:307, +4) | claude/: 38 md (=)
+봇: 9/9 active (직전 동기화 기준) | run-gemini=unavailable
+변경: autobots.md 18:00Z 갱신 (커밋 정보 수정), INDEX.md 통계 갱신 (vault 798->802, session->25825, logs->314)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+## 2026-06-21T17:44Z wiki-sync (autobots-scheduler)
+Vault md: 797 | session-log: 25672lines | 90-agent-logs: 309 md (daily:302) | claude/: 37 md
+봇: 9/9 active | run-gemini=unavailable
+변경: autobots.md 2026-06-21T17:44Z 갱신, INDEX.md 통계 갱신
+신규 커밋: 94aeb81 (ai-ops 최신)
+---
+
+
+## 2026-06-21T17:31Z wiki-sync (autobots-scheduler)
+Vault md: 794 (= since 17:22Z) | session-log: 25533라인 (+177 since 17:16Z) | 90-agent-logs: 306 md (daily:300, +2) | claude/: 38 md (=)
+봇: 9/9 active (직전 동기화 기준, docker 접근 불가) | run-gemini=unavailable
+변경: INDEX.md 통계 갱신 (vault=794, session 25356->25533, 90-agent-logs 304->306 daily:298->300)
+신규 커밋: 미확인 (git 접근 불가, 직전=94aeb81)
+---
+
 ## 2026-06-21T17:22Z wiki-sync (autobots-scheduler)
 Vault md: 794 | session-log: 25444lines | 90-agent-logs: 306 md (daily:300) | claude/: 37 md
 봇: 9/9 active | run-gemini=unavailable
