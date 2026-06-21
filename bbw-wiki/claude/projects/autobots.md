@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T12:02Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T12:11Z (autobots-scheduler 프로파일-동기화)
 
 ## runtime_providers 상태 (2026-06-21T11:41Z 검증)
 | ID | 상태 |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 12:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 12:21 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -60,7 +60,7 @@
 - 신규 커밋(since 11:47Z): 40a56e3(auto-save 20files), f8544fc(sudo 레이스 차단), a834631(인가 네트워크 게이트), 9fcd8cb(SPA 404 수정)
 
 
-## 프로파일 동기화 최근 결과 (2026-06-21T11:41Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T12:11Z)
 - Bot 상태: 9/9 active
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
 - Findings: 변경 없음 -- 9 bots all active

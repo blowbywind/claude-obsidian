@@ -27,6 +27,7 @@
 
 | 날짜 | 프로젝트 | 결정 내용 | 노트 |
 |------|----------|----------|------|
+| 2026-06-21 | autobots/ai-ops | ai-ops 플랫폼 방향·유지보수 전략 (논의 중) | [→](decisions/2026-06-21-ai-ops-platform-direction.md) |
 | 2026-06-21 | autobots | Autobots 대화 라우팅 — 의도 기반 자동 라우팅 + Sticky (눈꽃 오케스트레이터) | [→](decisions/2026-06-21-autobots-conversation-routing.md) |
 | 2026-06-21 | autobots | 봇 자율 sudo/승인 UI 디버깅 -- SSE hijack, Caddy+Safari 인증, FastifyPlugin 재등록 | [->](decisions/2026-06-21-autobots-sudo-auth-debugging.md) |
 | 2026-06-19 | hnedu_auth | TOTP MFA 핵심 결정 3건 — 2단계 플로우, ERP setup 강제, 복구코드 10개 | [→](decisions/2026-06-19-mfa-totp-decisions.md) |
@@ -42,17 +43,17 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 12:01 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 12:17 UTC (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 748 md | +3 |
+| vault 전체 | 750 md | +2 since 12:02Z |
 | wiki/ | 251 (sources:32, concepts:180[drafts:54], entities:37) | = |
 | wiki/concepts/_drafts | 54 | ⚠ 검토 대기 |
 | claude/ | 37 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ | 261 md | +3 |
-| session-log.md | 22000라인 | +193 since 11:47Z |
+| 90-agent-logs/ | 263 md | +2 since 12:02Z |
+| session-log.md | 22243라인 | +214 since 12:02Z |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -69,13 +70,13 @@
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
 | lessons.md | 241 | 29.0K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
-| platform-direction-discussion.md | 22 | 1.8K | 2026-06-21 |
+| platform-direction-discussion.md | 26 | 2.2K | 2026-06-21 |
 | responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
 | rollback-prevention.md | 19 | 1.8K | 2026-06-21 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
 | token-optimization.md | 25 | 2.1K | 2026-06-21 |
 | ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
-| **합계** | **1165** | — | — |
+| **합계** | **1169** | — | — |
 
 일별 통계 로그: [90-agent-logs/](../90-agent-logs/)
 

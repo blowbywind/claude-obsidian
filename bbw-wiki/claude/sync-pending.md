@@ -1,6 +1,20 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+
+## 2026-06-21T12:11Z 프로파일 상태 동기화 (autobots-scheduler)
+Vault md: 748 (=) | session-log: 22185라인 (+156 since 12:02Z) | daily: 255 md (=)
+봇: 9/9 active | run-gemini=unavailable
+**변경 감지 (1건)**: 눈꽃(snow) gateway Antigravity→Claude Code, model gemini-3.5-flash→claude-sonnet-4-6 (DB 07:04:47 반영)
+런타임: agy/claude/codex/obsidian-mcp=healthy, last_verified 12:11Z 갱신
+agent-status.json: 12:11Z 갱신 완료 | 로그: profile-sync-2026-06-21-1211.json
+---
+
+## 2026-06-21T12:02Z 위키 동기화 (autobots-scheduler)
+Vault md: 748 (+3 since 11:47Z) | session-log: 22029라인 (+222) | 90-agent-logs: 261 md (daily:255, +3) | claude/: 37 md (=)
+봇: 9/9 active (마지막 확인 11:41Z) | run-gemini=unavailable
+변경: autobots.md 12:02Z 갱신, INDEX.md 통계 갱신 (vault 745→748, session→22029, logs→261), decisions 테이블 ai-ops-platform-direction ADR 추가
+---
 ## 2026-06-21T12:01Z 위키 동기화 (autobots-scheduler)
 Vault md: 748 (+3 since 11:47Z) | session-log: 22000라인 (+193) | 90-agent-logs: 261 md (daily:255, +3) | claude/: 37 md (=)
 봇: 9/9 active (마지막 확인: 2026-06-21T12:01Z) | run-gemini=unavailable
