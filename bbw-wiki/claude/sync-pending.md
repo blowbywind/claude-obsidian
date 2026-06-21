@@ -1,14 +1,28 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+
+## 2026-06-21T14:00Z wiki-sync (autobots-scheduler)
+Vault md: 764 (+5 since 13:31Z) | session-log: 23356ë¼ì¸ (+310) | 90-agent-logs: 277 md (+5) | claude/: 37 md (=)
+ë´: 9/9 active (ë§ì§ë§ íì¸ 13:52Z) | run-gemini=unavailable
+ë³ê²½: INDEX.md íµê³ ê°±ì  (vault 762->764, session 23228->23356, 90-agent-logs 275->277), ì ê· md +5
+ì ê· ì»¤ë° ìì (ai-ops ì¸ì : 94aeb81)
+---
+
+## 2026-06-21T22:30Z wiki-sync (autobots-scheduler)
+Vault md: 764 (+5 since 13:31Z) | session-log: 23362lines (+316) | 90-agent-logs: 277 md (daily:271, +5) | claude/: 37 md (=)
+봇: 9/9 active (마지막 확인 13:52Z) | run-gemini=unavailable
+변경: autobots.md 22:30Z 갱신, INDEX.md 통계 갱신 (vault 759->764, session 23046->23362, logs 272->277)
+신규 커밋: 94aeb81 (ai-ops 최신)
+---
+
+
 ## 2026-06-21T13:31Z wiki-sync (autobots-scheduler)
 Vault md: 759 (+2 since 13:17Z) | session-log: 23046lines (+102) | 90-agent-logs: 272 md (daily:266, +2) | claude/: 37 md (=)
 bots: 9/9 active (last check 13:22Z) | run-gemini=unavailable
 changes: autobots.md 13:31Z updated, INDEX.md stats (vault 757->759, session 22944->23046, logs 270->272)
 no new commits (ai-ops latest: 94aeb81)
 ---
-
-
 
 ## 2026-06-21T13:31Z 위키 동기화 (autobots-scheduler)
 Vault md: 759 (+4 since 13:01Z) | session-log: 23066라인 (+298) | 90-agent-logs: 272 md (daily:266, +4) | claude/: 37 md (=)
@@ -24,13 +38,11 @@ changes: autobots.md 13:01Z updated, INDEX.md stats (vault 752->755, session 225
 no new commits (ai-ops latest: 40a56e3)
 ---
 
-
 ## 2026-06-21T12:33Z 위키 동기화 (autobots-scheduler)
 Vault md: 752 (= since 12:31Z) | session-log: 22503라인 (+23) | 90-agent-logs: 265 md (daily:259, =) | claude/: 37 md (=)
 봇: 9/9 active (마지막 확인 12:22Z) | run-gemini=unavailable
 변경: autobots.md 12:33Z 갱신, INDEX.md 통계 갱신 (session 22480->22503), 신규 커밋 없음
 ---
-
 
 ## 2026-06-21T12:11Z 프로파일 상태 동기화 (autobots-scheduler)
 Vault md: 748 (=) | session-log: 22185라인 (+156 since 12:02Z) | daily: 255 md (=)
@@ -45,6 +57,7 @@ Vault md: 748 (+3 since 11:47Z) | session-log: 22029라인 (+222) | 90-agent-log
 봇: 9/9 active (마지막 확인 11:41Z) | run-gemini=unavailable
 변경: autobots.md 12:02Z 갱신, INDEX.md 통계 갱신 (vault 745→748, session→22029, logs→261), decisions 테이블 ai-ops-platform-direction ADR 추가
 ---
+
 ## 2026-06-21T12:01Z 위키 동기화 (autobots-scheduler)
 Vault md: 748 (+3 since 11:47Z) | session-log: 22000라인 (+193) | 90-agent-logs: 261 md (daily:255, +3) | claude/: 37 md (=)
 봇: 9/9 active (마지막 확인: 2026-06-21T12:01Z) | run-gemini=unavailable
@@ -64,70 +77,6 @@ Vault md: 743 (+6 since 11:02Z) | session-log: 21571라인 (+415) | 90-agent-log
 봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
 변경: autobots.md 11:31Z 갱신, INDEX.md 통계 갱신 (vault 740->743, session 21369->21571, logs 254->256)
 신규: claude/decisions/2026-06-21-ai-ops-platform-direction.md, wiki/concepts/ui-icon-design-guideline.md
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
-신규 커밋 없음 (ai-ops 최신: 40a56e3)
----
-
-
-## 2026-06-21T11:31Z 위키 동기화 (autobots-scheduler)
-Vault md: 743 (=) | session-log: 21623라인 (+52 since 병렬인스턴스) | 90-agent-logs: 256 md (daily:250, =) | claude/: 37 md (+1)
-봇: 9/9 active (마지막 확인 11:23Z) | run-gemini=unavailable
-변경: INDEX.md claude/ 카운트 정정 (36->37), 통계 갱신
 신규 커밋 없음 (ai-ops 최신: 40a56e3)
 ---
 
@@ -166,16 +115,12 @@ Vault md: 730 (+3 since 09:47Z) | session-log: 20243라인 (+340) | 90-agent-log
 신규 커밋 없음 (ai-ops 최신: 40a56e3)
 ---
 
-
-
-
 ## 2026-06-21T10:00Z 위키 동기화 (autobots-scheduler)
 Vault md: 730 (+5 since 09:32Z) | session-log: 20214라인 (+502 since 09:32Z) | 90-agent-logs: 245 md (+5) | claude/: 36 md (=)
 봇: 9/9 active (마지막 확인 09:52Z) | run-gemini=unavailable
 변경: autobots.md 10:00Z 갱신, INDEX.md 통계 갱신 (vault 727->730, session 19903->20214, 90-agent-logs 242->245)
 신규 커밋 없음 (ai-ops 최신: 40a56e3)
 ---
-
 
 ## 2026-06-21T09:32Z 위키 동기화 (autobots-scheduler)
 Vault md: 725 (=) | session-log: 19712라인 (+52 since 19689) | 90-agent-logs: 240 md (=) | claude/: 36 md (=)
@@ -203,7 +148,6 @@ Vault md: 701 (+4 since 697) | session-log: 17754라인 (+350) | 90-agent-logs: 
 봇: 9/9 active (마지막 확인 07:00Z) | run-gemini=unavailable
 변경: autobots.md 07:02Z 갱신, INDEX.md 통계 갱신 (vault 697->701, session 17404->17754, 90-agent-logs 212->216, daily 206->210)
 신규 커밋 없음 (ai-ops 최신: f8544fc)
-
 
 ## 2026-06-21T06:30Z 위키 동기화 (autobots-scheduler)
 Vault md: 697 (+2 since 695) | session-log: 17404라인 (+120) | 90-agent-logs: 212 md (daily:206, +2) | claude/: 36 md (=)
@@ -247,8 +191,6 @@ Vault md: 691 (+2 since 689) | session-log: 16874라인 (+183) | 90-agent-logs: 
 
 ---
 
-
-
 ## 2026-06-21T05:11Z 프로파일 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
 프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
@@ -258,6 +200,7 @@ runtime_providers: claude/codex/agy/obsidian-mcp=healthy last_verified_at=2026-0
 Vault md: 689 | session-log: 16651라인 | 90-agent-logs: 205 md (daily:199)
 
 ---
+
 ## 2026-06-21T05:01Z 위키 동기화 (autobots-scheduler)
 Vault md: 689 (+7 since 682) | session-log: 16556라인 (+343 since 16213) | 90-agent-logs: 205 md (daily:199, +7) | claude/: 35 md (=)
 봇: 9/9 active (마지막 확인 04:42Z) | run-gemini=unavailable
@@ -266,6 +209,7 @@ Vault md: 689 (+7 since 682) | session-log: 16556라인 (+343 since 16213) | 90-
 변경: autobots.md 05:01Z 갱신, INDEX.md 통계 갱신 (vault 683->689, session 16213->16556, logs 199->205)
 
 ---
+
 ## 2026-06-21T04:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (healthy, 56min) | web_caddy UP(51min) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
 Vault md: 682 (+4 since 678) | session-log: 16213라인 (+254 since 15959) | 90-agent-logs(루트): 198 md (daily:192, +2) | claude/: 35 md (=)
@@ -311,17 +255,6 @@ WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 
 
 ---
 
-
-## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
-Vault md: 671 (+6 since 665) | session-log: 15303라인 (+318) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md (=)
-봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
-변경: autobots.md 03:01Z 갱신, INDEX.md 통계 갱신 (vault 665→671, session 14985→15303, agent-logs 181→187)
-WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기
-
----
-
-
 ## 2026-06-21T02:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (healthy, 40m) | web_caddy UP (23m) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
 Vault md: 665 (=) | session-log: 14922라인 (+899 since 01:01Z) | 90-agent-logs(루트): 181 md (daily:175, +12) | claude/: 35 md
@@ -330,8 +263,6 @@ Vault md: 665 (=) | session-log: 14922라인 (+899 since 01:01Z) | 90-agent-logs
 WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
 
 ---
-
-
 
 ## 2026-06-21T01:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
@@ -352,7 +283,6 @@ Vault md: 639 (+4 since 00:18Z) | session-log: 13756라인 (+128) | 90-agent-log
 WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
 
 ---
-
 
 ## 2026-06-20T23:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy, 7h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
@@ -400,8 +330,6 @@ session-log.md: 12123라인 (+142) | work-in-progress.md: 47라인 (=)
 wiki/concepts/_drafts: 26 순수 + 24 _promoted 대기 + 4 _unresolved (총 54)
 변경: INDEX.md 통계 갱신 (wiki +2, session +142, daily +1)
 WIP: hnedu_auth TOTP MFA 구현 완료(feat/mfa-totp) — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
-
-
 
 ## 2026-06-20T22:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP(6h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes-docker=absent(의도적)
@@ -455,8 +383,6 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---
 
-
-
 ## 2026-06-20T18:21Z 프로파일 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
 인프라: autobots_backend=UP(healthy, 2h) | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d) | web_caddy=UP | db_postgres=UP
@@ -499,6 +425,7 @@ Vault md: 490 (=) / 534 all (=) | session-log 7228라인 (+164) | daily 98 (+1)
 비고: backend Up 4min (healthy) — 재시작 감지, docker ps 확인으로 상태 복원
 
 ---
+
 ## 2026-06-20T13:10Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 DOWN (localhost 미노출, Docker 172.18.0.8:9200 경유 API 정상) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 9/9 active — 전원 active (8→9 봇 수 증가 확인)
@@ -506,12 +433,14 @@ Vault md: 490 (=) / 534 all (=) | session-log 7228라인 (+164) | daily 98 (+1)
 비고: Docker 내부 IP 경유 동기화 성공
 
 ---
+
 ## 2026-06-20T12:02Z wiki-sync (autobots-scheduler)
 vault: 473 md (+2) / 515 all (+2) | 90-agent-logs daily 81 (+2) | session-log 4966L (+183)
 변경: INDEX.md 통계 확인 (12:01Z 기갱신) | autobots.md 확인 (12:02Z 기갱신)
 비고: 직전 스케줄러 인스턴스 동시갱신 완료 — 검증만 수행, 이중갱신 없음
 
 ---
+
 ## 2026-06-20T11:41Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (localhost socket) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
@@ -525,6 +454,7 @@ vault: 473 md (+2) / 515 all (+2) | 90-agent-logs daily 81 (+2) | session-log 49
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
 변경: autobots.md 갱신 (09:41Z 타임스탬프, 봇 상태 변경 없음)
 비고: localhost 포트 미노출 - Docker 172.18.0.8:9200 경유 API 정상 응답, 동기화 성공
+
 ## 2026-06-20T08:40Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 DOWN (localhost 미노출) / 172.18.0.8:9200 UP (Docker 내부) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
@@ -755,21 +685,6 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---
 
-## 2026-06-20T04:31Z 위키 동기화 (autobots-scheduler)
-Backend API: UP (docker healthy, up 6min) | hermes: UP (container) | ai-ops-ui: UP (container)
-Vault md: 420 (+7 since 01:41Z) | Vault all: 462 (+7)
-claude/ md: 33 (=) -- projects: 11, decisions: 9, root: 4, 90-agent-logs: 9
-wiki/: 134 md (=) (sources:32, concepts:67[drafts:22], entities:33, queries:1)
-90-agent-logs/ (bbw-wiki root): 70 md (daily:60, tasks:2, failures:1, weekly:2) +7
-session-log.md: 976lines (+464 since 01:41Z) | work-in-progress.md: 47lines (=)
-ai-ops memory: 926 lines (+24)
-profiles: 8/8 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow (0 updated / 8 skipped)
-Changes: autobots.md timestamp updated, INDEX.md stats/status updated
-Recent commits: 052f4d0 gitignore .claude/settings.local.json | 4030769 body schema | ff35401 SSRF guard
-Note: wiki/concepts/_drafts/ 22 drafts -- user review needed
-
----
-
 ## 2026-06-20T05:31Z 위키 동기화 (autobots-scheduler)
 Backend API: UP (localhost:9200 /health OK) | hermes: DOWN | ai-ops-ui: DOWN
 Vault md: 422 (=) | Vault all: 464 (INDEX 오류 수정: 513→464)
@@ -797,18 +712,6 @@ ai-ops memory: 926 lines (10 files, =)
 최근 커밋: 052f4d0 gitignore | 4030769 body schema | f1a2f1e bodyLimit+가드
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
-
-## 2026-06-20T05:31Z 위키 동기화 (autobots-scheduler)
-Backend API: DOWN | hermes: DOWN | ai-ops-ui: DOWN
-Vault md: 425 (+3) | Vault all: 467 (+3)
-claude/ md: 33 (=) -- projects:11, decisions:9, root:4, 90-agent-logs:9
-wiki/: 138 (sources:32, concepts:71[drafts:22], entities:33, queries:1) +2
-90-agent-logs/: 66 md (daily:61)
-session-log.md: 1444 lines (+246) | work-in-progress.md: 47 lines (=)
-WIP: hnedu_auth TOTP MFA -- 배포(.221) 대기
-주의: 컨테이너 전체 DOWN -- docker compose 재기동 필요
-
----
 
 ## 2026-06-20T06:02Z 위키 동기화 (autobots-scheduler)
 인프라: backend 확인불가 (docker 미접근) | hermes: 마지막 확인 06:01Z UP | ai-ops-ui: 마지막 확인 06:01Z UP
@@ -840,7 +743,6 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---
 
-
 ## 2026-06-20T06:50Z 프로파일 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (Docker healthy, 2h) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 프로파일: 8/8 active - arthur/dex/haeri/kiel/lian/rina/roun/snow 전원 active
@@ -863,21 +765,6 @@ ai-ops memory: 926 lines (10 files, =)
 변경: INDEX.md 통계 갱신 (vault +7, wiki/concepts +6, session +156)
 WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 22개 -- 사용자 검토 필요
----
-
-## 2026-06-20T07:30Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend:9200 UP (Docker 172.18.0.8 healthy) | hermes: UP (container) | ai-ops-ui: UP (container)
-Vault md: 451 (+7 since 07:10Z) | Vault all: 484
-claude/ md: 33 (=) -- projects: 11, decisions: 9, 루트: 4, 90-agent-logs: 9
-wiki/: 156 md (sources:32, concepts:89[drafts:24], entities:33, queries:1) +4 concepts, +2 drafts
-90-agent-logs/ (bbw-wiki 루트): 74 md (daily:70, tasks:2, failures:1, weekly:2) +2
-session-log.md: 2337 lines (+238 since 07:10Z) | work-in-progress.md: 47 lines (=)
-ai-ops memory: 927 lines (10 files, =)
-변경: autobots.md 타임스탬프 갱신 (07:30Z), INDEX.md 통계 갱신 (vault/wiki/session)
-최근 커밋: 641c01a 하드닝 백로그 WIP | 778041d stripLeadingCruft | 052f4d0 gitignore
-WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
-주의: wiki/concepts/_drafts/ 24개 -- 사용자 검토 필요
-
 ---
 
 ## 2026-06-20T07:30Z 위키 동기화 (autobots-scheduler)
@@ -973,7 +860,6 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 
 ---
 
-
 ## 2026-06-20T10:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (Docker 172.18.0.8, localhost 미노출) | hermes:19119 DOWN | ai-ops-ui:7771 DOWN
 Vault md: 467 (+1 since 10:16Z) | Vault all: 509 (+1)
@@ -1067,16 +953,13 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
 
 ---
+
 ## 2026-06-20T13:02Z wiki-sync (autobots-scheduler)
 vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
 변경: autobots.md 봇 9/9 (stellina 신규) | INDEX.md 통계 갱신 | session-log 항목 추가
 비고: stellina(스텔리나 claude-sonnet-4-6) 봇 신규 등록 확인 — 위키 반영 완료
 
 ---
-## 2026-06-20T13:02Z wiki-sync (autobots-scheduler)
-vault: 479 md (+3) / 521 all (+3) | session-log 5719L (+349)
-변경: autobots.md 봇 9/9 (stellina 신규) | INDEX.md 통계 갱신 | session-log 항목 추가
-비고: stellina(스텔리나 claude-sonnet-4-6) 봇 신규 등록 확인 — 위키 반영 완료
 
 ## 2026-06-20T13:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (healthy, 3m) | hermes-dashboard: UP (container, 6d) | ai-ops-ui: UP (container, 6d)
@@ -1095,6 +978,7 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 ---
 
 ---
+
 ## 2026-06-20T13:35Z 위키 동기화 (autobots-scheduler)
 vault: 482 md (+3) / 525 all (+4) | 90-agent-logs: 95 (+9) | session-log: 6088L
 인프라: backend UP (Docker healthy, 13:27Z) | hermes UP (6d) | ai-ops-ui UP (6d)
@@ -1102,6 +986,7 @@ vault: 482 md (+3) / 525 all (+4) | 90-agent-logs: 95 (+9) | session-log: 6088L
 비고: 봇 9/9 active (stellina 포함) | wiki/ 166 md (=) | drafts 30개 사용자 검토 필요
 
 ---
+
 ## 2026-06-20T14:03Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 확인불가 (docker 미접근) | hermes-dashboard: 마지막확인 6d | ai-ops-ui: 마지막확인 6d
 Vault md: 485 (=) | Vault all: 528 (=)
@@ -1139,6 +1024,7 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
 
 ---
+
 ## 2026-06-20T14:35Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (Docker 172.18.0.8 healthy) | hermes:19119 미확인 | ai-ops-ui:7771 미확인
 Vault md: 487 (=) / 531 all (=) | 90-agent-logs: 100 md (daily:95, tasks:2, failures:1, weekly:2) +1
@@ -1152,6 +1038,7 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 30개 -- 사용자 검토 필요
 
 ---
+
 ## 2026-06-20T15:30Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 확인불가 (docker 미접근) | hermes 마지막확인 UP (6d) | ai-ops-ui 마지막확인 UP (6d)
 Vault md: 490 (=) | Vault all: 534 (=)
@@ -1193,15 +1080,6 @@ Vault md: 495 (=) / 539 all (=) | session-log 7562라인 (+22) | daily 102 (=)
 봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
 변경: autobots.md 타임스탬프 갱신 (15:32Z) | INDEX.md 통계 갱신 | session-log 항목 추가
 비고: 직전 sync(15:31Z)에서 1분 — vault 변경 없음, session-log +22라인만
-
----
-
-## 2026-06-20T16:02Z 위키 동기화 (autobots-scheduler)
-인프라: 확인 불가 (네트워크 접근 제한) | 마지막 확인(16:01Z): backend UP | hermes UP | ai-ops-ui UP
-Vault md: 492 (=) / 536 all (=) | session-log 8103라인 (+65) | daily 107 (+2)
-봇: 9/9 active (16:01Z 기준)
-변경: INDEX.md 수치 보정 (wiki/ 167→150, _drafts→_unresolved:4, entities 33→37, daily 105→107) | autobots.md 16:02Z | session-log 항목 추가
-비고: wiki/concepts/_drafts/ 재구성 완료 확인 — _unresolved 4개만 잔존 (미검토 drafts)
 
 ---
 
@@ -1259,6 +1137,7 @@ Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-dashboard=UP(6
 Vault md: 528 (+8 since 18:30Z) | Vault all: 573 (+8) | session-log: 9986L (+284) | 90-agent-logs: 124 md (=)
 
 ---
+
 ## 2026-06-20T19:30Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend:9200 UP (172.18.0.8 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
 Vault md: 557 (+11 since 546) / 655 all (+64)
@@ -1273,7 +1152,6 @@ WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
 주의: wiki/concepts/_drafts/ 42개 -- 사용자 검토 필요
 
 ---
-
 
 ## 2026-06-20T20:21Z 프로파일 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | hermes-dashboard=UP(6d) | ai-ops-ui=UP(6d)
@@ -1311,19 +1189,6 @@ Vault md: 602 | Vault all: 647 | session-log: 12041L | 90-agent-logs: 146 md
 
 ---
 
-## 2026-06-20T22:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend:9200 UP (172.18.0.8 healthy) | hermes-dashboard DOWN(의도적) | ai-ops-ui DOWN
-Vault md: 604 / 649 all | wiki/ 224 md (sources:32, concepts:153[root:99,_drafts:26,_promoted:24,_unresolved:4], entities:37)
-90-agent-logs/ (bbw-wiki 루트): 147 md (daily:142, tasks:2, failures:1, weekly:2) | +1
-session-log.md: 12123라인 (+142 since 11981) | work-in-progress.md: 47라인 (=)
-봇: 9/9 active -- arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active (최근갱신 2026-06-20)
-변경: autobots.md 타임스탬프 갱신 (22:01Z), INDEX.md 통계 갱신 (vault/wiki/session/agent-logs)
-최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
-WIP: hnedu_auth TOTP MFA 구현 완료 -- 배포(.221) 대기
-주의: wiki/concepts/_drafts/ 26개 순수 드래프트 + 24개 _promoted 검토 대기
-
----
-
 ## 2026-06-21T00:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
 Vault md: 632 (+8 since 23:31Z) | session-log: 13460라인 | 90-agent-logs: 160 md (daily:155)
@@ -1344,58 +1209,6 @@ Backend: healthy (localhost:9200)
 변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — active 유지)
 run-gemini: unavailable (지속)
 STATUS: OK | daily_log=profile-sync-2026-06-21-0010.md
-
-## 2026-06-21T01:01Z 위키 동기화 (autobots-scheduler)
-인프라: backend UP (health OK) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP
-Vault md: 645 (+6 since 00:30Z) | session-log: 14037라인 (+281) | 90-agent-logs(루트): 169 md (+4) | claude/: 34 md (=)
-봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
-변경: autobots.md/INDEX.md 갱신 (01:01Z)
-WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
-
----
-
----
-
-## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend UP (4min, healthy) | web_caddy UP(1h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
-Vault md: 671 (=+6) | session-log: 15309라인 (+393 since 02:30Z) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md
-봇: 9/9 active | runtime: 모든 봇 정상 | run-gemini=unavailable
-변경: autobots.md 03:01Z 갱신, wiki-sync/session-log 03:01Z 엔트리 추가
-주목: autobots_backend 재시작 (up 4min) | 최신커밋 9822d20 봇자율sudo+승인UI+SSE 안정화
-WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
-
----
-
-## 2026-06-21T04:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend 확인불가 (스케줄러 환경) | hermes-dashboard UP | ai-ops-ui UP
-Vault md: 674 (+2) | session-log: 15652라인 (+96) | 90-agent-logs: 190 md (daily:184, +2) | claude/: 35 md (=)
-봇: 9/9 active (직전 상태 유지) | run-gemini=unavailable
-변경: INDEX.md 통계 갱신, autobots.md 타임스탬프 04:01Z 갱신
-WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기
-
----
-
-## 2026-06-21T04:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend UP (healthy, 27m) | web_caddy UP | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
-Vault md: 678 (+4 since 03:30Z) | session-log: 15959L (+307) | 90-agent-logs(루트): 194 md (daily:188, +2) | claude/: 35 md (=)
-봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | run-gemini=unavailable
-변경: INDEX.md 90-agent-logs 수치 갱신 (192→194, daily 186→188), autobots.md 04:01Z 갱신(병렬 선행)
-최근 커밋: a834631 sudo 인가 게이트 | 9fcd8cb SPA 404 | 9822d20 봇 자율 sudo
-WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기
-주의: wiki/concepts/_drafts/ 54개 -- 사용자 검토 필요
-
----
-
-## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
-인프라: autobots_backend UP (4min, healthy) | web_caddy UP(1h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
-Vault md: 671 (=+6) | session-log: 15309라인 (+393 since 02:30Z) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md
-봇: 9/9 active | runtime: 모든 봇 정상 | run-gemini=unavailable
-변경: autobots.md 03:01Z 갱신, wiki-sync/session-log 03:01Z 엔트리 추가
-주목: autobots_backend 재시작 (up 4min) | 최신커밋 9822d20 봇자율sudo+승인UI+SSE 안정화
-WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
-
-
----
 
 ## 2026-06-21T04:11Z 프로파일 상태 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (127.0.0.1:9200, healthy, 36min) | web_caddy UP(31min) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | db_adminer UP(6d)
@@ -1418,15 +1231,6 @@ Vault md: 701 (+2 since 699) | session-log: 17754라인 (+163) | 90-agent-logs: 
 봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
 변경: autobots.md 07:00Z 갱신, INDEX.md 통계 갱신 (session 17591->17754, vault 699->701)
 최신 커밋: f8544fc (신규 없음) | WIP: hnedu_auth TOTP MFA 배포 대기
-
-
-## 2026-06-21T07:30Z 위키 동기화 (autobots-scheduler)
-Vault md: 707 (+4 since 703) | session-log: 17984라인 (+128 since 17856) | 90-agent-logs: 222 md (daily:216, +4) | claude/: 36 md (=)
-봇: 9/9 active (마지막 확인 07:22Z 프로파일 동기화) | run-gemini=unavailable
-변경: autobots.md 07:30Z 갱신, INDEX.md 통계 갱신 (vault 703→707, session 17856→17984, 90-agent-logs 218→222)
-신규 커밋 없음 (ai-ops 최신: f8544fc)
-
----
 
 ## 2026-06-21T12:31Z 위키 동기화 (autobots-scheduler)
 Vault md: 752 (+2 since 12:17Z) | session-log: 22434라인 (+191) | 90-agent-logs: 265 md (daily:259, +2) | claude/: 37 md (=)

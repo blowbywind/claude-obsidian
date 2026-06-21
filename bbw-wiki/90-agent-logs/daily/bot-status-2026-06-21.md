@@ -41,3 +41,6 @@
 | 21:26 | healthy (Up ~1h) | Up 7d | Up 7d | Up 9h | 정상 — 봇 9/9 active, /health all ok (failures:0), hermes 오류 없음, sudo job polling 200 |
 | 21:36 | healthy (Up ~1h) | Up 7d | Up 7d | Up 9h | 정상 — 봇 9/9 active, /health failures:0 (obsidian·episodic·db_dir all ok), sudo job polling 200 |
 | 22:25 | healthy (Up 2h) | Up 7d WARN | Up 7d | Up 10h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
+| 22:35 | healthy (Up 2h) | Up 7d WARN | Up 7d | Up 10h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
+| 22:50 | healthy (Up 2h) | Up 7d | Up 7d | Up 10h | 정상 — /health all ok (failures:0), hermes 오류 없음, sudo job polling 200 |
+| 13:56 | healthy (Up 4m) | Up 7d | Up 7d | Up 10h | 정상 — autobots_backend 최근 재시작 후 healthy 복귀, /health failures:0 (obsidian·episodic·db_dir all ok), hermes 오류 없음, sudo job polling 200 |
