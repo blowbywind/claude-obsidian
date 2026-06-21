@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-22T15:01Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-21T15:21Z (autobots-scheduler 프로파일-동기화)
 
-## runtime_providers 상태 (2026-06-21T14:51Z 검증)
+## runtime_providers 상태 (2026-06-21T15:21Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T14:51Z)
+## 봇 로스터 (DB 기준, 2026-06-21T15:21Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -59,9 +59,9 @@
 - ai-ops 최신 커밋: 94aeb81 (신규 없음)
 
 
-## 프로파일 동기화 최근 결과 (2026-06-21T14:51Z)
-- Bot 상태: 9/9 active (변경 없음)
-- Runtime: agy/claude/codex/obsidian-mcp healthy (last_verified 14:51Z) | run-gemini unavailable
-- Findings: No bot status changes — 9 bots all at correct status
+## 프로파일 동기화 최근 결과 (2026-06-21T15:21Z)
+- Bot 상태: 9/9 active
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
+- Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T14:51Z (sync-profiles-run.mjs)
+- API 직접 조회: 2026-06-21T15:21Z (/health ok=true)

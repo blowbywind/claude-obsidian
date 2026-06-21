@@ -44,39 +44,39 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 15:01 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 15:16 UTC / KST 2026-06-22 00:16 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 771 md | +1 since 2026-06-21 23:30Z |
-| wiki/ | 199 (sources:32, concepts:128[drafts:2], entities:37) | = |
-| wiki/concepts/_drafts | 2 | = |
+| vault 전체 | 772 md | +1 since 15:01Z |
+| wiki/ | 251 (sources:32, concepts:180[drafts:54], entities:37) | +52 since 15:01Z |
+| wiki/concepts/_drafts | 54 | +52 |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ | 283 md | daily:277 |
-| session-log.md | 24004라인 | +163 since 23:30Z |
+| 90-agent-logs/ | 284 md | daily:278 (+1) |
+| session-log.md | 24168라인 | +164 since 15:01Z |
 | work-in-progress.md | — | 최신 |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 20 | 2.8K | 2026-06-21 |
-| autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
+| MEMORY.md | 20 | 2.9K | 2026-06-21 |
+| autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
 | autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| bot-autonomous-sudo.md | 31 | 5.3K | 2026-06-21 |
-| codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
+| bot-autonomous-sudo.md | 31 | 5.5K | 2026-06-21 |
+| codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
+| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 241 | 29.0K | 2026-06-21 |
+| lessons.md | 241 | 29.7K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
-| platform-direction-discussion.md | 36 | 3.7K | 2026-06-21 |
-| responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
+| platform-direction-discussion.md | 36 | 4.0K | 2026-06-21 |
+| responsive-design-guide.md | 296 | 9.1K | 2026-06-19 |
 | rollback-prevention.md | 19 | 1.8K | 2026-06-21 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
-| token-optimization.md | 25 | 2.1K | 2026-06-21 |
-| ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
+| token-optimization.md | 25 | 2.2K | 2026-06-21 |
+| ui-ux-design-learning.md | 302 | 11.8K | 2026-06-19 |
 | **합계** | **1179** | — | — |
 
 일별 통계 로그: [90-agent-logs/](../90-agent-logs/)
