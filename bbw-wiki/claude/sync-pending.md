@@ -5,9 +5,9 @@
 
 ## 2026-06-22T02:00Z wiki-sync (autobots-scheduler)
 Vault md: 778 (+3 since 01:00Z) | session-log: 24648라인 (+346) | 90-agent-logs: 290 md (daily:284, +3) | claude/: 38 md (=)
-옵: 9/9 active (마지막 확인: 2026-06-21T15:10Z) | run-gemini=unavailable
-변경: INDEX.md 통계 갱신 (vault 775->778, session 24302->24648, logs 287->290), autobots.md 타임스템프 갱신
-신규 코밋: 94aeb81 (ai-ops 최신, 변동 없음)
+봇: 9/9 active (마지막 확인: 2026-06-21T15:10Z) | run-gemini=unavailable
+변경: INDEX.md 통계 갱신 (vault 775->778, session 24302->24648, logs 287->290), autobots.md 타임스탬프 갱신
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
 ---
 
 ## 2026-06-21T16:05Z wiki-sync (autobots-scheduler)
