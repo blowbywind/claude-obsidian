@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: autobots_backend UP (healthy, 자동복구 확인) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
-갱신: 2026-06-21T06:51Z (autobots-scheduler 프로파일-동기화)
+상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes Slack WebSocket DEGRADED
+갱신: 2026-06-21T07:30Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-21T06:51Z 검증)
+## runtime_providers 상태 (2026-06-21T07:21Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T06:51Z)
+## 봇 로스터 (DB 기준, 2026-06-21T07:16Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -48,20 +48,19 @@
 | lian | 리안 | Antigravity | active | gemini-3.5-flash |
 | rina | 리나 | Antigravity | active | gemini-3.5-flash |
 | roun | 로운 | Codex | active | gpt-5.5 |
-| snow | 눈꽃 | Antigravity | active | gemini-3.5-flash |
+| snow | 눈꽃 | Claude Code | active | claude-sonnet-4-6 |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T06:31Z)
-- Bot 상태: 9/9 active (마지막 확인: 06:31Z)
+## 위키 동기화 최근 결과 (2026-06-21T07:30Z)
+- Bot 상태: 9/9 active (마지막 확인: 07:23Z)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
 - 최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단 (신규 없음)
-- Vault: 697 md (=) | session-log: 17390라인 (-14 보정) | 90-agent-logs: 212 md (daily:206, =)
-- 인프라: backend healthy (docker Up 12m) | all services UP | web_caddy Up(3h+)
+- Vault: 707 md (+6) | session-log: 17984라인 (+230) | 90-agent-logs: 222 md (daily:216, +6)
+- 인프라: backend healthy (UP) | all services UP
 
-## 프로파일 동기화 최근 결과 (2026-06-21T06:52Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T07:23Z)
 - Bot 상태: 9/9 active (변경 없음)
-- Runtime: claude healthy | codex healthy | agy healthy | hermes-docker down | obsidian-mcp healthy
-- Findings: No bot status changes — 9 bots all at correct status
-- 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T06:42Z
+- Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+- 프로파일 상태 변경: 0개 (모든 봇 active 유지)
+- runtime_providers last_verified_at: 07:21:37Z

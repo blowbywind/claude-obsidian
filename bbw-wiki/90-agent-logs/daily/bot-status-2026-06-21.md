@@ -30,3 +30,5 @@
 | 14:46 | healthy (Up ~1h) | Up 7d WARN | Up 6d | Up 2h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
 | 14:50 | healthy (Up ~1h) | Up 6d WARN | Up 6d | Up 2h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
 | 15:35 | healthy (Up 18m) | Up 6d WARN | Up 6d | Up 3h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
+| 16:25 | healthy (Up 17m) | Up 6d | Up 6d | Up 4h | 정상 — 봇 9/9 active, /health failures:0, 승인대기 0건, hermes 오류 없음, sudo job polling 200 |
+| 16:30 | healthy (Up 22m) | Up 6d | Up 6d | Up 4h | 정상 — /health all ok (failures:0), sudo job polling 200, 전 서비스 이상 없음 |

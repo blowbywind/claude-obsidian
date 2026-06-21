@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy, 1h+) | 봇 9/9 active (갱신: 06:31Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 07:30Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -42,36 +42,37 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T06:46Z (autobots-scheduler) -- session-log 17591라인, vault 699 md
+> 마지막 갱신: 2026-06-21T07:30Z (autobots-scheduler) -- session-log 17984라인, vault 707 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| bbw-wiki/ (전체) | 699 md | +2 |
+| bbw-wiki/ (전체) | 707 md | +4 |
 | claude/ | 36 md (projects:**11**, decisions:**11**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| wiki/ | 250 md (sources:32, concepts:**179**, entities:37, queries:1, 루트:1) | +54 |
-| 90-agent-logs/ (bbw-wiki 루트) | 214 md (daily:208) | +2 |
-| session-log.md | 17591라인 | +124 |
+| wiki/ | 250 md (sources:32, concepts:**179**, entities:37, queries:1, 루트:1) | = |
+| 90-agent-logs/ (bbw-wiki 루트) | 222 md (daily:216) | +4 |
+| session-log.md | 17984라인 | +128 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 17 | 2.2K | 2026-06-21 |
+| MEMORY.md | 18 | 2.4K | 2026-06-21 |
 | autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
-| autobots-hardening-backlog.md | 30 | 3.9K | 2026-06-21 |
-| autobots-identity.md | 21 | 1.5K | 2026-06-21 |
-| bot-autonomous-sudo.md | 30 | 4.3K | 2026-06-21 |
+| autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
+| bot-autonomous-sudo.md | 31 | 5.3K | 2026-06-21 |
 | codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
-| feedback-rina-ux-rules.md | 21 | 1.1K | 2026-06-21 |
-| lessons.md | 242 | 29.1K | 2026-06-21 |
+| feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
+| lessons.md | 241 | 29.0K | 2026-06-21 |
+| orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
 | responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
 | server-infra.md | 30 | 1.8K | 2026-06-20 |
-| token-optimization.md | 26 | 2.2K | 2026-06-21 |
+| token-optimization.md | 25 | 2.1K | 2026-06-21 |
 | ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
-| **합계** | **1104** | ~73K | 13파일 |
+| **합계** | **1122** | ~76K | 14파일 |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
 
