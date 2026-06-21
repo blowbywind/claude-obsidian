@@ -52,12 +52,12 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T04:31Z)
-- Bot 상태: 9/9 active (변경 없음)
+## 위키 동기화 최근 결과 (2026-06-21T05:01Z)
+- Bot 상태: 9/9 active (마지막 확인: 04:42Z)
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- 최신 커밋: a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
-- Vault: 682 md (+2) | session-log: 16213라인 (+94) | 90-agent-logs: 198 md (daily:192, +2)
-- daily 로그: wiki-sync-2026-06-21-0431.md 생성
+- 최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- Vault: 689 md (+7) | session-log: 16556라인 (+343) | 90-agent-logs: 205 md (daily:199, +7)
+- 인프라: scheduler 환경 직접 확인 불가 (docker/curl 없음) — 마지막 known: all UP (04:42Z)
 
 ## 프로파일 동기화 최근 결과 (2026-06-21T04:42Z)
 - Bot 상태: 9/9 active (변경 없음)

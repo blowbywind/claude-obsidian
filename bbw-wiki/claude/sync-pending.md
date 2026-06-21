@@ -3,6 +3,14 @@
 
 
 
+## 2026-06-21T05:01Z 위키 동기화 (autobots-scheduler)
+Vault md: 689 (+7 since 682) | session-log: 16556라인 (+343 since 16213) | 90-agent-logs: 205 md (daily:199, +7) | claude/: 35 md (=)
+봇: 9/9 active (마지막 확인 04:42Z) | run-gemini=unavailable
+최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+인프라: scheduler 환경 직접 확인 불가 (docker/curl PATH 없음) — 마지막 known: all UP (04:42Z)
+변경: autobots.md 05:01Z 갱신, INDEX.md 통계 갱신 (vault 683->689, session 16213->16556, logs 199->205)
+
+---
 ## 2026-06-21T04:31Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (healthy, 56min) | web_caddy UP(51min) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
 Vault md: 682 (+4 since 678) | session-log: 16213라인 (+254 since 15959) | 90-agent-logs(루트): 198 md (daily:192, +2) | claude/: 35 md (=)
