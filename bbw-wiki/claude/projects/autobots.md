@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T17:02Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-21T17:21Z (autobots-scheduler profile-sync)
 
-## runtime_providers 상태 (2026-06-21T17:02Z 검증)
+## runtime_providers 상태 (2026-06-21T17:21Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 17:01 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 17:21 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T16:51Z)
+## 봇 로스터 (DB 기준, 2026-06-21T17:21Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -52,16 +52,17 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T17:02Z)
+## 위키 동기화 최근 결과 (2026-06-21T17:22Z)
 - Bot 상태: 9/9 active
 - Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
 - Vault: 790 md (=) | session-log: 25184라인 | 90-agent-logs: 302 md (daily:296, =) | claude/: 38 md (=)
 - ai-ops 최신 커밋: 94aeb81 (신규 없음)
 
 
-## 프로파일 동기화 최근 결과 (2026-06-21T16:51Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T17:21Z)
 - Bot 상태: 9/9 active
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
 - Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T16:21:13Z
+- runtime_providers last_verified_at 갱신됨
+- agent-status.json 갱신: 2026-06-21T17:21:00Z

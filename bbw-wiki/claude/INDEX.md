@@ -44,26 +44,26 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 17:02 UTC / KST 2026-06-22 02:02 (autobots-scheduler)
+> 마지막 갱신: 2026-06-21 17:16 UTC / KST 2026-06-22 02:16 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 790 md | +4 since 16:46Z |
+| vault (bbw-wiki) 전체 | 792 md | +2 since 17:02Z |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 302 md | daily:296, tasks:2, weekly:2, failures:1, bot-status:1 (=) |
-| session-log.md | 25184라인 | = |
+| 90-agent-logs/ (root) | 304 md | daily:298, tasks:2, weekly:2, failures:1, bot-status:1 (+2) |
+| session-log.md | 25356라인 | +172 |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 20 | 2.8K | 2026-06-21 |
+| MEMORY.md | 20 | 2.9K | 2026-06-21 |
 | autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
-| autobots-identity.md | 20 | 1.5K | 2026-06-18 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
 | bot-autonomous-sudo.md | 31 | 5.3K | 2026-06-21 |
 | codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
