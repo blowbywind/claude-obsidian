@@ -1,3 +1,26 @@
+## 2026-06-21 18:32 — ai-ops
+
+**최근 커밋:**
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+
+**변경 파일 (마지막 커밋):**
+- `.claude/settings.json`
+- `autobots/.agents/AGENTS.md`
+- `autobots/backend/db/check-db-state.ts`
+- `autobots/backend/db/seed-v4.ts`
+- `autobots/backend/health.ts`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/plugins/obsidian-gateway.ts`
+- `autobots/backend/routes/bot-router.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/memory.ts`
+
+---
+
 ## 2026-06-21 18:31 — ai-ops
 
 **최근 커밋:**
