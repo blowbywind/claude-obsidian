@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-22T03:52Z (autobots-scheduler profile-sync)
+갱신: 2026-06-21T19:01Z (autobots-scheduler wiki-sync)
 
 ## runtime_providers 상태 (2026-06-21T17:21Z 검증)
 | ID | 상태 |
@@ -53,7 +53,7 @@
 
 
 
-## 위키 동기화 최근 결과 (2026-06-22T08:00Z)
+## 위키 동기화 최근 결과 (2026-06-21T19:01Z)
 - Bot 상태: 9/9 active | Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
 - Vault: 829 md (+3 since 826) | session-log: 26495라인 (+196) | 90-agent-logs: 323 md (daily:316) | claude/: 38 md (=)
 - ai-ops git: 94aeb81 (최신)
