@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-21T19:30Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-22T20:11Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
@@ -44,16 +44,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 19:46 UTC / KST 2026-06-22 04:46 (autobots-scheduler)
+> 마지막 갱신: 2026-06-22 20:11 UTC / KST 2026-06-23 05:11 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 861 md | +6 since 855 |
+| vault (bbw-wiki) 전체 | 879 md | +7 since 872 |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 326 md | daily:319, tasks:2, weekly:2, failures:1, bot-status:2 |
-| session-log.md | 27028라인 | +169 since 26859 |
+| 90-agent-logs/ (root) | 334 md | daily:327, tasks:2, weekly:2, failures:1, bot-status:2 |
+| session-log.md | 27473라인 | +257 since 27216 |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
@@ -68,7 +68,7 @@
 | codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
 | effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 241 | 29K | 2026-06-21 |
+| lessons.md | 241 | 29.0K | 2026-06-21 |
 | orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
 | platform-direction-discussion.md | 36 | 3.9K | 2026-06-21 |
 | responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
