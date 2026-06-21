@@ -1,5 +1,11 @@
 Autobots Scheduler - Bot Status Check Log (every 5min)
 
+## 2026-06-21T08:35Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP 18m, healthy) | web_caddy(UP 5h) | hermes-dashboard(UP 7d) | ai-ops-ui(UP 7d) | db_postgres(UP 7d) | storage_seaweedfs(UP 7d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active | agents: 16 | pendingApproval: 0 | sudoPending: 0
+이상: 없음
+
 ## 2026-06-21T04:46Z 메모리 통계 갱신 (autobots-scheduler)
 Vault md: 685 (+297 vs 6-19) | Vault all: 730 (+300 vs 6-19)
 claude/ md: 35 (+3 vs 6-19) — projects: 11, decisions: 10, 루트: 4, 90-agent-logs: 10
@@ -10349,3 +10355,14 @@ STATUS: DEGRADED
 인프라: autobots_backend 08:17 UTC 재시작(Up 4m, healthy)
 agent-status.json: last_checked 08:21Z 갱신
 이상: run-gemini unavailable 지속 | snow gateway 변경
+
+
+---
+
+## 2026-06-21T01:40Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP healthy, 01:30Z 재시작) | web_caddy(UP) | hermes-dashboard(UP 6d) | ai-ops-ui(UP 6d) | db_postgres(UP 6d) | storage_seaweedfs(UP 6d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
+미결: run-gemini unavailable | hermes WebSocket DEGRADED
