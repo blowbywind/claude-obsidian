@@ -1,3 +1,13 @@
+## 2026-06-21T10:46Z 메모리 파일 통계 갱신 (autobots-scheduler)
+Vault md: 736 (+11 vs 09:31Z) | Vault all: 781 (+11 vs 09:31Z)
+claude/ md: 36 (=) -- projects: 11, decisions: 11, root: 4, 90-agent-logs: 10
+claude/ session-log: 20,890줄 (+1,178 vs 09:31Z)
+wiki/ md: 250 (=) (sources: 32, concepts: 179, entities: 37, queries: 1)
+50-prompts: 6 (=)
+[cron_success] 2026-06-21T10:46Z bot=autobots-scheduler: 메모리 파일 통계 갱신 완료
+
+---
+
 ## 2026-06-21T09:31Z 위키 동기화 (autobots-scheduler)
 Vault md: 725 (+2 since 09:16Z) | session-log: 19660라인 (+215) | 90-agent-logs: 240 md (daily:234, +2)
 봇: 9/9 active (마지막 확인 09:21Z) | run-gemini=unavailable
@@ -10575,3 +10585,80 @@ STATUS: DEGRADED
 런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
 이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
 미결: run-gemini unavailable | hermes WebSocket DEGRADED
+
+
+---
+
+## 2026-06-21T01:40Z 봇 상태 확인 (autobots-scheduler)
+인프라: autobots_backend(UP healthy, 01:30Z 재시작) | web_caddy(UP) | hermes-dashboard(UP 6d) | ai-ops-ui(UP 6d) | db_postgres(UP 6d) | storage_seaweedfs(UP 6d)
+헬스체크: ok=true | failures=[] | sudo job 폴링 정상
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+이상: autobots_backend 01:30Z 재시작 (01:01Z sync 이후, 원인 불명)
+미결: run-gemini unavailable | hermes WebSocket DEGRADED
+
+
+---
+
+## 2026-06-21T10:42Z 프로파일 상태 동기화 (autobots-scheduler)
+인프라: autobots_backend(UP healthy ~3h) | web_caddy(UP ~7h) | hermes-dashboard(UP) | ai-ops-ui(UP) | db_postgres(UP 7d) | storage_seaweedfs(UP 7d)
+헬스체크: ok=true | failures=[] | obsidian_vault OK | memory_episodic OK | db_dir OK
+봇: 9/9 active (변경 없음 - arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina)
+런타임: claude/codex/agy/obsidian-mcp=healthy (last_verified_at 10:42 갱신) | run-gemini=unavailable (72h+ 지속)
+미결: run-gemini unavailable (2026-06-19 14:02 이후)
+
+---
+
+## 2026-06-21T10:45Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | NOT FOUND
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-20 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-20 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-20 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-20 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-20 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-20 18:32Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-20 19:01Z
+  snow       (눈꽃    ) - active   - Claude Code    | last_learning: 2026-06-20 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-20 19:05Z
+
+Docker containers:
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
+
+---
+
+## 2026-06-21T10:52Z 봇 상태 점검 (autobots-scheduler)
+Backend: OK | Up 3 hours (healthy)
+Stats: total=9 | active=9 | inactive=0
+
+Bot roster:
+  arthur     (아서    ) - active   - Codex          | last_learning: 2026-06-20 19:31Z
+  dex        (덱스    ) - active   - Claude Code    | last_learning: 2026-06-20 18:17Z
+  haeri      (해리    ) - active   - Claude Code    | last_learning: 2026-06-20 18:15Z
+  kiel       (키엘    ) - active   - Claude Code    | last_learning: 2026-06-20 19:15Z
+  lian       (리안    ) - active   - Antigravity    | last_learning: 2026-06-20 19:03Z
+  rina       (리나    ) - active   - Antigravity    | last_learning: 2026-06-20 18:32Z
+  roun       (로운    ) - active   - Codex          | last_learning: 2026-06-20 19:01Z
+  snow       (눈꽃    ) - active   - Claude Code    | last_learning: 2026-06-20 19:45Z
+  stellina   (스텔리나  ) - active   - Claude Code    | last_learning: 2026-06-20 19:05Z
+
+Docker containers:
+  ai-ops-ui              Up 7 days
+  autobots_backend       Up 3 hours (healthy)
+  db_adminer             Up 7 days
+  db_postgres            Up 7 days
+  hermes-dashboard       Up 7 days
+  storage_seaweedfs      Up 7 days
+  web_caddy              Up 7 hours
+
+Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+WARN: hermes-dashboard Slack WebSocket DEGRADED (지속)
+WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
+STATUS: DEGRADED
