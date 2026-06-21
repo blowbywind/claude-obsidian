@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-22T02:00Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-22T04:00Z (autobots-scheduler 프로파일-동기화)
 
-## runtime_providers 상태 (2026-06-21T15:52Z 검증)
+## runtime_providers 상태 (2026-06-22T04:00Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 16:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 16:26 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T15:52Z)
+## 봇 로스터 (DB 기준, 2026-06-22T04:00Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -52,18 +52,18 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T16:04Z)
+## 위키 동기화 최근 결과 (2026-06-21T16:31Z)
 - Bot 상태: 9/9 active (직전 동기화 기준)
 - Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
-- Vault: 778 md | session-log: 24654라인 | 90-agent-logs: 290 md | claude/: 38 md (=)
+- Vault: 784 md | session-log: 24934라인 | 90-agent-logs: 296 md | claude/: 38 md (=)
 - ai-ops 최신 커밋: 94aeb81 (신규 없음)
 
 
-## 프로파일 동기화 최근 결과 (2026-06-21T15:52Z)
+## 프로파일 동기화 최근 결과 (2026-06-22T04:00Z)
 - Bot 상태: 9/9 active
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
-- Vault: 777 md (=) | session-log: 24560라인 (+21) | 90-agent-logs: 289 md (=) | claude/: 38 md (=)
+- Vault: 780 md (+2) | session-log: 24736라인 (+82) | 90-agent-logs: 292 md (+2) | claude/: 38 md (=)
 - Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
 - runtime_providers: 4개 last_verified_at 갱신 (claude/codex/agy/obsidian-mcp)
-- API 직접 조회: 2026-06-21T15:52Z (/health ok=true)
+- ai-ops 최신 커밋: 94aeb81 (신규 없음)
