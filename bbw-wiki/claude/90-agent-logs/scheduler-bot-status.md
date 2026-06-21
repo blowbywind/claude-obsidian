@@ -1,5 +1,16 @@
 ## 2026-06-21T21:31Z 메모리 파일 통계 갱신 (autobots-scheduler)
 
+## 2026-06-21T14:01Z 위키 동기화 (autobots-scheduler)
+
+Vault md: 764 (+2 since 13:52Z) | session-log: 23376라인 (+102) | 90-agent-logs: 277 md (daily:271, +2) | claude/: 37 md (=)
+봇: 9/9 active (마지막 확인: 13:52Z, API 미응답) | run-gemini=unavailable
+변경: autobots.md·INDEX.md·sync-pending.md·wiki-sync-2026-06-21.md 갱신
+ai-ops 최신 커밋: 94aeb81 (신규 없음)
+[cron_success] 2026-06-21T14:01Z bot=autobots-scheduler: 위키 동기화 완료
+
+---
+
+
 ## 2026-06-21T13:42Z 프로파일 상태 동기화 (autobots-scheduler)
 Runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
 Bot: 9/9 active | 변경: 0개 updated / 9개 skipped

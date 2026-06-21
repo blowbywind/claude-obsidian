@@ -1,6 +1,13 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T14:01Z wiki-sync (autobots-scheduler)
+Vault md: 764 (+2 since 13:52Z) | session-log: 23376라인 (+102) | 90-agent-logs: 277 md (daily:271, +2) | claude/: 37 md (=)
+Vault md: 764 (+5 since 13:31Z) | session-log: 23356라인 (+310) | 90-agent-logs: 277 md (+5) | claude/: 37 md (=)
+봇: 9/9 active (마지막 확인 13:52Z) | run-gemini=unavailable
+변경: INDEX.md 통계 갱신 (vault 762->764, session 23228->23356, 90-agent-logs 275->277), 신규 md +5
+신규 커밋 없음 (ai-ops 최신: 94aeb81)
+
 
 ## 2026-06-21T14:00Z wiki-sync (autobots-scheduler)
 Vault md: 764 (+5 since 13:31Z) | session-log: 23356ë¼ì¸ (+310) | 90-agent-logs: 277 md (+5) | claude/: 37 md (=)
