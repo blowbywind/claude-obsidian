@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP / hermes-dashboard UP(6d) / ai-ops-ui UP(6d) / 봇 9/9 active (갱신: 23:31Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP / hermes-dashboard UP(7d) / ai-ops-ui UP(7d) / 봇 9/9 active (갱신: 01:01Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -40,33 +40,34 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T00:18Z (autobots-scheduler) -- session-log 13628라인, vault 635 md
+> 마지막 갱신: 2026-06-21T01:15Z (autobots-scheduler) -- session-log 14189라인, vault 648 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| bbw-wiki/ (전체) | 635 md | +3 |
+| bbw-wiki/ (전체) | 648 md | +3 |
 | claude/ | 34 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 162 md | +2 |
-| session-log.md | 13628라인 | +168 |
+| 90-agent-logs/ (bbw-wiki 루트) | 171 md (daily:165) | +2 |
+| session-log.md | 14189라인 | +90 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 15 | 2K | 2026-06-20 |
+| MEMORY.md | 16 | 2K | 2026-06-21 |
 | autobots-erp-ssh.md | 23 | 2K | 2026-06-20 |
 | autobots-hardening-backlog.md | 29 | 4K | 2026-06-20 |
-| autobots-identity.md | 20 | 2K | 2026-06-18 |
+| autobots-identity.md | 20 | 2K | 2026-06-19 |
+| bot-autonomous-sudo.md | 21 | 3K | 2026-06-21 |
 | codex-bwrap-apparmor-fix.md | 38 | 3K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 3K | 2026-06-19 |
-| feedback-rina-ux-rules.md | 20 | 2K | 2026-06-18 |
-| lessons.md | 191 | 22K | 2026-06-20 |
+| effective-improvement-workflow.md | 28 | 2K | 2026-06-19 |
+| feedback-rina-ux-rules.md | 20 | 1K | 2026-06-18 |
+| lessons.md | 191 | 21K | 2026-06-20 |
 | responsive-design-guide.md | 296 | 9K | 2026-06-19 |
 | server-infra.md | 30 | 2K | 2026-06-20 |
 | ui-ux-design-learning.md | 302 | 12K | 2026-06-19 |
-| **합계** | **992** | 84K | 11파일 |
+| **합계** | **1014** | 62K | 12파일 |
 
 일별 통계 로그: [90-agent-logs/daily/](../90-agent-logs/daily/)
 

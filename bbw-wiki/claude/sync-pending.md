@@ -2,6 +2,27 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+## 2026-06-21T01:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+Vault md: 645 (+3 since 642) | session-log: 14023라인 (+132) | 90-agent-logs(루트): 169 md (daily:163) | claude/: 37 md
+봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 타임스탬프(01:00Z), INDEX.md 통계 갱신 (vault 642→645, session 13891→14023, 90-agent-logs 재계산 177→169)
+최근 ai-ops 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+주의: wiki/concepts/_drafts/ 54개 — 사용자 검토 필요
+
+---
+
+## 2026-06-21T00:30Z 위키 동기화 (autobots-scheduler)
+인프라: backend UP (health OK) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+Vault md: 639 (+4 since 00:18Z) | session-log: 13756라인 (+128) | 90-agent-logs(루트): 165 md (+3) | claude/: 34 md (=)
+봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md/INDEX.md/session-log/wiki-sync-2026-06-21.md 갱신
+WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+
+
 ## 2026-06-20T23:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy, 7h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
 Vault md: 618 (+5 since 22:32Z) | wiki/: 230 md (+3) | 90-agent-logs: 155 md (daily:150) (+1) | session-log: 12891라인 | claude/: 34 md (=)
@@ -992,3 +1013,12 @@ Backend: healthy (localhost:9200)
 변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — active 유지)
 run-gemini: unavailable (지속)
 STATUS: OK | daily_log=profile-sync-2026-06-21-0010.md
+
+## 2026-06-21T01:01Z 위키 동기화 (autobots-scheduler)
+인프라: backend UP (health OK) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP
+Vault md: 645 (+6 since 00:30Z) | session-log: 14037라인 (+281) | 90-agent-logs(루트): 169 md (+4) | claude/: 34 md (=)
+봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md/INDEX.md 갱신 (01:01Z)
+WIP: hnedu_auth TOTP MFA feat/mfa-totp — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
