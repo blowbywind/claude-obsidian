@@ -44,16 +44,16 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-22 21:00 UTC / KST 2026-06-23 06:00 (autobots-scheduler)
+> 마지막 갱신: 2026-06-22 (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 887 md | +8 since 879 |
+| vault (bbw-wiki) 전체 | 894 md | +3 since 891 |
 | claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
 | claude/90-agent-logs/ | 10 md | 월별 봇별 통합 포맷 |
-| 90-agent-logs/ (root) | 339 md | +5 since 334 |
-| session-log.md | 27793라인 | +334 since 27459 |
+| 90-agent-logs/ (root) | 342 md | +1 since 341 |
+| session-log.md | 28131라인 | +156 since 27975 |
 | work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
