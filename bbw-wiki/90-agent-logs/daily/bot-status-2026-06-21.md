@@ -23,3 +23,4 @@
 
 | 10:25 | healthy (Up 19m) | Up 6d | Up 6d | Up 3m | 정상 — 봇 9/9 active, /health failures:0, 승인대기 0건, web_caddy 재시작됨 |
 | 10:30 | healthy (Up ~1m) | Up 6d WARN | Up 6d | Up 4m | 봇 9/9 active, /health all ok — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회) |
+| 11:00 | healthy (Up 30m) | Up 6d | Up 6d | Up 13m | 정상 — /health all ok, sudo job polling 200, 전 서비스 이상 없음 |

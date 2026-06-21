@@ -8580,3 +8580,31 @@ Backend: healthy
 통계: total=9 | active=9 | inactive=0 | gateways=3
 STATUS: OK
 [cron_success] 2026-06-21T01:50Z bot=autobots-scheduler: 프로파일 상태 동기화 완료
+
+===
+=== 봇 상태 체크 - 2026-06-21 11:00 KST (autobots-scheduler) ===
+백엔드: autobots_backend HEALTHY (/health 200 OK, 항목=OK)
+헬스체크: obsidian_vault OK | memory_episodic OK | db_dir OK | failures=[]
+
+봇 현황 (9/9 active):
+  아서(): active | gpt-5.5
+  덱스(): active | claude-sonnet-4-6
+  해리(): active | claude-sonnet-4-6
+  키엘(): active | claude-sonnet-4-6
+  리안(): active | gemini-3.5-flash
+  리나(): active | gemini-3.5-flash
+  로운(): active | gpt-5.5
+  눈꽃(): active | gemini-3.5-flash
+  스텔리나(): active | claude-sonnet-4-6
+
+봇 통계: total=9 | active=9 | inactive=0 | pendingApproval=0 | tasksInProgress=0
+
+런타임 프로바이더:
+  healthy(4): agy, claude, codex, obsidian-mcp
+  unhealthy(1): run-gemini (기존 패턴, 봇 운영 무영향)
+
+Docker: 에이전트 컨텍스트에서 직접 접근 불가 (백엔드 API 응답으로 운영 중 확인됨)
+hermes WebSocket: DEGRADED 패턴 지속 (기존 패턴, 봇 운영 무영향)
+STATUS: ALL OK
+[cron_success] 2026-06-21T02:00Z bot=autobots-scheduler: 봇 상태 확인 완료
+===

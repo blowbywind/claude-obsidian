@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP / hermes-dashboard UP(7d) / ai-ops-ui UP(7d) / 봇 9/9 active (갱신: 01:01Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP / hermes-dashboard UP(7d) / ai-ops-ui UP(7d) / 봇 9/9 active (갱신: 02:01Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
 | hnedu_auth | 전사 통합 인증 서버. JWT RS256 발급, ERP·CRM 공통 허브 | Phase C 완료 - TOTP MFA 구현 (feat/mfa-totp, 배포 대기) | [→](projects/hnedu_auth.md) |
@@ -40,14 +40,14 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T01:46Z (autobots-scheduler) -- session-log 14447라인, vault 655 md
+> 마지막 갱신: 2026-06-21T02:01Z (autobots-scheduler) -- session-log 14569라인, vault 657 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| bbw-wiki/ (전체) | 655 md | +4 |
+| bbw-wiki/ (전체) | 657 md | +2 |
 | claude/ | 34 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 176 md (daily:170) | +3 |
+| 90-agent-logs/ (bbw-wiki 루트) | 177 md (daily:171) | +1 |
 | session-log.md | 14447라인 | +130 |
 | work-in-progress.md | 47라인 | = |
 

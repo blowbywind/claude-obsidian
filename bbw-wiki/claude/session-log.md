@@ -1,3 +1,49 @@
+## 2026-06-21 02:02 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:01 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
+## 2026-06-21 02:01 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 02:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 11:00 — ai-ops
+
+**최근 커밋:**
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+- 2a7edb7 refactor(autobots): centralize DB schema into single source of truth
+- 29a60df feat(autobots): 봇 실행 경로 중앙화(SSOT) — runtime_providers.binary 단일 출처
+
+**변경 파일 (마지막 커밋):**
+- `.gitignore`
+
+---
+
 ## 2026-06-21 10:58 — ai-ops
 
 **최근 커밋:**
@@ -14552,4 +14598,24 @@ WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 — .221 배포 대기 | 이슈1 �
 봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
 Vault md: 645 (+3 since 00:46Z) | 90-agent-logs(루트): 169 md | claude/: 34 md (=)
 변경: INDEX.md 통계 갱신 | session-log 01:01Z 엔트리 추가 | wiki-sync-2026-06-21.md 01:01Z 갱신
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+
+## 2026-06-21T02:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend 상태 미확인 (Docker 외부 실행) | 01:41Z 기준 9/9 봇 active 확인됨
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable (지속)
+Vault md: 657 (+12 since 01:01Z) | session-log: 14569라인 (+546) | 90-agent-logs: 177 md (+8) | claude/: 34 md (=)
+변경: session-log 02:01Z 엔트리 추가 | INDEX.md 통계 갱신
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+
+---
+
+## 2026-06-21T02:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, 30min) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp healthy | run-gemini unavailable
+Vault md: 657 (+12 since 01:01Z) | session-log: 14569라인 (+813) | 90-agent-logs(루트): 177 md (+8) | claude/: 34 md (=)
+ai-ops 최근 커밋: 04753ed gitignore DB백업 | cc77e20 PLAN매트릭스 동기화 | 0cebd04 run-gemini 메타 수정
+변경: autobots.md 02:01Z 갱신 | session-log 02:01Z 엔트리 추가
 WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 — .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
