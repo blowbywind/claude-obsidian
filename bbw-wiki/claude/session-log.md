@@ -1,3 +1,530 @@
+## 2026-06-21 15:33 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:33 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:32 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 15:31 — ai-ops
+
+## 2026-06-21T06:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend healthy (docker Up 12m) | hermes-dashboard Up(6d) | ai-ops-ui Up(6d) | web_caddy Up(3h+) | db_postgres Up(6d) | storage_seaweedfs Up(6d) | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 697 (=) | session-log: 17390라인 (+161 since 06:12Z) | 90-agent-logs: 212 md (daily:206, =) | claude/: 36 md (=)
+봇: 9/9 active | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단 (신규 없음)
+변경: autobots.md 06:31Z 갱신, INDEX.md 통계 갱신 (vault 695->697, session 17284->17390, logs 210->212)
+WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | hermes WebSocket DEGRADED 지속
+
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:30 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 15:26 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:25 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:23 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:22 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:21 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:21 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:20 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 15:19 — obsidian-vault
+
+**최근 커밋:**
+- 6809833 chore(wiki-sync): 05:31Z 위키 동기화 — 인프라 직접검증, 커밋 추가, 통계 보완
+- 39fb41d chore(wiki-sync): 05:31Z 위키 동기화 — vault 691md, session-log 16839L, 9/9 bots active
+- b3b5993 chore(wiki-sync): 05:03Z 위키 동기화 — vault 689md, session-log 16577L, 9/9 bots active
+- ac89f88 chore(wiki-sync): 06:54Z 위키 동기화 — vault 689md, session-log 16556L
+- 45d58f5 chore(wiki-sync): 04:31Z 위키 동기화 — vault 682md, session-log 16213L, 9/9 bots active
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-21 15:18 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:15 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:15 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 15:13 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 15:12 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:11 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:11 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:10 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:10 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:05 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:05 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:03 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:02 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 06:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 15:00 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 14:56 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:55 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:52 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 14:51 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:51 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 05:50 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:48 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 14:47 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:47 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:46 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 14:45 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:45 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:42 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:41 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:41 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 05:40 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 14:40 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 14:37 — ai-ops
+
+**최근 커밋:**
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
 ## 2026-06-21 05:35 — 
 
 _커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
@@ -16906,3 +17433,43 @@ Vault md: 691 (+2 since 689) | session-log: 16825라인 (+134 since 16691) | 90-
 최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
 변경: autobots.md 05:31Z 갱신, INDEX.md 통계 갱신 (vault 689->691, session 16691->16825, 90-agent-logs 205->207), 신규 2개 일별 로그 커밋
 WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | 회사PC 신뢰루트 교체 대기 | hermes WebSocket DEGRADED 지속
+
+## 2026-06-21T05:41Z 프로파일 동기화 (autobots-scheduler)
+인프라: backend DOWN(HTTP 미응답) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes Slack WebSocket DEGRADED
+봇: 9/9 active (0개 변경, 9개 스킵) | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+DB last_verified_at: 2026-06-21 05:40:58 UTC
+
+## 2026-06-20T21:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP(5h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 596 (+9) / all: 641 (+9) | wiki/: 221 md (concepts:150, _drafts:29+_promoted:21) (+3) | session-log: 11817라인 (+295) | 90-agent-logs: 142 md (+6)
+claude/: 34 md (projects:11, decisions:9) (=) | 봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: wiki/concepts/_drafts/_promoted/ 신설(21개 승격), wiki/concepts +3 신규, 90-agent-logs/daily +6, autobots.md 갱신, wiki-sync-2026-06-21.md 생성
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- 배포(.221) 대기 | 이슈1 회사PC 신뢰루트 교체 대기 | hermes WebSocket DEGRADED 지속
+
+## 2026-06-21T06:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, 1h+) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP(2h+) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 694 (+3 since 691) | session-log: 17136L (+297) | 90-agent-logs: 210 md (daily:204, +3) | claude/: 35 md (=)
+봇: 9/9 active | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+최신 커밋: f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+변경: autobots.md 06:01Z 갱신 (backend DOWN→UP 정정), INDEX.md 통계 갱신
+WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | hermes WebSocket DEGRADED 지속
+
+## 2026-06-21T06:02Z 위키 동기화 검증 (autobots-scheduler)
+06:01Z 동기화 완료 확인 -- 추가 델타: session-log 17136->17158 (+22), vault 694->695 (+1)
+봇: 9/9 active (06:00Z 확인) | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+이상 없음 -- 동기화 정상 완료
+
+## 2026-06-21T06:12Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude=healthy | codex=healthy | agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker=down(의도적)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0개 updated / 9개 skipped (모든 봇 상태 변경 없음 — gateway healthy => active 유지)
+Vault md: 695 | session-log: 17229라인 | 90-agent-logs: 206 md (daily:206)
+agent-status.json 기준: 2026-06-21T05:21Z
+
+## 2026-06-21T06:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy) | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 697 (=) | session-log: 17467L (+77) | 90-agent-logs: 212 md (daily:206, =) | claude/: 36 md (=)
+봇: 9/9 active | runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+최신 커밋: f8544fc
+변경: autobots.md 06:31Z 갱신, INDEX.md 통계 갱신 (session-log 17390->17467)
+WIP: hnedu_auth TOTP MFA 배포(.221) 대기 | hermes WebSocket DEGRADED 지속
