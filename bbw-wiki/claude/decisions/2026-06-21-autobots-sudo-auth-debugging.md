@@ -34,6 +34,22 @@ tags: [autobots, caddy, basic-auth, safari, fastify, sse, troubleshooting, decis
 3. **Docker 백엔드 변경은 항상 `build && up -d`** (소스가 이미지에 구워짐).
 4. **브라우저측 이슈는 헤드리스+쿠키 주입으로 자율 검증** 후 보고. Caddy access log의 `Sec-Fetch-Dest`/`Authorization`로 다이얼로그 유발 요청 특정.
 
+## 후속 실패 (같은 날) — 승인/거부 버튼 미작동
+
+**증상**: 채팅 인라인 카드의 거부 버튼을 눌러도 백엔드 미반영(요청 계속 pending), 대화 전환 후 복귀하면 카드 재등장.
+
+**근본원인 (2겹)**:
+1. Caddy `header_up X-Admin-Secret {env.AUTOBOTS_ADMIN_SECRET}`(및 `{$VAR}`)가 **이 배포에서 빈 값으로 주입** → 백엔드 `requireAdmin` 401 → approve/deny 전부 실패. 백엔드 임시 디버그 로깅(`givenLen=0 expLen=44`)으로 확정. (시크릿 일치·`caddy adapt` 치환·백엔드 직접호출 200까지 정상으로 보여 오래 헤맴 — 수신측 로깅이 결정타.)
+2. 프론트 `actSudo`가 `res.ok` 확인 없이 **낙관적으로 카드 제거** → 401이어도 사라져 "처리된 듯" 보이고, 재조회 시 pending이라 재등장.
+
+**해결**: 
+- approve/deny 인가를 **시크릿 헤더 → 네트워크 출처 게이트**로 전환. 사람=리버스 프록시 경유(사설 비-루프백) 허용, 봇=컨테이너 내부 localhost(루프백) 차단 → 자가승인 방지. 시크릿 주입 의존 제거.
+- 프론트 `actSudo`: `res.ok`일 때만 카드 제거, 실패 시 서버 재동기화.
+- Caddy의 X-Admin-Secret 주입 제거(쿠키 인증·정적 public 제외는 유지).
+- 검증: Playwright 헤드리스로 거부 버튼 클릭 → DB `denied(decided_by=user)` + 대화 전환 복귀 후 카드 미재등장 확인.
+
+**추가 결정**: 프록시 env placeholder로 upstream 헤더에 시크릿 주입 금지(불안정). 인가는 네트워크 경로/명시 토큰으로. 상태변경 UI는 `res.ok` 필수.
+
 ## 관련 파일
 - 백엔드: `autobots/backend/{services/sudo-policy.ts, routes/sudo.ts, lib/bot-spawn.ts, plugins/sse.ts, routes/nav.ts}`
 - 스크립트: `autobots/scripts/bot-sudo/{sudo-executor,botsudo,install-bot-sudo.sh}`, `autobots/scripts/apply-caddy-session-cookie.sh`

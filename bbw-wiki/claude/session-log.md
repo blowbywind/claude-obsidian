@@ -1,3 +1,304 @@
+## 2026-06-21 13:02 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 04:00 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 13:00 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 12:56 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 03:55 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:55 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 03:53 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:51 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 12:50 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 03:50 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:47 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 03:46 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:46 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 03:45 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:43 — ai-ops
+
+**최근 커밋:**
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/sudo.ts`
+
+---
+
+## 2026-06-21 12:41 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 12:40 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 03:40 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:37 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 12:36 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 12:35 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 03:35 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:32 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
+## 2026-06-21 12:32 — obsidian-vault
+
+**최근 커밋:**
+- 0164c70 chore(sync): 위키 동기화 2026-06-21T22:00Z (autobots-scheduler)
+- 4ac2e26 chore(sync): 위키 동기화 2026-06-21T03:01Z
+- a4df180 chore(sync): 위키 동기화 2026-06-21T19:00Z (autobots-scheduler)
+- 076eed3 chore(wiki): sync 2026-06-21T02:01Z — promote otel draft, update autobots status
+- c1b8260 chore: sync wiki - agent logs, concept promotions, status updates (2026-06-21)
+
+**변경 파일 (마지막 커밋):**
+- `bbw-wiki/90-agent-logs/daily/memory-stats-2026-06-21-22.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-21-0310.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-21-0311.md`
+- `bbw-wiki/90-agent-logs/daily/profile-sync-2026-06-21-0320.md`
+- `bbw-wiki/90-agent-logs/daily/wiki-sync-2026-06-21.md`
+- `bbw-wiki/claude/90-agent-logs/scheduler-bot-status.md`
+- `bbw-wiki/claude/INDEX.md`
+- `bbw-wiki/claude/projects/autobots.md`
+- `bbw-wiki/claude/session-log.md`
+- `bbw-wiki/claude/sync-pending.md`
+
+---
+
+## 2026-06-21 03:31 — 
+
+_커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
+
+---
+
+## 2026-06-21 12:31 — ai-ops
+
+**최근 커밋:**
+- 9fcd8cb fix(autobots): SPA 페이지 직접 로드 404 해결 (동명 API 라우트 충돌)
+- 9822d20 feat(autobots): 봇 자율 sudo 권한 + 승인 UI + 인증/SSE 안정화
+- 04753ed chore: ignore DB backup snapshots directory
+- cc77e20 docs(autobots): sync PLAN matrices with verified 2026-06-21 state
+- 0cebd04 fix(autobots): correct stale run-gemini runtime metadata
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/server.ts`
+
+---
+
 ## 2026-06-21 03:30 — 
 
 _커밋 없음 — 세션 중 작업 내용을 "오늘 작업 노트에 기록해줘"로 추가 가능_
@@ -15656,3 +15957,17 @@ Vault md: 671 (+6 since 665) | session-log: 15309라인 (+393 since 14916) | 90-
 최근 ai-ops 커밋: 9822d20 봇 자율 sudo + 승인 UI + 인증/SSE 안정화 | 04753ed gitignore DB백업
 변경: autobots.md 03:01Z 갱신 | wiki-sync-2026-06-21.md 03:01Z 엔트리 추가 | session-log 03:01Z 엔트리 추가
 WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 회사PC 인증서 교체 대기
+
+## 2026-06-21T03:41Z 프로파일 동기화 (autobots-scheduler)
+봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable(03:39 확인)
+인프라: autobots_backend UP(7min, healthy) | web_caddy UP | hermes-dashboard UP(6d) | db_postgres UP(6d)
+vault md: 675 (+4) | session-log: 15797라인 (+488) | 90-agent-logs: 191 md (+4)
+프로파일 변경: 0개 updated / 9개 skipped
+
+
+## 2026-06-20T21:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP(5h healthy) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | web_caddy UP | db_postgres UP | storage_seaweedfs UP | hermes Slack WebSocket DEGRADED(지속)
+Vault md: 596 (+9) / all: 641 (+9) | wiki/: 221 md (concepts:150, _drafts:29+_promoted:21) (+3) | session-log: 11817라인 (+295) | 90-agent-logs: 142 md (+6)
+claude/: 34 md (projects:11, decisions:9) (=) | 봇: 9/9 active | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: wiki/concepts/_drafts/_promoted/ 신설(21개 승격), wiki/concepts +3 신규, 90-agent-logs/daily +6, autobots.md 갱신, wiki-sync-2026-06-21.md 생성
+WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- 배포(.221) 대기 | 이슈1 회사PC 신뢰루트 교체 대기 | hermes WebSocket DEGRADED 지속
