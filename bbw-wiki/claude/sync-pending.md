@@ -2,6 +2,14 @@
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
 
+## 2026-06-21T04:32Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, 56m) | web_caddy UP(50m) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+Vault md: 682 (+2 since 680) | session-log: 16213라인 (+94 since 16119) | 90-agent-logs(루트): 198 md (daily:192, +2) | claude/: 35 md (=)
+봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | run-gemini=unavailable
+변경: autobots.md 04:32Z 갱신, INDEX.md 통계 갱신 (vault 680->682, session 16119->16213)
+
+---
+
 ## 2026-06-21T04:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (healthy, 26min) | web_caddy UP(20min) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
 Vault md: 678 (+2 since 676) | session-log: 15959라인 (+135 since 15824) | 90-agent-logs(루트): 190 md (daily:190, =) | claude/: 35 md (=)
@@ -1102,3 +1110,22 @@ Vault md: 678 (+4 since 03:30Z) | session-log: 15959L (+307) | 90-agent-logs(루
 최근 커밋: a834631 sudo 인가 게이트 | 9fcd8cb SPA 404 | 9822d20 봇 자율 sudo
 WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기
 주의: wiki/concepts/_drafts/ 54개 -- 사용자 검토 필요
+
+---
+
+## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (4min, healthy) | web_caddy UP(1h) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+Vault md: 671 (=+6) | session-log: 15309라인 (+393 since 02:30Z) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md
+봇: 9/9 active | runtime: 모든 봇 정상 | run-gemini=unavailable
+변경: autobots.md 03:01Z 갱신, wiki-sync/session-log 03:01Z 엔트리 추가
+주목: autobots_backend 재시작 (up 4min) | 최신커밋 9822d20 봇자율sudo+승인UI+SSE 안정화
+WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+
+---
+
+## 2026-06-21T04:11Z 프로파일 상태 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (127.0.0.1:9200, healthy, 36min) | web_caddy UP(31min) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d) | db_adminer UP(6d)
+Vault md: 680 (+2 since 678) | session-log: 16047라인 (+88 since 15959) | 90-agent-logs/daily: 190 md
+봇: 9/9 active (아서/덱스/해리/키엘/리안/리나/로운/눈꽃/스텔리나) | run-gemini=unavailable
+변경: autobots.md 04:11Z 갱신, INDEX.md 통계 갱신 (vault 678→680, session 15959→16047), daily 로그 profile-sync-2026-06-21-0411.md 생성

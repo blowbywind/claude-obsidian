@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
-상태: backend UP (healthy, 26min) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP | 봇 9/9 active
-갱신: 2026-06-21T04:01Z (autobots-scheduler 위키-동기화)
+상태: backend UP (172.18.0.8:9200, healthy, docker내부) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | 봇 9/9 active
+갱신: 2026-06-21T04:31Z (autobots-scheduler 위키-동기화)
 
 ## runtime_providers 상태 (2026-06-21T03:59Z 검증)
 | ID | 상태 |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T04:01Z)
+## 봇 로스터 (DB 기준, 2026-06-21T04:11Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -51,9 +51,9 @@
 | snow | 눈꽃 | Antigravity | active | gemini-3.5-flash |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
-## 위키 동기화 최근 결과 (2026-06-21T04:01Z)
+## 위키 동기화 최근 결과 (2026-06-21T04:31Z)
 - Bot 상태: 9/9 active (변경 없음)
-- Runtime: agy healthy | claude healthy | codex healthy | obsidian-mcp healthy | run-gemini unavailable
-- runtime_providers last_verified_at: 2026-06-21 03:59:08
-- 신규 커밋 (03:41Z 이후): a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
-- DB 조회 기준: SQLite WAL checkpoint (Python sqlite3 직접 조회)
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
+- 최신 커밋: a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+- Vault: 682 md (+2) | session-log: 16213라인 (+94) | 90-agent-logs: 198 md (daily:192, +2)
+- daily 로그: wiki-sync-2026-06-21-0431.md 생성
