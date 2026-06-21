@@ -36,3 +36,4 @@
 | 17:00 | healthy (Up 52m) | Up 6d WARN | Up 6d | Up 4h | 봇 9/9 active, /health failures:0 — hermes: Slack WebSocket Session closed 지속(자동재시도, 재시작 0회), sudo job polling 200 |
 | 17:10 | healthy (Up ~1h) | Up 6d | Up 6d | Up 5h | 정상 — 봇 9/9 active, /health failures:0, pendingApproval 0, sudoPending 0, hermes 오류 없음, sudo job polling 200 |
 | 08:41 | healthy (Up 23m) | Up 7d | Up 7d | Up 5h+ | 정상 — 봇 9/9 active, /health failures:0, pendingApproval 0, sudoPending 0, tasksInProgress 0, sudo job polling 200, hermes 오류 없음 |
+| 20:40 | healthy (Up 19m) | Up 7d | Up 7d | Up 8h | 정상 — /health failures:0, obsidian_vault ok, sudo job polling 200 (2s 간격), hermes 오류 없음 |

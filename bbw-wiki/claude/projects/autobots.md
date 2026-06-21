@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T11:32Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T12:02Z (autobots-scheduler 위키-동기화)
 
-## runtime_providers 상태 (2026-06-21T11:23Z 검증)
+## runtime_providers 상태 (2026-06-21T11:41Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,20 +27,18 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 11:01 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-21 12:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
-| hnedu-erp | 2026-06-21 11:01 UTC | synced |
+| hnedu-erp | 2026-06-21 11:09 UTC | synced |
 | hnedu-auth | 2026-06-19 12:02 UTC | synced |
 | bbw-ebook | 2026-06-18 05:03 UTC | synced |
 | hnedu-crm | 2026-06-15 21:51 UTC | synced |
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-
-
-## 봇 로스터 (DB 기준, 2026-06-21T11:23Z)
+## 봇 로스터 (DB 기준, 2026-06-21T11:41Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -54,15 +52,18 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T11:32Z)
-- Bot 상태: 9/9 active (마지막 확인: 11:23Z)
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- Vault: 743 md (+6 since 11:02Z) | session-log: 21600라인 (+444) | 90-agent-logs: 256 md (+4, daily:250) | claude/: 37 md (+1)
+## 위키 동기화 최근 결과 (2026-06-21T12:01Z)
+- Bot 상태: 9/9 active (마지막 확인: 2026-06-21T12:01Z)
+- Runtime: backend healthy | health ok
+- Vault: 748 md (+3 since 11:47Z) | session-log: 22000라인 (+193) | 90-agent-logs: 261 md (+3, daily:255) | claude/: 37 md (=)
 - 인프라: backend healthy | web_caddy UP | hermes-docker down (deprecated)
+- 신규 커밋(since 11:47Z): 40a56e3(auto-save 20files), f8544fc(sudo 레이스 차단), a834631(인가 네트워크 게이트), 9fcd8cb(SPA 404 수정)
 
-## 프로파일 동기화 최근 결과 (2026-06-21T11:23Z)
+
+## 프로파일 동기화 최근 결과 (2026-06-21T11:41Z)
 - Bot 상태: 9/9 active
 - Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable | hermes-docker down (deprecated)
 - Findings: 변경 없음 -- 9 bots all active
 - 프로파일 변경: 0개 updated / 9개 skipped
-- agent-status.json 기준: 2026-06-21T11:11Z
+- runtime_providers last_verified_at 4개 갱신 (agy/claude/codex/obsidian-mcp)
+- agent-status.json 기준: 2026-06-21T11:41Z
