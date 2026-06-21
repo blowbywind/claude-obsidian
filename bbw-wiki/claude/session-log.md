@@ -1,3 +1,31 @@
+## 2026-06-21 15:02 UTC — 위키 동기화 (autobots-scheduler)
+
+**상태 스냅샷:**
+- 봇: 9/9 active (API 확인)
+- Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable
+- Vault: 771 md | session-log: 24004라인 | 90-agent-logs: 283 md | claude/: 38 md
+- ai-ops 최신 커밋: 94aeb81
+
+**갱신 파일:**
+- `claude/projects/autobots.md` — 위키동기화 결과 갱신
+- `claude/INDEX.md` — 통계 갱신 (vault 770→771, session 23841→24004)
+
+---
+
+## 2026-06-22 00:02 — ai-ops
+
+**최근 커밋:**
+- 94aeb81 chore(auto-save): 작업 자동 저장 2026-06-21 21:36:14 (1 files)
+- 5b79830 chore(auto-save): 작업 자동 저장 2026-06-21 21:32:55 (1 files)
+- 40a56e3 chore(auto-save): 작업 자동 저장 2026-06-21 16:31:58 (20 files)
+- f8544fc fix(autobots): 거부 후 봇 셸 재제출이 새 승인카드를 만드는 레이스 차단
+- a834631 fix(autobots): sudo 승인/거부 인가를 네트워크 출처 게이트로 전환
+
+**변경 파일 (마지막 커밋):**
+- `test-write.tmp`
+
+---
+
 ## 2026-06-22 00:01 — ai-ops
 
 **최근 커밋:**

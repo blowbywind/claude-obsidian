@@ -52,10 +52,10 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T14:30Z)
-- Bot 상태: 9/9 active (마지막 확인: 14:21Z DB기준, API 미응답)
+## 위키 동기화 최근 결과 (2026-06-21T15:02Z)
+- Bot 상태: 9/9 active (API 확인 완료)
 - Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
-- Vault: 767 md (+3 since 14:01Z) | session-log: 23612라인 (+236) | 90-agent-logs: 279 md (+2) | claude/: 38 md (=)
+- Vault: 771 md (+4 since 14:51Z) | session-log: 24004라인 (+163) | 90-agent-logs: 283 md (+4) | claude/: 38 md (=)
 - ai-ops 최신 커밋: 94aeb81 (신규 없음)
 
 
