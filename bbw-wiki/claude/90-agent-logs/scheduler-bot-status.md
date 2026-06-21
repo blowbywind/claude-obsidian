@@ -10339,3 +10339,13 @@ Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | 
 
 WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
 STATUS: DEGRADED
+
+
+---
+
+## 2026-06-21T08:21Z 프로파일 상태 동기화 (autobots-scheduler)
+봇: 9/9 active (변경감지: snow gateway Antigravity→Claude Code)
+런타임: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable(66h+)
+인프라: autobots_backend 08:17 UTC 재시작(Up 4m, healthy)
+agent-status.json: last_checked 08:21Z 갱신
+이상: run-gemini unavailable 지속 | snow gateway 변경
