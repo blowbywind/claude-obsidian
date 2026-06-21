@@ -981,3 +981,14 @@ WIP: hnedu_auth TOTP MFA feat/mfa-totp 완료 -- .221 배포 대기 | 이슈1 �
 주의: _drafts 15개 미검토 + _promoted 39개 병합 대기
 
 ---
+
+
+---
+
+## 2026-06-21T00:10Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy/obsidian-mcp=healthy | hermes-docker=down (의도적 중단)
+Backend: healthy (localhost:9200)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — active 유지)
+run-gemini: unavailable (지속)
+STATUS: OK | daily_log=profile-sync-2026-06-21-0010.md

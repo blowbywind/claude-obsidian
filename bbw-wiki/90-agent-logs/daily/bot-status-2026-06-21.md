@@ -15,3 +15,4 @@
 | 04:45 | UP (포트:9200 OK) | DOWN(의도적) | DOWN(의도적) | Up 6d+ | 정상 — 변화 없음, agent-status.json 갱신 완료 |
 | 08:31 | healthy (Up 7h) | Up 6d WARN | Up 6d | Up 6d | hermes: Slack WebSocket RuntimeError 지속 (Session is closed, 마지막 23:31Z) — 자동재시도 중 |
 | 09:01 | healthy (Up ~2m) | Up 6d WARN | Up 6d | Up 6d | 일일 점검: 봇 9/9 active, hermes Slack WebSocket DEGRADED 지속, run-gemini unavailable, cron_error 0건 안정화 |
+| 09:15 | healthy (Up 11m) | Up 6d WARN | Up 6d | Up 5m | 정상 — autobots/web_caddy 재시작됨, hermes Slack WebSocket Session closed 지속(자동재시도) |

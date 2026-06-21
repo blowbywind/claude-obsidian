@@ -1,7 +1,7 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: backend UP (172.18.0.8:9200, healthy, docker내부) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | 봇 9/9 active
-갱신: 2026-06-21T00:00Z (autobots-scheduler 위키-동기화)
+갱신: 2026-06-21T00:10Z (autobots-scheduler 프로파일-동기화)
 
 ## runtime_providers 상태 (2026-06-20T22:41Z 동기화)
 | ID | 상태 |
