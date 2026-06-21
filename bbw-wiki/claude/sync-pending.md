@@ -1,6 +1,32 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T06:30Z 위키 동기화 (autobots-scheduler)
+Vault md: 697 (+2 since 695) | session-log: 17404라인 (+120) | 90-agent-logs: 212 md (daily:206, +2) | claude/: 36 md (=)
+봇: 9/9 active (마지막 확인 06:20Z 프로파일 동기화) | run-gemini=unavailable
+변경: autobots.md 06:30Z 갱신, INDEX.md 통계 갱신 (vault 695->697, session 17284->17404, 90-agent-logs 210->212)
+신규 커밋 없음 (ai-ops 최신: f8544fc)
+
+---
+
+## 2026-06-21T06:12Z 프로파일 동기화 (autobots-scheduler)
+Runtime: claude/codex/agy=healthy | obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker=down(의도적 중단)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음 — gateway healthy => active 유지)
+runtime_providers: claude/codex/agy/obsidian-mcp=healthy last_verified_at=2026-06-21 06:12Z 검증, run-gemini=unavailable(=)
+인프라: backend /health OK (06:12Z) | all services UP
+Vault md: 695 | session-log: 17229라인 | 90-agent-logs: 206 md (daily:206)
+
+---
+
+## 2026-06-21T06:01Z 위키 동기화 (autobots-scheduler)
+Vault md: 694 (+2 since 692) | session-log: 17116라인 (+115) | 90-agent-logs: 210 md (daily:204, +2) | claude/: 35 md (=)
+봇: 9/9 active (마지막 확인 06:01Z) | run-gemini=unavailable
+변경: autobots.md 06:01Z 갱신, INDEX.md 통계 갱신 (vault 692->694, session 17001->17116, logs 208->210)
+신규 커밋 없음 (ai-ops 최신: f8544fc)
+
+---
+
 ## 2026-06-21T05:31Z 위키 동기화 (autobots-scheduler)
 Vault md: 691 (+2 since 689) | session-log: 16874라인 (+183) | 90-agent-logs: 207 md (daily:201, +2) | claude/: 35 md (=)
 봇: 9/9 active (마지막 확인 05:21Z) | run-gemini=unavailable

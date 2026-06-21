@@ -1211,6 +1211,42 @@ antigravity_failure_policy:
 
 ---
 
+## 10. 대화 라우팅 아키텍처 (의도 기반 자동 라우팅) — 2026-06-21
+
+> 상세 결정 근거: [[2026-06-21-autobots-conversation-routing]] (ADR)
+
+### 문제
+Chat/Projects 화면에서 (1) 대화마다 봇 로스터를 수동 추가하고 (2) 매 메시지 `@봇이름`을 호출해야 하며 (3) 이어지는 작업도 재호출해야 정상 진행됐다. 무멘션 시 "로스터 전체 봇이 각각 응답"하는 구조라 부담이 컸다.
+
+### 결정 (codex 2-봇 제안 대비 단순화)
+별도 PM 봇을 신설하지 않는다. **눈꽃(snow)을 항상 작동하는 오케스트레이터로 두고, PM은 봇이 아니라 모드**(Chat=라우팅 / Projects=프로젝트)로 본다. 프로젝트 상태는 봇 페르소나가 아니라 DB(태스크 카드/스레드)에 둔다.
+
+### 3계층
+- **L0 라우터**: 매 메시지 "이번 턴 누가?"를 결정. sticky 빠른경로 + 저비용(haiku) 분류.
+- **L1 눈꽃**: 단일 위임 / 다단계 계획·취합·승인 게이트.
+- **L2 전문봇**: 키엘·로운·아서·해리·덱스·리안·리나.
+
+### 라우팅 우선순위
+`forceBotId(@멘션 명시 멀티봇)` → `@멘션(후보 풀 내)` → **자동 라우터** → 폴백(sticky→snow→풀 첫봇).
+
+- **후보 풀**: 로스터/프로젝트 링크가 있으면 그것으로 제한, 없으면 전체 활성 봇. → **로스터=선택적 핀**(필수 설정 아님).
+- **Sticky**: 직전 턴 담당 봇(마지막 assistant `bot_id`) 유지. 짧은 후속(≤24자)은 LLM 생략. 도메인 전환 시만 교체.
+- **자동 라우팅 위임**: 무멘션 메시지는 프론트가 `force_bot_id` 없이 단일 run을 열고 백엔드가 라우팅.
+
+### 구현 (기존 인프라 재사용, DB 스키마 변경 0)
+- 신규 `autobots/backend/routes/bot-router.ts` (`candidatePool`/`projectPool`, `routeMessage`/`routeProjectMessage`, sticky+haiku 분류, `event_logs(type=bot_routed)` 기록).
+- `chat.ts` `resolveBotInfo` async화 + @멘션 전체봇 매칭, `projects.ts` `resolveProjectBot` 동일.
+- 프론트: 무멘션 디스패치 위임, 로스터 UI → "봇 핀(선택)" 재라벨.
+- env 튜닝: `BOT_ROUTER_MODEL`(haiku), `BOT_ROUTER_FOLLOWUP_CHARS`(24), `BOT_ROUTER_TIMEOUT_MS`(25000), `BOT_ROUTER_DEFAULT`(snow).
+
+### 제약
+라우팅 ≠ 실행 인가. 고위험(sudo·결제·DB스키마)은 자동 라우팅돼도 승인 게이트 유지. 런타임 소진 페일오버(고위험 자동승계 금지) 불변.
+
+### 백로그
+- bot_id 단일 핀 우대(레거시 챗 거동), 프론트 "봇 핀" 영역 접힘/숨김 옵션, 라우팅 정확도 계측(`bot_routed` 로그 기반).
+
+---
+
 **작성 기준일**: 2026-06-11
-**보강 일자**: 2026-06-11 (§8~9 Agent Health Registry & Failover 추가)
+**보강 일자**: 2026-06-11 (§8~9 Agent Health Registry & Failover 추가), 2026-06-21 (§10 대화 라우팅 아키텍처 추가)
 **다음 검토 시점**: Phase 0 완료 후 (2026-06-12), Gemini 전환일 전날(2026-06-17) 진행 상황 확인 필수
