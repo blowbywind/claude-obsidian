@@ -1,6 +1,36 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+
+
+## 2026-06-21T14:46Z 메모리 통계 갱신 (autobots-scheduler)
+Vault md: 770 (+3 since 14:31Z) | session-log: 23813라인 (+181) | 90-agent-logs: 282 md (daily:276, +3) | claude/: 38 md (=)
+ai-ops memory: 1179라인 합계 (=)
+변경: INDEX.md 통계 갱신 (vault 767->770, session 23632->23813, 90-agent-logs 279->282)
+---
+
+## 2026-06-21T14:42Z wiki-sync (autobots-scheduler)
+Vault md: 768 | session-log: 23775lines | 90-agent-logs: 280 md (daily:274) | claude/: 37 md
+봇: 9/9 active | run-gemini=unavailable
+변경: autobots.md 2026-06-21T14:42Z 갱신, INDEX.md 통계 갱신
+신규 커밋: 94aeb81 (ai-ops 최신)
+---
+
+
+## 2026-06-21T14:37Z wiki-sync (autobots-scheduler)
+Vault md: 768 | session-log: 23706lines | 90-agent-logs: 280 md (daily:274) | claude/: 37 md
+봇: 9/9 active | run-gemini=unavailable
+변경: autobots.md 2026-06-21T14:37Z 갱신, INDEX.md 통계 갱신
+신규 커밋: 94aeb81 (ai-ops 최신)
+---
+
+## 2026-06-21T14:30Z wiki-sync (autobots-scheduler)
+Vault md: 767 (+1 since 14:17Z) | session-log: 23612라인 (+74) | 90-agent-logs: 279 md (+1) | claude/: 38 md (=)
+봇: 9/9 active (DB 기준 14:21Z, API 미응답) | run-gemini=unavailable
+변경: INDEX.md 통계 갱신 (vault 766->767, session 23538->23612, logs 278->279), autobots.md 동기화 결과 갱신
+신규 커밋 없음 (ai-ops 최신: 94aeb81)
+---
+
 ## 2026-06-21T14:01Z wiki-sync (autobots-scheduler)
 Vault md: 764 (+2 since 13:52Z) | session-log: 23376라인 (+102) | 90-agent-logs: 277 md (daily:271, +2) | claude/: 37 md (=)
 Vault md: 764 (+5 since 13:31Z) | session-log: 23356라인 (+310) | 90-agent-logs: 277 md (+5) | claude/: 37 md (=)

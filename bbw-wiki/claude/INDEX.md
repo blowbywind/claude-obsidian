@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 22:30Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) | 봇 9/9 active (갱신: 2026-06-22T15:01Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
@@ -44,18 +44,18 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21 14:17 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-22 15:01 UTC (autobots-scheduler)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault 전체 | 766 md | = since 14:15Z |
-| wiki/ | 251 (sources:32, concepts:180[drafts:54], entities:37) | = |
-| wiki/concepts/_drafts | 54 | ⚠ 검토 대기 |
-| claude/ | 38 md | +1 since 14:15Z |
+| vault 전체 | 771 md | +1 since 2026-06-21 23:30Z |
+| wiki/ | 199 (sources:32, concepts:128[drafts:2], entities:37) | = |
+| wiki/concepts/_drafts | 2 | = |
+| claude/ | 38 md | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ | 278 md | = since 14:15Z |
-| session-log.md | 23538라인 | +34 since 14:15Z |
-| work-in-progress.md | 47라인 | = |
+| 90-agent-logs/ | 283 md | daily:277 |
+| session-log.md | 24004라인 | +163 since 23:30Z |
+| work-in-progress.md | — | 최신 |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
