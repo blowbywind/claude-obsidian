@@ -52,12 +52,11 @@
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
 
-## 위키 동기화 최근 결과 (2026-06-21T12:01Z)
-- Bot 상태: 9/9 active (마지막 확인: 2026-06-21T12:01Z)
-- Runtime: backend healthy | health ok
-- Vault: 748 md (+3 since 11:47Z) | session-log: 22000라인 (+193) | 90-agent-logs: 261 md (+3, daily:255) | claude/: 37 md (=)
-- 인프라: backend healthy | web_caddy UP | hermes-docker down (deprecated)
-- 신규 커밋(since 11:47Z): 40a56e3(auto-save 20files), f8544fc(sudo 레이스 차단), a834631(인가 네트워크 게이트), 9fcd8cb(SPA 404 수정)
+## 위키 동기화 최근 결과 (2026-06-21T12:31Z)
+- Bot 상태: 9/9 active (마지막 확인: 2026-06-21T12:22Z)
+- Runtime: agy/claude/codex/obsidian-mcp=healthy | run-gemini=unavailable | hermes-docker down (deprecated)
+- Vault: 752 md (+2 since 12:17Z) | session-log: 22434라인 (+191) | 90-agent-logs: 265 md (daily:259, +2) | claude/: 37 md (=)
+- ai-ops 최신 커밋: 40a56e3 (신규 없음)
 
 
 ## 프로파일 동기화 최근 결과 (2026-06-21T12:11Z)

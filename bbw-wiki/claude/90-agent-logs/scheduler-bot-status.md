@@ -10874,3 +10874,11 @@ Runtimes: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | 
 
 WARN: run-gemini unavailable (2026-06-19 14:02 이후 미복구)
 STATUS: DEGRADED
+
+---
+
+## 2026-06-21T12:31Z 위키 동기화 (autobots-scheduler)
+Stats: vault=752 (+2) | session-log=22434라인 (+191) | 90-agent-logs=265 (daily:259, +2) | claude/=37 (=)
+봇: 9/9 active | run-gemini=unavailable
+변경: autobots.md·INDEX.md·sync-pending.md 갱신, 미커밋 파일 4개 스테이징·커밋·푸시
+STATUS: DEGRADED (run-gemini 미복구)
