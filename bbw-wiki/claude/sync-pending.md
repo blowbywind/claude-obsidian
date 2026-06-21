@@ -1,6 +1,26 @@
 # Scheduler 동기화 대기 로그
 > scheduler-bot-status.md가 root 소유라 기록 불가한 항목 임시 보관
 
+## 2026-06-21T03:01Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP
+Vault md: 671 (+6 since 665) | session-log: 15303라인 (+318) | 90-agent-logs(루트): 187 md (daily:181, +6) | claude/: 35 md (=)
+봇: 9/9 active (arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina) | runtime: claude/codex/agy/obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 03:01Z 갱신, INDEX.md 통계 갱신 (vault 665→671, session 14985→15303, agent-logs 181→187)
+WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기
+
+---
+
+
+## 2026-06-21T02:31Z 위키 동기화 (autobots-scheduler)
+인프라: autobots_backend UP (healthy, 40m) | web_caddy UP (23m) | hermes-dashboard UP(6d) | ai-ops-ui UP(6d) | db_postgres UP(6d) | storage_seaweedfs UP(6d)
+Vault md: 665 (=) | session-log: 14922라인 (+899 since 01:01Z) | 90-agent-logs(루트): 181 md (daily:175, +12) | claude/: 35 md
+봇: 9/9 active | runtime: 모든 봇 정상 | run-gemini=unavailable
+변경: INDEX.md decisions 테이블에 2026-06-21-autobots-sudo-auth-debugging.md 추가 (decisions 9->10), 통계 갱신 (session-log 14916->14922)
+WIP: hnedu_auth TOTP MFA feat/mfa-totp -- .221 배포 대기 | 이슈1 회사PC 인증서 교체 대기
+
+---
+
+
 
 ## 2026-06-21T01:01Z 위키 동기화 (autobots-scheduler)
 인프라: autobots_backend UP (172.18.0.8:9200, healthy) | hermes-dashboard UP | ai-ops-ui UP | web_caddy UP | db_postgres UP | storage_seaweedfs UP

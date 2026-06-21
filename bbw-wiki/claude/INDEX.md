@@ -27,6 +27,7 @@
 
 | 날짜 | 프로젝트 | 결정 내용 | 노트 |
 |------|----------|----------|------|
+| 2026-06-21 | autobots | 봇 자율 sudo/승인 UI 디버깅 -- SSE hijack, Caddy+Safari 인증, FastifyPlugin 재등록 | [->](decisions/2026-06-21-autobots-sudo-auth-debugging.md) |
 | 2026-06-19 | hnedu_auth | TOTP MFA 핵심 결정 3건 — 2단계 플로우, ERP setup 강제, 복구코드 10개 | [→](decisions/2026-06-19-mfa-totp-decisions.md) |
 | 2026-06-19 | claude-config | 세컨드 브레인 진화 — 감사 교정, 피드백 루프 폐쇄(SessionEnd 훅·검색 권유·승격 정책) | [→](decisions/2026-06-19-second-brain-evolution.md) |
 | 2026-06-10 | claude-config | 컨텍스트 소진 원인 분석 — @멘션+누적이 방아쇠, 재발 방지 규칙 | [→](decisions/2026-06-10-context-exhaustion.md) |
@@ -40,15 +41,15 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-21T02:16Z (autobots-scheduler) -- session-log 14757라인, vault 660 md
+> 마지막 갱신: 2026-06-21T03:01Z (autobots-scheduler) -- session-log 15303라인, vault 671 md
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| bbw-wiki/ (전체) | 660 md | +3 |
-| claude/ | 34 md (projects:**11**, decisions:**9**, 루트:4, 90-agent-logs:10) | = |
+| bbw-wiki/ (전체) | 671 md | +6 |
+| claude/ | 35 md (projects:**11**, decisions:**10**, 루트:4, 90-agent-logs:10) | = |
 | 50-prompts/ | 6 md (claude:3, codex:2, hermes:1, gemini:0) | = |
-| 90-agent-logs/ (bbw-wiki 루트) | 178 md (daily:172) | +1 |
-| session-log.md | 14757라인 | +310 |
+| 90-agent-logs/ (bbw-wiki 루트) | 187 md (daily:181) | +6 |
+| session-log.md | 15303라인 | +318 |
 | work-in-progress.md | 47라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
