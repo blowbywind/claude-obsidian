@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-22T00:02Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-22T00:22Z (autobots-scheduler 프로파일-동기화)
 
-## runtime_providers 상태 (2026-06-21T23:51Z 검증)
+## runtime_providers 상태 (2026-06-22T00:21Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -27,7 +27,7 @@
 - Backend: Fastify 5 + SQLite (node:sqlite) + tsx, Docker port 9200
 - Frontend: Next.js 15 정적빌드 + Tailwind 4 + shadcn/ui + Zustand 5
 
-## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-22 00:00 UTC)
+## 프로젝트 워크스페이스 활동 (DB 기준, 2026-06-22 02:00 UTC)
 | 프로젝트 | 최근 활동 | Obsidian 연동 |
 |---------|-----------|--------------|
 | autobots | 2026-06-21 08:18 UTC | synced |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T23:51Z)
+## 봇 로스터 (DB 기준, 2026-06-22T00:21Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -51,15 +51,14 @@
 | snow | 눈꽃 | Claude Code | active | claude-sonnet-4-6 |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
-## 위키 동기화 최근 결과 (2026-06-22T00:02Z)
+## 위키 동기화 최근 결과 (2026-06-22T01:53Z)
 - Bot 상태: 9/9 active (직전 기준, docker API 미접근) | Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- Vault: 933 md (+1) | session-log: 29831라인 (+14) | 90-agent-logs: 366 md (daily:359, =) | claude/: 38 md (=)
+- Vault: 942 md (+63 since 879) | session-log: 30766라인 (+3293 since 27473) | 90-agent-logs: 371 md (daily:364) | claude/: 38 md (=)
 - ai-ops git: 94aeb81 (변동 없음) | docker: 미접근 | 드래프트 승격: 오픈소스-llm-경쟁-구도-2026
 
-## 프로파일 동기화 최근 결과 (2026-06-21T23:51Z)
-- Bot 상태: 9/9 active
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable (~57h+, 2026-06-19 14:02 이후 미복구)
-- Findings: 변경 없음 -- 9 bots all active (last_updated 2026-06-21 23:27~23:28)
+## 프로파일 동기화 최근 결과 (2026-06-22T00:22Z)
+- Bot 상태: 9/9 active (변경 없음)
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable (~80h+, 2026-06-19T14:02 이후 미복구)
+- Findings: 변경 없음 — 9 bots all active (last updated_at: 2026-06-21 23:28 기준)
 - 프로파일 변경: 0개 updated / 9개 skipped
-- runtime_providers last_verified_at: healthy 4개 2026-06-21T23:51Z, run-gemini 2026-06-19T14:02
-- 동기화 기준: 2026-06-21T23:51Z
+- 동기화 기준: 2026-06-22T00:22Z

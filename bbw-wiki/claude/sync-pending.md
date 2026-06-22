@@ -1,6 +1,38 @@
 ## 2026-06-21T23:31Z wiki-sync (autobots-scheduler)
 Vault md: 926 (+3 since 923) | session-log: 29490라인 (+74 since 29416) | 90-agent-logs: 362 md | claude/: 38 md (=)
 봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+
+## 2026-06-22T01:53Z wiki-sync (autobots-scheduler)
+Vault md: 942 (+63 since 879) | session-log: 30766라인 (+3293 since 27473) | 90-agent-logs: 371 md (daily:364) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T01:53Z 갱신, INDEX.md 통계 갱신 (vault 879->942, session 27473->30766, 90-agent-logs 334->371 daily:327->364)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-22T00:58Z wiki-sync (autobots-scheduler)
+Vault md: 941 (+62 since 879) | session-log: 30328라인 (+2855 since 27473) | 90-agent-logs: 370 md (daily:363) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T00:58Z 갱신, INDEX.md 통계 갱신 (vault 879->941, session 27473->30328, 90-agent-logs 334->370 daily:327->363)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-22T00:23Z wiki-sync (autobots-scheduler)
+Vault md: 937 (+58 since 879) | session-log: 30076라인 (+2603 since 27473) | 90-agent-logs: 369 md (daily:362) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T00:23Z 갱신, INDEX.md 통계 갱신 (vault 879->937, session 27473->30076, 90-agent-logs 334->369 daily:327->362)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-22T00:22Z wiki-sync (autobots-scheduler)
+Vault md: 937 (+58 since 879) | session-log: 30076라인 (+2603 since 27473) | 90-agent-logs: 369 md (daily:362) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T00:22Z 갱신, INDEX.md 통계 갱신 (vault 879->937, session 27473->30076, 90-agent-logs 334->369 daily:327->362)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
 변경: autobots.md 통계 교정, INDEX.md 통계 갱신 (vault 923->926, session 29416->29490, 90-agent-logs 360->362)
 신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
 ---

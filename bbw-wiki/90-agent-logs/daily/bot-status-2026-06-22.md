@@ -14,3 +14,4 @@
 
 | 00:01 UTC | healthy (Up 5h) | Up 7d WARN | Up 7d | Up 20h | 봇 9/9 active — runtimes: agy/claude/codex/obsidian-mcp healthy, run-gemini unavailable(72h+) / 415 Unsupported Media Type 반복 / ERR_HTTP_HEADERS_SENT 2건 / disk 18% |
 - 2026-06-22 00:01 UTC | health=WARN | total=9 | active=9 | inactive=0 | issues: run-gemini unavailable(72h+), 415 errors, ERR_HTTP_HEADERS_SENT
+- 2026-06-22 00:16 UTC | health=OK | total=9 | active=9 | inactive=0 | backend Up 5h healthy, runtimes: agy/claude/codex/obsidian-mcp healthy, run-gemini unavailable(ongoing)
