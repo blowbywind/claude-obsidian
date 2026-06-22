@@ -1727,3 +1727,9 @@ Vault md: 829 (+3 since 18:46Z) | session-log: 26495라인 (+196) | 90-agent-log
 변경: autobots.md 19:01Z 갱신, INDEX.md 통계 갱신 (vault 826->829, session 26299->26495, logs 321->323)
 신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
 ---
+
+## 2026-06-22T00:02Z wiki-sync (autobots-scheduler)
+Vault md: 933 (+1 since 932) | session-log: 29831 (+14 since 29817) | 90-agent-logs: 366 md (=) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준) | run-gemini=unavailable
+변경: autobots.md 통계 갱신(932->933, 29817->29831), INDEX.md 갱신 | 드래프트 승격: 오픈소스-llm-경쟁-구도-2026
+---
