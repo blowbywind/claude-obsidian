@@ -1,9 +1,9 @@
 # Autobots — AI Native Operator Dashboard
 
 상태: autobots_backend UP (healthy) | 봇 9/9 active | hermes-docker down (deprecated)
-갱신: 2026-06-21T23:31Z (autobots-scheduler wiki-sync)
+갱신: 2026-06-21T23:51Z (autobots-scheduler profile-sync)
 
-## runtime_providers 상태 (2026-06-21T23:23Z 검증)
+## runtime_providers 상태 (2026-06-21T23:51Z 검증)
 | ID | 상태 |
 |----|------|
 | agy | healthy |
@@ -38,7 +38,7 @@
 | pdf-to-html | 2026-06-12 23:51 UTC | synced |
 | firecrawl | 2026-06-11 12:00 UTC | synced |
 
-## 봇 로스터 (DB 기준, 2026-06-21T23:23Z)
+## 봇 로스터 (DB 기준, 2026-06-21T23:51Z)
 | ID | 이름 | gateway | 상태 | 모델 |
 |----|------|---------|------|------|
 | arthur | 아서 | Codex | active | gpt-5.5 |
@@ -51,14 +51,15 @@
 | snow | 눈꽃 | Claude Code | active | claude-sonnet-4-6 |
 | stellina | 스텔리나 | Claude Code | active | claude-sonnet-4-6 |
 
-## 위키 동기화 최근 결과 (2026-06-21T23:31Z)
-- Bot 상태: 9/9 active (API 직접 확인) | Runtime: providers API 미응답
-- Vault: 925 md (+2 since 923) | session-log: 29464라인 (+48 since 29416) | 90-agent-logs: 362 md (daily:355) | claude/: 38 md (=)
-- ai-ops git: 94aeb81 (변동 없음) | docker: 7 containers (autobots_backend=healthy)
+## 위키 동기화 최근 결과 (2026-06-21T23:51Z)
+- Bot 상태: 9/9 active | Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
+- Vault: 928 md | session-log: 29621라인 | 90-agent-logs: 364 md (+1) | claude/: 38 md (=)
+- ai-ops git: 94aeb81 (변동 없음) | docker: autobots_backend=healthy (Up 4h)
 
-## 프로파일 동기화 최근 결과 (2026-06-21T23:23Z)
+## 프로파일 동기화 최근 결과 (2026-06-21T23:51Z)
 - Bot 상태: 9/9 active
-- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable
-- Findings: 변경 없음 -- 9 bots all active
+- Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini unavailable (~57h+, 2026-06-19 14:02 이후 미복구)
+- Findings: 변경 없음 -- 9 bots all active (last_updated 2026-06-21 23:27~23:28)
 - 프로파일 변경: 0개 updated / 9개 skipped
-- 동기화 기준: 2026-06-21T23:23Z
+- runtime_providers last_verified_at: healthy 4개 2026-06-21T23:51Z, run-gemini 2026-06-19T14:02
+- 동기화 기준: 2026-06-21T23:51Z

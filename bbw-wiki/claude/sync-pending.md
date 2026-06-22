@@ -1,3 +1,10 @@
+## 2026-06-21T23:31Z wiki-sync (autobots-scheduler)
+Vault md: 926 (+3 since 923) | session-log: 29490라인 (+74 since 29416) | 90-agent-logs: 362 md | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 통계 교정, INDEX.md 통계 갱신 (vault 923->926, session 29416->29490, 90-agent-logs 360->362)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
 
 ## 2026-06-21T23:31Z wiki-sync (autobots-scheduler)
 Vault md: 925 (+2 since 923) | session-log: 29464라인 (+48 since 29416) | 90-agent-logs: 362 md (daily:355) | claude/: 38 md (=)
