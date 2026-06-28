@@ -7,6 +7,7 @@ updated: 2026-06-13
 deciders: [bbw]
 supersedes: ""
 superseded_by: ""
+summary: "bbw-wiki 구 경로(claude/, wiki/, raw/)를 신규 번호 구조(40-decisions/, 10-projects/, 90-agent-logs/)로 단계적 이관하되, 내부 링크 깨짐 방지를 위해 즉시"
 ---
 
 ## 맥락
