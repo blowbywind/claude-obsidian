@@ -1,8 +1,32 @@
 ---
-updated: 2026-06-26 (ai-ops 안정화 R3 일부 완료. 남은 것=키 이전·systemd 설치 권한 게이트)
+updated: 2026-06-28 (ai-ops Usage Antigravity 토큰 표시 코드·빌드 완료. 남은 것=backend docker 재빌드 승인 게이트)
 project: ai-ops (autobots)
 branch: master
 ---
+
+# [활성 스레드] ai-ops — Usage Antigravity 토큰 표시 운영 반영
+
+> updated 2026-06-28 09:32 UTC · 코드·검증 완료 · 운영 backend 재빌드만 `botsudo` 승인 대기
+
+## 완료
+- [x] `autobots/backend/lib/runtime-auth.ts`: Antigravity 인증 판정을 `~/.gemini/antigravity-cli/antigravity-oauth-token` 우선, `~/.gemini/oauth_creds.json` fallback으로 변경. 토큰 원문은 노출하지 않고 `tokenSource`, `tokenUpdatedAt`, `tokenExpiresAt`, `tokenStatus`만 반환.
+- [x] 재발 방지 보강: access token 만료와 refresh token 존재를 분리해 `tokenStatus='refreshable'` 지원. Usage 화면에는 "갱신 가능"으로 표시.
+- [x] `autobots/backend/lib/runtime-auth.test.ts`: 라이브 토큰, 레거시 fallback, access 만료+refresh token 회귀 테스트 추가.
+- [x] `autobots/frontend/app/usage/page.tsx`: Antigravity 카드에서 계정, 인증 방식, 토큰 출처, 상태, 만료, 갱신, 검증 시각 표시.
+- [x] DB/API Usage 상태 동기화 확인: `/api/usage`의 `antigravity.status='available'`, `updated_at='2026-06-28 09:03:23'`.
+- [x] 실제 `agy -p "Reply exactly: AGY_TOKEN_REFRESH_OK"` 성공. 최신 코드 기준 토큰 메타데이터: 계정 `blowbywind@gmail.com`, 출처 `antigravity-cli`, 만료 `2026-06-28T10:30:01.879Z`, 갱신 `2026-06-28T09:30:02.878Z`, 상태 `valid`.
+
+## 검증
+- [x] backend `npm run typecheck` 통과.
+- [x] backend `npm test -- lib/runtime-auth.test.ts` 통과: 185/185.
+- [x] frontend `npm run lint` 통과: 기존 경고 20개, 오류 0개.
+- [x] frontend `npm run build` 통과: `Compiled successfully`, `[verify-build] OK`.
+- [x] `git diff --check` 통과.
+
+## 남은 게이트
+- [ ] 운영 backend 반영: `/home/bbw/ai-ops/autobots`에서 `botsudo docker compose build backend` 후 `botsudo docker compose up -d backend` 필요.
+- [ ] 반영 후 확인: `wget -qO- http://127.0.0.1:9200/api/usage/auth`에서 Antigravity 응답에 `tokenSource`, `tokenUpdatedAt`, `tokenExpiresAt`, `tokenStatus`가 내려와야 함.
+- [ ] 현재 운영 `/api/usage/auth`는 아직 이전 backend라 `method='Google'`, `detail=null`까지만 반환함.
 
 # [활성 스레드] ai-ops — 안정화 R1/R2/R2.5 코드 보강 + R3 부분 정리
 
