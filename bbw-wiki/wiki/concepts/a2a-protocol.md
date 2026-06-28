@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "A2A 프로토콜은 에이전트 간 표준 통신 인터페이스로 150개 이상 조직에서 채택되어 멀티에이전트 생태계를 지원한다."
 ---
 
 # A2A Protocol

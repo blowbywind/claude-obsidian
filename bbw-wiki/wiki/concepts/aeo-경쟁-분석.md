@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-kiel-learning]]
+summary: "AEO(Answer Engine Optimization)는 AI 검색 엔진에서 브랜드와 제품 표현을 최적화하는 활동으로, 기존 경쟁 분석 도구의 한계를 보완하는 새로운 모니터링 레이어다."
 ---
 
 # AEO 경쟁 분석

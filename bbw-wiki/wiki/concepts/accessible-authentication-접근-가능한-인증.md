@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-rina-learning]]
+summary: "읽기 권한이 필요합니다. 위키 파일 읽기를 승인해주시면 요약을 진행하겠습니다."
 ---
 
 # `Accessible Authentication (접근 가능한 인증)`

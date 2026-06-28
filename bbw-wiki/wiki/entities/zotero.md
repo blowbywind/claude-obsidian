@@ -5,6 +5,7 @@ tags: [product, software, research, reference-manager]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
+summary: "논문·웹페이지·동영상을 메타데이터와 함께 저장하는 레퍼런스 매니저로, LLM Wiki 시스템의 원본 소스 보관층을 담당한다."
 ---
 
 ## 개요

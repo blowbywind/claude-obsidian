@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-snow-learning]]
+summary: "멀티에이전트 시스템에서 개별 에이전트의 비용을 추적·귀속하고 태스크별 라우팅으로 평균 ROI 2.5~6배를 달성하는 비용 최적화 패턴."
 ---
 
 # Agent FinOps

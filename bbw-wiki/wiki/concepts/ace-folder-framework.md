@@ -5,6 +5,7 @@ tags: [obsidian, pkm, organization, nick-milo]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "노트를 지식(Atlas), 날짜(Calendar), 진행중(Efforts) 3폴더로 분류하는 Nick Milo의 Obsidian 구조화 프레임워크."
 ---
 
 ## 정의

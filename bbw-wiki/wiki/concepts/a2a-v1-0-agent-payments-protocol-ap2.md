@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "권한을 기다리는 중입니다. 다만, 제시하신 텍스트를 보니 이미 노트 내용을 검토하셨고 **A2A v1.0 + AP2 주제와 무관**하다고 판단하신 상태네요. 제 조언: - **옵션 1** (다른 원문): 만약 \"A2"
 ---
 
 # A2A v1.0 + Agent Payments Protocol (AP2)

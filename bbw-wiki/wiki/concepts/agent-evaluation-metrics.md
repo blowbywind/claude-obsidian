@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-haeri-learning]]
+summary: "에이전트의 단계 경로·도구 선택·최종 목표 달성을 평가하는 3대 정량 지표체계이며 LLM-as-Judge로 자동화 가능하다."
 ---
 
 # Agent Evaluation Metrics
