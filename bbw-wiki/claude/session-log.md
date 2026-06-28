@@ -1,3 +1,26 @@
+## 2026-06-28 23:22 — ai-ops
+
+**최근 커밋:**
+- 046b92e perf+fix(audit): 토큰 절약 + 보안/안정성 하드닝 (전 시스템 감사)
+- 1525e1e chore(auto-save): 작업 자동 저장 2026-06-28 22:16:16 (3 files)
+- 7066348 chore(auto-save): 작업 자동 저장 2026-06-28 20:52:03 (3 files)
+- c3938e4 chore(auto-save): 작업 자동 저장 2026-06-28 20:03:51 (4 files)
+- d2d9c5f chore(auto-save): 작업 자동 저장 2026-06-28 19:50:05 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `CLAUDE.md`
+- `Caddyfile.tmp`
+- `autobots/backend/lib/mcp-gateway.ts`
+- `autobots/backend/lib/push.ts`
+- `autobots/backend/routes/bot-router.ts`
+- `autobots/backend/routes/channels.ts`
+- `autobots/backend/routes/memory.ts`
+- `autobots/backend/routes/rules.ts`
+- `autobots/backend/routes/skills.ts`
+- `autobots/backend/routes/stream-engine.ts`
+
+---
+
 ## 2026-06-28 21:02 — ai-ops
 
 **최근 커밋:**

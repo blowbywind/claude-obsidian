@@ -5,6 +5,7 @@ tags: [youtuber, channel, ai-content]
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-claude-code-harness-castlestudio]
+summary: "Anthropic 공식 콘텐츠와 AI 기술을 한국어로 짧고 명확하게 해설하는 유튜브 채널."
 ---
 
 ## 개요

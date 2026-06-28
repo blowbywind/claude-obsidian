@@ -5,6 +5,7 @@ tags: [org, ai-company]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-how-claude-code-works]
+summary: "AI 안전 중심의 AI 연구 기업으로 Claude 언어 모델(Opus, Sonnet, Haiku)과 Claude Code 에이전트 도구를 개발·운영한다."
 ---
 
 ## 개요

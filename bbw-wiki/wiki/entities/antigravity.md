@@ -5,6 +5,7 @@ tags: [product, ide, google, ai]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-beginner-install-guide]
+summary: "Gemini 기반 AI IDE로, Claude Code와 함께 사용 가능한 초보자 친화적 개발 환경이다."
 ---
 
 ## 개요

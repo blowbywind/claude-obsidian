@@ -5,6 +5,7 @@ tags: [person, anthropic, claude-code]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-ainow-claude-code-master-guide]
+summary: "Claude Code 창시자, CLAUDE.md 자기학습 루프와 병렬 서브에이전트 시스템으로 하루 100개 PR 달성 방법론 제시자."
 ---
 
 ## 개요

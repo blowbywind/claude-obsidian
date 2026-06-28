@@ -5,6 +5,7 @@ tags: [org, community, ai, korean]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-ainow-claude-code-master-guide, 2026-06-07-harness-engineering-guide]
+summary: "신영선이 운영하는 1만 명 규모 AI 커뮤니티로, AI 생산자 양성과 Claude Code 실전 적용 가이드 발행을 중심으로 한다."
 ---
 
 ## 개요

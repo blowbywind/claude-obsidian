@@ -5,6 +5,7 @@ tags: [person, engineer, youtuber, meta]
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-ai-workflow-overhaul-silval-dev]
+summary: "Meta 엔지니어, 커리어에커 유튜브(20만) 운영, AI 네이티브 워크플로우·오픈 클로드 전문, FastCampus 강의 개발 중."
 ---
 
 ## 개요

@@ -5,6 +5,7 @@ tags: [person, youtube, knowledge-management, ai]
 created: 2026-06-05
 updated: 2026-06-12
 sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-05-claude-code-7steps-mastery, 2026-06-05-claude-code-beginner-install-guide, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade, 2026-05-16-llm-wiki-failure-brain-trinity]
+summary: "개인 목표 성취를 위해 AI와 지식 관리를 연결하는 유튜브 채널·브랜드로 세컨드 브레인 구축 방법론을 제공한다."
 ---
 
 ## 개요

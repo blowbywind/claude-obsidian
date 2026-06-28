@@ -5,6 +5,7 @@ tags: [product, open-source, web-server, go]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-caddy-v2-docs]
+summary: "자동 HTTPS와 간결한 Caddyfile DSL을 특징으로 하는 Go 기반 웹서버·리버스프록시로, bbw 홈서버의 Docker Compose 스택에서 snowball.me.kr 프록시로 운용 중."
 ---
 
 ## 개요
