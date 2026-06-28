@@ -50,7 +50,7 @@ bbw-wiki를 포함한 bbw의 개인 프로젝트 전반을 관리하는 핵심 �
 
 Claude Code 자체가 하네스 엔지니어링 도구다. CLAUDE.md(컨텍스트)·Hooks(피드백 루프)·권한 모델(인간 개입)·Skills(점진적 정보 공개)·Sub-agents(병렬 처리)·MCP(외부 연결)가 하네스의 5대 구성요소를 모두 구현한다.
 
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]]
 
 ## 출처
 

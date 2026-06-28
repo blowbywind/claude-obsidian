@@ -29,7 +29,7 @@ sources: [2026-06-07-harness-engineering-guide]
 
 ### 한계
 
-컨텍스트를 잘 구성해도 에이전트가 장기간 안정적으로 작동하는 것을 보장하기 어렵다. 이 한계를 극복하기 위해 [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]이 등장했다.
+컨텍스트를 잘 구성해도 에이전트가 장기간 안정적으로 작동하는 것을 보장하기 어렵다. 이 한계를 극복하기 위해 [[wiki/concepts/harness-engineering|하네스 엔지니어링]]이 등장했다.
 
 ### OpenAI의 핵심 통찰
 
@@ -37,11 +37,11 @@ sources: [2026-06-07-harness-engineering-guide]
 
 ## 관련 개념
 
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 컨텍스트 엔지니어링의 다음 단계
-- [[bbw-wiki/wiki/concepts/rag|RAG]] — 컨텍스트 엔지니어링의 핵심 기법
-- [[bbw-wiki/wiki/concepts/mcp|MCP]] — 외부 서비스 컨텍스트 연결 표준
-- [[bbw-wiki/wiki/concepts/context-window|컨텍스트 윈도우]] — 컨텍스트가 담기는 공간
-- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]] — 프로젝트 컨텍스트 파일
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]] — 컨텍스트 엔지니어링의 다음 단계
+- [[wiki/concepts/rag|RAG]] — 컨텍스트 엔지니어링의 핵심 기법
+- [[wiki/concepts/mcp|MCP]] — 외부 서비스 컨텍스트 연결 표준
+- [[wiki/concepts/context-window|컨텍스트 윈도우]] — 컨텍스트가 담기는 공간
+- [[wiki/concepts/claude-md|CLAUDE.md]] — 프로젝트 컨텍스트 파일
 
 ## 에이전트 프로덕티비티와의 연결 (2026)
 
@@ -55,5 +55,5 @@ sources: [2026-06-07-harness-engineering-guide]
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
 - [[wiki/sources/2026-06-08-ai-workflow-overhaul-silval-dev|AI를 기존 방식에 얹지 마세요]]

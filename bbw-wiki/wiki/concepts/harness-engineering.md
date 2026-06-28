@@ -72,20 +72,20 @@ AI 에이전트를 둘러싼 제약(Constraints)·툴(Tools)·피드백 루프(F
 
 ## 관련 개념
 
-- [[bbw-wiki/wiki/concepts/context-engineering|컨텍스트 엔지니어링]] — 하네스의 첫 번째 구성요소
-- [[bbw-wiki/wiki/concepts/generator-evaluator-pattern|Generator-Evaluator 패턴]] — 하네스의 법칙 4 구현
-- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]] — 하네스 컨텍스트 파일
-- [[bbw-wiki/wiki/concepts/hooks|훅스]] — 하네스 피드백 루프 구현체
-- [[bbw-wiki/wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 실전 하네스 성장 방법론
-- [[bbw-wiki/wiki/concepts/agentic-loop|에이전트 루프]] — 하네스가 제어하는 대상
+- [[wiki/concepts/context-engineering|컨텍스트 엔지니어링]] — 하네스의 첫 번째 구성요소
+- [[wiki/concepts/generator-evaluator-pattern|Generator-Evaluator 패턴]] — 하네스의 법칙 4 구현
+- [[wiki/concepts/claude-md|CLAUDE.md]] — 하네스 컨텍스트 파일
+- [[wiki/concepts/hooks|훅스]] — 하네스 피드백 루프 구현체
+- [[wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 실전 하네스 성장 방법론
+- [[wiki/concepts/agentic-loop|에이전트 루프]] — 하네스가 제어하는 대상
 
 ## 관련 엔티티
 
-- [[bbw-wiki/wiki/entities/mitchell-hashimoto|Mitchell Hashimoto]] — 개념 창시자
-- [[bbw-wiki/wiki/entities/claude-code|Claude Code]] — 하네스 엔지니어링 내장 도구
-- [[bbw-wiki/wiki/entities/anthropic|Anthropic]] — Generator-Evaluator 연구
+- [[wiki/entities/mitchell-hashimoto|Mitchell Hashimoto]] — 개념 창시자
+- [[wiki/entities/claude-code|Claude Code]] — 하네스 엔지니어링 내장 도구
+- [[wiki/entities/anthropic|Anthropic]] — Generator-Evaluator 연구
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
-- [[bbw-wiki/wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]

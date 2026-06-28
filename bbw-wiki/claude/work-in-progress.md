@@ -1,47 +1,241 @@
 ---
-updated: 2026-06-19 (집 PC 재개 — 이슈1 서버진단 완료, Phase C 착수)
-project: hnedu_erp (+ hnedu_auth Phase C)
-branch: main
+updated: 2026-06-26 (ai-ops 안정화 R3 일부 완료. 남은 것=키 이전·systemd 설치 권한 게이트)
+project: ai-ops (autobots)
+branch: master
 ---
 
-## 작업 요약: 인프라 배포검증 완료 + 이슈1 서버측 진단 완료(회사PC 신뢰루트 교체만 남음) → Phase C(auth TOTP MFA) 착수
+# [활성 스레드] ai-ops — 안정화 R1/R2/R2.5 코드 보강 + R3 부분 정리
 
-> 영구 계획·결정은 프로젝트 메모리: `~/.claude/projects/-home-bbw-projects-hnedu-erp/memory/` 의
-> `project_deploy_plan.md`, `dev_env_remote_ssh.md` (세션 시작 시 자동주입). 1차 앵커는 그쪽.
+> updated 2026-06-26 · 기준 결정 [[2026-06-25-ai-ops-stabilization]] · 코드 보강 및 잔재 삭제 완료 · 키 이전과 systemd 설치는 권한 게이트 대기
 
-### 완료된 단계
-- [x] 원격 개발환경: 작업PC → VS Code Remote-SSH → 회사 ERP서버 .220 (직접접속 A형)
-- [x] 동적IP 대응: ipTIME 무료 DDNS `hnedu-work-2005.iptime.org` → 회사 공인IP 자동추적 (고정IP 계약 없음 → WAN 고정설정 금지)
-- [x] SSH config (`bbw@snowball:~/.ssh/config`): `hnedu-erp`(2220→.220:22), `hnedu-auth`(2222→.221:22), 키인증 동작
-- [x] step-ca PKI 초기화 + **프로비저너 충돌 해결**(compose `DOCKER_STEPCA_INIT_PROVISIONER_NAME` acme→admin, `rm -rf data/step-ca` 재init). ca.json `JWK/admin`+`ACME/acme` 확인
-- [x] **Caddy ACME 인증서 발급 성공** — `erp-api.snowball.me.kr`, TLS-ALPN-01, issuer=사내CA. 사내 CA 발급체계 실증
-- [x] 루트 추출(`/opt/hnedu-erp/infra/certs/root_ca.crt`) + 오프라인 백업(tgz)
-- [x] 회사 PC 1대 Windows 신뢰루트 설치 (Import-Certificate)
-- [x] Phase C 계획 수립 + hnedu_auth 코드 매핑 완료
+## 완료
+- [x] `autobots/scripts/governance/db-backup.mjs`에 `DB_BACKUP_REMOTE` 분기 추가. 미설정은 기존 로컬 동작 유지, 로컬 디렉터리 복사 지원, `rsync`/`scp` 원격 대상 지원, 원격 실패는 `cron_script_warning`만 남기고 로컬 백업 성공을 깨지 않음.
+- [x] `autobots/backend/db/client.ts` `withTransaction`이 Promise-like 반환을 거부해 async 콜백 조기 commit을 방지. 동기 예외와 async 오용 모두 rollback.
+- [x] 회귀 테스트 추가: `db/client.test.ts`, `db/db-backup.test.ts`. 검증: backend `npm run typecheck`, `npm test` 126/126 pass.
+- [x] 루트 CI에 `live-console` typecheck + isolation + build job 추가. 검증: `live-console` `npm run typecheck`, `npm run verify:isolation`, `npm run build` pass.
+- [x] 루트 README의 frontend 원격 백업 오정보 정정. `autobots/frontend/.git/config` 기준 `origin` 존재 확인.
+- [x] R2.5 위생 보강: `db-backup.mjs` 원격 복사 `rsync`/`scp` 인자에 `--` 구분자 추가, `push.test.ts`에서 VAPID env를 import 전 임시 제거 후 복원해 환경 오염과 무관하게 결정론화.
+- [x] R2.5 검증: backend `npm run typecheck` pass, `npm test` 128/128 pass, `VAPID_SUBJECT=mailto:x@y.z VAPID_PRIVATE_KEY=k VAPID_PUBLIC_KEY=k npm test` 128/128 pass, `scp --` 로컬 복사 호환 확인. 현재 `rsync`는 PATH에 없음.
+- [x] R3 일부: 0바이트 DB 잔재 3개 삭제 완료. 대상: `/home/bbw/ai-ops/autobots.db`, `/home/bbw/ai-ops/autobots/autobots.db`, `/home/bbw/ai-ops/autobots/backend/db/backups/autobots_20260618_040105.db-wal`.
+- [x] R3 검증: 0바이트 DB/WAL/SHM 잔재 재검색 결과 없음. backend `npm run typecheck` pass, backend `npm test` 135/135 pass, live-console `npm run typecheck` pass, `npm run verify:isolation` pass, `npm run build` pass.
 
-### 다음 단계 (이어서 할 일)
-- [~] **[열린이슈 1] 인증서 신뢰 오류** — 회사 PC 브라우저 `https://erp-api.snowball.me.kr` → `ERR_CERT_AUTHORITY_INVALID`.
-  - **2026-06-19 진단 완료: 서버 측 정상.** (A)step-ca 루트 = (B)Caddy 마운트 루트 일치 = `FD:28:05:6A:EF:8F:CE:48:D2:A7:F2:60:EA:BE:0D:20:C0:7A:5B:B4` (콜론제거 `FD28056AEF8FCE48D2A7F260EABE0D20C07A5BB4`). s_client 체인 2개(리프+중간, issuer=Hnedu Internal CA Intermediate CA) 정상.
-  - **남은 단 하나: 회사 PC Windows 신뢰저장소의 옛 루트 교체.** 회사 PC PowerShell(관리자):
-    1) `Get-ChildItem Cert:\LocalMachine\Root | ? {$_.Subject -like "*Hnedu*"} | fl Thumbprint` → 위 기준지문과 비교
-    2) 다르면 `... | Remove-Item` 후 `Import-Certificate -FilePath <root_ca.crt> -CertStoreLocation Cert:\LocalMachine\Root`
-    3) 브라우저 완전 종료 후 재시작
-  - ⚠️ **회사 PC에 묶임 → 집에서 진행 불가.** 회사 PC 닿을 때 위 3스텝만 실행하면 종료.
-- [~] **[열린이슈 2] Phase C — `hnedu_auth` TOTP MFA 코드 구현 완료(06-19, 집PC).** 결정 3건 모두 권장안 채택(① 2단계 pending→otp ② ERP역할 setup 강제 ③ 복구코드 10개).
-  - **구현 파일**: schema.prisma(mfaEnabled+MfaSecret+MfaRecoveryCode), migrations/20260619150000_add_mfa, utils/crypto.ts(encrypt/decrypt 일반화), plugins/jwt.ts(signMfaToken), types/index.ts(isMfaTokenPayload), middlewares/requireAdmin.ts(requireMfaToken+typ거부), services/{tokenService(buildLoginPayload),authService(login분기+completeLogin),mfaService}, routes/auth/mfa.ts(setup/verify-setup/verify), routes/admin/mfa.ts(리셋), app.ts
-  - **라이브러리**: otplib **12.0.1 고정**(v13은 authenticator 프리셋 제거됨), qrcode 1.5.4. AES-256-GCM은 기존 crypto.ts 재사용.
-  - **품질게이트 통과**: tsc --noEmit exit 0 / code-reviewer 지적(Critical typ검증·복구코드 경쟁조건·계정brute-force·복구코드반환보장·crypto버퍼) 모두 수정 / evaluator-strict 5/5 요구사항 충족.
-  - **Admin UI(Next.js16) MFA 화면 완료(06-19)**: login/page.tsx 상태머신(credentials→mfa-verify|mfa-setup→recovery), lib/mfa-api.ts(mfaToken 전용 fetch, sessionStorage 비노출), components/auth/{mfa-verify,mfa-setup,mfa-recovery}-step.tsx, utils ACTION_LABEL MFA 추가. tsc·eslint(신규파일) 클린. code-reviewer: Critical 없음(High1·Med2 UX개선만 반영). 커밋 `6a1b7c9`.
-  - **남은 일(배포 환경 필요)**: ① `prisma migrate deploy` 마이그레이션 적용(.221 DB) — 집/snowball DB 연결 미확인 ② 서버 .env에 MFA_TOKEN_EXPIRES_IN/MFA_ISSUER ③ pnpm approve-builds(prisma/bcrypt/esbuild) ④ ERP WinForms 로그인 2단계 처리(미착수, .csproj 없음) ⑤ 통합테스트(실제 OTP 흐름).
-  - **커밋 상태**: `feat/mfa-totp` 브랜치에 5커밋(deps/db/server/admin-ui/runbook). main 미머지. **remote 없음+gh 미설치 → push/PR 불가.**
-  - **환경 한계 확정(06-19)**: snowball은 **코드 전용 워크스페이스** — `.env`·`keys/`·로컬 Postgres 모두 없음. 따라서 마이그레이션 적용·.env 설정·통합테스트는 **전부 .221 런타임에서만** 가능(이 Claude 세션 불가). 
-  - **배포 런북 작성**: `hnedu_auth/docs/MFA_DEPLOY.md` — .221에서 pnpm install/approve-builds → .env MFA변수 → prisma migrate deploy → build/restart → curl 스모크테스트(5종: ERP setup강제·MFA 2단계·비ERP 즉시·mfa토큰 차단 401·관리자리셋)+롤백. **다음 .221 세션에서 이 문서대로 적용·검증하면 종료.**
-- [ ] (선택) .220 sshd 하드닝(`PasswordAuthentication no`) + fail2ban (sudo OK 확인됨)
-- [ ] (앱 준비 후) Caddyfile `respond` placeholder → `reverse_proxy erp_api`
+## 남은 게이트
+- [ ] `live-console/certs/*.key`, `client.p12` 워킹트리 밖 이전 및 배포 경로 정리. 현재 `ca.key`, `server.key`, `client.key`, `client.p12`가 워킹트리에 남아 있음. `/etc/live-console/certs` 대상 이전은 `botsudo install`이 승인 대기로 전환되어 미완료.
+- [ ] live-console systemd 설치/재시작 실측. `botsudo systemctl status live-console --no-pager` 결과 `Unit live-console.service could not be found.`. `/etc/systemd/system` 설치·enable은 권한 게이트 필요.
 
-### 인계 노트 (집에서 이어갈 때 필독)
-- **이 Claude는 snowball(집서버 221.165.64.216)에서 실행** — 작업PC는 VS Code Remote-SSH로 snowball 접속. **집/회사 어느 PC든 snowball 접속하면 동일 환경·메모리·파일 유지** → 컴퓨터 바뀌어도 워크스페이스 그대로 이어짐.
-- **Claude의 Bash에서 회사 .220 SSH는 차단** → 서버 명령은 사용자가 직접 실행 후 결과 붙여넣기 방식. (.220에서 Claude가 직접 빌드하려면 VS Code를 .220에 Remote-SSH + Claude Code 서버측 설치 필요)
-- IP/도메인: 회사 공인 218.235.63.196(동적). `erp-api.snowball.me.kr`→192.168.0.220(사설=LAN전용, 의도된 것) / `auth.snowball.me.kr`→218.235.63.196(공인=외부노출).
-- **비밀값**: step-ca CA 비번은 .220 볼륨 `secrets/password` + 비번관리자 보관. 절대 메모리/git 금지.
-- hnedu_auth 코드 매핑: Employee(passwordHash=bcrypt12, phoneEncrypted=AES-256-GCM), 로그인 `src/services/authService.ts`+`src/routes/auth/login.ts`, JWT클레임 `src/types/index.ts`(systems Record), 토큰 `src/services/tokenService.ts`(RS256, issueTokenPair/rotate), 암호화 `src/utils/crypto.ts`(encryptPhone/decryptPhone→일반화 재사용), 마이그레이션 `prisma/migrations/YYYYMMDDHHmmss_*`. TOTP 라이브러리 미설치(otplib 추가 예정). Admin UI=Next.js15.
+# [활성 스레드] ai-ops — 봇 지능화 (Phase 7 재작성 + Phase 4' Live 추출)
+
+> updated 2026-06-25 · **플랜 승인 완료, 구현 미착수** · 집에서 이어감 · 영구계획 [[ai-ops-build-plan]] Phase 7·4' · 결정 [[2026-06-25-autobots-bot-intelligence]] · 게이트 [[phase7-bot-fleet-gate]]
+
+## 작업 요약
+옛 Phase 7("봇 함대·자율프록시·sudo executor 폐기")을 사용자 재논의로 **전면 재작성** → **봇 지능화**. 봇=기능별 전문성 "담당 직원" 모델, 봇이 자기 agent를 구성·관리, 자가학습으로 의도 파악. ADR 6결정 기록 완료.
+
+## 완료 (논의·기록)
+- [x] 4항목 재논의 완료(봇함대/자율프록시/sudo/cron학습), ADR급 6결정 확정.
+- [x] 빌드플랜 [[ai-ops-build-plan]] Phase 7 재작성 + Phase 4' 신규 + 3경로 분리 + 의존성/순서 갱신.
+- [x] ADR [[2026-06-25-autobots-bot-intelligence]] 작성. 게이트 메모리 [[phase7-bot-fleet-gate]]에 논의 전과정 기록.
+
+## ✅ Phase 7 전체 완료 (2026-06-25 구현·검증 — typecheck 0, 테스트 115/115, 단계마다 검증)
+- [x] **7-A** `db/generate-agent-files.ts` → `/home/bbw/ai-ops/.claude/agents/*.md` 9개 실체화(도구=CLAUDE_ALLOWED_TOOLS 상속). `seed-connections.ts` 末 자동 동기화. ※경로=spawn cwd(AI_OPS_DIR) 기준, autobots/ 아님.
+- [x] **7-B** `resolveBotCapabilities`에 전담 agent **id**+`Task(subagent_type:"<id>")` 위임 1줄 주입.
+- [x] **7-C** `concurrency.ts maxConcurrentBots()` export + 고부하 팬아웃 지시(최대 N=캡 동시 Task) 주입.
+- [x] **7-D** `routes/suggestions.ts` agent 승인 시 `generateAgentFiles()` 호출=신규 agent 즉시 실체화. 고위험 승인 UI=bots-v2.ts evolutions 기존 확인.
+- [x] **7-E** 보고형 cron 3종 제거(weekly-report·codex-experiment-log·dex-session-log)+dex-heartbeat→script(`scripts/governance/dex-heartbeat.mjs`). agent-type cron 0개. seed-v2·라이브DB 양쪽 반영.
+- [x] **7-F** `slo-report.ts learning_tokens_daily` 메트릭 추가(비악화 모니터).
+
+## Phase 4' — 4'-1~4'-3 완료, 4'-4만 남음 (인증=mTLS 단독, console.snowball.me.kr 라이브)
+- [x] **4'-1** (2026-06-25) `/home/bbw/ai-ops/live-console/` 독립 패키지. autobots import 0. typecheck(strict)·build·파서 스모크 통과.
+- [x] **4'-2 배포·실증 완료** (2026-06-25) `console.snowball.me.kr` 라이브. ACME 서버인증서+mTLS client_auth. ca.crt→`/opt/web-infra/caddy/config/live-console/`, Caddyfile console 블록(백업 .bak.1782390905), ufw `allow from 172.18.0.0/16 to port 9300`, `docker restart web_caddy`. **mTLS 실증**: 무인증서 차단(`certificate required`)·인증서로 `200 {"ok":true}`. 함정·해결 [[live-console-caddy-mtls-deploy]].
+- [x] **4'-3 완료** (2026-06-25) 호스트 셸=코어 본질, 파괴거부=config DISALLOWED, MODE/MODEL=server param. **감사 로그** `src/audit.ts`(JSON Lines, turn·Bash 등 기록) 추가·검증.
+- [ ] **4'-4 (남음·선택)** autobots Live 제거: 백 `backend/routes/sessions.ts`+`lib/session-manager.ts`(+server.ts:29,89) + 프론트 `app/chat/SessionPanel.tsx`(+chat/page.tsx). ⚠️백+프론트 동시 제거(부분=패널 404), 프론트 재빌드 [[feedback-no-verify-frontend-build]] 캐시함정 주의. 콘솔 동작 무영향=위생작업.
+- 잔여(사람): client.p12 접속 PC 설치 / `sudo loginctl enable-linger bbw`(boot 기동) / `systemctl --user restart live-console`(새 dist 반영).
+- 검증 명령: `cd live-console && npm run verify:isolation && npx tsc --noEmit && node scripts/smoke-server.mjs`.
+- 인계: 추출 코어는 autobots `lib/session-manager.ts`와 동일 로직(검증된 인터럽트=control_request, SIGINT 금지 주석 보존). live-console는 `strict:true`(autobots backend는 strict:false).
+
+## 인계 노트 (집에서 필독)
+- **게이트 준수**: Phase 7/4'는 [[phase7-bot-fleet-gate]] 절차(재논의→플랜수정→승인) 통과함. 이제 구현 착수 OK이나 각 phase 착수 시 사용자 확인 권장(파괴적·인프라).
+- **기검증 사실**: `Task` 이미 CLAUDE_ALLOWED_TOOLS(stream-engine.ts:380). sudo 실사용 29건(executor 유지). snow의 `docker restart autobots_backend`=error(=Phase4' 분리 근거). 학습 9봇 매일 가동·capability_suggestions 큐가 7-D 제안경로 이미 존재.
+- **sudo executor 유지**: 폐기 아님. 자기생명주기 명령만 in-band 제외→Phase4' 콘솔로.
+- 환경: 이 Claude는 snowball(집서버) 실행. 집/회사 어디서든 Remote-SSH로 동일 워크스페이스. 레포=`/home/bbw/ai-ops`. 커밋=`git -C /home/bbw/ai-ops`.
+
+---
+
+# [완료 스레드] hnedu_erp — 세콤 근태 휴대폰 매핑 배포 (.220) ✅
+
+> updated 2026-06-25 · 배포·실증 완료 · 잔여=snowball 미커밋 코드 커밋 + 백로그 자동 소진(~55분)
+
+## ✅ .220 배포 완료 (2026-06-25, snowball→ssh hnedu-erp)
+- [x] 실제 배포루트 = **/home/hnedu/hnedu_erp** (/opt는 스테일 — 런북 경로 정정됨)
+- [x] 신코드 tar전송(백업 server.bak_deploy_*) → 마이그024 적용 → erp_api 재빌드
+- [x] 동기화로 **phone_hash 30/31** 채움(auth listEmployees가 phone 제공, 1명 폰없음) — cron 임시override 1회 후 원복
+- [x] 워터마크 리셋 → **gate_attendance_logs Inserted=885**(첫 5000배치). 백로그 51455펀치 5000/5분 자동 소진
+- [x] **잠복버그 수정**: `OccurredAt.ToUniversalTime()` (KST→UTC, timestamptz Npgsql 제약). InMemory테스트 미검출, 실PG에서 표면화
+
+## 잔여
+- [x] **미커밋 코드 커밋 완료 (2026-06-25, main)**: 3커밋 — `c9916cd` feat(세콤 폰매핑+UTC+erp_role enum 강타입화; enum/phone이 Employee.cs 등서 얽혀 본체 1커밋) · `61161c2` test(LeaveWorkflowTests+PLAN 라우트) · `27c4601` chore(Caddyfile reverse_proxy). 빌드+310테스트+포맷 통과. git add -p 미지원이라 파일단위 추가분리 불가.
+- [x] **정규화 42명 전수 대조 완료 (2026-06-25, .220 실데이터, 커밋 `0d08096`)**: ★규칙 버그 적발·정정★ — CardNo 디코드가 등록코드 위치를 1자리 오인(앞7+뒤4, 8~9번 제거)했고 검증 쌍 `0109548281358`이 `card[6]==card[8]`로 우연히 두 규칙 동일 → 버그 은폐. 실데이터: 구규칙 **5/30 매칭뿐**(나머지 25명 근태 무음 누락), 정정(앞6+뒤5, 7~8번 제거) **27/30**. 인코딩 = `폰앞6+등록코드2+폰뒤5`. 잔여 3명(송영석·정덕균·조성진)=카드미등록/폰오타, SECOM 15장=비직원. 데이터: auth API(서비스토큰)로 평문폰 31명 + SECOM MS-SQL T_SECOM_PERSON 47장, 삭제위치 교집합 역산으로 규칙 도출.
+- [x] **.220 재배포 완료 (2026-06-25)**: 정정코드 전송(배포루트=/home/hnedu/hnedu_erp, 백업 server.bak_fix_20260625_091359.tgz) → erp_api 재빌드·기동(healthy) → 워터마크 리셋 → 재폴링. **운영 검증: 매핑 직원 4→24명**(배치 Pulled=5000/Inserted=4237/SkippedUnmapped=731, 구버그 시 대부분 skip). 백로그(~51k펀치) 5000/5분 자동 재처리 중, distinct ~27 수렴 예정. 마이그024는 기재적용·phone_hash 30/30 불변(수정은 CardNo 디코드만).
+- [ ] 후속: 미매핑 2명(정덕균·조성진) 추후 HR 카드등록/폰 확인. **송영석=카드 미등록 정상(매핑 불필요, 2026-06-25 종결)**. 외출/복귀(`Flag1 2/3`)·`T_SECOM_WORKHISTORY` 연장/야간 대조. 970 물리카드 5명 폴백.
+
+---
+
+# [활성 스레드] hnedu_erp — auth↔ERP 식별자 정합(Option A) 운영 배포
+
+> updated 2026-06-24 · project hnedu_erp(+hnedu_auth) · branch main · 핸드오프: snowball → Remote-SSH(.221 auth/.220 ERP)
+
+## 작업 요약
+auth/ERP 크로스시스템 ID를 UUID로 통일(Option A, additive). auth Int PK 유지하고 `employeeUuid`(JWT 클레임)·department `uuid` 추가. ERP는 동기화 시 부서→직원 순서로 auth pull, auth의 느슨한 필드(jobTitle/status/systemRoles)에서 ERP enum 도출.
+
+## 완료 (2026-06-24 운영 배포 실행됨, snowball→ssh)
+- [x] ERP 코드 커밋 (snowball `main` `1a0b6da`) + 빌드/테스트(287)/포맷 통과
+- [x] **ERP(.220) 배포**: `/home/hnedu/hnedu_erp/server` tar 전송(해시 일치) → `docker compose --profile apps build/up erp_api` 기동 OK. 백업 server.bak_20260624_092339. compose 실체=`/home/hnedu/hnedu_erp/infra`(≠/opt/hnedu-erp)
+- [x] **auth(.221) 전체 최신화(MFA 포함)**: DB덤프+소스백업(*_20260624_094517) → `feat/mfa-totp` src·prisma·public·package·lock 전송 + admin-ui `next build`(public/admin=MFA UI) → host `corepack pnpm@11.5.1 install`(otplib·qrcode) → 컨테이너 `prisma generate`+`migrate deploy`(add_mfa·sabun·uuid) → `docker restart hnedu_auth`. :3100 정상
+- [x] **검증**: employees(uuid·sabun·mfa_enabled)+departments(uuid) 컬럼+unique idx, **31명·12부서 전원 uuid 채워짐**, mfa_secrets·mfa_recovery_codes 생성, 새 코드 가동(200)
+- auth 런타임: `/var/web-infra/hnedu_auth`→`/app` bind(node:22+tsx), 로그인UI=Fastify `public/admin` 정적서빙. DB=db_postgres(unix소켓 trust). 컨테이너 pnpm없음→host/corepack
+
+## 동기화 서비스토큰 + 실증 (2026-06-24 완료)
+- [x] **auth 서비스토큰 신설**(커밋 `3a85665` feat/mfa-totp): service_tokens 테이블·svc_ 불투명토큰·requireServiceOrAdmin(svc_=GET+IP화이트리스트, 그외 requireAdmin)·관리 API·issue-service-token.mjs. code-reviewer 통과(High2 반영). .221 배포·가드 검증(200/403/401).
+- [x] **ERP 배선**: 서비스토큰 발급→.220 .env `AuthIntegration__BaseUrl=https://auth.snowball.me.kr`(도메인 변경예정)·`__ServiceToken`·`PII_ENCRYPTION_KEY`(생성·백업필수).
+- [x] **기존 ERP 버그 수정**(커밋 `0f4c14d`): PG enum→text(021·022: audit.action, employees.rank/position/erp_role/education_level/gender) + AuditLogService가 Guid.Empty(시스템액터) audit 생략. 빌드+287테스트 통과.
+- [x] **★ 동기화 1회 실증 완료**: EmployeeSyncJob Created=31·부서12·직원31 전원 active·FK 31/31·erp_role/rank 도출 정상. cron 02:00 자동 복원.
+
+## 전역 enum→text 수정 (2026-06-24, 동기화 실증 중 발견·.220 배포완료)
+- [x] **앱 전역 enum 매핑 버그**: PG enum 27컬럼이 Npgsql 미등록으로 EF 쓰기 시 42804 → 거의 모든 쓰기기능 영향(잠복). `db/023_all_enums_to_text.sql`(제네릭 전환+부분인덱스 재생성) + AppDbContext HasColumnType 27 제거 + **`ConfigureConventions Properties<Enum>().HaveConversion<string>()`**(enum 이름 저장). 커밋 a4210eb+84e6989.
+- [x] **code-review Critical 적발·수정**: HasConversion<string>까지 제거 시 enum이 ordinal 저장되는 회귀 → 전역 컨벤션으로 해결. 리뷰 통과.
+- [x] **.220 배포**: enum 테이블 0행 실측(오염無) → 023 적용(잔여 enum 0) → erp_api 재빌드·기동. 데이터 유지(부서12·직원31·erp_role 3종 정상).
+- [x] 통합테스트 1→8 통과(타임존 UTC + TestAuthHandler employeeUuid + enum 수정).
+
+## 쓰기경로 버그 3종 수정 (2026-06-24, 통합테스트로 발견·커밋 228111a·.220 배포완료)
+- [x] **DTO 검증 [property:]→파라미터 타깃**(11개 record): .NET 8이 record 위치파라미터에 property-타깃 검증 두면 InvalidOperationException→409. 거의 모든 [FromBody] 쓰기 엔드포인트 영향. JsonPropertyName(sync DTO)은 보존.
+- [x] **근태 KST 쿼리경계 UTC화**: AttendanceService/ReportService가 `new DateTimeOffset(...,KstOffset)`(+09:00)를 timestamptz 쿼리 파라미터로 써 Npgsql ArgumentException → `.ToUniversalTime()`(같은 instant). 인메모리 `.ToOffset`는 보존.
+- [x] **audit jsonb 정규화**: old_value/new_value(jsonb)에 평문(문서종류 등) 넣어 22P02 → AuditLogService.AsJson(이미 JSON이면 유지/아니면 래핑).
+- [x] **통합테스트 1→12 green**(287 단위 포함 299/299), format clean, **code-review 통과**(Low 1: AsJson이 "123"/"true" 평문을 JSON리터럴로 저장 — 현 호출부 무영향).
+
+## 남은 일
+- [ ] **관리자 MFA 등록**(사람): ERP역할자 다음 로그인 TOTP setup 강제(admin-ui 지원, 즉시잠금X). Apple 암호앱.
+- [ ] auth HR 명단 임포트로 sabun 채우기 → SECOM 매핑.
+- [ ] position=erp_role 도출값 → HR 보정.
+- [ ] PII_ENCRYPTION_KEY 안전 백업(.220 infra/.env, 유실=PII 복호화불가).
+- [ ] (미세) string 컬럼 EF store=varchar(20) vs DB text 불일치 정리.
+
+## 인계 노트
+- snowball 운영 SSH는 글로벌 deny였음→사용자가 `~/.claude/settings.json`의 `Bash(ssh:*)` 주석처리로 허용. ssh hnedu-erp(.220)/hnedu-auth(.221).
+- 동기화 부서→직원 순서 강제. auth 빈목록 시 의도적 중단.
+- 롤백: auth DB=auth_db_backup_*.sql, 소스=auth_src_backup_*.tgz, ERP=server.bak_*.
+
+---
+
+# [활성 스레드] ai-ops Phase 4 — 패스스루(인터랙티브 세션)
+
+> 이 Claude는 **snowball(집서버)** 에서 실행. 회사에서 VS Code Remote-SSH로 snowball 접속하면 **동일 워크스페이스·파일·커밋 그대로** 이어짐. 레포 = `/home/bbw/ai-ops`.
+> 영구 계획·상태는 [[ai-ops-build-plan]] Phase 4 (✅ 구현완료 마킹). 결정 출처도 거기.
+
+## 작업 요약 (ai-ops)
+기존 `-p` one-shot(매 메시지 새 프로세스·중간조향 불가)을 **persistent claude 프로세스(1세션=1프로세스, stdin JSON 턴 주입)**로 전환. 출력=기존 SSE 재사용 + 입력=신규 `POST /api/sessions/:id/input`. 미결 3건 모두 승인·구현. **backend+frontend 코드 완료·로컬 검증 통과, 배포는 미진행(코드만 자동커밋)**.
+
+## 완료 (검증됨)
+- [x] **task 0 게이트**: claude 2.1.177 `--input-format stream-json` 멀티턴 실증 — 재spawn 없이 2턴 연속·맥락유지(4→40). resume 대체 불필요.
+- [x] **DB**: `autobots/backend/db/schema.sql` `sessions` 테이블(id·status·runtime·model·cwd·conversation_id·pid·started/ended) + `idx_sessions_status`. additive, `npm run db:migrate` idempotent 확인.
+- [x] **backend**: `autobots/backend/lib/session-manager.ts`(프로세스1개/세션, stdin write, SSE fan-out, idle 30분 정리, 동시캡 `MAX_SESSIONS=4`), `autobots/backend/routes/sessions.ts`(POST `/api/sessions`·GET `/:id/stream`SSE·POST `/:id/input`·POST `/:id/interrupt`·DELETE `/:id`·GET 목록/상태), `server.ts` register.
+- [x] **frontend**: `autobots/frontend/app/chat/SessionPanel.tsx`(자체완결 Live UI) + `app/chat/page.tsx` `⚡ Live` 토글 + early-return(기존 멀티봇 플로우 분리=회귀차단).
+- [x] **검증**: BE tsc 0 · FE tsc 0 · session-manager 프로브(14→42 맥락유지·라이프사이클·누수0) · 라우트 inject 9/9(404·400·429·lifecycle).
+- [x] **안전가드 보존**: session-manager가 `claudePermissionArgs()` 재사용 → `CLAUDE_DISALLOWED_TOOLS`(rm -rf·sudo·git push 등) 그대로 차단.
+
+## 다음 단계 (회사에서 이어갈 때)
+- [x] **브라우저 수동 실증 완료 (2026-06-24, 회사 Remote-SSH→snowball, 임시 9250+로컬빌드 단일포트)**: ⚡ Live→Start(Opus)→멀티턴 스트리밍·맥락유지·Stop(조향)·다음 턴·End 전부 실 claude로 동작 확인. **실증 중 2건 수정**:
+  - 🐞 **인터럽트 버그**: `interruptSession`이 SIGINT 전송 → 실 claude CLI(2.1.177)는 SIGINT에 **프로세스 종료** → Stop 누르면 세션 사망·다음 메시지 404/error. **수정**: stdin `control_request{subtype:interrupt}`로 전환(실증: CLI가 control_response ack+result(is_error)로 턴만 종료, 프로세스 생존). 상태는 result(=done)에 위임(경쟁조건 방지), 프론트 `interrupted`는 busy 유지·`done`까지 대기. → [[interactive-session-interrupt]]. 통합테스트 페이크도 control_request 모사하도록 갱신, 10/10 pass.
+  - 🎨 **Stop 버튼 UX**: 헤더에만 있던 Stop을 응답 중 하단 Send→빨간 Stop 토글로 변경(직관성). `send()`에서 즉시 busy=true.
+  - 🔧 `next.config.ts`: basePath/API를 env(`NEXT_BASE_PATH`/`NEXT_PUBLIC_API_URL`)로 오버라이드 가능(기본값=prod `/autobots` 유지). 로컬 단일포트 실증용.
+- [x] **통합 테스트 파일화 (2026-06-24)**: `autobots/backend/routes/sessions.test.ts` 신규 — 스크래치 프로브를 node:test+fastify.inject 정식 테스트로 승격. 가짜 stream-json 바이너리(CLAUDE_BIN env 주입, 임시 DB)로 실 claude 없이 프로세스 라이프사이클 검증. 10케이스: 404×4·400·413·429·라이프사이클·persistent 멀티턴(pid 불변)·인터럽트 후 생존. `npm test` 전체 85 pass(기존 75+신규 10), tsc 0. **함정**: spawn 직후(<1ms) SIGINT 보내면 가짜가 SIGINT 핸들러 등록 전이라 죽음 → 인터럽트 테스트는 워밍업 턴 1회로 완전기동 후 인터럽트. (env는 동적 import 전 세팅 — static import 호이스팅이 stream-engine CLAUDE_BIN 상수를 먼저 캡처).
+- [x] **배포 완료 (2026-06-24)**: 프론트 prod 재빌드(`out/` `/autobots`) → UI_DIR 볼륨 즉시 반영 / 백엔드 `docker compose build backend && up -d backend`로 `autobots_backend` 재생성. 검증: `/health` 200, `/api/sessions` JSON(=신규 라우트 라이브), 운영 9200 실 claude 스모크(haiku READY) OK. `ensureSchema`가 부팅 시 `sessions` 테이블 자동 생성. 절차 출처: [[server-infra]].
+- [~] **codex/agy 패스스루 — Gate 0 실증 후 보류 (2026-06-24)**: agy=Live세션 **제외**(`--prompt-interactive` TTY전용, 파이프 0바이트). codex=resume 재spawn 방식으로 **가능하나 OpenAI workspace "out of credits"로 검증 불가** → **크레딧 충전 후 재개** 결정(미검증 선구현 금지=Phase4 교훈). 상세 [[runtime-passthrough-gate0]].
+- [x] **A1 세션 대화 persist + 자동 재접속 (2026-06-24, 배포·운영검증 완료)**: session-manager가 턴(user/assistant)을 `chat_messages`(conversation_id=세션id, 스키마변경 없음)에 저장, 신규 `GET /api/sessions/:id/messages`, SessionPanel 마운트 시 실행중 세션 자동 재접속(메시지 로드+SSE 재구독). 통합테스트 +1(11케이스), 전체 95 pass·tsc 0(BE/FE). 배포: 프론트 prod 재빌드(.next 캐시제거+명시 env)+백엔드 컨테이너 교체, 운영 실 claude 스모크(MANGO persist+재접속 감지) OK. 브라우저 재접속 UX는 사용자 하드리로드 실증 잔여.
+- [x] **B1 대화 라우팅 통합테스트 (2026-06-24)**: `routes/chat.test.ts` 9케이스(conversations/messages CRUD·검증·404, spawn 없는 순수 DB 경로). Phase 2b 회귀 그물.
+- [~] **A2 인터랙티브 permission 프롬프트 — Gate 실패·제외 (2026-06-24)**: raw claude `-p stream-json`이 `can_use_tool` control_request 미발생(default 자동처리, `--permission-prompt-tool stdio`도 무효). MCP permission-prompt 서버 필요=큰 작업 → 제외. 기존 자동거부가 MVP 안전. [[interactive-session-interrupt]].
+- [ ] (후속·범위밖) 다중 동시 세션 스케일.
+
+## 인계 노트 (필독)
+- **permission MVP 결정**: 인터랙티브 권한 프롬프트 노출 보류. headless stream-json `-p`에선 미허용 도구 자동 거부 = 안전. 진짜 프롬프트 노출은 `--permission-prompt-tool` 필요 → 후속.
+- **stream-json 입력 포맷**: `{"type":"user","message":{"role":"user","content":[{"type":"text","text":"..."}]}}` + `\n`. spawn 플래그에 `--replay-user-messages` 포함(ack용).
+- **턴 경계**: result 이벤트 = 턴 종료(프로세스 유지). session-manager가 `extractDelta/ToolUses/SkillUses/Fallback`(stream-engine.ts) 재사용.
+- **세션 출력은 chat_messages에 저장 안 함**(휘발). persist는 후속 과제.
+- 스크래치 프로브는 세션 scratchpad에 있음(세션 종료 시 소멸 가능) → 통합테스트 파일화 때 재작성.
+
+---
+
+# [보류 스레드] hnedu_erp — 세콤 근태 연동 (별개 프로젝트)
+
+> ⚠️ 아래는 ai-ops와 **다른 프로젝트**. 이어가려면 `/home/bbw/projects/hnedu_erp`로 전환. 영구정보는 hnedu_erp 프로젝트 메모리.
+
+## 작업 요약
+세콤(SECOM) 근태 연동. **브리지 MS-SQL + ERP 폴링잡을 .220에 배포·가동 완료**(Pulled=0, 세콤 전송 대기). 사번(sabun) plumbing도 양쪽 커밋. **선결과제였던 auth↔ERP 식별자 불일치(auth Int / ERP Guid) = Option A(additive UUID)로 구현·로컬검증 완료(2026-06-24), 미배포.** auth는 `tsc` 통과, ERP는 build+test(286)+format 통과.
+
+## ✅ Option A 구현 완료 (2026-06-24, 로컬검증 OK·미배포)
+**auth (feat/mfa-totp)**: schema `Employee.uuid`·`Department.uuid`(unique @db.Uuid) + 마이그레이션 `prisma/migrations/20260624100000_add_uuid` / `tokenService.buildLoginPayload`에 `employeeUuid` 클레임 추가(`sub`=Int 불변) / `types/index.ts JwtPayload.employeeUuid` / `employeeService.listEmployees`에 `uuid`+`department_uuid` flat 노출 / `routes/admin/departments.ts`에 `uuid`+`parentUuid` 노출.
+**ERP (main)**: `RbacHelper.GetActorId`가 `employeeUuid` 클레임 읽음(sub 아님) / `AuthEmployeeSyncItem`이 `uuid`·`department_uuid` 키 사용 / **신규 `DepartmentSyncService`**(IDepartmentSyncService, self-FK 2-pass upsert) — `EmployeeSyncService.SyncAsync`가 직원 전에 부서 동기화 먼저 호출(단일 순서 보장점) / `AdminSyncController` `POST /api/v1/admin/sync/departments` 추가 / `AuthIntegrationSettings.DepartmentsPath` / DI 등록 / 테스트 `DepartmentSyncServiceTests` 추가·`EmployeeSyncServiceTests` 페이로드를 uuid 계약으로 갱신 / `docs/DEV_CHECKLIST.md`에 2026-06-24 항목.
+
+## ✅ 필드 임피던스 정합 완료 (2026-06-24, ERP측 변환, 빌드/287테스트/포맷 OK·미배포)
+auth는 `jobTitle`(자유 직급)·`status`·`systemRoles`만 보유 → ERP 강한 enum을 `EmployeeSyncService.ApplyEmployee`에서 도출. `AuthEmployeeSyncItem`을 auth 실제 응답 형태(camelCase, 중첩 `systemRoles:[{systemRole:{systemCode,roleCode}}]`, `hireDate`=nullable ISO datetime)로 재정의.
+- `erp_role` ← systemRoles[ERP/ALL] 최고권한(ALL.ADMIN→ADMIN 승격). auth가 역할 권위자.
+- `rank` ← jobTitle, enum 일치 시 그대로 + 동의어('대표'→'대표이사', '상무이사/이사/관리자'→'임원'), 미상 '사원' 폴백.
+- `position` ← **erp_role 도출**(ADMIN/EXEC→임원, DEPT_LEADER→팀장, 그 외 팀원). auth 원천 없음 → 배포 후 HR이 ERP에서 보정.
+- `is_active` ← status=='ACTIVE'. `hireDate` 없으면 동기화일 폴백(DB NOT NULL).
+- 매핑 분기 검증 테스트 추가(`EmployeeSyncServiceTests`: 역할 승격·직급 동의어·position 도출).
+
+### 배포 잔여 (코드 외, 미실행)
+- [ ] auth 마이그레이션 `20260624100000_add_uuid` `.221` 적용 (prisma migrate deploy)
+- [ ] auth·ERP 양쪽 재배포(토큰 비파괴=클레임 추가만 → 재로그인 불필요). 순서: auth 마이그레이션→auth→ERP.
+- [ ] 배포 후 `POST /api/v1/admin/sync/employees` 1회 호출로 부서→직원 동기화 실증.
+
+> 영구 계획·결정·접속정보는 프로젝트 메모리(세션시작 자동주입): `~/.claude/projects/-home-bbw-projects-hnedu-erp/memory/`
+> 특히 [[secom_bridge_connection]](접속정보·가동상태), [[secom_attendance_integration]], [[dotnet_local_build]], [[dev_env_remote_ssh]], [[project_deploy_plan]].
+> 환경: 이 Claude는 **snowball(집서버)** 에서 실행. 집/회사 어디서든 snowball에 VS Code Remote-SSH 접속하면 **동일 워크스페이스·파일·커밋 그대로** 이어짐.
+
+## 완료된 단계 (배포·가동 중)
+- [x] 브리지 **MS-SQL 2025 Express(50GB)** .220 가동 — `infra/docker-compose.yml` `secom_mssql`(healthy), `SECOM` DB·로그인2개(secomlink 쓰기/erp_reader 읽기)·`T_SECOM_*` 4테이블. 세콤링크 접속확인됨.
+- [x] **SECOM 폴링잡** `SecomAttendanceSyncJob`(5분, KST) .220 실가동 — 로그 `Secom attendance sync job completed. Pulled=0`. `T_SECOM_ALARM`→`gate_attendance_logs`(source=SECOM), 워터마크 `secom_sync_state`, 멱등. Domain `SecomPunchMapper`, `SecomAttendanceReader`(MS-SQL read-only).
+- [x] **erp_api 컨테이너화** `server/Dockerfile`(net8.0 멀티스테이지, **tzdata 설치 필수**=Asia/Seoul) .220 배포·가동. compose erp_api env 키 정합 수정: `ConnectionStrings__DefaultConnection`(구 ErpDb=오류)·`__SecomDb`·`JwtSettings__PublicKeyUrl`·`FileStorage__BasePath`.
+- [x] **잠복버그 수정**: `audit_logs.ip_address` inet→text(`db/migrations/020`). string↔inet 매핑 불가로 실 Npgsql 모델검증이 깨지던 것(InMemory 테스트로는 미검출).
+- [x] **사번 plumbing 커밋(미배포·식별자정합 전엔 미동작)**: auth `Employee.sabun`+`importSabun`(부서+이름, 동명이인만 email)+`POST /sabun-import` / ERP `AuthEmployeeSyncItem.sabun`+`EmployeeSyncService` 매핑.
+
+## 커밋 상태 (로컬만 — GitHub 키 미설정 → push 불가, 배포는 tar+ssh)
+- **ERP(main)**: `fd89ad7`브리지 · `b241d12`폴링잡+2025 · `93e034c`컨테이너화 · `beb4d3b`AuditLog수정 · `f715a81`sabun매핑
+- **auth(feat/mfa-totp)**: `558f89e`sabun
+
+## 다음 단계 — Option A (additive UUID) 확정안, **미착수**
+> 핵심: **JWT `sub`는 절대 안 바꾼다**(auth 내부 11곳이 `Number(sub)`로 Int id 사용). 크로스시스템 ID는 `employeeUuid` 클레임을 **추가**.
+
+**hnedu-auth (순수 additive)**
+- [ ] `prisma/schema.prisma`: `Employee.uuid` + `Department.uuid` (`@unique @db.Uuid @default(uuid())`)
+- [ ] `prisma/migrations/<ts>_add_uuid/migration.sql`: `ADD COLUMN uuid uuid NOT NULL DEFAULT gen_random_uuid()` + unique index (employees, departments)
+- [ ] `src/services/tokenService.ts` `buildLoginPayload`: `employeeUuid: employee.uuid` 추가 (sub=String(id) 유지)
+- [ ] `src/types/index.ts` `JwtPayload`: `employeeUuid` 필드
+- [ ] `src/services/employeeService.ts` `listEmployees`: `uuid` + `department_uuid` 응답 노출(기존 Int `id`는 유지=비파괴)
+- [ ] `src/routes/admin/departments.ts`: `uuid` + `parentUuid` 노출(ERP 부서 동기화용)
+
+**ERP**
+- [ ] `Middleware/RbacHelper.cs` `GetActorId`: `"employeeUuid"` 클레임 읽기(sub 대신)
+- [ ] `Dtos/EmployeeSyncDtos.cs` `AuthEmployeeSyncItem`: `id`←`uuid`, `department_id`←`department_uuid`(둘 다 Guid)
+- [ ] **부서 동기화 신규**: auth `/api/v1/admin/departments` pull → ERP `departments` upsert(uuid 기준, parent는 2-pass) → **직원 동기화 전에** 실행해야 employee FK 성립
+- [ ] docs(`CLAUDE.md`·`DEV_CHECKLIST.md`) "JWT sub=Guid" 표기를 "employeeUuid 클레임"으로 정정
+
+**검증**: auth `npx prisma generate`(스키마 변경 후 필수)→`npx tsc --noEmit` / ERP build+test+format / 가능하면 로컬 compose 스택으로 동기화 1회 실증
+**배포 순서**: auth 마이그레이션→auth→ERP. 토큰 비파괴(클레임 추가만)=재로그인 불필요.
+
+## 인계 노트 (집에서 이어갈 때 필독)
+- ⚠️ **JWT `sub` 변경 금지** — `requireAdmin.ts:33,74,83,100`, `tokenService.ts:57`, 모든 admin 라우트·`me`·`logout`이 `Number(sub)`로 Int 직원 id를 씀. uuid는 별도 클레임으로만.
+- ⚠️ **ERP employees 테이블 비어 있음**(동기화 한 번도 성공 못함) → 깨뜨릴 데이터 없는 **가장 안전한 시점**. 부서 먼저 동기화해야 직원 FK 성립.
+- **Claude Bash에서 .220/.221 SSH·git push 차단** → 서버 명령은 사용자가 직접 실행 후 결과 붙여넣기.
+- **배포(코드 전송)**: 개발PC(`bbw@snowball`)에서
+  `cd /home/bbw/projects/hnedu_erp && tar czf - --exclude='./.git' --exclude='infra/data' --exclude='infra/.env' --exclude='*/bin' --exclude='*/obj' . | ssh hnedu-erp 'mkdir -p ~/hnedu_erp && tar xzf - -C ~/hnedu_erp'`
+- **.220 기동/재빌드**: `cd ~/hnedu_erp/infra && set -a && . ./.env && set +a` 후 `docker compose --profile apps up -d --build erp_api`. 마이그레이션 수동(init-scripts는 최초생성만 실행): `docker compose exec -T erp_postgres psql -U "$ERP_DB_USER" -d "$ERP_DB_NAME" -f /migrations/0NN_*.sql`.
+- **ERP dotnet 게이트**: `export PATH="$HOME/.dotnet:$PATH" DOTNET_CLI_HOME=/tmp/.dotnet-node NUGET_PACKAGES=/tmp/.dotnet-node/.nuget/packages` → build/test/format.
+- **로컬 전체 스택 실증 가능**(snowball, docker O): `infra/.env`(로컬테스트용·gitignored) 존재. `docker compose up -d erp_postgres secom_mssql` → `docker compose up secom_mssql_init` → `docker compose --profile apps up -d --build erp_api`. erp_postgres 신규생성 시 마이그레이션 001~020 자동적용. 끝나면 `docker compose --profile apps down -v`.
+- **세콤링크 입력값**: Provider=MS-SQL / SERVER IP=`192.168.0.220` / PORT=`1433` / DB명.dbo=`SECOM.dbo` / USER=`secomlink` / PW=.220 `.env`의 `SECOMLINK_PASSWORD`.
+- **운영 잔여(코드 외)**: ①세콤링크 전송설정(세콤 벤더)→Pulled>0 ②HR 명단 사번 임포트 호출 ③auth 마이그레이션 `.221` 적용 ④Caddy HTTPS 라우팅(클라이언트 접속용).
+- 미세 미정: 부서 동기화 소스 — 확정안은 auth `/admin/departments`에 uuid+parentUuid 노출 후 ERP 전용 동기화(employee-embed 방식 대비 중간노드 누락 없음).
+- `references/secom/`·`references/.../경조비...png`는 내가 만든 것 아님 — 손대지 말 것.
+
+## 이전 미해결 스레드 (2026-06-19, 별개 — 잊지 말 것)
+- **[이슈1] 인증서 신뢰 오류**: 회사 PC Windows 신뢰루트에 옛 루트 교체 필요(회사 PC 필요, 집에서 불가). 기준지문 `FD28056AEF8FCE48D2A7F260EABE0D20C07A5BB4`. 상세는 git 이력/메모리.
+- **[이슈2] MFA TOTP 배포**: `hnedu_auth/docs/MFA_DEPLOY.md` 런북대로 `.221`에서 적용·검증 대기(코드는 `feat/mfa-totp`에 구현 완료 — auth가 이 브랜치인 이유). prisma migrate deploy + .env(MFA_TOKEN_EXPIRES_IN/MFA_ISSUER) + 스모크테스트.

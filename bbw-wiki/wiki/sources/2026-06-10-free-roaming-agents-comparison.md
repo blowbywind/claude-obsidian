@@ -68,7 +68,7 @@ date_published: 2026-06-10
 
 ## 연결된 개념
 - [[wiki/concepts/free-roaming-agent|자유령 에이전트]]
-- [[wiki/concepts/lm-wiki-pattern|LLM Wiki 패턴]]
+- [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]]
 - [[wiki/concepts/ai-native-team|AI 네이티브 팀 구성]]
 - [[wiki/concepts/second-brain|세컨드 브레인]]
 - [[wiki/concepts/autonomous-learning-loop|야간 자율 학습 루프]]

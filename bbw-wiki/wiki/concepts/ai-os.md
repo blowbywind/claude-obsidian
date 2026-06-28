@@ -51,7 +51,7 @@ AI OS의 핵심. Obsidian과 외부 AI 사이의 다리. 3대 파일:
 - [[wiki/concepts/me-md|ME.MD]] — Layer 2의 핵심 파일
 - [[wiki/concepts/vault-map|Vault Map & Skill Map]] — Layer 2 나머지 파일들
 - [[wiki/concepts/ace-folder-framework|ACE 폴더 프레임워크]] — Layer 1 구조화 방법
-- [[wiki/concepts/세컨드 브레인|세컨드 브레인]] — 상위 철학적 개념
+- [[wiki/concepts/second-brain|세컨드 브레인]] — 상위 철학적 개념
 - [[wiki/concepts/claude-md|CLAUDE.md]] — Claude 전용 Layer 2 파일 (AI-agnostic 아님)
 
 ## 관련 엔티티

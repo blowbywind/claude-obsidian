@@ -43,19 +43,19 @@ date_published: 2026-01-01
 
 ## 연결된 개념
 
-- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]]
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]
-- [[bbw-wiki/wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]]
-- [[bbw-wiki/wiki/concepts/context-window|컨텍스트 윈도우]]
-- [[bbw-wiki/wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]]
-- [[bbw-wiki/wiki/concepts/claude-code-commands-skills|커맨드 & 스킬스]]
+- [[wiki/concepts/claude-md|CLAUDE.md]]
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]]
+- [[wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]]
+- [[wiki/concepts/context-window|컨텍스트 윈도우]]
+- [[wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]]
+- [[wiki/concepts/claude-code-commands-skills|커맨드 & 스킬스]]
 
 ## 연결된 엔티티
 
-- [[bbw-wiki/wiki/entities/boris-cherny|Boris Cherny]]
-- [[bbw-wiki/wiki/entities/ainow|에이나우]]
-- [[bbw-wiki/wiki/entities/claude-code|Claude Code]]
-- [[bbw-wiki/wiki/entities/anthropic|Anthropic]]
+- [[wiki/entities/boris-cherny|Boris Cherny]]
+- [[wiki/entities/ainow|에이나우]]
+- [[wiki/entities/claude-code|Claude Code]]
+- [[wiki/entities/anthropic|Anthropic]]
 
 ## 메모
 

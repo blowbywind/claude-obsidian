@@ -567,3 +567,19 @@
 - **노트 업데이트**: `10-projects/hnedu_erp.md` — updated 날짜 오류 수정(2026-06-10→2026-06-18), Phase 0 진행 내역 보완
 - **링크 확인**: claude/ 내 모든 project/decision 링크 유효성 확인 완료 (10개 프로젝트, 6개 ADR)
 - **발견 사항**: `bbw-wiki/bbw-wiki/wiki/concepts/hooks.md` — 중첩 경로의 0바이트 파일 (이름만 존재, 실제 내용 없음) 확인됨
+
+## [2026-06-25] lint | 위키 정리 — session-log 아카이브 + 오래된 노트 업데이트 + 링크 정리 (dex)
+
+- **session-log 아카이브**: `claude/session-log.md` 4529줄 → 272줄 (2026-06-23 이전 항목 `claude/99-archive/session-log-2026-06-before-24.md`로 이동, 빈 "커밋 없음" 157건 제거, 동일 커밋셋 중복 제거)
+- **노트 업데이트**: `claude/projects/hnedu_erp.md` — 2026-06-25 기준으로 전면 갱신 (SECOM 배포 완료·UUID 통합·CardNo 디코드 수정·운영 현황 반영)
+- **노트 업데이트**: `claude/projects/hnedu_auth.md` — 동기화 날짜 수정 + .221 배포 완료 상태 반영
+- **링크 정리**: `wiki/concepts/{knowledge-pattern-map,agent-operations-map,infra-operations-map}.md` 내 깨진 `_promoted` 링크 95건 → archived 텍스트로 변환 (백업 파일 `.backups/20260623_0451/_promoted_backup/` 확인)
+- **남은 이슈**: `episodic/2026-06-23~25-*.md` 58개 — 에이전트 학습 로그 미생성 (자동 생성 대기)
+- **INDEX.md**: session-log 통계 갱신
+
+## [2026-06-23] update | UI/UX 현대화 및 Brain vault 진단 UI 적용 (리나)
+
+- **디자인 토큰 현대화**: `app/globals.css` 내 다크모드 미디어 쿼리 중복 제거 및 `light-dark()` CSS 함수 기반 다중 모드 통합 선언, html 요소에 `color-scheme` 속성 주입으로 3계층(Primitive-Semantic-Component) 토큰 구조 최적화
+- **진단 UI 확장**: `app/learning/page.tsx` 및 `app/work/page.tsx`에 `/health` 진단 정보를 조회하여 Brain vault 마운트/활성 실패 경고 배너를 전면 노출하고, 각 탭 내 빈 화면 렌더링 시 단순 공백이 아닌 상세 에러/경고 진단 UI를 제공하여 "조용한 실패(silent failure)" 방지
+- **PLAN_WIKI.md 갱신**: A4(쓰기 위생 규칙 명문화) 및 A5(검색 UI 노출 및 진단) 체크박스 완료 처리
+

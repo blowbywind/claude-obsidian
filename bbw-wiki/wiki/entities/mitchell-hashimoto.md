@@ -17,9 +17,9 @@ HashiCorp 공동창업자이자 Terraform 창시자. 2026년 2월 5일 블로그
 
 ## 주요 연결
 
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 개념 창시
-- [[bbw-wiki/wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 동일 원리의 실전 구현
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]] — 개념 창시
+- [[wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 동일 원리의 실전 구현
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]

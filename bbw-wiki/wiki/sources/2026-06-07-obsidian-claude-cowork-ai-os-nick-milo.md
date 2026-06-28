@@ -51,7 +51,7 @@ Ideaverse 안에 별도 폴더(`AIOS/`)를 만들어 AI 생성 콘텐츠를 격�
 - [[wiki/concepts/me-md|ME.MD]] — AI 포터블 아이덴티티
 - [[wiki/concepts/ace-folder-framework|ACE 폴더 프레임워크]] — Atlas·Calendar·Efforts 구조
 - [[wiki/concepts/vault-map|Vault Map & Skill Map]] — 번역층 핵심 파일
-- [[wiki/concepts/세컨드 브레인|세컨드 브레인]] — 상위 개념
+- [[wiki/concepts/second-brain|세컨드 브레인]] — 상위 개념
 - [[wiki/concepts/claude-md|CLAUDE.md]] — ME.MD의 Claude 전용 버전
 
 ## 연결된 엔티티

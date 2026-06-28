@@ -45,7 +45,7 @@ sources: [2026-06-12-caddy-v2-docs]
 - 연관 서비스: hermes-dashboard, postgres/adminer, seaweedfs
 - 접속 도메인: `snowball.me.kr`
 
-상세: [[../../../claude/projects/web-infra]]
+상세: [[claude/projects/web-infra]]
 
 ## 주요 연결
 

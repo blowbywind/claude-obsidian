@@ -9,7 +9,7 @@
 
 | 프로젝트 | 한 줄 요약 | 현재 단계 | 노트 |
 |----------|-----------|----------|------|
-| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) · 봇 9/9 active (갱신: 2026-06-22T00:02Z) | [→](projects/autobots.md) |
+| autobots | AI 에이전트 운영 대시보드 (Fastify+Next.js, SQLite, port 9200) | v2.1 — backend UP (healthy) · 봇 9/9 active (갱신: 2026-06-24T17:01Z) | [→](projects/autobots.md) |
 | ai-agent-ops-plan | AI Ops 구현 계획 — Phase 0~4 로드맵 | Phase 0~3 완료, Phase 4 대기 | [→](projects/ai-agent-ops-plan.md) |
 | ai-ops-build-plan | Dev OS 전환 구축 순서 플랜 (Phase 0~7) | Phase 0(백업) 완료, Phase 1(SLO) 대기 | [→](projects/ai-ops-build-plan.md) |
 | hnedu_erp | 해냄에듀 Windows 풀스크린 업무·근태 대시보드 (win-screen) | Phase 0 완료, Phase 1 준비 중 | [→](projects/hnedu_erp.md) |
@@ -44,39 +44,46 @@
 
 ## 메모리 파일 통계
 
-> 마지막 갱신: 2026-06-22 01:49 UTC (autobots-scheduler)
+> 마지막 갱신: 2026-06-25 (dex 자동 정리)
 
 | 범위 | 파일 수 | 변동 |
 |------|------|-----|
-| vault (bbw-wiki) 전체 | 941 md | +5 since 936 |
-| claude/ | 38 md | = (decisions:12, projects:12, agent-logs:10, root:4) |
-| wiki/ | 334 md (sources:32, concepts:263, entities:37, queries:1, overview:0) | +3 concepts since 331 |
-| 50-prompts/ | 6 md | = |
-| 90-agent-logs/ (daily) | 363 md | +2 since 361 |
-| session-log.md | 30740라인 | +746 since 29994 |
-| work-in-progress.md | 47라인 | 2026-06-19 (이전 세션) |
+| vault (bbw-wiki) 전체 | 1123 md | -60 since 1183 |
+| claude/ | 50 md | +1 (99-archive/) |
+| claude/90-agent-logs/ | 11 md | 월별 봇별 통합 포맷 |
+| session-log.md | 272라인 | -4257 since 4529 (아카이브 완료) |
+| 99-archive/ | 1 md | session-log-2026-06-before-24.md (1489라인) |
+| work-in-progress.md | 183라인 | = |
 
 ### ai-ops 프로젝트 메모리 (`~/.claude/projects/-home-bbw-ai-ops/memory/`)
 
 | 파일 | 라인 | 크기 | 최종 수정 |
 |------|------|------|----------|
-| MEMORY.md | 20 | 2.9K | 2026-06-21 |
-| autobots-erp-ssh.md | 23 | 2.0K | 2026-06-20 |
-| autobots-hardening-backlog.md | 29 | 3.8K | 2026-06-20 |
-| autobots-identity.md | 20 | 1.5K | 2026-06-19 |
-| bot-autonomous-sudo.md | 31 | 5.4K | 2026-06-21 |
-| codex-bwrap-apparmor-fix.md | 38 | 2.8K | 2026-06-20 |
-| effective-improvement-workflow.md | 28 | 2.5K | 2026-06-19 |
+| MEMORY.md | 28 | 4.5K | 2026-06-24 |
+| autobots-erp-ssh.md | 23 | 1.9K | 2026-06-20 |
+| autobots-hardening-backlog.md | 34 | 4.2K | 2026-06-23 |
+| autobots-identity.md | 20 | 1.5K | 2026-06-18 |
+| bot-autonomous-sudo.md | 31 | 5.3K | 2026-06-21 |
+| chat-runtime-bot-recommendation-spec.md | 21 | 2.5K | 2026-06-24 |
+| codex-bwrap-apparmor-fix.md | 38 | 2.7K | 2026-06-20 |
+| effective-improvement-workflow.md | 28 | 2.4K | 2026-06-19 |
+| feedback-529-reduce-load.md | 19 | 1.4K | 2026-06-24 |
+| feedback-no-verify-frontend-build.md | 21 | 3.4K | 2026-06-24 |
 | feedback-rina-ux-rules.md | 20 | 1.1K | 2026-06-18 |
-| lessons.md | 241 | 29.0K | 2026-06-21 |
-| orchestration-directives.md | 21 | 2.1K | 2026-06-21 |
+| interactive-session-interrupt.md | 29 | 3.0K | 2026-06-24 |
+| lessons.md | 299 | 42.1K | 2026-06-24 |
+| orchestration-directives.md | 25 | 2.7K | 2026-06-24 |
 | platform-direction-discussion.md | 36 | 3.9K | 2026-06-21 |
+| pwa-service-worker.md | 43 | 4.7K | 2026-06-24 |
 | responsive-design-guide.md | 296 | 8.9K | 2026-06-19 |
 | rollback-prevention.md | 19 | 1.8K | 2026-06-21 |
-| server-infra.md | 30 | 1.8K | 2026-06-20 |
+| runtime-passthrough-gate0.md | 20 | 1.9K | 2026-06-24 |
+| server-infra.md | 31 | 2.5K | 2026-06-24 |
 | token-optimization.md | 25 | 2.1K | 2026-06-21 |
 | ui-ux-design-learning.md | 302 | 11.5K | 2026-06-19 |
-| **합계** | **1179** | — | — |
+| usage-subscription-view.md | 32 | 3.1K | 2026-06-24 |
+| web-research-delegation.md | 22 | 2.1K | 2026-06-24 |
+| **합계** | **1462** | — | — |
 
 일별 통계 로그: [90-agent-logs/](../90-agent-logs/)
 

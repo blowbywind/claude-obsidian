@@ -2,6 +2,7 @@
 title: ai-ops 플랫폼 방향·유지보수 전략
 type: decision
 status: accepted
+owner: bbw
 created: 2026-06-21
 updated: 2026-06-21
 accepted: 2026-06-21

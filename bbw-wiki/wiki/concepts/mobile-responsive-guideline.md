@@ -1,3 +1,10 @@
+---
+name: mobile-responsive-guideline
+description: 모바일 반응형 웹 UI와 접근성을 안정적으로 구현하기 위한 레이아웃, 스크롤, 터치 타깃 가이드.
+metadata:
+  type: concept
+---
+
 # 모바일 반응형 웹 UI/UX 최적화 가이드라인
 
 > 모바일 기기 및 다양한 뷰포트 환경에서 모바일 사용성과 접근성을 확보하기 위한 디자인 및 구현 원칙 가이드라인.
@@ -42,4 +49,3 @@
 * **해결책**:
   - `StatCard` 컨테이너에는 모바일 뷰포트에서 가로 한 줄에 나열될 수 있도록 `flex overflow-x-auto flex-nowrap scrollbar-none`을 적용하고, 개별 카드에 `min-w-[120px] flex-1 shrink-0`을 선언하여 레이아웃 뭉개짐이나 세로 2중 배치를 차단한다.
   - 가로가 좁은 모바일(sm 미만)에서는 소괄호 안의 불필요한 메타/서브 텍스트 정보들을 `@media` 또는 Tailwind의 `hidden sm:inline` 클래스를 조합하여 완전히 숨기도록 마크업을 정비한다.
-

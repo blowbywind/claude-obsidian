@@ -1,5 +1,16 @@
-This is your new *vault*.
+---
+name: Welcome
+description: bbw-wiki 진입 안내.
+metadata:
+  type: index
+---
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+# Welcome
 
-When you're ready, delete this note and make the vault your own.
+이 vault는 작업 기록, 운영 결정, 지식 노트를 연결하는 제2의 두뇌입니다.
+
+## 시작점
+- [[index]]
+- [[claude/INDEX]]
+- [[wiki/concepts/second-brain]]
+- [[wiki/concepts/llm-wiki-pattern]]

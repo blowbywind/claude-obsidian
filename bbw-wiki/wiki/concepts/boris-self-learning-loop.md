@@ -48,15 +48,15 @@ CLAUDE.md가 바로 그 '해결책'의 저장소다.
 
 ## 관련 개념
 
-- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]] — 자기학습 루프의 저장소
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 동일 원리의 시스템 수준 확장
-- [[bbw-wiki/wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]] — 루프가 동작하는 맥락
+- [[wiki/concepts/claude-md|CLAUDE.md]] — 자기학습 루프의 저장소
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]] — 동일 원리의 시스템 수준 확장
+- [[wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]] — 루프가 동작하는 맥락
 
 ## 관련 엔티티
 
-- [[bbw-wiki/wiki/entities/boris-cherny|Boris Cherny]] — 방법론 창안자
-- [[bbw-wiki/wiki/entities/claude-code|Claude Code]] — 루프가 적용되는 도구
+- [[wiki/entities/boris-cherny|Boris Cherny]] — 방법론 창안자
+- [[wiki/entities/claude-code|Claude Code]] — 루프가 적용되는 도구
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]
+- [[wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]

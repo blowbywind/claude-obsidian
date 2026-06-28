@@ -31,7 +31,7 @@ Claude Code가 세션 시작 시 자동으로 로드하는 마크다운 파일. 
 - **글로벌 파일에는 100줄 핵심만**: Claude Code 창시자·해커톤 우승자·커뮤니티 공통 권장. 너무 많은 내용 넣지 말 것
 - **프로젝트별 세분화**: 글로벌에는 공통 규칙만, 각 프로젝트 폴더에 목적별 CLAUDE.md 별도 생성
 - 외부에서 만들어 놓은 베스트 프랙티스 템플릿(GitHub)을 가져다 커스터마이징하는 방식도 효과적
-- **하네스 관점**: CLAUDE.md는 [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]의 컨텍스트 엔지니어링 레이어. 에이전트 실수마다 방지 규칙을 추가하는 [[bbw-wiki/wiki/concepts/boris-self-learning-loop|자기학습 루프]]의 저장소
+- **하네스 관점**: CLAUDE.md는 [[wiki/concepts/harness-engineering|하네스 엔지니어링]]의 컨텍스트 엔지니어링 레이어. 에이전트 실수마다 방지 규칙을 추가하는 [[wiki/concepts/boris-self-learning-loop|자기학습 루프]]의 저장소
 
 ## bbw에서의 활용
 

@@ -57,20 +57,20 @@ date_published: 2026-03-01
 
 ## 연결된 개념
 
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]]
-- [[bbw-wiki/wiki/concepts/context-engineering|컨텍스트 엔지니어링]]
-- [[bbw-wiki/wiki/concepts/generator-evaluator-pattern|Generator-Evaluator 패턴]]
-- [[bbw-wiki/wiki/concepts/claude-md|CLAUDE.md]]
-- [[bbw-wiki/wiki/concepts/hooks|훅스]]
-- [[bbw-wiki/wiki/concepts/mcp|MCP]]
-- [[bbw-wiki/wiki/concepts/context-window|컨텍스트 윈도우]]
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]]
+- [[wiki/concepts/context-engineering|컨텍스트 엔지니어링]]
+- [[wiki/concepts/generator-evaluator-pattern|Generator-Evaluator 패턴]]
+- [[wiki/concepts/claude-md|CLAUDE.md]]
+- [[wiki/concepts/hooks|훅스]]
+- [[wiki/concepts/mcp|MCP]]
+- [[wiki/concepts/context-window|컨텍스트 윈도우]]
 
 ## 연결된 엔티티
 
-- [[bbw-wiki/wiki/entities/mitchell-hashimoto|Mitchell Hashimoto]]
-- [[bbw-wiki/wiki/entities/ainow|에이나우]]
-- [[bbw-wiki/wiki/entities/claude-code|Claude Code]]
-- [[bbw-wiki/wiki/entities/anthropic|Anthropic]]
+- [[wiki/entities/mitchell-hashimoto|Mitchell Hashimoto]]
+- [[wiki/entities/ainow|에이나우]]
+- [[wiki/entities/claude-code|Claude Code]]
+- [[wiki/entities/anthropic|Anthropic]]
 
 ## 메모
 

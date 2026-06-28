@@ -796,10 +796,10 @@ grep -n "delete" /home/bbw/.local/lib/node_modules/obsidian-mcp/build/main.js
 - **리스크**: ADR·projects 이관 시 CLAUDE.md·hooks 하드코딩 경로 미수정으로 세션 시작 컨텍스트 주입 실패.
 - **대응**: 이관 전 반드시 `grep -r 'obsidian-vault/bbw-wiki' ~/.claude/` 전체 경로 추출. 복사(cp) 후 검증 → 원본 제거 순서 엄수.
 
-### R7 — Ubuntu 26.04 LTS 개발 버전 (심각도: 낮음, 확률: 중간)
+### R7 — Ubuntu 26.04 LTS 버전 확인 (심각도: 낮음, 확률: 낮음) — 해소됨(2026-06-22)
 
-- **리스크**: 공식 릴리스 전 개발 버전 환경일 가능성. 패키지 불안정 또는 보안 패치 지연 가능성.
-- **대응**: `lsb_release -a`로 정확한 버전 확인. 프로덕션 배포 전 OS 버전 재확인.
+- **갱신**: Ubuntu Server 26.04 LTS("Resolute Raccoon")는 2026-04-23 정식 출시(개발 버전 아님). Server=Desktop과 동일 LTS·저장소·지원(표준 2031-04, ESM 2036-04), GUI 없는 headless라 컨테이너 호스트 용도에 정석. 개발 버전 리스크 해소.
+- **잔여 대응**: 배포 전 `lsb_release -a`로 정식 릴리스 여부만 1회 확인. 근거: [[2026-06-22-second-brain-master-plan]] §1.
 
 ### R8 — API 키 시크릿 관리 (심각도: 높음, 확률: 높음)
 

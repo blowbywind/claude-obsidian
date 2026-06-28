@@ -83,7 +83,7 @@ Evaluator는 Generator와 완전히 분리된 별도 에이전트로, **더 엄�
 
 ### 하네스 법칙 4
 
-"생성과 평가를 분리하라" — [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] 7가지 법칙 중 하나로 핵심 원칙으로 자리잡음.
+"생성과 평가를 분리하라" — [[wiki/concepts/harness-engineering|하네스 엔지니어링]] 7가지 법칙 중 하나로 핵심 원칙으로 자리잡음.
 
 ### bbw-wiki와의 관계
 
@@ -91,17 +91,17 @@ Evaluator는 Generator와 완전히 분리된 별도 에이전트로, **더 엄�
 
 ## 관련 개념
 
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 이 패턴을 법칙 4로 포함
-- [[bbw-wiki/wiki/concepts/agentic-loop|에이전트 루프]] — Generator-Evaluator가 동작하는 루프
-- [[bbw-wiki/wiki/concepts/context-engineering|컨텍스트 엔지니어링]] — 컨텍스트 불안 해결과 연결
-- [[bbw-wiki/wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]] — 실전 적용 맥락
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]] — 이 패턴을 법칙 4로 포함
+- [[wiki/concepts/agentic-loop|에이전트 루프]] — Generator-Evaluator가 동작하는 루프
+- [[wiki/concepts/context-engineering|컨텍스트 엔지니어링]] — 컨텍스트 불안 해결과 연결
+- [[wiki/concepts/ai-agent-workflow|AI 에이전트 워크플로우]] — 실전 적용 맥락
 
 ## 관련 엔티티
 
-- [[bbw-wiki/wiki/entities/anthropic|Anthropic]] — 패턴 연구·제안
-- [[bbw-wiki/wiki/entities/castlestudio|castlestudio]] — 실험 결과 해설 영상 제작
+- [[wiki/entities/anthropic|Anthropic]] — 패턴 연구·제안
+- [[wiki/entities/castlestudio|castlestudio]] — 실험 결과 해설 영상 제작
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
 - [[wiki/sources/2026-06-08-claude-code-harness-castlestudio|클로드코드 직접 만든 사람이 직접 공개한 사용법]]

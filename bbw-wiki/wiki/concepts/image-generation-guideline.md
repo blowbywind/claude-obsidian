@@ -1,3 +1,10 @@
+---
+name: image-generation-guideline
+description: API 기반 이미지 생성 품질을 높이기 위한 프롬프트 확장, 스타일 레퍼런스, 후처리 가이드.
+metadata:
+  type: concept
+---
+
 # API 기반 이미지 생성 고도화 및 프롬프트 확장 디자인 가이드라인
 
 웹 브라우저의 이미지 생성 UI(예: Gemini Web, ChatGPT Plus 등)와 비교했을 때, 로컬 API(Gemini API, DALL-E API 등)를 사용해 생성한 이미지의 퀄리티가 떨어지거나 스타일 일관성이 유지되지 않는 문제를 해결하기 위한 디자이너 가이드라인입니다.

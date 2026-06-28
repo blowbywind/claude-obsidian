@@ -77,7 +77,7 @@ AI OS의 외부 지식 축(LLM Wiki)을 완성하는 **3계층 지식 관리 아
 - [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]] — 이 시스템의 Layer B
 - [[wiki/concepts/ai-os|AI OS]] — 외부 지식 시스템이 속하는 더 큰 아키텍처
 - [[wiki/concepts/mcp|MCP]] — 세 도구를 Claude Code로 통합하는 연결 수단
-- [[wiki/concepts/목적성 있는 수집|목적성 있는 수집]] — 각 레이어 진입 시 적용되는 원칙
+- [[wiki/concepts/purposeful-collection|목적성 있는 수집]] — 각 레이어 진입 시 적용되는 원칙
 
 ## 관련 엔티티
 

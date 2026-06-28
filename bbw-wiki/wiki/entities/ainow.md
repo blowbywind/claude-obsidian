@@ -17,12 +17,12 @@ sources: [2026-06-07-ainow-claude-code-master-guide, 2026-06-07-harness-engineer
 
 ## 주요 연결
 
-- [[bbw-wiki/wiki/entities/boris-cherny|Boris Cherny]] — 워크플로우 분석 대상
-- [[bbw-wiki/wiki/entities/claude-code|Claude Code]] — 핵심 도구
-- [[bbw-wiki/wiki/concepts/harness-engineering|하네스 엔지니어링]] — 주요 연구 주제
-- [[bbw-wiki/wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 핵심 콘텐츠
+- [[wiki/entities/boris-cherny|Boris Cherny]] — 워크플로우 분석 대상
+- [[wiki/entities/claude-code|Claude Code]] — 핵심 도구
+- [[wiki/concepts/harness-engineering|하네스 엔지니어링]] — 주요 연구 주제
+- [[wiki/concepts/boris-self-learning-loop|Boris 자기학습 루프]] — 핵심 콘텐츠
 
 ## 출처
 
-- [[bbw-wiki/wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]
-- [[bbw-wiki/wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]
+- [[wiki/sources/2026-06-07-ainow-claude-code-master-guide|에이나우 클로드코드 실전 마스터가이드]]
+- [[wiki/sources/2026-06-07-harness-engineering-guide|하네스 엔지니어링 기초 가이드북]]

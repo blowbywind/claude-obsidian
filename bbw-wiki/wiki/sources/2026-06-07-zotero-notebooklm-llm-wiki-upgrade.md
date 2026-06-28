@@ -81,7 +81,7 @@ LLM Wiki 단독 사용의 3가지 한계를 진단하고, **Zotero**(원본 도�
 - [[wiki/concepts/llm-wiki-pattern|LLM Wiki 패턴]] — 이 시스템에서 1차 정제 레이어
 - [[wiki/concepts/external-knowledge-system|외부 지식 시스템]] — 3개 도구 통합 아키텍처
 - [[wiki/concepts/mcp|MCP]] — Zotero MCP, NotebookLM MCP 활용
-- [[wiki/concepts/목적성 있는 수집|목적성 있는 수집]] — Gold in, Gold out 원칙
+- [[wiki/concepts/purposeful-collection|목적성 있는 수집]] — Gold in, Gold out 원칙
 
 ## 연결된 엔티티
 

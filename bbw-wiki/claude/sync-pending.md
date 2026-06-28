@@ -1,6 +1,1215 @@
+## 2026-06-24T20:01Z wiki-sync (autobots-scheduler)
+Vault md: 1183 (+102 since 1081) | session-log: 4183라인 (+66 since 4117) | 90-agent-logs: 580 md (daily:571) | claude/: 49 md (=)
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+
+## 2026-06-24T23:31Z wiki-sync (autobots-scheduler)
+Vault md: 1122 (-61 since 1183) | session-log: 4412라인 (+229 since 4183) | 90-agent-logs: 607 md (daily:598) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T23:31Z 갱신, INDEX.md 통계 갱신 (vault 1183->1122, session 4183->4412, 90-agent-logs 580->607 daily:571->598)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T23:00Z wiki-sync (autobots-scheduler)
+Vault md: 1118 (-65 since 1183) | session-log: 4341라인 (+158 since 4183) | 90-agent-logs: 604 md (daily:595) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T23:00Z 갱신, INDEX.md 통계 갱신 (vault 1183->1118, session 4183->4341, 90-agent-logs 580->604 daily:571->595)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T22:50Z wiki-sync (autobots-scheduler)
+Vault md: 1117 (-66 since 1183) | session-log: 4341라인 (+158 since 4183) | 90-agent-logs: 603 md (daily:594) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T22:50Z 갱신, INDEX.md 통계 갱신 (vault 1183->1117, session 4183->4341, 90-agent-logs 580->603 daily:571->594)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T22:40Z wiki-sync (autobots-scheduler)
+Vault md: 1115 (-68 since 1183) | session-log: 4335라인 (+152 since 4183) | 90-agent-logs: 602 md (daily:593) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T22:40Z 갱신, INDEX.md 통계 갱신 (vault 1183->1115, session 4183->4335, 90-agent-logs 580->602 daily:571->593)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T22:30Z wiki-sync (autobots-scheduler)
+Vault md: 1114 (-69 since 1183) | session-log: 4335라인 (+152 since 4183) | 90-agent-logs: 601 md (daily:592) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T22:30Z 갱신, INDEX.md 통계 갱신 (vault 1183->1114, session 4183->4335, 90-agent-logs 580->601 daily:571->592)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T22:00Z wiki-sync (autobots-scheduler)
+Vault md: 1108 (-75 since 1183) | session-log: 4323라인 (+140 since 4183) | 90-agent-logs: 596 md (daily:587) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T22:00Z 갱신, INDEX.md 통계 갱신 (vault 1183->1108, session 4183->4323, 90-agent-logs 580->596 daily:571->587)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T21:30Z wiki-sync (autobots-scheduler)
+Vault md: 1104 (-79 since 1183) | session-log: 4279라인 (+96 since 4183) | 90-agent-logs: 593 md (daily:584) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T21:30Z 갱신, INDEX.md 통계 갱신 (vault 1183->1104, session 4183->4279, 90-agent-logs 580->593 daily:571->584)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T21:00Z wiki-sync (autobots-scheduler)
+Vault md: 1099 (-84 since 1183) | session-log: 4255라인 (+72 since 4183) | 90-agent-logs: 589 md (daily:580) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T21:00Z 갱신, INDEX.md 통계 갱신 (vault 1183->1099, session 4183->4255, 90-agent-logs 580->589 daily:571->580)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T20:33Z wiki-sync (autobots-scheduler)
+Vault md: 1094 (-89 since 1183) | session-log: 4249라인 (+66 since 4183) | 90-agent-logs: 585 md (daily:576) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T20:33Z 갱신, INDEX.md 통계 갱신 (vault 1183->1094, session 4183->4249, 90-agent-logs 580->585 daily:571->576)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T20:33Z wiki-sync (autobots-scheduler)
+Vault md: 1092 (-91 since 1183) | session-log: 4243라인 (+60 since 4183) | 90-agent-logs: 583 md (daily:574) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T20:33Z 갱신, INDEX.md 통계 갱신 (vault 1183->1092, session 4183->4243, 90-agent-logs 580->583 daily:571->574)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+변경: autobots.md 2026-06-24T20:01Z 갱신, INDEX.md 통계 갱신 (vault 1081->1183, session 4117->4183, 90-agent-logs 577->580 daily:568->571)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T19:04Z wiki-sync (autobots-scheduler)
+Vault md: 1165 (+311 since 854) | session-log: 4051라인 (+2020 since 2031) | 90-agent-logs: 575 md (daily:566) | claude/: 49 md (=)
+
+## 2026-06-24T19:31Z wiki-sync (autobots-scheduler)
+Vault md: 1081 (-84 since 1165) | session-log: 4117라인 (+66 since 4051) | 90-agent-logs: 577 md (daily:568) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T19:31Z 갱신, INDEX.md 통계 갱신 (vault 1165->1081, session 4051->4117, 90-agent-logs 575->577 daily:566->568)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T19:02Z 갱신, INDEX.md 통계 갱신 (vault 1064->1165, session 4039->4051, 90-agent-logs 572->575 daily:563->566)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T04:32Z wiki-sync (autobots-scheduler)
+Vault md: 854 | session-log: 2031라인 | 90-agent-logs: 380 md (daily:372) | claude/: 45 md
+
+## 2026-06-24T18:30Z wiki-sync (autobots-scheduler)
+Vault md: 1064 (+210 since 854) | session-log: 4039라인 (+2008 since 2031) | 90-agent-logs: 572 md (daily:563) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T18:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1064, session 2031->4039, 90-agent-logs 380->572 daily:372->563)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T18:30Z wiki-sync (autobots-scheduler)
+Vault md: 1064 (+210 since 854) | session-log: 4039라인 (+2008 since 2031) | 90-agent-logs: 572 md (daily:563) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T18:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1064, session 2031->4039, 90-agent-logs 380->572 daily:372->563)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T18:01Z wiki-sync (autobots-scheduler)
+Vault md: 1056 (+202 since 854) | session-log: 4027라인 (+1996 since 2031) | 90-agent-logs: 568 md (daily:559) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T18:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1056, session 2031->4027, 90-agent-logs 380->568 daily:372->559)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T17:31Z wiki-sync (autobots-scheduler)
+Vault md: 1053 (+199 since 854) | session-log: 4021라인 (+1990 since 2031) | 90-agent-logs: 565 md (daily:556) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T17:31Z 갱신, INDEX.md 통계 갱신 (vault 854->1053, session 2031->4021, 90-agent-logs 380->565 daily:372->556)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T17:30Z wiki-sync (autobots-scheduler)
+Vault md: 1052 (+198 since 854) | session-log: 4021라인 (+1990 since 2031) | 90-agent-logs: 564 md (daily:555) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T17:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1052, session 2031->4021, 90-agent-logs 380->564 daily:372->555)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T17:01Z wiki-sync (autobots-scheduler)
+Vault md: 1048 (+194 since 854) | session-log: 4015라인 (+1984 since 2031) | 90-agent-logs: 560 md (daily:551) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T17:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1048, session 2031->4015, 90-agent-logs 380->560 daily:372->551)
+무결성: 깨진 wikilink 17고유/36총, frontmatter 누락 0, 고아 노트 8
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T16:40Z wiki-sync (autobots-scheduler)
+Vault md: 1046 (+192 since 854) | session-log: 4015라인 (+1984 since 2031) | 90-agent-logs: 558 md (daily:549) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T16:40Z 갱신, INDEX.md 통계 갱신 (vault 854->1046, session 2031->4015, 90-agent-logs 380->558 daily:372->549)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T16:30Z wiki-sync (autobots-scheduler)
+Vault md: 1044 (+190 since 854) | session-log: 4009라인 (+1978 since 2031) | 90-agent-logs: 556 md (daily:547) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T16:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1044, session 2031->4009, 90-agent-logs 380->556 daily:372->547)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T16:01Z wiki-sync (autobots-scheduler)
+Vault md: 1041 (+187 since 854) | session-log: 4003라인 (+1972 since 2031) | 90-agent-logs: 553 md (daily:544) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T16:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1041, session 2031->4003, 90-agent-logs 380->553 daily:372->544)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T15:31Z wiki-sync (autobots-scheduler)
+Vault md: 1036 (+182 since 854) | session-log: 4003라인 (+1972 since 2031) | 90-agent-logs: 548 md (daily:539) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T15:31Z 갱신, INDEX.md 통계 갱신 (vault 854->1036, session 2031->4003, 90-agent-logs 380->548 daily:372->539)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T15:30Z wiki-sync (autobots-scheduler)
+Vault md: 1036 (+182 since 854) | session-log: 4003라인 (+1972 since 2031) | 90-agent-logs: 548 md (daily:539) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T15:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1036, session 2031->4003, 90-agent-logs 380->548 daily:372->539)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T15:01Z wiki-sync (autobots-scheduler)
+Vault md: 1032 (+178 since 854) | session-log: 3997라인 (+1966 since 2031) | 90-agent-logs: 544 md (daily:535) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T15:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1032, session 2031->3997, 90-agent-logs 380->544 daily:372->535)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T14:30Z wiki-sync (autobots-scheduler)
+Vault md: 1026 (+172 since 854) | session-log: 3903라인 (+1872 since 2031) | 90-agent-logs: 538 md (daily:529) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T14:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1026, session 2031->3903, 90-agent-logs 380->538 daily:372->529)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 305a950 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T14:00Z wiki-sync (autobots-scheduler)
+Vault md: 1024 (+170 since 854) | session-log: 3871라인 (+1840 since 2031) | 90-agent-logs: 536 md (daily:527) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T14:00Z 갱신, INDEX.md 통계 갱신 (vault 854->1024, session 2031->3871, 90-agent-logs 380->536 daily:372->527)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 30444da (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T13:51Z wiki-sync (autobots-scheduler)
+Vault md: 1023 (+169 since 854) | session-log: 3869라인 (+1838 since 2031) | 90-agent-logs: 535 md (daily:526) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T13:51Z 갱신, INDEX.md 통계 갱신 (vault 854->1023, session 2031->3869, 90-agent-logs 380->535 daily:372->526)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e0d9ac0 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T13:30Z wiki-sync (autobots-scheduler)
+Vault md: 1021 (+167 since 854) | session-log: 3869라인 (+1838 since 2031) | 90-agent-logs: 533 md (daily:524) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T13:30Z 갱신, INDEX.md 통계 갱신 (vault 854->1021, session 2031->3869, 90-agent-logs 380->533 daily:372->524)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e0d9ac0 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T13:01Z wiki-sync (autobots-scheduler)
+Vault md: 1016 (+162 since 854) | session-log: 3867라인 (+1836 since 2031) | 90-agent-logs: 529 md (daily:520) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T13:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1016, session 2031->3867, 90-agent-logs 380->529 daily:372->520)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1bfd9d8 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T12:31Z wiki-sync (autobots-scheduler)
+Vault md: 1009 (+155 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 525 md (daily:516) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T12:31Z 갱신, INDEX.md 통계 갱신 (vault 854->1009, session 2031->3865, 90-agent-logs 380->525 daily:372->516)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T12:16Z wiki-sync (autobots-scheduler)
+Vault md: 1007 (+153 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 523 md (daily:514) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T12:16Z 갱신, INDEX.md 통계 갱신 (vault 854->1007, session 2031->3865, 90-agent-logs 380->523 daily:372->514)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T12:01Z wiki-sync (autobots-scheduler)
+Vault md: 1006 (+152 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 522 md (daily:513) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T12:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1006, session 2031->3865, 90-agent-logs 380->522 daily:372->513)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T11:31Z wiki-sync (autobots-scheduler)
+Vault md: 1002 (+148 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 518 md (daily:509) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T11:31Z 갱신, INDEX.md 통계 갱신 (vault 854->1002, session 2031->3865, 90-agent-logs 380->518 daily:372->509)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T11:11Z wiki-sync (autobots-scheduler)
+Vault md: 1001 (+147 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 517 md (daily:508) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T11:11Z 갱신, INDEX.md 통계 갱신 (vault 854->1001, session 2031->3865, 90-agent-logs 380->517 daily:372->508)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T11:01Z wiki-sync (autobots-scheduler)
+Vault md: 1001 (+147 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 517 md (daily:508) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T11:01Z 갱신, INDEX.md 통계 갱신 (vault 854->1001, session 2031->3865, 90-agent-logs 380->517 daily:372->508)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T10:31Z wiki-sync (autobots-scheduler)
+Vault md: 997 (+143 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 513 md (daily:504) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T10:31Z 갱신, INDEX.md 통계 갱신 (vault 854->997, session 2031->3865, 90-agent-logs 380->513 daily:372->504)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T10:00Z wiki-sync (autobots-scheduler)
+Vault md: 997 (+143 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 513 md (daily:504) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T10:00Z 갱신, INDEX.md 통계 갱신 (vault 854->997, session 2031->3865, 90-agent-logs 380->513 daily:372->504)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T09:51Z wiki-sync (autobots-scheduler)
+Vault md: 997 (+143 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 513 md (daily:504) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T09:51Z 갱신, INDEX.md 통계 갱신 (vault 854->997, session 2031->3865, 90-agent-logs 380->513 daily:372->504)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T09:46Z wiki-sync (autobots-scheduler)
+Vault md: 997 (+143 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 513 md (daily:504) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T09:46Z 갱신, INDEX.md 통계 갱신 (vault 854->997, session 2031->3865, 90-agent-logs 380->513 daily:372->504)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T09:31Z wiki-sync (autobots-scheduler)
+Vault md: 997 (+143 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 513 md (daily:504) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T09:31Z 갱신, INDEX.md 통계 갱신 (vault 854->997, session 2031->3865, 90-agent-logs 380->513 daily:372->504)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T08:51Z wiki-sync (autobots-scheduler)
+Vault md: 995 (+141 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 511 md (daily:502) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T08:51Z 갱신, INDEX.md 통계 갱신 (vault 854->995, session 2031->3865, 90-agent-logs 380->511 daily:372->502)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T08:31Z wiki-sync (autobots-scheduler)
+Vault md: 993 (+139 since 854) | session-log: 3865라인 (+1834 since 2031) | 90-agent-logs: 509 md (daily:500) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T08:31Z 갱신, INDEX.md 통계 갱신 (vault 854->993, session 2031->3865, 90-agent-logs 380->509 daily:372->500)
+무결성: 깨진 wikilink 15고유/28총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 6f16a05 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T08:11Z wiki-sync (autobots-scheduler)
+Vault md: 993 (+139 since 854) | session-log: 3863라인 (+1832 since 2031) | 90-agent-logs: 509 md (daily:500) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T08:11Z 갱신, INDEX.md 통계 갱신 (vault 854->993, session 2031->3863, 90-agent-logs 380->509 daily:372->500)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e076dcd (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T08:01Z wiki-sync (autobots-scheduler)
+Vault md: 993 (+139 since 854) | session-log: 3863라인 (+1832 since 2031) | 90-agent-logs: 509 md (daily:500) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T08:01Z 갱신, INDEX.md 통계 갱신 (vault 854->993, session 2031->3863, 90-agent-logs 380->509 daily:372->500)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e076dcd (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T07:30Z wiki-sync (autobots-scheduler)
+Vault md: 990 (+136 since 854) | session-log: 3863라인 (+1832 since 2031) | 90-agent-logs: 506 md (daily:497) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T07:30Z 갱신, INDEX.md 통계 갱신 (vault 854->990, session 2031->3863, 90-agent-logs 380->506 daily:372->497)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e076dcd (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T07:11Z wiki-sync (autobots-scheduler)
+Vault md: 989 (+135 since 854) | session-log: 3863라인 (+1832 since 2031) | 90-agent-logs: 505 md (daily:496) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T07:11Z 갱신, INDEX.md 통계 갱신 (vault 854->989, session 2031->3863, 90-agent-logs 380->505 daily:372->496)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e076dcd (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T07:00Z wiki-sync (autobots-scheduler)
+Vault md: 989 (+135 since 854) | session-log: 3863라인 (+1832 since 2031) | 90-agent-logs: 505 md (daily:496) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T07:00Z 갱신, INDEX.md 통계 갱신 (vault 854->989, session 2031->3863, 90-agent-logs 380->505 daily:372->496)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: e076dcd (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T06:00Z wiki-sync (autobots-scheduler)
+Vault md: 986 (+132 since 854) | session-log: 3854라인 (+1823 since 2031) | 90-agent-logs: 502 md (daily:493) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T06:00Z 갱신, INDEX.md 통계 갱신 (vault 854->986, session 2031->3854, 90-agent-logs 380->502 daily:372->493)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: d8c1308 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T05:30Z wiki-sync (autobots-scheduler)
+Vault md: 984 (+130 since 854) | session-log: 3846라인 (+1815 since 2031) | 90-agent-logs: 500 md (daily:491) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T05:30Z 갱신, INDEX.md 통계 갱신 (vault 854->984, session 2031->3846, 90-agent-logs 380->500 daily:372->491)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: b3c77e0 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T05:21Z wiki-sync (autobots-scheduler)
+Vault md: 984 (+130 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 500 md (daily:491) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T05:21Z 갱신, INDEX.md 통계 갱신 (vault 854->984, session 2031->3844, 90-agent-logs 380->500 daily:372->491)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T05:15Z wiki-sync (autobots-scheduler)
+Vault md: 984 (+130 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 500 md (daily:491) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T05:15Z 갱신, INDEX.md 통계 갱신 (vault 854->984, session 2031->3844, 90-agent-logs 380->500 daily:372->491)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T05:11Z wiki-sync (autobots-scheduler)
+Vault md: 984 (+130 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 500 md (daily:491) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T05:11Z 갱신, INDEX.md 통계 갱신 (vault 854->984, session 2031->3844, 90-agent-logs 380->500 daily:372->491)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T05:01Z wiki-sync (autobots-scheduler)
+Vault md: 983 (+129 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 499 md (daily:490) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T05:01Z 갱신, INDEX.md 통계 갱신 (vault 854->983, session 2031->3844, 90-agent-logs 380->499 daily:372->490)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:51Z wiki-sync (autobots-scheduler)
+Vault md: 983 (+129 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 499 md (daily:490) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:51Z 갱신, INDEX.md 통계 갱신 (vault 854->983, session 2031->3844, 90-agent-logs 380->499 daily:372->490)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:45Z wiki-sync (autobots-scheduler)
+Vault md: 983 (+129 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 499 md (daily:490) | claude/: 49 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:45Z 갱신, INDEX.md 통계 갱신 (vault 854->983, session 2031->3844, 90-agent-logs 380->499 daily:372->490)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:30Z wiki-sync (autobots-scheduler)
+Vault md: 979 (+125 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 496 md (daily:487) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:30Z 갱신, INDEX.md 통계 갱신 (vault 854->979, session 2031->3844, 90-agent-logs 380->496 daily:372->487)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:11Z wiki-sync (autobots-scheduler)
+Vault md: 978 (+124 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 495 md (daily:486) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:11Z 갱신, INDEX.md 통계 갱신 (vault 854->978, session 2031->3844, 90-agent-logs 380->495 daily:372->486)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:01Z wiki-sync (autobots-scheduler)
+Vault md: 978 (+124 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 495 md (daily:486) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:01Z 갱신, INDEX.md 통계 갱신 (vault 854->978, session 2031->3844, 90-agent-logs 380->495 daily:372->486)
+무결성: 깨진 wikilink 14고유/27총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T04:01Z wiki-sync (autobots-scheduler)
+Vault md: 978 (+124 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 495 md (daily:486) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T04:01Z 갱신, INDEX.md 통계 갱신 (vault 854->978, session 2031->3844, 90-agent-logs 380->495 daily:372->486)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T03:51Z wiki-sync (autobots-scheduler)
+Vault md: 978 (+124 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 495 md (daily:486) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T03:51Z 갱신, INDEX.md 통계 갱신 (vault 854->978, session 2031->3844, 90-agent-logs 380->495 daily:372->486)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T03:30Z wiki-sync (autobots-scheduler)
+Vault md: 974 (+120 since 854) | session-log: 3844라인 (+1813 since 2031) | 90-agent-logs: 491 md (daily:482) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T03:30Z 갱신, INDEX.md 통계 갱신 (vault 854->974, session 2031->3844, 90-agent-logs 380->491 daily:372->482)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T03:01Z wiki-sync (autobots-scheduler)
+Vault md: 970 (+116 since 854) | session-log: 3839라인 (+1808 since 2031) | 90-agent-logs: 487 md (daily:478) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T03:01Z 갱신, INDEX.md 통계 갱신 (vault 854->970, session 2031->3839, 90-agent-logs 380->487 daily:372->478)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T02:31Z wiki-sync (autobots-scheduler)
+Vault md: 969 (+115 since 854) | session-log: 3839라인 (+1808 since 2031) | 90-agent-logs: 486 md (daily:477) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T02:31Z 갱신, INDEX.md 통계 갱신 (vault 854->969, session 2031->3839, 90-agent-logs 380->486 daily:372->477)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 1c9d7ba (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T02:10Z wiki-sync (autobots-scheduler)
+Vault md: 966 (+112 since 854) | session-log: 3832라인 (+1801 since 2031) | 90-agent-logs: 483 md (daily:474) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T02:10Z 갱신, INDEX.md 통계 갱신 (vault 854->966, session 2031->3832, 90-agent-logs 380->483 daily:372->474)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: d5cd5e3 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T02:00Z wiki-sync (autobots-scheduler)
+Vault md: 966 (+112 since 854) | session-log: 3832라인 (+1801 since 2031) | 90-agent-logs: 483 md (daily:474) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T02:00Z 갱신, INDEX.md 통계 갱신 (vault 854->966, session 2031->3832, 90-agent-logs 380->483 daily:372->474)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: d5cd5e3 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T01:40Z wiki-sync (autobots-scheduler)
+Vault md: 965 (+111 since 854) | session-log: 3830라인 (+1799 since 2031) | 90-agent-logs: 482 md (daily:473) | claude/: 48 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T01:40Z 갱신, INDEX.md 통계 갱신 (vault 854->965, session 2031->3830, 90-agent-logs 380->482 daily:372->473)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 7a3e06a (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T01:30Z wiki-sync (autobots-scheduler)
+Vault md: 964 (+110 since 854) | session-log: 3830라인 (+1799 since 2031) | 90-agent-logs: 481 md (daily:472) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T01:30Z 갱신, INDEX.md 통계 갱신 (vault 854->964, session 2031->3830, 90-agent-logs 380->481 daily:372->472)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 7a3e06a (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T01:00Z wiki-sync (autobots-scheduler)
+Vault md: 959 (+105 since 854) | session-log: 3823라인 (+1792 since 2031) | 90-agent-logs: 476 md (daily:467) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T01:00Z 갱신, INDEX.md 통계 갱신 (vault 854->959, session 2031->3823, 90-agent-logs 380->476 daily:372->467)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: bca0377 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T00:30Z wiki-sync (autobots-scheduler)
+Vault md: 956 (+102 since 854) | session-log: 3823라인 (+1792 since 2031) | 90-agent-logs: 473 md (daily:464) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T00:30Z 갱신, INDEX.md 통계 갱신 (vault 854->956, session 2031->3823, 90-agent-logs 380->473 daily:372->464)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: bca0377 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T00:21Z wiki-sync (autobots-scheduler)
+Vault md: 956 (+102 since 854) | session-log: 3823라인 (+1792 since 2031) | 90-agent-logs: 473 md (daily:464) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T00:21Z 갱신, INDEX.md 통계 갱신 (vault 854->956, session 2031->3823, 90-agent-logs 380->473 daily:372->464)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: bca0377 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T00:00Z wiki-sync (autobots-scheduler)
+Vault md: 955 (+101 since 854) | session-log: 3821라인 (+1790 since 2031) | 90-agent-logs: 472 md (daily:463) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T00:00Z 갱신, INDEX.md 통계 갱신 (vault 854->955, session 2031->3821, 90-agent-logs 380->472 daily:372->463)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 2eecf24 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-24T00:00Z wiki-sync (autobots-scheduler)
+Vault md: 955 (+101 since 854) | session-log: 3821라인 (+1790 since 2031) | 90-agent-logs: 472 md (daily:463) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-24T00:00Z 갱신, INDEX.md 통계 갱신 (vault 854->955, session 2031->3821, 90-agent-logs 380->472 daily:372->463)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 2eecf24 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T23:30Z wiki-sync (autobots-scheduler)
+Vault md: 953 (+99 since 854) | session-log: 3668라인 (+1637 since 2031) | 90-agent-logs: 470 md (daily:461) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T23:30Z 갱신, INDEX.md 통계 갱신 (vault 854->953, session 2031->3668, 90-agent-logs 380->470 daily:372->461)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: 2eecf24 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T23:11Z wiki-sync (autobots-scheduler)
+Vault md: 952 (+98 since 854) | session-log: 3532라인 (+1501 since 2031) | 90-agent-logs: 469 md (daily:460) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T23:11Z 갱신, INDEX.md 통계 갱신 (vault 854->952, session 2031->3532, 90-agent-logs 380->469 daily:372->460)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T23:00Z wiki-sync (autobots-scheduler)
+Vault md: 952 (+98 since 854) | session-log: 3476라인 (+1445 since 2031) | 90-agent-logs: 469 md (daily:460) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T23:00Z 갱신, INDEX.md 통계 갱신 (vault 854->952, session 2031->3476, 90-agent-logs 380->469 daily:372->460)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T22:41Z wiki-sync (autobots-scheduler)
+Vault md: 950 (+96 since 854) | session-log: 3414라인 (+1383 since 2031) | 90-agent-logs: 467 md (daily:458) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T22:41Z 갱신, INDEX.md 통계 갱신 (vault 854->950, session 2031->3414, 90-agent-logs 380->467 daily:372->458)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T22:30Z wiki-sync (autobots-scheduler)
+Vault md: 950 (+96 since 854) | session-log: 3386라인 (+1355 since 2031) | 90-agent-logs: 467 md (daily:458) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T22:30Z 갱신, INDEX.md 통계 갱신 (vault 854->950, session 2031->3386, 90-agent-logs 380->467 daily:372->458)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T22:30Z wiki-sync (autobots-scheduler)
+Vault md: 950 (+96 since 854) | session-log: 3344라인 (+1313 since 2031) | 90-agent-logs: 467 md (daily:458) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T22:30Z 갱신, INDEX.md 통계 갱신 (vault 854->950, session 2031->3344, 90-agent-logs 380->467 daily:372->458)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T22:21Z wiki-sync (autobots-scheduler)
+Vault md: 950 (+96 since 854) | session-log: 3330라인 (+1299 since 2031) | 90-agent-logs: 467 md (daily:458) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T22:21Z 갱신, INDEX.md 통계 갱신 (vault 854->950, session 2031->3330, 90-agent-logs 380->467 daily:372->458)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T22:00Z wiki-sync (autobots-scheduler)
+Vault md: 948 (+94 since 854) | session-log: 3268라인 (+1237 since 2031) | 90-agent-logs: 465 md (daily:456) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T22:00Z 갱신, INDEX.md 통계 갱신 (vault 854->948, session 2031->3268, 90-agent-logs 380->465 daily:372->456)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T21:30Z wiki-sync (autobots-scheduler)
+Vault md: 946 (+92 since 854) | session-log: 3178라인 (+1147 since 2031) | 90-agent-logs: 463 md (daily:454) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T21:30Z 갱신, INDEX.md 통계 갱신 (vault 854->946, session 2031->3178, 90-agent-logs 380->463 daily:372->454)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+
+## 2026-06-23T21:00Z wiki-sync (autobots-scheduler)
+Vault md: 945 (+91 since 854) | session-log: 3094라인 (+1063 since 2031) | 90-agent-logs: 462 md (daily:453) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T21:00Z 갱신, INDEX.md 통계 갱신 (vault 854->945, session 2031->3094, 90-agent-logs 380->462 daily:372->453)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T20:30Z wiki-sync (autobots-scheduler)
+Vault md: 943 (+89 since 854) | session-log: 3004라인 (+973 since 2031) | 90-agent-logs: 460 md (daily:451) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T20:30Z 갱신, INDEX.md 통계 갱신 (vault 854->943, session 2031->3004, 90-agent-logs 380->460 daily:372->451)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T20:30Z wiki-sync (autobots-scheduler)
+Vault md: 943 (+89 since 854) | session-log: 3004라인 (+973 since 2031) | 90-agent-logs: 460 md (daily:451) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T20:30Z 갱신, INDEX.md 통계 갱신 (vault 854->943, session 2031->3004, 90-agent-logs 380->460 daily:372->451)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T20:00Z wiki-sync (autobots-scheduler)
+Vault md: 939 (+85 since 854) | session-log: 2914라인 (+883 since 2031) | 90-agent-logs: 456 md (daily:447) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T20:00Z 갱신, INDEX.md 통계 갱신 (vault 854->939, session 2031->2914, 90-agent-logs 380->456 daily:372->447)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T19:30Z wiki-sync (autobots-scheduler)
+Vault md: 935 (+81 since 854) | session-log: 2810라인 (+779 since 2031) | 90-agent-logs: 452 md (daily:443) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T19:30Z 갱신, INDEX.md 통계 갱신 (vault 854->935, session 2031->2810, 90-agent-logs 380->452 daily:372->443)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T19:00Z wiki-sync (autobots-scheduler)
+Vault md: 932 (+78 since 854) | session-log: 2701라인 (+670 since 2031) | 90-agent-logs: 449 md (daily:440) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T19:00Z 갱신, INDEX.md 통계 갱신 (vault 854->932, session 2031->2701, 90-agent-logs 380->449 daily:372->440)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T18:30Z wiki-sync (autobots-scheduler)
+Vault md: 930 (+76 since 854) | session-log: 2592라인 (+561 since 2031) | 90-agent-logs: 447 md (daily:438) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T18:30Z 갱신, INDEX.md 통계 갱신 (vault 854->930, session 2031->2592, 90-agent-logs 380->447 daily:372->438)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T18:00Z wiki-sync (autobots-scheduler)
+Vault md: 927 (+73 since 854) | session-log: 2502라인 (+471 since 2031) | 90-agent-logs: 444 md (daily:435) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T18:00Z 갱신, INDEX.md 통계 갱신 (vault 854->927, session 2031->2502, 90-agent-logs 380->444 daily:372->435)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T17:51Z wiki-sync (autobots-scheduler)
+Vault md: 927 (+73 since 854) | session-log: 2474라인 (+443 since 2031) | 90-agent-logs: 444 md (daily:435) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T17:51Z 갱신, INDEX.md 통계 갱신 (vault 854->927, session 2031->2474, 90-agent-logs 380->444 daily:372->435)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T17:30Z wiki-sync (autobots-scheduler)
+Vault md: 924 (+70 since 854) | session-log: 2413라인 (+382 since 2031) | 90-agent-logs: 441 md (daily:432) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T17:30Z 갱신, INDEX.md 통계 갱신 (vault 854->924, session 2031->2413, 90-agent-logs 380->441 daily:372->432)
+무결성: 깨진 wikilink 11고유/16총, frontmatter 누락 0, 고아 노트 4
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+
+
+## 2026-06-23T17:15Z wiki-sync (autobots-scheduler)
+Vault md: 922 (+68 since 854) | session-log: 2359라인 (+328 since 2031) | 90-agent-logs: 439 md (daily:430) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T17:15Z 갱신, INDEX.md 통계 갱신 (vault 854->922, session 2031->2359, 90-agent-logs 380->439 daily:372->430)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T17:00Z wiki-sync (autobots-scheduler)
+Vault md: 921 (+67 since 854) | session-log: 2317라인 (+286 since 2031) | 90-agent-logs: 438 md (daily:429) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T17:00Z 갱신, INDEX.md 통계 갱신 (vault 854->921, session 2031->2317, 90-agent-logs 380->438 daily:372->429)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T16:51Z wiki-sync (autobots-scheduler)
+Vault md: 921 (+67 since 854) | session-log: 2269라인 (+238 since 2031) | 90-agent-logs: 438 md (daily:429) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T16:51Z 갱신, INDEX.md 통계 갱신 (vault 854->921, session 2031->2269, 90-agent-logs 380->438 daily:372->429)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T16:30Z wiki-sync (autobots-scheduler)
+Vault md: 919 (+65 since 854) | session-log: 2208라인 (+177 since 2031) | 90-agent-logs: 436 md (daily:427) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T16:30Z 갱신, INDEX.md 통계 갱신 (vault 854->919, session 2031->2208, 90-agent-logs 380->436 daily:372->427)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T16:00Z wiki-sync (autobots-scheduler)
+Vault md: 917 (+63 since 854) | session-log: 2118라인 (+87 since 2031) | 90-agent-logs: 434 md (daily:425) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T16:00Z 갱신, INDEX.md 통계 갱신 (vault 854->917, session 2031->2118, 90-agent-logs 380->434 daily:372->425)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T15:50Z wiki-sync (autobots-scheduler)
+Vault md: 917 (+63 since 854) | session-log: 2076라인 (+45 since 2031) | 90-agent-logs: 434 md (daily:425) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T15:50Z 갱신, INDEX.md 통계 갱신 (vault 854->917, session 2031->2076, 90-agent-logs 380->434 daily:372->425)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T15:30Z wiki-sync (autobots-scheduler)
+Vault md: 916 (+62 since 854) | session-log: 2000라인 (-31 since 2031) | 90-agent-logs: 433 md (daily:424) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T15:30Z 갱신, INDEX.md 통계 갱신 (vault 854->916, session 2031->2000, 90-agent-logs 380->433 daily:372->424)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: c77be37 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T15:11Z wiki-sync (autobots-scheduler)
+Vault md: 914 (+60 since 854) | session-log: 1906라인 (-125 since 2031) | 90-agent-logs: 431 md (daily:422) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T15:11Z 갱신, INDEX.md 통계 갱신 (vault 854->914, session 2031->1906, 90-agent-logs 380->431 daily:372->422)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: fb34ec8 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T15:00Z wiki-sync (autobots-scheduler)
+Vault md: 913 (+59 since 854) | session-log: 1872라인 (-159 since 2031) | 90-agent-logs: 430 md (daily:421) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T15:00Z 갱신, INDEX.md 통계 갱신 (vault 854->913, session 2031->1872, 90-agent-logs 380->430 daily:372->421)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: fb34ec8 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T14:30Z wiki-sync (autobots-scheduler)
+Vault md: 910 (+56 since 854) | session-log: 1754라인 (-277 since 2031) | 90-agent-logs: 427 md (daily:418) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T14:30Z 갱신, INDEX.md 통계 갱신 (vault 854->910, session 2031->1754, 90-agent-logs 380->427 daily:372->418)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: fb34ec8 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T14:00Z wiki-sync (autobots-scheduler)
+Vault md: 909 (+55 since 854) | session-log: 1670라인 (-361 since 2031) | 90-agent-logs: 426 md (daily:417) | claude/: 48 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T14:00Z 갱신, INDEX.md 통계 갱신 (vault 854->909, session 2031->1670, 90-agent-logs 380->426 daily:372->417)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: fb34ec8 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T13:30Z wiki-sync (autobots-scheduler)
+Vault md: 905 (+51 since 854) | session-log: 1540라인 (-491 since 2031) | 90-agent-logs: 424 md (daily:415) | claude/: 46 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T13:30Z 갱신, INDEX.md 통계 갱신 (vault 854->905, session 2031->1540, 90-agent-logs 380->424 daily:372->415)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 7abd491 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T13:00Z wiki-sync (autobots-scheduler)
+Vault md: 902 (+48 since 854) | session-log: 1396라인 (-635 since 2031) | 90-agent-logs: 422 md (daily:413) | claude/: 45 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T13:00Z 갱신, INDEX.md 통계 갱신 (vault 854->902, session 2031->1396, 90-agent-logs 380->422 daily:372->413)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 7abd491 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T12:30Z wiki-sync (autobots-scheduler)
+Vault md: 900 (+46 since 854) | session-log: 1263라인 (-768 since 2031) | 90-agent-logs: 420 md (daily:411) | claude/: 45 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T12:30Z 갱신, INDEX.md 통계 갱신 (vault 854->900, session 2031->1263, 90-agent-logs 380->420 daily:372->411)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T12:30Z wiki-sync (autobots-scheduler)
+Vault md: 900 (+46 since 854) | session-log: 1263라인 (-768 since 2031) | 90-agent-logs: 420 md (daily:411) | claude/: 45 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T12:30Z 갱신, INDEX.md 통계 갱신 (vault 854->900, session 2031->1263, 90-agent-logs 380->420 daily:372->411)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T12:00Z wiki-sync (autobots-scheduler)
+Vault md: 894 (+40 since 854) | session-log: 1149라인 (-882 since 2031) | 90-agent-logs: 417 md (daily:408) | claude/: 45 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T12:00Z 갱신, INDEX.md 통계 갱신 (vault 854->894, session 2031->1149, 90-agent-logs 380->417 daily:372->408)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T11:51Z wiki-sync (autobots-scheduler)
+Vault md: 894 (+40 since 854) | session-log: 1121라인 (-910 since 2031) | 90-agent-logs: 417 md (daily:408) | claude/: 45 md (=
+봇: 2/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T11:51Z 갱신, INDEX.md 통계 갱신 (vault 854->894, session 2031->1121, 90-agent-logs 380->417 daily:372->408)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T11:41Z wiki-sync (autobots-scheduler)
+Vault md: 893 (+39 since 854) | session-log: 1086라인 (-945 since 2031) | 90-agent-logs: 416 md (daily:407) | claude/: 45 md (=
+봇: 7/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T11:41Z 갱신, INDEX.md 통계 갱신 (vault 854->893, session 2031->1086, 90-agent-logs 380->416 daily:372->407)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T11:30Z wiki-sync (autobots-scheduler)
+Vault md: 893 (+39 since 854) | session-log: 1052라인 (-979 since 2031) | 90-agent-logs: 416 md (daily:407) | claude/: 45 md (=
+봇: 7/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T11:30Z 갱신, INDEX.md 통계 갱신 (vault 854->893, session 2031->1052, 90-agent-logs 380->416 daily:372->407)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T11:11Z wiki-sync (autobots-scheduler)
+Vault md: 890 (+36 since 854) | session-log: 996라인 (-1035 since 2031) | 90-agent-logs: 413 md (daily:404) | claude/: 45 md (=
+봇: 7/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T11:11Z 갱신, INDEX.md 통계 갱신 (vault 854->890, session 2031->996, 90-agent-logs 380->413 daily:372->404)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T11:00Z wiki-sync (autobots-scheduler)
+Vault md: 889 (+35 since 854) | session-log: 962라인 (-1069 since 2031) | 90-agent-logs: 412 md (daily:403) | claude/: 45 md (=
+봇: 7/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T11:00Z 갱신, INDEX.md 통계 갱신 (vault 854->889, session 2031->962, 90-agent-logs 380->412 daily:372->403)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T10:30Z wiki-sync (autobots-scheduler)
+Vault md: 886 (+32 since 854) | session-log: 864라인 (-1167 since 2031) | 90-agent-logs: 409 md (daily:400) | claude/: 45 md (=
+봇: 7/9 active | runtime: agy=healthy | claude=unavailable | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T10:30Z 갱신, INDEX.md 통계 갱신 (vault 854->886, session 2031->864, 90-agent-logs 380->409 daily:372->400)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T10:01Z wiki-sync (autobots-scheduler)
+Vault md: 885 (+31 since 854) | session-log: 738라인 (-1293 since 2031) | 90-agent-logs: 408 md (daily:399) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T10:01Z 갱신, INDEX.md 통계 갱신 (vault 854->885, session 2031->738, 90-agent-logs 380->408 daily:372->399)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T09:30Z wiki-sync (autobots-scheduler)
+Vault md: 883 (+29 since 854) | session-log: 594라인 (-1437 since 2031) | 90-agent-logs: 407 md (daily:398) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T09:30Z 갱신, INDEX.md 통계 갱신 (vault 854->883, session 2031->594, 90-agent-logs 380->407 daily:372->398)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T09:01Z wiki-sync (autobots-scheduler)
+Vault md: 881 (+27 since 854) | session-log: 430라인 (-1601 since 2031) | 90-agent-logs: 405 md (daily:396) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T09:01Z 갱신, INDEX.md 통계 갱신 (vault 854->881, session 2031->430, 90-agent-logs 380->405 daily:372->396)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T08:31Z wiki-sync (autobots-scheduler)
+Vault md: 877 (+23 since 854) | session-log: 289라인 (-1742 since 2031) | 90-agent-logs: 401 md (daily:392) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T08:31Z 갱신, INDEX.md 통계 갱신 (vault 854->877, session 2031->289, 90-agent-logs 380->401 daily:372->392)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T08:01Z wiki-sync (autobots-scheduler)
+Vault md: 873 (+19 since 854) | session-log: 155라인 (-1876 since 2031) | 90-agent-logs: 397 md (daily:389) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T08:01Z 갱신, INDEX.md 통계 갱신 (vault 854->873, session 2031->155, 90-agent-logs 380->397 daily:372->389)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T07:41Z wiki-sync (autobots-scheduler)
+Vault md: 872 (+18 since 854) | session-log: 75라인 (-1956 since 2031) | 90-agent-logs: 396 md (daily:388) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T07:41Z 갱신, INDEX.md 통계 갱신 (vault 854->872, session 2031->75, 90-agent-logs 380->396 daily:372->388)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T07:31Z wiki-sync (autobots-scheduler)
+Vault md: 871 (+17 since 854) | session-log: 20라인 (-2011 since 2031) | 90-agent-logs: 395 md (daily:387) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T07:31Z 갱신, INDEX.md 통계 갱신 (vault 854->871, session 2031->20, 90-agent-logs 380->395 daily:372->387)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T07:01Z wiki-sync (autobots-scheduler)
+Vault md: 869 (+15 since 854) | session-log: 2693라인 (+662 since 2031) | 90-agent-logs: 393 md (daily:385) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T07:01Z 갱신, INDEX.md 통계 갱신 (vault 854->869, session 2031->2693, 90-agent-logs 380->393 daily:372->385)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T06:31Z wiki-sync (autobots-scheduler)
+Vault md: 865 (+11 since 854) | session-log: 2549라인 (+518 since 2031) | 90-agent-logs: 390 md (daily:382) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T06:31Z 갱신, INDEX.md 통계 갱신 (vault 854->865, session 2031->2549, 90-agent-logs 380->390 daily:372->382)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T06:30Z wiki-sync (autobots-scheduler)
+Vault md: 865 (+11 since 854) | session-log: 2549라인 (+518 since 2031) | 90-agent-logs: 390 md (daily:382) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T06:30Z 갱신, INDEX.md 통계 갱신 (vault 854->865, session 2031->2549, 90-agent-logs 380->390 daily:372->382)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T06:01Z wiki-sync (autobots-scheduler)
+Vault md: 863 (+9 since 854) | session-log: 2429라인 (+398 since 2031) | 90-agent-logs: 388 md (daily:380) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T06:01Z 갱신, INDEX.md 통계 갱신 (vault 854->863, session 2031->2429, 90-agent-logs 380->388 daily:372->380)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T06:00Z wiki-sync (autobots-scheduler)
+Vault md: 863 (-16 since 879) | session-log: 2429라인 (-25044 since 27473) | 90-agent-logs: 388 md (daily:380) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=unavailable | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T06:00Z 갱신, INDEX.md 통계 갱신 (vault 879->863, session 27473->2429, 90-agent-logs 334->388 daily:327->380)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T05:32Z wiki-sync (autobots-scheduler)
+Vault md: 861 (-18 since 879) | session-log: 2283라인 (-25190 since 27473) | 90-agent-logs: 386 md (daily:378) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T05:32Z 갱신, INDEX.md 통계 갱신 (vault 879->861, session 27473->2283, 90-agent-logs 334->386 daily:327->378)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T05:32Z wiki-sync (autobots-scheduler)
+Vault md: 860 (-19 since 879) | session-log: 2283라인 (-25190 since 27473) | 90-agent-logs: 385 md (daily:377) | claude/: 45 md (=
+봇: 9/9 active | runtime: agy=healthy | claude=healthy | codex=healthy | obsidian-mcp=healthy | run-gemini=unavailable
+변경: autobots.md 2026-06-23T05:32Z 갱신, INDEX.md 통계 갱신 (vault 879->860, session 27473->2283, 90-agent-logs 334->385 daily:327->377)
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 1
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T05:31Z wiki-sync (autobots-scheduler)
+Vault md: 860 (+-19 since 879) | session-log: 2283라인 (+-25190 since 27473) | 90-agent-logs: 385 md (daily:377) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-23T05:31Z 갱신, INDEX.md 통계 갱신 (vault 879->860, session 27473->2283, 90-agent-logs 334->385 daily:327->377)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+
+## 2026-06-23T05:01Z wiki-sync (autobots-scheduler)
+Vault md: 858 (+-21 since 879) | session-log: 2163라인 (+-25310 since 27473) | 90-agent-logs: 383 md (daily:375) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-23T05:01Z 갱신, INDEX.md 통계 갱신 (vault 879->858, session 27473->2163, 90-agent-logs 334->383 daily:327->375)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+봇: 9/9 active (bot-status 2026-06-23T04:31Z 기준) | runtime: agy/claude/codex/obsidian-mcp healthy, run-gemini unavailable
+변경: autobots.md 운영 상태/프로젝트 활동/봇 로스터 갱신, INDEX.md autobots 행 갱신, integrity-2026-W26.md 재생성
+무결성: 깨진 wikilink 2고유/2총, frontmatter 누락 0, 고아 노트 0
+주의: agent-status.json 파일 스냅샷은 2026-06-22T02:21Z로 stale, DB runtime_providers는 2026-06-23T04:31Z 기준
+신규 커밋: 94aeb81 (git 실행 파일 없음, refs 기준 확인)
+---
+
+## 2026-06-22T02:31Z wiki-sync (autobots-scheduler)
+Vault md: 948 (+3 since 945) | session-log: 31103라인 (+142 since 30961) | 90-agent-logs: 377 md (daily:370) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md session-log 통계 보정(31083->31103), INDEX.md 통계 갱신 (vault 945->948, session 30961->31103, 90-agent-logs 374->370 daily)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
 ## 2026-06-21T23:31Z wiki-sync (autobots-scheduler)
+
+## 2026-06-22T02:21Z profile-sync (autobots-scheduler)
+
+## 2026-06-22T02:31Z wiki-sync (autobots-scheduler)
+Vault md: 948 (+69 since 879) | session-log: 31083라인 (+3610 since 27473) | 90-agent-logs: 377 md (daily:370) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T02:31Z 갱신, INDEX.md 통계 갱신 (vault 879->948, session 27473->31083, 90-agent-logs 334->377 daily:327->370)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
+Runtime: agy/claude/codex/obsidian-mcp healthy | run-gemini=unavailable | hermes-docker=down (deprecated)
+프로파일: 9/9 active — arthur/dex/haeri/kiel/lian/rina/roun/snow/stellina 전원 active
+변경: 0 updated / 9 skipped (모든 봇 상태 변경 없음)
+agent-status.json: 갱신 완료 (last_profile_sync=2026-06-22T02:21Z)
+---
 Vault md: 926 (+3 since 923) | session-log: 29490라인 (+74 since 29416) | 90-agent-logs: 362 md | claude/: 38 md (=)
 봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+
+## 2026-06-22T02:02Z wiki-sync (autobots-scheduler)
+Vault md: 944 (+65 since 879) | session-log: 30861라인 (+3388 since 27473) | 90-agent-logs: 373 md (daily:366) | claude/: 38 md (=)
+봇: 9/9 active (직전 기준, docker API 미접근) | run-gemini=unavailable
+변경: autobots.md 2026-06-22T02:02Z 갱신, INDEX.md 통계 갱신 (vault 879->944, session 27473->30861, 90-agent-logs 334->373 daily:327->366)
+신규 커밋: 94aeb81 (ai-ops 최신, 변동 없음)
+---
+
 
 ## 2026-06-22T01:53Z wiki-sync (autobots-scheduler)
 Vault md: 942 (+63 since 879) | session-log: 30766라인 (+3293 since 27473) | 90-agent-logs: 371 md (daily:364) | claude/: 38 md (=)

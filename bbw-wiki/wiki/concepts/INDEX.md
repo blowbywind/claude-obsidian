@@ -37,3 +37,13 @@
 | 세컨드 브레인, 제2 뇌 | [second-brain.md](second-brain.md) | 디지털 제2 뇌(Second Brain) 구축 방법 |
 | Synthetic User, 합성 사용자 | [synthetic-user.md](synthetic-user.md) | AI 합성 사용자 생성·활용 패턴 |
 | Vault Map, 볼트 지도 | [vault-map.md](vault-map.md) | Obsidian Vault 전체 구조 지도 |
+
+## 관계 허브 (MOC)
+
+> 지식 그래프 통합 허브. 정식 concepts/ 노트와 상호 링크되는 Map of Content.
+
+| 허브 | 노트 | 역할 |
+|------|------|------|
+| 지식 패턴 맵 | [knowledge-pattern-map.md](knowledge-pattern-map.md) | RAG·세컨드브레인·LLM위키 등 지식관리 패턴 허브 |
+| 인프라 운영 맵 | [infra-operations-map.md](infra-operations-map.md) | 배포·하네스·MCP 등 인프라/운영 개념 허브 |
+| 에이전트 운영 맵 | [agent-operations-map.md](agent-operations-map.md) | 오케스트레이션·페르소나·루프 등 에이전트 운영 허브 |
