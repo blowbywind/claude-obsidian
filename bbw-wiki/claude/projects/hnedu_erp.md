@@ -27,7 +27,7 @@
 - 세콤링크 전송 설정: 벤더 측 설정 대기 (Pulled=0 상태)
 - `hnedu-erp.co.kr` apex: Caddy 인증서 발급 실패. `www.hnedu-erp.co.kr`은 정상이며 apex A 레코드가 192.168.0.220으로 잡힌 뒤 재검증 필요.
 - 인프라 기준 통합: `/home/hnedu/hnedu_erp/infra/Caddyfile`은 최신 reverse_proxy 설정으로 동기화됨. 단, `erp_caddy`·`erp_step_ca` 컨테이너는 아직 `/opt/hnedu-erp/infra` compose 라벨로 실행 중. `/home/.../infra/data`가 root 소유이고 `botsudo`가 없어 CA/Caddy 데이터 이동은 보류.
-- 웹 클라이언트: `pay` 도메인은 백엔드 컨트롤러 부재로 정적 유지. 메일 메시지 목록, 조직 직원 이름·이메일은 현재 DTO 미제공이라 화면에 `API 미제공`으로 표시.
+- 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 대시보드 결재·서류 화면 배선은 아직 후속 범위. `pay` 도메인은 별도 백엔드 컨트롤러 부재로 정적 유지. 메일 메시지 목록, 조직 직원 이름·이메일은 현재 DTO 미제공이라 화면에 `API 미제공`으로 표시.
 
 ## 아키텍처
 - 서버: ASP.NET Core 8, EF Core Code-First, PostgreSQL (db_postgres:5432)
@@ -44,6 +44,7 @@ cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api
 ```
 
 ## 작업 히스토리
+- 2026-06-28: web-client 누락 API 모듈 7개 추가 — `approval`, `document`, `report`, `search`, `tenure-reward`, `work-report`, `task-attachment`. 공통 `request` 래퍼는 기존 JSON 봉투 처리 유지 + FormData 업로드와 Blob 다운로드 응답 지원으로 확장. 검증: `pnpm exec tsc --noEmit`, `pnpm lint`, `pnpm build`, 서버 `dotnet build --configuration Release`, 단위 테스트 311개, `dotnet format --verify-no-changes`, `git diff --check` 통과. 통합 테스트 15개는 현재 환경에서 기존과 동일하게 skip.
 - 2026-06-28: 로컬 미커밋 작업본을 서버 `/home/hnedu/hnedu_erp`에 동기화하고 `docker compose --profile apps up -d --build erp_web` 실행. Compose 의존성으로 `erp_api`도 재빌드·재기동됨. 검증: `erp_api`/`erp_web` running, `erp_postgres`/`erp_secom_mssql` healthy, API health 200, `www.hnedu-erp.co.kr` `/`·`/login` HTTPS 200. `hnedu-erp.co.kr` apex는 step-ca ACME challenge timeout으로 TLS 실패.
 - 2026-06-28: 로컬 미커밋 web-client/API 배선 및 통합테스트 정리 재검증 — `web-client` `tsc --noEmit`/`pnpm lint`/`pnpm build` 통과. 신규 `mail`/`meetings`/`org` API 모듈은 서버 라우트·DTO와 대조 완료. 서버 `dotnet build --configuration Release`, 단위 테스트 311개, `dotnet format --verify-no-changes`, `git diff --check` 통과. 통합 테스트 15개는 현재 셸에 `docker` 명령이 없어 Testcontainers 가용성 검사에서 skip. 커밋·배포는 미진행.
 - 2026-06-27: web-client 텍스트 파리티 기준 확정 — 실 API 모드에서는 정본 mock 데이터값 1:1 비교 대신 레이아웃·클래스·주요 고정 라벨·상태 문구를 완료 기준으로 적용. 데이터값 완전 대조는 동일 API fixture/seed가 있는 별도 테스트 모드로 분리.

@@ -1,3 +1,20 @@
+## 2026-06-29 08:25 — ai-ops
+
+**최근 커밋:**
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+- 046b92e perf+fix(audit): 토큰 절약 + 보안/안정성 하드닝 (전 시스템 감사)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/lib/bot-directives.test.ts`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-29 07:47 — ai-ops
 
 **최근 커밋:**
