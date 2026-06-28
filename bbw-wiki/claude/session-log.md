@@ -1,3 +1,34 @@
+## 2026-06-28 07:19 — ai-ops
+
+**최근 커밋:**
+- a6366b2 feat(usage): codex 토큰 사용량 계측 추가(관측 사각 해소)
+- 4e19bc7 chore(auto-save): 작업 자동 저장 2026-06-28 13:59:57 (8 files)
+- 879a156 fix(seed): 재시드가 라이브 봇 게이트웨이/모델을 되돌리지 않게 보존
+- 7a529f6 feat(cron): 자율 기록 cron 안전 재구현 — LLM 읽기전용 + executor 결정론 append
+- d0e1195 feat(cron): 저빈도 LLM 기록 cron 복구 — dex-session-log(일1)·dex-weekly-review(주1)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+- `autobots/backend/routes/stream-engine.ts`
+- `autobots/backend/watchers/cron-executor.ts`
+
+---
+
+## 2026-06-28 16:18 — obsidian-vault
+
+**최근 커밋:**
+- 81f022c chore(wiki-sync): 볼트 자동 동기화 2026-06-28T07:15:36Z (1 file changed, 13 insertions(+))
+- df9331d chore(wiki): 6일 적체 볼트 동기화 보존 (dex 산출물·일일로그·에이전트로그 일괄 커밋)
+- b2bd81c chore(wiki-sync): 위키 동기화 2026-06-22T02:01Z
+- 055ba56 chore(wiki-sync): 위키 동기화 2026-06-22T02:00Z
+- 4130793 chore(wiki-sync): 위키 동기화 2026-06-22T00:02Z
+
+**변경 파일 (마지막 커밋):**
+- `.claude/settings.local.json`
+
+---
+
 ## 2026-06-28 14:33 — ai-ops
 
 **최근 커밋:**

@@ -7,6 +7,7 @@ updated: 2026-06-13
 deciders: [bbw]
 supersedes: ""
 superseded_by: ""
+summary: "에이전트 allowed_roots를 `/home/bbw/projects/`(앱 코드)와 `/home/bbw/ai-ops/`(AI 인프라) 두 경로로 확정해 파일시스템 공격 범위를 최소화한 운영 기준 경로 ADR."
 ---
 
 ## 맥락

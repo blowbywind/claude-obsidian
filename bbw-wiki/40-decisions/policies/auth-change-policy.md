@@ -4,6 +4,7 @@ type: policy
 tags: [hnedu_auth, dependency, policy]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "hnedu_auth JWT RS256 키 로테이션·스키마·API·DB 변경 유형별 hnedu_crm·hnedu_erp 영향 범위와 배포 순서·체크리스트를 정의한 변경 정책 문서"
 ---
 
 # hnedu_auth 변경 영향 분석 및 정책
