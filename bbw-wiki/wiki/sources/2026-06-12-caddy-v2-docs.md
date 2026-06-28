@@ -7,6 +7,7 @@ updated: 2026-06-12
 origin: https://caddyserver.com/docs/
 author: Matthew Holt, Caddy contributors
 date_published: 2024-ongoing
+summary: "Caddy v2는 자동 HTTPS(Let's Encrypt/ZeroSSL 무설정 발급·갱신)가 핵심인 Go 웹 서버로, Caddyfile DSL·무중단 reload·HTTP3·Admin REST API를 기본 지원한"
 ---
 
 ## 요약

@@ -7,6 +7,7 @@ updated: 2026-06-12
 origin: https://github.com/seaweedfs/seaweedfs/wiki (+ DeepWiki + Docker Hub + 벤치마크 아티클)
 author: Chrislu (핵심 개발자) / 커뮤니티
 date_published: 2026-06-12
+summary: "SeaweedFS(Go, Apache-2.0) 분산 오브젝트 스토리지 — S3·FUSE·WebDAV 지원, 소형파일 O(1) 접근 설계, BBW 서버 v4.23 Docker(`storage_seaweedfs`) 단일"
 ---
 
 ## 요약

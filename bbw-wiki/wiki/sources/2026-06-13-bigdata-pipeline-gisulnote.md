@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [bigdata, data-analysis, pipeline, ETL, elasticsearch, python]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "빅데이터 파이프라인 5단계(수집→정제→저장→분석→API)와 YouTube 추천·장바구니·커피숍 할인 최적화 사례를 통해 서비스 개발자도 데이터 분석을 알아야 하는 이유와 ELK+Python+FastAPI 소규모 구축"
 ---
 
 ## 요약

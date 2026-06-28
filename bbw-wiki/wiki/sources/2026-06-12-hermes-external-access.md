@@ -7,6 +7,7 @@ updated: 2026-06-12
 origin: /opt/web-infra (bbw 홈서버 실전 작업)
 author: bbw
 date_published: 2026-06-12
+summary: "KT GiGA WiFi Home 라우터의 hairpin NAT을 활용해 Docker+Caddy로 운영 중인 hermes dashboard를 snowball.me.kr:9119로 외부 접속 가능하게 구성·검증한 실전"
 ---
 
 ## 요약

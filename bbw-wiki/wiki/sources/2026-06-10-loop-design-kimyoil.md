@@ -7,6 +7,7 @@ updated: 2026-06-10
 origin: https://youtu.be/oZUeRib1Xec
 author: 김요일
 date_published: 2026-06-10
+summary: "프롬프트 명령 시대에서 목표·기준 기반 자율 반복 루프 설계 시대로의 전환을 설명하며, 개발자 역할이 명령자에서 AI 작업 시스템 설계자로 진화함을 보여주는 김요일 영상 정리 노트"
 ---
 
 ## 요약

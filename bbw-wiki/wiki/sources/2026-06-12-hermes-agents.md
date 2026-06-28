@@ -7,6 +7,7 @@ updated: 2026-06-12
 origin: /home/bbw/.local/bin/hermes (로컬 설치 직접 조사)
 author: bbw (hermes --help, hermes status, hermes config 출력 기반)
 date_published: 2026-06-12
+summary: "BBW 서버에 설치된 Hermes Agent v0.16.0 조사 기록 — 채팅 도구가 아닌 게이트웨이·크론·스킬·MCP·ACP를 갖춘 멀티에이전트 런타임 플랫폼이며, Codex OAuth로 gpt-5.5 사용·대시보"
 ---
 
 ## 요약

@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [computer-architecture, os, cpu, memory, process, compile, time-sharing]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "폰노이만 구조·컴파일/인터프리터 언어 구분·프로그램→프로세스 실행 흐름·메모리 계층·시분할 스케줄링을 다이어그램 중심으로 설명하는 기술노트 알렉 CS 기초 시리즈 3편(컴퓨터 구조·OS 1부) 요약 노트."
 ---
 
 ## 요약

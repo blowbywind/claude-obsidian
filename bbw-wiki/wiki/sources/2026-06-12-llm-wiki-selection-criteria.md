@@ -7,6 +7,7 @@ date_published: 2026-06-12
 tags: [llm-wiki, obsidian, knowledge-management, curation]
 created: 2026-06-12
 updated: 2026-06-12
+summary: "LLM Wiki에 넣을 자료는 반복 참조·의사결정 영향·업무 연결 3기준 중 2개 이상 통과해야 하며, 출처·맥락을 포함해 정리하고 볼트는 처음엔 하나로 유지한다."
 ---
 
 ## 요약
