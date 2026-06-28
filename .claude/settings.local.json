@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(schedule)",
+      "Bash(yt-dlp --version)",
+      "Read(//home/bbw/**)",
+      "Read(//usr/**)",
+      "Bash(mkdir -p ~/.local/bin)",
+      "Bash(~/.local/bin/yt-dlp --version)",
+      "Bash(~/.local/bin/yt-dlp *)"
+    ]
+  }
+}
