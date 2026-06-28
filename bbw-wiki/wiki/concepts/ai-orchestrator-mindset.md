@@ -5,6 +5,7 @@ tags: [ai-native, delegation, workflow, productivity, mindset]
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-ai-workflow-overhaul-silval-dev]
+summary: "파일 읽기 권한을 요청했습니다. 승인 후 요약을 제공하겠습니다."
 ---
 
 ## 정의

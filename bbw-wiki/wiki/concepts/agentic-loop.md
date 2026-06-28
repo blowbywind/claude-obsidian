@@ -5,6 +5,7 @@ tags: [agentic-ai, architecture, claude-code]
 created: 2026-06-05
 updated: 2026-06-10
 sources: [2026-06-05-how-claude-code-works, 2026-06-10-loop-design-kimyoil]
+summary: "에이전트가 맥락 파악-조치-검증을 반복하며 작업을 완료하는 루프로, Claude Code의 핵심 작동 원리이자 현대 에이전트 AI의 기본 아키텍처다."
 ---
 
 ## 정의

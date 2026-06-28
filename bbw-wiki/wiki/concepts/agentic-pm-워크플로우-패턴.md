@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "PM의 고수준 목표 기반으로 AI 에이전트가 티켓 수집·분석·우선순위 산정·연동을 자율 실행하되 구조화된 컨텍스트 제공과 PM 검증이 핵심인 워크플로우."
 ---
 
 # Agentic PM 워크플로우 패턴

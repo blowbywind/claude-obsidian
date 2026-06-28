@@ -5,6 +5,7 @@ tags: [ai, claude-code, productivity, workflow]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-beginner-install-guide, 2026-06-05-how-claude-code-works, 2026-06-05-claude-code-7steps-mastery]
+summary: "명확한 지시와 검증 가능한 데이터로 AI 에이전트의 반복 작업 자동화, 초기 설정 투자로 메인 및 목적별 서브에이전트 팀 병렬 운영 시스템."
 ---
 
 ## 정의

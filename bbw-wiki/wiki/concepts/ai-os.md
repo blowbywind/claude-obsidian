@@ -5,6 +5,7 @@ tags: [ai, pkm, architecture, obsidian]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "로컬 Obsidian 볼트·ME.MD·Skill Map으로 구성한 3레이어 아키텍처로 AI 도구 교체 가능한 개인 지식 시스템을 구축한다."
 ---
 
 ## 정의

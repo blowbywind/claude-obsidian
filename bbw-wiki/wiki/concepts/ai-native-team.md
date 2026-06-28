@@ -5,6 +5,7 @@ tags: [multi-agent, ai-native, team, hermes, claude-code]
 created: 2026-06-09
 updated: 2026-06-10
 sources: [2026-06-09-ai-native-hermes-report, 2026-05-28-ai-native-ux-lm-wiki-60th-seminar]
+summary: "인간 1명이 역할별 AI 에이전트(헤르메스·Claude Code)로 팀을 구성하고 옵시디언 위키로 맥락을 공유하는 조직 구조."
 ---
 
 ## 정의

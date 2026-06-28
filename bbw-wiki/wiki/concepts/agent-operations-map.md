@@ -4,6 +4,7 @@ description: 에이전트 운영, 평가, 리서치, 기획 관련 고아 노트
 metadata:
   type: concept
   generated: 2026-06-23
+summary: "에이전트 운영, 평가, 리서치, 기획 관련 고아 노트를 흡수하는 개념 허브."
 ---
 
 # agent-operations-map

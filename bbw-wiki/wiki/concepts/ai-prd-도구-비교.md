@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-kiel-learning]]
+summary: "회의 메모를 자동으로 구조화된 PRD로 변환하는 AI 도구들(ChatPRD, Figma AI, Copilot4DevOps 등)의 특징과 선택 기준을 비교한 문서."
 ---
 
 # AI PRD 도구 비교

@@ -11,3 +11,4 @@
 | 2026-06-25 | CI/CD best practices, container security | 컨테이너 이미지 지속적 재스캔(Continuous Re-scanning): 이미지가 레지스트리에 푸시된 이후에도 백그라운드에서 신규 공개 취약점(CVE)을 지속적으로 재스캔하여 신규 보안 위협을 실시간으로 감지하고  |
 | 2026-06-26 | CI/CD best practices, container security | VEX(OpenVEX) — SBOM 노이즈 필터: SBOM이 구성요소 목록이라면 VEX는 "해당 CVE가 이 컨텍스트에서 실제 악용 가능한가"를 선언. CycloneDX 1.7 + Trivy `--vex` 옵션 조합 |
 | 2026-06-27 | CI/CD best practices, container security | OTel Semantic Conventions 표준화 — `service.name`·`k8s.pod.name`·`container.id` 등 리소스 속성 명명 규칙 통일 시 logs·metrics·traces 간 c |
+| 2026-06-28 | CI/CD best practices, container security | Cilium Tetragon — eBPF 런타임 강제 차단: Falco(감지·알림 전용)와 달리 Tetragon은 커널 eBPF 레이어에서 정책 위반 프로세스를 SIGKILL로 즉시 종료. TOCTOU 공격 방어 가 |
