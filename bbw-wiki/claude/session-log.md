@@ -1,3 +1,37 @@
+## 2026-06-28 20:42 — ai-ops
+
+**최근 커밋:**
+- c3938e4 chore(auto-save): 작업 자동 저장 2026-06-28 20:03:51 (4 files)
+- d2d9c5f chore(auto-save): 작업 자동 저장 2026-06-28 19:50:05 (5 files)
+- 638743e chore(auto-save): 작업 자동 저장 2026-06-28 19:31:06 (2 files)
+- e6fae58 chore(auto-save): 작업 자동 저장 2026-06-28 19:27:04 (2 files)
+- eaeb7f7 chore(auto-save): 작업 자동 저장 2026-06-28 19:01:24 (1 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/lib/bot-directives.test.ts`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-28 20:41 — ai-ops
+
+**최근 커밋:**
+- c3938e4 chore(auto-save): 작업 자동 저장 2026-06-28 20:03:51 (4 files)
+- d2d9c5f chore(auto-save): 작업 자동 저장 2026-06-28 19:50:05 (5 files)
+- 638743e chore(auto-save): 작업 자동 저장 2026-06-28 19:31:06 (2 files)
+- e6fae58 chore(auto-save): 작업 자동 저장 2026-06-28 19:27:04 (2 files)
+- eaeb7f7 chore(auto-save): 작업 자동 저장 2026-06-28 19:01:24 (1 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/lib/bot-directives.test.ts`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-28 19:20 — ai-ops
 
 **최근 커밋:**
@@ -1168,3 +1202,5 @@
 - [auto-save 2026-06-28 19:50:05] master d2d9c5f — 5 files 자동 커밋
 
 - [auto-save 2026-06-28 20:03:51] master c3938e4 — 4 files 자동 커밋
+
+- [auto-save 2026-06-28 20:52:03] master 7066348 — 3 files 자동 커밋
