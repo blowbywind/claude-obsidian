@@ -5,6 +5,7 @@ tags: [person, youtuber, ai-content]
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-obsidian-claude-style-css-mr5pm]
+summary: "Obsidian, Claude, VS Code 연동 워크플로우와 CSS 스타일링을 다루는 한국어 유튜브 채널"
 ---
 
 ## 개요

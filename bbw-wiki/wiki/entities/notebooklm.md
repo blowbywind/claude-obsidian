@@ -5,6 +5,7 @@ tags: [product, software, ai, google, research]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
+summary: "NotebookLM은 고정 소스 기반 Q&A·아웃풋 생성 Gemini 도구로 Claude Code MCP 연동으로 Obsidian과 Zotero 통합한다."
 ---
 
 ## 개요

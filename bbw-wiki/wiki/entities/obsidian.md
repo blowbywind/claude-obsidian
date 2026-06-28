@@ -5,6 +5,7 @@ tags: [product, software, note-taking]
 created: 2026-06-05
 updated: 2026-06-07
 sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "로컬 마크다운 기반 노트 앱으로서 Wiki 탐색·AI 콘텐츠 저장, 플러그인·CSS 커스터마이징 확장이 특징이며 AI OS의 Layer 1 저장소 역할을 한다."
 ---
 
 ## 개요

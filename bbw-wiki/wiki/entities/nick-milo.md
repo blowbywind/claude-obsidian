@@ -5,6 +5,7 @@ tags: [person, pkm, obsidian, content-creator]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "Obsidian PKM·LYT 방법론 창시자로 AI OS를 통해 로컬 데이터 자주권을 보존하면서 AI와 사고를 통합하는 방식을 제안한다."
 ---
 
 ## 개요

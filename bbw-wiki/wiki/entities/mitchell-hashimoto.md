@@ -5,6 +5,7 @@ tags: [person, hashicorp, harness-engineering]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-harness-engineering-guide]
+summary: "Terraform 창시자이자 HashiCorp 공동창업자로서 2026년 2월 AI 에이전트의 반복 실수를 방지하는 하네스 엔지니어링 개념을 최초 정의했다."
 ---
 
 ## 개요

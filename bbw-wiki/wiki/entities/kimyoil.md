@@ -5,6 +5,7 @@ tags: [person]
 created: 2026-06-09
 updated: 2026-06-10
 sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-loop-design-kimyoil, 2026-06-10-free-roaming-agents-comparison]
+summary: "AI 네이티브 1인 기업 린네이티브 대표로 헤르메스·Claude Code 에이전트 10명을 옵시디언 위키로 협업시키며 루프 설계 방법론을 유튜브로 공개하고 중소기업 AI 도입 컨설팅을 제공."
 ---
 
 ## 개요

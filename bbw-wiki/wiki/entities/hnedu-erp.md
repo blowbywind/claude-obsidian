@@ -5,6 +5,7 @@ tags: [project, hnedu, erp, dotnet, winforms]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-hnedu-auth-project]
+summary: "hnedu-auth에서 발급한 JWT를 공개키로 검증하여 인증하는 WinForms/ASP.NET 기반 ERP 시스템."
 ---
 
 ## 개요

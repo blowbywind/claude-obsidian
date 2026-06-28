@@ -5,6 +5,7 @@ tags: [person, youtube, knowledge-management, obsidian, llm-wiki]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-llm-wiki-selection-criteria]
+summary: "Obsidian과 LLM을 활용한 개인 위키 구축 및 운영 노하우를 다루는 한국어 YouTube 채널로, 자료 선별 기준과 AI 생산성 워크플로우를 소개하며 관련 전자책 출판을 준비 중."
 ---
 
 ## 개요
