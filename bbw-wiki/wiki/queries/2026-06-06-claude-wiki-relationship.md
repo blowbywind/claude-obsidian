@@ -5,6 +5,7 @@ tags: [claude-code, wiki, cost-saving, workflow]
 created: 2026-06-06
 updated: 2026-06-06
 sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-how-claude-code-works]
+summary: "Claude Code가 위키를 운영할 때 index.md를 유일한 진입점으로 삼고 queries/ 캐시를 활용해 토큰 절약·정보 유실 방지·반복 질문 제거를 달성하는 양방향 축적 구조 설계 기록."
 ---
 
 ## 질문

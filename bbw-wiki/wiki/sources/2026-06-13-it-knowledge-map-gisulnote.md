@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [it-fundamentals, software-architecture, network, cloud, vibe-coding]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "CS 비전공자·바이브코더를 위해 소프트웨어 개발 구조, 언어·프레임워크 구분, 컴퓨터 구조, 네트워크, 아키텍처, 클라우드·컨테이너까지 IT 전체 흐름을 마인드맵으로 압축한 기술노트 영상 요약."
 ---
 
 ## 요약

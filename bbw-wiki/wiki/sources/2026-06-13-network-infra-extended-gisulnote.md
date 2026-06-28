@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [network, osi-7-layer, tcp-ip, l4-switch, l7-switch, ssl-termination, reverse-proxy]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "네트워크 기초 영상 확장편으로 OSI 7계층↔TCP/IP 4계층 매핑, L4(포트 기반)/L7(URL·헤더 기반) 스위치 구분, SSL 종료 지점(웹서버→내부 HTTP 전환) 3가지를 추가 설명한 기술노트 알렉 7편"
 ---
 
 ## 요약

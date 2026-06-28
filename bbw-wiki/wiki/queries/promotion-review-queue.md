@@ -3,6 +3,7 @@ title: 승격 검토 큐 (promotion-review-queue)
 type: query
 status: review
 count: 95
+summary: "봇 자가학습에서 파생된 위키화 후보 초안 95개를 승격/보류/폐기로 검토하는 큐로, 지시 시에만 체크된 항목을 정식 concepts/로 이동한다."
 ---
 
 # 승격 검토 큐 — _review-queue 초안 95개

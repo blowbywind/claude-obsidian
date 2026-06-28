@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [service-development, software-lifecycle, mvp, api-design, deployment, git, cloud]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "바이브코딩 후 막막한 개발자를 위해 기획·설계·개발·테스트·배포·운영 전 과정을 개발자·PM 20년 경력 저자가 실무 기반으로 압축 설명한 서비스 개발 라이프사이클 강의."
 ---
 
 ## 요약

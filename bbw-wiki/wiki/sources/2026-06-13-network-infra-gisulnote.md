@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [network, infra, tcp-ip, http, routing, firewall, cdn, dmz, load-balancer, web-server, was, database]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "온프레미스 네트워크 인프라 구성도를 IP·TCP·HTTP 프로토콜부터 라우터·방화벽·CDN·DMZ·로드밸런서 장비, 웹서버-WAS-DB 3계층 이중화까지 전체 요청 흐름으로 정리한 기술노트 영상 요약."
 ---
 
 ## 요약

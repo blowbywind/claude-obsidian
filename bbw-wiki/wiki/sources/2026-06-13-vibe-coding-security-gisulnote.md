@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [security, owasp, vibe-coding, web-security, csp, https, injection, xss]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "바이브코딩(AI 생성 코드) 배포 전 소스코드 보안 책임 강조, OWASP Top 10 기반 URL 자동 스캔 도구 시연 및 AI 활용 보완 워크플로우 제시."
 ---
 
 ## 요약

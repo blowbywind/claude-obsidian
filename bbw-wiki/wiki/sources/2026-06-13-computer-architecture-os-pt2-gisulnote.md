@@ -7,6 +7,7 @@ date_published: 2026-06-13
 tags: [computer-architecture, os, memory, cpu-scheduling, process, thread, context-switching]
 created: 2026-06-13
 updated: 2026-06-13
+summary: "컴퓨터구조·OS 2부 — 페이지 교체(FIFO·LRU·OPT)·디스크 스케줄링·CPU 스케줄링(라운드 로빈)·프로세스vs스레드·컨텍스트 스위칭·스레싱을 정리한 기술노트 마무리 강의."
 ---
 
 ## 요약
