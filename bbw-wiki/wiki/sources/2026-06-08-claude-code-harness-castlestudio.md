@@ -7,6 +7,8 @@ updated: 2026-06-08
 origin: https://youtu.be/KfVgbdOvlQ4
 author: castlestudio
 date_published: 2026-04-02
+summary: "같은 Claude 모델·동일 태스크에서 $9(고장) vs $200(완동) 결과 차이가 에이전트 구조에서 비롯됨을 Planner-Generator-Evaluator 3에이전트 실험으로 입증한 castlestudio 해"
+summary: "Anthropic 실험(레트로 게임 $9 vs $200)으로 증명한 AI 결과물 품질 차이의 핵심은 모델이 아닌 Planner-Generator-Evaluator 3에이전트 구조 설계에 있다는 CastleStudio"
 ---
 
 ## 요약

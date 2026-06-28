@@ -49,3 +49,7 @@ metadata:
 * **해결책**:
   - `StatCard` 컨테이너에는 모바일 뷰포트에서 가로 한 줄에 나열될 수 있도록 `flex overflow-x-auto flex-nowrap scrollbar-none`을 적용하고, 개별 카드에 `min-w-[120px] flex-1 shrink-0`을 선언하여 레이아웃 뭉개짐이나 세로 2중 배치를 차단한다.
   - 가로가 좁은 모바일(sm 미만)에서는 소괄호 안의 불필요한 메타/서브 텍스트 정보들을 `@media` 또는 Tailwind의 `hidden sm:inline` 클래스를 조합하여 완전히 숨기도록 마크업을 정비한다.
+
+## 관련 노트
+- [[wcag-2-2-새-성공-기준-요약]] — 5절 터치 타깃(WCAG 2.2 SC 2.5.8) 기준의 근거
+- [[모바일-ios-safari-환경-popover-api-오동작-대응을-위한-대체-ui-구현]] — 모바일 터치 환경 대체 UI 구현 패턴

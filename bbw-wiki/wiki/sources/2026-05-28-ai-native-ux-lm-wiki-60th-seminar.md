@@ -7,6 +7,7 @@ updated: 2026-06-10
 origin: https://www.youtube.com/watch?v=1kgeuDilots
 author: 유훈식 교수
 date_published: 2026-05-28
+summary: "유훈식 교수가 마크다운 LM 위키(HTML 대비 토큰 85% 절감)를 파운데이션으로 UX 리서치·디자인·코딩을 에이전트에 위임하는 6단계 AI 네이티브 워크플로우를 제시한 세미나."
 ---
 
 ## 요약

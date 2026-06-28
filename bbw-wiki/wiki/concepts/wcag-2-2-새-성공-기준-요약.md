@@ -30,4 +30,8 @@ WCAG 2.2는 접근성을 강화한 새로운 성공 기준들을 추가했으며
 
 **글자 수**: 약 330자 | **구조**: 정의(1) → 요점(2) → 원칙(1) → 출처 ✓
 
+## 관련 노트
+- [[mobile-responsive-guideline]] — 모바일 터치 타깃 기준(SC 2.5.8)의 적용 가이드
+- [[ui-icon-design-guideline]] — 아이콘 버튼 최소 터치 크기 기준의 적용 가이드
+
 > 자가학습 원문에서 AI가 큐레이션한 노트. 출처: [[episodic/2026-06-20-rina-learning]]. 사람 검증 후 status를 verified로 변경하세요.

@@ -3,6 +3,7 @@ id: ADR-004
 title: "obsidian-gateway MCP runtime wiring"
 status: accepted
 date: 2026-06-28
+summary: "자동 봇 spawn 시 사내 obsidian-gateway만 --mcp-config로 명시 주입, 6개 도구 allowlist로 고정해 정형 Obsidian 쓰기를 MCP 감사 체계로 코드화."
 ---
 
 ## 컨텍스트

@@ -7,6 +7,7 @@ updated: 2026-06-05
 origin: https://youtu.be/cNlvrU-KcRg
 author: 브레인 트리니티 (브라이언)
 date_published: 2026-06-05
+summary: "브레인 트리니티 채널이 Karpathy LM Wiki를 Claude Code + Obsidian + Graphify 조합으로 구현하는 볼트 세팅부터 그래프화까지 전 과정을 다룬 AI 지식관리 메타스택 실습 영상."
 ---
 
 ## 요약

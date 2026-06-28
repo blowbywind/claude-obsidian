@@ -36,4 +36,7 @@ iOS Safari 환경에서 Popover API 내부의 입력 폼 요소(input, textarea 
 
 **작성 완료**: 본문 약 430자, 구조 준수 (핵심 정의→요점 4개→출처 URL), 원문 범위 내 서술.
 
+## 관련 노트
+- [[mobile-responsive-guideline]] — 모바일 반응형 레이아웃·터치 환경 종합 가이드
+
 > 자가학습 원문에서 AI가 큐레이션한 노트. 출처: [[episodic/2026-06-24-rina-learning]]. 사람 검증 후 status를 verified로 변경하세요.

@@ -7,6 +7,7 @@ updated: 2026-06-12
 origin: https://youtu.be/GQtty9JOAUU
 author: 브라이언 (Brain's Brain Trinity)
 date_published: 2026-05-16
+summary: "Brain Trinity 채널 브라이언이 LLM Wiki 실패 원인(목적 부재·완벽주의·방법론 복제)을 분석하며, 시스템 설계 전 삶의 철학·역할·목적 계층을 먼저 정립해야 방치를 막는다고 주장한다."
 ---
 
 ## 요약

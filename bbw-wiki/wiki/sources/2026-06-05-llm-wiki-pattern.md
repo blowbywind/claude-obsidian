@@ -7,6 +7,7 @@ updated: 2026-06-05
 origin: 사용자 제공 텍스트 (LLM Wiki idea document)
 author: 미상
 date_published: 2026년경
+summary: "RAG 대신 LLM이 마크다운 위키를 직접 점진적으로 구축·갱신하여 소스가 쌓일수록 지식이 복리로 누적되고 교차 참조가 유지되는 패턴으로, 인간은 소스 큐레이션과 방향 설정에만 집중하면 된다."
 ---
 
 ## 요약

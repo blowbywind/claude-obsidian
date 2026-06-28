@@ -7,6 +7,7 @@ updated: 2026-06-05
 origin: https://youtu.be/qaJivLeOeQI?si=12v62vWCUebTxgA7
 author: 물광 (유튜버)
 date_published: 2026-06-05
+summary: "Claude Code를 실무 생산성으로 연결하는 7단계 프레임워크(설치→CLAUDE.md→커맨드→스킬→서브에이전트→MCP→훅스)를 비개발자 실무 경험 기반으로 설명한 영상 요약."
 ---
 
 ## 요약

@@ -5,6 +5,7 @@ tags: [meta, synthesis]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-llm-wiki-pattern]
+summary: "LLM이 편집자 역할을 맡아 대화가 사라지지 않고 마크다운으로 영속되는 bbw의 세컨드 브레인 위키로, RAG가 해결 못한 지식 누적 문제를 해결한다."
 ---
 
 ## 이 위키의 목적

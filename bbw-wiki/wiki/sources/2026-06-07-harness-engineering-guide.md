@@ -7,6 +7,8 @@ updated: 2026-06-07
 origin: bbw-wiki/raw/하네스+엔지니어링+기초+가이드북.pdf
 author: 에이나우(AINOW)
 date_published: 2026-03-01
+summary: "Hashimoto·OpenAI가 확산시킨 하네스 엔지니어링 개념을 체계화한 가이드로, 프롬프트→컨텍스트→하네스 3단계 진화 프레임과 7가지 법칙, OpenAI·Anthropic·LangChain·Stripe·Clou"
+summary: "Mitchell Hashimoto가 정의한 하네스 엔지니어링 개념을 체계화한 가이드로, 프롬프트→컨텍스트→하네스 3단계 진화 프레임과 7대 법칙, OpenAI·Anthropic 등 실전 사례를 포괄한다."
 ---
 
 ## 요약

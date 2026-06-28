@@ -7,6 +7,8 @@ updated: 2026-06-07
 origin: https://youtu.be/rRa9td4oe7k
 author: Nick Milo
 date_published: 2026-06
+summary: "Nick Milo이 Obsidian+Claude Cowork를 AI OS 3레이어(볼트·번역층·외부AI)로 구성하고 ME.MD·Vault Map·스킬을 로컬에 보존해 AI 교체 가능한 개인 운영체제를 구축하는 방법을"
+summary: "Nick Milo이 Obsidian·Claude Cowork를 결합한 AI OS 3레이어(Ideaverse→번역층→AI) 구조와 ME.MD·Vault Map·Skill Map으로 AI 종속 없이 이식 가능한 개인 지"
 ---
 
 ## 요약

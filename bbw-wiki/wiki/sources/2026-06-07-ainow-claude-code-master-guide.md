@@ -7,6 +7,8 @@ updated: 2026-06-07
 origin: bbw-wiki/raw/에이나우_클로드코드_실전마스터가이드_v1.0.pdf
 author: 신영선 (에이나우)
 date_published: 2026-01-01
+summary: "에이나우(신영선)가 Boris Cherny 42팁·해커톤 우승 노하우·글로벌 커뮤니티 베스트 프랙티스를 통합한 비개발자 대상 Claude Code 한국어 실전 가이드."
+summary: "에이나우(신영선)가 Boris Cherny 42팁·해커톤 우승 노하우·글로벌 커뮤니티 사례를 통합한 Claude Code 한국어 종합 가이드로, 비개발자도 전문 분야 문제를 정확히 알면 실서비스를 만들 수 있다는 메"
 ---
 
 ## 요약

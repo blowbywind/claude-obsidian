@@ -7,6 +7,7 @@ updated: 2026-06-10
 origin: https://youtu.be/nmlYSLmmRBg
 author: 김요일
 date_published: 2026-06-10
+summary: "헤르메스·OpenClaw·Gemini Spark 세 자유령 에이전트를 비교하고, 마크다운의 토큰 효율성과 옵시디언 연동으로 AI 네이티브 워크플로우를 구성하는 방법을 카페 UX 프로젝트 실무 시연으로 보여준 김요일"
 ---
 
 ## 요약

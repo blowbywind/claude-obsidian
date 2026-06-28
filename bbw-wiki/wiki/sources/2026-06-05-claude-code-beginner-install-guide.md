@@ -8,6 +8,7 @@ updated: 2026-06-05
 origin: https://youtu.be/CYEPaefPXwg?si=Fnnm8NAgVdCU9_-M
 author: 물광 (유튜버)
 date_published: 2026-06-05
+summary: "Claude Code 초보자 대상 한국어 설치 입문 강의 — IDE=주방·AI=셰프 비유로 개념 설명, Windows 설치부터 CLAUDE.md 설정·블로그 자동생성 데모까지 다룸"
 ---
 
 ## 요약

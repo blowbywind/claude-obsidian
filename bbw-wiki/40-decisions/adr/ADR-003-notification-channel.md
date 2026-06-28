@@ -7,6 +7,7 @@ updated: 2026-06-13
 deciders: [bbw]
 supersedes: ""
 superseded_by: ""
+summary: "Phase 4 자동화 알림 채널 결정 보류(pending) — Hermes Dashboard 임시 운영 중, Phase 4 착수 전 Telegram bot 또는 대시보드 채널 1개 확정 필요."
 ---
 
 ## 맥락

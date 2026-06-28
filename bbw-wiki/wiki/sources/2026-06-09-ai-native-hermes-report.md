@@ -7,6 +7,8 @@ updated: 2026-06-10
 origin: https://youtu.be/vrc0Uv2BfRk
 author: 김요일
 date_published: 2026-06-09
+summary: "1인 기업가 김요일이 헤르메스 5명+Claude Code 5명을 플랫폼 역할 분리·크론잡 야간 학습 루프·옵시디언 위키 맥락 공유 구조로 운영한 AI 네이티브 팀 실전 사례."
+summary: "1인 기업 김요일이 헤르메스·Claude Code 에이전트 10명을 에이전시/인하우스로 역할 분리하고 옵시디언 위키로 맥락을 공유해 도구 종속 없이 AI 네이티브 팀을 실제 운영하는 방법 소개."
 ---
 
 ## 요약

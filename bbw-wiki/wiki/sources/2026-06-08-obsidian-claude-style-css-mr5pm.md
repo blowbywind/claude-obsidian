@@ -7,6 +7,8 @@ updated: 2026-06-08
 origin: https://youtu.be/Q33WveI7NqU
 author: 오후다섯씨 (Mr.5pm)
 date_published: 2026-06-06
+summary: "오후다섯씨(Mr.5pm)가 Obsidian을 Claude 인터페이스 스타일(다크브라운·주황 강조·명조체)로 꾸미는 CSS 스니펫 제작·배포 및 Claude Code 연동 실시간 수정 워크플로우를 소개하는 13분 튜토"
+summary: "오후다섯씨가 Obsidian을 Claude 스타일(다크브라운·주황 강조·명조체)로 꾸미는 CSS 스니펫을 무료 배포하고 Claude·Claude Code로 CSS를 자동생성·실시간 수정하는 워크플로를 소개하는 튜토리"
 ---
 
 ## 요약

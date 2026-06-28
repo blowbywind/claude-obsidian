@@ -7,6 +7,7 @@ updated: 2026-06-05
 origin: https://code.claude.com/docs/en/how-claude-code-works
 author: Anthropic
 date_published:
+summary: "Claude Code는 터미널 기반 에이전트형 코딩 도우미로, 에이전트 루프를 반복하며 파일·명령·웹 도구를 활용하고 CLAUDE.md·AutoMemory·Skills·Subagents로 세션 간 지식을 관리한다."
 ---
 
 ## 요약

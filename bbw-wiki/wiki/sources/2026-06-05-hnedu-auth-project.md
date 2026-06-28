@@ -7,6 +7,7 @@ updated: 2026-06-05
 origin: /home/bbw/projects/hnedu_auth/CLAUDE.md
 author: blowbywind@hnedu.co.kr
 date_published: 2026-06-05
+summary: "해냄에듀 사내 통합 인증 서비스(hnedu-auth) 프로젝트 지침 — Fastify(3100)+Next.js 15(3200) 구성, Phase 1~11 완료·실서비스 연동 대기 중, ERP·CRM에 JWT RS25"
 ---
 
 ## 요약

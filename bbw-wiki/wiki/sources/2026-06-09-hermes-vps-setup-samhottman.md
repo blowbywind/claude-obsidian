@@ -7,6 +7,8 @@ updated: 2026-06-12
 origin: https://youtu.be/oOEpQAd6HEI
 author: 샘 호트만 (AI 엔지니어의 시선)
 date_published: 2026-06-09
+summary: "샘 호트만의 Hostinger VPS 위 Hermes Agent 설치 튜토리얼 — VPS 선택, Docker 배포, 프로필·SOUL 설정, Slack 게이트웨이, GitHub 백업, OpenRouter 폴백 모델까지"
+summary: "샘 호트만이 Hostinger KVM2 VPS에 Hermes Agent를 원클릭 Docker 배포로 설치하고, 프로필·SOUL·Slack 게이트웨이·GitHub 자동백업·OpenRouter 폴백 모델까지 단계별로 안"
 ---
 
 ## 요약

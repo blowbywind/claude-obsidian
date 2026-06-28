@@ -34,4 +34,7 @@ sources: [[episodic/2026-06-24-dex-learning]]
 
 **작성 완료**: 마크다운 본문(frontmatter·h1 제외) 약 380자 | 핵심 정의→요점 3개→출처 URL 구조 | 원문 기반 추측 없음 | 출처 URL 원본 보존
 
+## 관련 노트
+- [[ui-icon-design-guideline]] — Tailwind 환경 아이콘 연동·SVG 최적화 가이드
+
 > 자가학습 원문에서 AI가 큐레이션한 노트. 출처: [[episodic/2026-06-24-dex-learning]]. 사람 검증 후 status를 verified로 변경하세요.

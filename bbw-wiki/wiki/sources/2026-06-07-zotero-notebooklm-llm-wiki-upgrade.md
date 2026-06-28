@@ -7,6 +7,8 @@ updated: 2026-06-07
 origin: https://youtu.be/ulhEyDIxj6Q
 author: 브레인 트리니티 (브라인)
 date_published: 2026-06
+summary: "LLM Wiki 단독 한계(원본보관·컨텍스트·출처추적)를 Zotero와 NotebookLM MCP로 보완해 Claude Code 단일 인터페이스에서 외부 지식 시스템을 완성하는 3도구 통합 아키텍처."
+summary: "LLM Wiki 단독 한계(원본보관·컨텍스트·출처추적)를 진단하고 Zotero·NotebookLM을 MCP로 연결해 Claude Code 단일 인터페이스로 외부 지식 시스템을 완성하는 통합 워크플로우 실연."
 ---
 
 ## 요약
