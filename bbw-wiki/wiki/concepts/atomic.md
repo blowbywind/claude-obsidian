@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-dex-learning]]
+summary: "원자형 노트는 하나의 완전한 주장만 담아 정보 조각화와 위키링크 정확도를 높이는 노트 작성 원칙이다."
 ---
 
 # atomic

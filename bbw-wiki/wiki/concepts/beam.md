@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-lian-learning]]
+summary: "BEAM은 100K~10M 토큰 범위의 초장기 메모리 환경에서 AI 에이전트의 컨텍스트 활용 및 회상 능력을 측정하는 벤치마크입니다."
 ---
 
 # `BEAM`

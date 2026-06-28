@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "shadcn/ui가 Base UI(번들소형·복합컴포넌트풍부)와 Radix 프리미티브 지원하며, components.json으로 전환 가능."
 ---
 
 # Base UI vs Radix (shadcn 프리미티브 선택)

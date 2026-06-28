@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-dex-learning]]
+summary: "2026년 백엔드는 팀 규모와 관찰성 도구에 맞춰 모듈형 모놀리식을 선택하고, REST 표준화와 백워드 호환성을 유지하며 AI 시대 명확한 API 설계를 강조한다."
 ---
 
 # Backend Architecture Patterns 2026

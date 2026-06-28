@@ -5,6 +5,7 @@ tags: [cron, autonomous, learning, hermes]
 created: 2026-06-09
 updated: 2026-06-09
 sources: [2026-06-09-ai-native-hermes-report]
+summary: "에이전트가 크론잡으로 취침 중 자율 학습·리서치를 수행하고 옵시디언 위키화하여 기상 시 활용하는 시간 활용 루프."
 ---
 
 ## 정의

@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "권한이 필요합니다. 파일을 읽을 권한을 승인해주시겠어요?"
 ---
 
 # `archive

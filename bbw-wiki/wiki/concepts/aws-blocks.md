@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-roun-learning]]
+summary: "AWS 주간 한도 도달, 6월 27일 3am UTC 리셋"
 ---
 
 # `AWS Blocks`

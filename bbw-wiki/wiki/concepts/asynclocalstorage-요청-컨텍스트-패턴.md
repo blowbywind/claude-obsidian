@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "Node.js 22 AsyncLocalStorage로 요청 컨텍스트를 함수 체인 전체에 자동 전파하여 드릴링 제거 및 코드 간결성을 높이는 패턴"
 ---
 
 # AsyncLocalStorage 요청 컨텍스트 패턴
