@@ -4,4 +4,9 @@
 
 ## 2026-06-28
 
-특이사항 없음
+- 저빈도 LLM 기록 cron 복구 — dex-session-log(일 1회), dex-weekly-review(주 1회) 재활성화
+- 모바일 웹 재로그인 OAuth — codex device-auth + claude 코드릴레이(auth-login), runtime-auth/runtime-account 모듈+테스트
+- 눈꽃 소진 오탐 수정(chat.ts·stream-engine.ts) + Usage 화면 codex 크레딧 포맷·만료 표시 수정
+- Skill Usage 개선 — agent_invocation_log + 측정범위 명시 + 에이전트 위임 순위
+- 시스템 점검: 컨테이너·DB·cron·인증 안정 확인, git 컨테이너 설치
+- DB 스키마·시드·마이그레이션 업데이트, `.claude/agents/` 정의 정비
