@@ -5,6 +5,7 @@ tags: [person, engineer, youtuber, meta]
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-ai-workflow-overhaul-silval-dev]
+summary: "Meta 10년차 엔지니어이자 실밸개발자 유튜브 채널 운영자로, Claude Code와 AI 오케스트레이터 워크플로우 강의로 알려진 실전 기술 전도사."
 ---
 
 ## 개요

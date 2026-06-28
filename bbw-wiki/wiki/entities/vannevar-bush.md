@@ -5,6 +5,7 @@ tags: [person, scientist, history]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-llm-wiki-pattern]
+summary: "1945년 'As We May Think'에서 Memex를 제안해 하이퍼텍스트·개인 지식관리 분야의 선구자가 된 MIT 교수 겸 과학 행정가(1890~1974)."
 ---
 
 ## 개요

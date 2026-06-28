@@ -5,6 +5,7 @@ tags: [person]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-05-28-ai-native-ux-lm-wiki-60th-seminar]
+summary: "서울 미디어 대학원 AI UX 교수로 AI 네이티브 UX 워크플로우와 합성 사용자 개념을 제시하고 60회 이상 세미나를 진행 중인 생성형 AI 활용 디자인 전문가"
 ---
 
 ## 개요

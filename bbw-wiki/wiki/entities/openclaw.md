@@ -5,6 +5,7 @@ tags: [product]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison]
+summary: "로컬 기기에서 실행되는 셀프호스팅 오픈소스 AI 에이전트로, 다양한 채팅 채널(Telegram, Slack, Discord 등)을 지원하며 출시 직후 폭발적 성장을 기록한 프로젝트."
 ---
 
 ## 개요

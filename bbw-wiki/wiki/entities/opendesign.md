@@ -5,6 +5,7 @@ tags: [product]
 created: 2026-06-09
 updated: 2026-06-10
 sources: [2026-06-09-ai-native-hermes-report]
+summary: "Claude Design 로컬화 도구로 효리 에이전트가 야간 자율 학습 중 디자인 레퍼런스를 무한 반복 실습하는 플랫폼."
 ---
 
 ## 개요

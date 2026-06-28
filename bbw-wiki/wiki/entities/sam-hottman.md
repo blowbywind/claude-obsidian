@@ -5,6 +5,7 @@ tags: [person, creator, ai-engineer]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-09-hermes-vps-setup-samhottman]
+summary: "자동화·에이전트·RAG 구축 컨설팅과 AI 교육을 병행하는 \"AI 엔지니어의 시선\" 유튜브 운영자."
 ---
 
 ## 개요

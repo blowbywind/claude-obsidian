@@ -5,6 +5,7 @@ tags: [product, software, search, cli]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-llm-wiki-pattern]
+summary: "마크다운 위키 검색용 로컬 하이브리드 엔진(BM25·벡터·LLM 리랭킹)으로, 수백 페이지 규모 위키에서 index.md 탐색의 한계를 극복한다."
 ---
 
 ## 개요

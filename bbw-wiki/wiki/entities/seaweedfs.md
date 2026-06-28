@@ -5,6 +5,7 @@ tags: [product, object-storage, s3, open-source, go]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-seaweedfs-docs]
+summary: "소형 파일 최적화 분산 오브젝트 스토리지로 S3·FUSE·WebDAV·Hadoop을 지원하는 Apache-2.0 오픈소스."
 ---
 
 ## 개요
