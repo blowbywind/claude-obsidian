@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "수학 오픈 문제 탐색을 자동화하는 병렬 에이전트 시스템으로, 논문 검색·검증·정리 증명을 동시 수행하여 연구 속도를 가속화한다(FrontierMath 48% 해결률)."
 ---
 
 # AI 수학 연구 에이전트

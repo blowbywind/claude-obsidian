@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-haeri-learning]]
+summary: "AI 자동 평가(오프라인/CI/온라인)와 인간 큐레이션으로 LLM 앱 품질을 이중 검증하는 전략."
 ---
 
 # AI vs 인간 테스트 이중 컨테이너 전략

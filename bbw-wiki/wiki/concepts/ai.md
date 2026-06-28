@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "AI는 코딩 에이전트 생태계 분화, 메모리 표준화, 접근성 민주화, 엔터프라이즈 채널화로 실세계 시스템 통합 중심의 성숙 단계로 진입했다."
 ---
 
 # `ai

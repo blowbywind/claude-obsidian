@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "Anthropic은 Claude Code(SWE-bench 80.8%)로 프로그래밍 에이전트 시장을 지배하며, Fable 5 공개 모델과 Cowork 확장, 글로벌 파트너십으로 엔터프라이즈 시장을 확보하는 중이다."
 ---
 
 # `anthropic

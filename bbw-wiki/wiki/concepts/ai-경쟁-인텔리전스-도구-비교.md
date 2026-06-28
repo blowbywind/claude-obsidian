@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "경쟁사 웹·가격·광고 자동 추적과 AI 분석을 영업 딜에 통합하는 Klue, Crayon 등 경쟁 인텔리전스 도구들의 특화 영역 비교."
 ---
 
 # AI 경쟁 인텔리전스 도구 비교

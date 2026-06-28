@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-kiel-learning]]
+summary: "파일 읽기 권한이 필요합니다."
 ---
 
 # AI 에이전트 Tool Invocation 보안
