@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-rina-learning]]
+summary: "사용자 의도와 맥락을 읽어 실시간으로 인터페이스를 동적 변환하는 AI 에이전트 중심 UX 설계방식"
 ---
 
 # `Agentic UX`

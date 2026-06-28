@@ -5,6 +5,7 @@ tags: [bigdata, data-engineering, ETL, pipeline, elasticsearch, python]
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-bigdata-pipeline-gisulnote]
+summary: "데이터 수집·정제·저장·분석 후 API 제공까지의 ETL 파이프라인 아키텍처, 분석 기법(상관관계·군집·연관규칙), 소규모 구축 예시(ELK+Python)."
 ---
 
 ## 정의

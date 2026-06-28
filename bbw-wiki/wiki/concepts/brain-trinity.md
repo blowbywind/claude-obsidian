@@ -5,6 +5,7 @@ tags: [ai-os, pkm, framework, second-brain, purpose-driven]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-05-16-llm-wiki-failure-brain-trinity]
+summary: "삶의 철학을 시스템 최상위에 두고 인간 경험과 AI 지식을 협업시키는 개인 AI OS 프레임워크."
 ---
 
 ## 정의

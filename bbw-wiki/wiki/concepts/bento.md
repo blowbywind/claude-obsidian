@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-haeri-learning]]
+summary: "프롬프트 요소를 마크다운/XML로 격리하여 명령과 데이터를 분리해 프롬프트 주입·할루시네이션을 방지하고 응답 일관성을 높이는 패턴"
 ---
 
 # Bento

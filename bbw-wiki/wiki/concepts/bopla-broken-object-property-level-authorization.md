@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-roun-learning]]
+summary: "파일 읽기 권한이 필요합니다. 진행 허락해주세요."
 ---
 
 # `BOPLA (Broken Object Property Level Authorization)`

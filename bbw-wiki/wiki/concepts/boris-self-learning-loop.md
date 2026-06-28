@@ -5,6 +5,7 @@ tags: [claude-code, boris-cherny, claude-md, harness]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-ainow-claude-code-master-guide]
+summary: "에이전트 실수에서 출발하여 원인을 분석하고 방지 규칙을 CLAUDE.md에 추가함으로써 같은 실수를 영구히 차단하고 시스템을 점진적으로 성장시키는 하네스 자기학습 루프."
 ---
 
 ## 정의

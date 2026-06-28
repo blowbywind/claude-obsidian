@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-roun-learning]]
+summary: "ESLint와 Prettier를 Rust로 통합한 고성능 린터·포매터로 기존 도구 조합 대비 수십 배 향상된 속도와 모노레포 최적화 지원."
 ---
 
 # `biome

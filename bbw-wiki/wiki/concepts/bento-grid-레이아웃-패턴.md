@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "원문 부재로 Bento Grid 레이아웃 패턴 검증 대기 중인 스텁 노트."
 ---
 
 # Bento Grid 레이아웃 패턴
