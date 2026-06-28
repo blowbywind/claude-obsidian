@@ -5,6 +5,7 @@ tags: [product, tool, open-source, knowledge-graph]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify]
+summary: "Obsidian 마크다운 위키를 JSON 지식 그래프로 변환해 LLM이 그래프 탐색 기반 쿼리를 수행하는 오픈소스 Python 라이브러리"
 ---
 
 ## 개요

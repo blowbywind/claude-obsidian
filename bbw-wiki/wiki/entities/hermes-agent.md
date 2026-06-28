@@ -5,6 +5,7 @@ tags: [product, ai-agent, multi-agent, open-source]
 created: 2026-06-09
 updated: 2026-06-13
 sources: [2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison, 2026-06-12-hermes-agents, 2026-06-09-hermes-vps-setup-samhottman]
+summary: "메신저 기반 자율 에이전트 플랫폼(Nous Research)으로 크론·스킬·메모리 축적을 통한 자기진화형 개인 AI 직원 구현."
 ---
 
 ## 개요

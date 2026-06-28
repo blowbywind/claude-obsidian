@@ -5,6 +5,7 @@ tags: [product, ai, tool]
 created: 2026-06-05
 updated: 2026-06-07
 sources: [2026-06-05-claude-code-7steps-mastery, 2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "Claude 데스크탑 로컬 폴더 연결 모드로 Obsidian PKM에 파일 읽기·수정·생성을 제공하는 교체 가능한 AI 도구."
 ---
 
 ## 개요

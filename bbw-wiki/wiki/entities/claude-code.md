@@ -5,6 +5,7 @@ tags: [product, developer-tool, ai, agentic]
 created: 2026-06-05
 updated: 2026-06-07
 sources: [2026-06-05-how-claude-code-works, 2026-06-05-claude-code-beginner-install-guide, 2026-06-05-claude-code-7steps-mastery, 2026-06-07-ainow-claude-code-master-guide, 2026-06-07-harness-engineering-guide]
+summary: "Claude Code는 도구·컨텍스트 관리·자동화를 제공해 Claude 모델을 자율 코딩 에이전트로 변환하는 Anthropic의 터미널 기반 도우미이자, bbw 프로젝트 전반을 관리하는 핵심 도구다."
 ---
 
 ## 개요

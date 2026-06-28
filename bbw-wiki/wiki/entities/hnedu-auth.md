@@ -5,6 +5,7 @@ tags: [project, hnedu, auth, fastify, nextjs, service]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-hnedu-auth-project]
+summary: "직원 계정·부서·직급·시스템별 역할을 관리하고 JWT RS256을 발급하는 해냄에듀 통합 인증 서비스."
 ---
 
 ## 개요

@@ -5,6 +5,7 @@ tags: [product]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-06-10-free-roaming-agents-comparison]
+summary: "Google의 클라우드 기반 개인 AI 에이전트로 로컬 PC 불필요, Gmail·Drive·Docs·이미지 생성 등 Google 전 서비스를 음성·채팅으로 통합 조작할 수 있다."
 ---
 
 ## 개요

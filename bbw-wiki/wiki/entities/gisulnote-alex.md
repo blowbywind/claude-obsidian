@@ -5,6 +5,7 @@ tags: [person, youtube, data-engineering, bigdata, it-fundamentals, service-deve
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-bigdata-pipeline-gisulnote, 2026-06-13-it-knowledge-map-gisulnote, 2026-06-13-computer-architecture-os-pt1-gisulnote, 2026-06-13-computer-architecture-os-pt2-gisulnote, 2026-06-13-service-dev-lifecycle-gisulnote, 2026-06-13-network-infra-gisulnote, 2026-06-13-network-infra-extended-gisulnote, 2026-06-13-vibe-coding-security-gisulnote]
+summary: "IT 기초·빅데이터·네트워크·OS 등을 다루는 유튜브 채널, 비전공자와 바이브코더를 위한 입문~중급 기술 강의와 도서 저자 활동을 병행하는 20년 경력 개발자."
 ---
 
 ## 개요

@@ -5,6 +5,7 @@ tags: [project, hnedu, crm, fastapi, nextjs]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-hnedu-auth-project]
+summary: "hnedu-auth JWT 공개키 검증 기반 Next.js+FastAPI CRM 시스템으로 6개 역할 지원 및 연동 패턴 검증 완료."
 ---
 
 ## 개요
