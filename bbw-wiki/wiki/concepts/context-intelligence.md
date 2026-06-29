@@ -5,6 +5,7 @@ tags: [context-engineering, second-brain, indexing, agent-productivity, knowledg
 created: 2026-06-08
 updated: 2026-06-08
 sources: [2026-06-08-ai-workflow-overhaul-silval-dev]
+summary: "세컨드 브레인을 인덱싱하여 에이전트가 필요한 컨텍스트만 효율적으로 검색하고 사용할 수 있게 하는 능력."
 ---
 
 ## 정의

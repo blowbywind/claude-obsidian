@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-22
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-stellina-learning]]
+summary: "SOPS는 시크릿 값만 암호화·구조는 평문으로 유지하고 age 암호화·자동 복호화로 GitOps 환경의 시크릿을 안전하게 관리한다."
 ---
 
 # `concepts/sops

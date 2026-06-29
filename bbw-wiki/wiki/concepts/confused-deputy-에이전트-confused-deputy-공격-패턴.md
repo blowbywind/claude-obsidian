@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-kiel-learning]]
+summary: "Confused Deputy는 에이전트가 위임받은 고권한으로 의도치 않은 도구를 실행하는 보안 취약점으로, 프롬프트 필터링보다는 실행 시점 재검증과 격리 환경 기반 설계가 필수다."
 ---
 
 # `Confused Deputy / 에이전트 Confused Deputy 공격 패턴`

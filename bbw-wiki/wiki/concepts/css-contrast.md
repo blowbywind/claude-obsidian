@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "파일 접근 권한을 요청했습니다. 승인 후 진행하겠습니다."
 ---
 
 # CSS `contrast

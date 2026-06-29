@@ -5,6 +5,7 @@ tags: [llm, claude-code, memory, architecture]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-how-claude-code-works]
+summary: "LLM이 한 번에 처리하는 정보 총량으로, 대화·파일·명령출력·CLAUDE.md·메모리·Skills이 공유하며 한계 시 자동 컴팩션된다."
 ---
 
 ## 정의

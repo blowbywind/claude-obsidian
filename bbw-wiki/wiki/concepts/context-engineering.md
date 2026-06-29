@@ -5,6 +5,7 @@ tags: [context-engineering, rag, mcp, memory, ai-agent]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-harness-engineering-guide]
+summary: "프롬프트 엔지니어링 대신 RAG, MCP, 메모리, 도구로 문맥 전체를 설계하여 모델의 정보기반 의사결정을 구현하는 기술."
 ---
 
 ## 정의

@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-stellina-learning]]
+summary: "소프트웨어 공급망의 4대 공격 벡터(액션변조·자격증명노출·산출물검증부재·의존성불투명)와 SHA고정·OIDC·SBOM·distroless 등 대응 기법을 설명한 보안 큐레이션 노트이다."
 ---
 
 # `concepts/supply

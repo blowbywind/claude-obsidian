@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-rina-learning]]
+summary: "Anchor Positioning은 기존 지식으로 분류되어 미포함; scroll-driven animations·at-property·tailwind scrollbar 주제 중 대안 제시."
 ---
 
 # CSS Anchor Positioning 패턴
