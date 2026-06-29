@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "파일 읽기 권한이 필요합니다. `/home/bbw/obsidian-vault/bbw-wiki/concepts/dtcg.md`에 접근하도록 허용해주시겠습니까?"
 ---
 
 # `dtcg

@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "파일을 읽기 위한 권한이 필요합니다. 승인해 주시면 `ears-notation.md`를 읽어 한 줄 요약을 제시하겠습니다."
 ---
 
 # EARS notation

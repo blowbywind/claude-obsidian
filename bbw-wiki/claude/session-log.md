@@ -1,3 +1,21 @@
+## 2026-06-29 17:19 — hnedu_auth
+
+**최근 커밋:**
+- a9291f0 docs(infra): switch cert plan to internal common CA + wildcard
+- 4ca0f67 docs(infra): add Cloudflare DNS-01 wildcard cert plan for *.hnedu-erp.co.kr
+- 683cda3 chore(config): switch auth domain to internal company domain
+- 91242a4 fix(admin-ui): avoid 400 on MFA setup by omitting Content-Type for empty body
+- 062ac8d feat(auth): inject amr claim + enforce MFA for ERP/admin access
+
+**변경 파일 (마지막 커밋):**
+- `infra/caddy-cloudflare/Caddyfile`
+- `infra/caddy-cloudflare/Dockerfile`
+- `infra/caddy-cloudflare/README.md`
+- `infra/internal-ca/README.md`
+- `infra/internal-ca/caddy-root-ca.crt`
+
+---
+
 ## 2026-06-29 14:59 — hnedu_erp
 
 **최근 커밋:**

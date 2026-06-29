@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-snow-learning]]
+summary: "EU CADA는 비EU 클라우드 의존도를 단계적으로 감소시키고 데이터 거버넌스·주권 검증을 통해 AI 시스템의 통제권을 EU에 확보하는 2026년 전략적 자율성 규제입니다."
 ---
 
 # `entities/policy/EU

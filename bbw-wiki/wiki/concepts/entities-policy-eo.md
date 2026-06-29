@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-snow-learning]]
+summary: "프론티어 AI 모델의 위험성 검증을 정부 규제 대신 산업계 주도 자율 컴플라이언스로 관리하는 미국 행정명령 14409호(2026.6.2 발효)."
 ---
 
 # `entities/policy/EO

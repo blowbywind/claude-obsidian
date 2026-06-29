@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "파일 접근 권한이 필요한데, 어차피 **제공하신 원문에 DPoP 관련 내용이 없습니다**. 제공된 원문은 다음 주제들만 포함: - **Fastify v5 마이그레이션** (라우팅, 플러그인, 후크) - **Node."
 ---
 
 # DPoP (RFC 9449) 구현 패턴

@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-snow-learning]]
+summary: "에이전틱 AI의 프로덕션 배포는 급증하나 공식적 거버넌스·감시·제어 체계 부재로 기업의 자율 에이전트 운영이 구조적 리스크에 노출된 상태."
 ---
 
 # Enterprise AI Governance Gap 2026

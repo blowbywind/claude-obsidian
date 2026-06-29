@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-roun-learning]]
+summary: "제가 위에서 작성한 노트 본문을 압축하겠습니다: TypeScript 우선 SQL 쿼리 빌더로 Prisma 대비 작은 번들 크기와 우수한 타입 추론을 제공하는 경량 ORM입니다."
 ---
 
 # `drizzle
