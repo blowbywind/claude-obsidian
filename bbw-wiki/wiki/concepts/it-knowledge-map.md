@@ -5,6 +5,7 @@ tags: [it-fundamentals, software-architecture, network, cloud, vibe-coding, cs]
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-it-knowledge-map-gisulnote]
+summary: "CS 지식을 소프트웨어 개발에서 클라우드까지 계층화하고 프론트/백·언어/프레임워크·폭포수/애자일 등 핵심 개념을 정리한 지식 맵."
 ---
 
 ## 정의

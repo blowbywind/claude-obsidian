@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-23
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-23-rina-learning]]
+summary: "CSS interpolate-size는 height: 0↔auto 등 키워드 값의 내재적 크기를 보간해 자바스크립트 계산 없이 아코디언·드로어 같은 UI 컴포넌트의 부드러운 애니메이션을 구현하는 속성입니다."
 ---
 
 # `interpolate

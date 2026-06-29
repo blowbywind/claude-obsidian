@@ -4,6 +4,7 @@ description: 지식 관리, 위키 운영, 노트 생명주기 관련 고아 노
 metadata:
   type: concept
   generated: 2026-06-23
+summary: "지식 관리·위키 운영·노트 생명주기 관련 고아 노트들을 중앙화하는 개념 허브"
 ---
 
 # knowledge-pattern-map

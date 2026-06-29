@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-snow-learning]]
+summary: "LLM의 절차적 추론 능력을 금융 투자 철학의 고난도 문제로 평가하고 에이전트 오케스트레이션의 다층 품질 게이트를 제공하는 벤치마크 데이터셋."
 ---
 
 # InvestPhilBench

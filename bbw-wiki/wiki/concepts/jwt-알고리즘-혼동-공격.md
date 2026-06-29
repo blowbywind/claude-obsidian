@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-roun-learning]]
+summary: "공개키를 HS256 시크릿으로 위장하여 RS256 검증을 우회하는 JWT 알고리즘 혼동 공격"
 ---
 
 # JWT 알고리즘 혼동 공격

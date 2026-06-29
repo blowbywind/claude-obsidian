@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-rina-learning]]
+summary: "사용자가 주간 사용 한도에 도달했으며 UTC 기준 6월 27일 오전 3시에 리셋된다."
 ---
 
 # `Intent

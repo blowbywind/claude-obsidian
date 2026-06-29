@@ -5,6 +5,7 @@ tags: [auth, jwt, security, rs256, asymmetric]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-hnedu-auth-project]
+summary: "인증 서버만 개인키를 보유하고 각 서비스는 공개키로 JWT 서명을 검증하는 RSA 2048 비대칭키 기반 인증 방식"
 ---
 
 ## 정의

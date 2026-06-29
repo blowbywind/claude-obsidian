@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-kiel-learning]]
+summary: "Kiro 모호성 감지는 요구사항의 해석 모호성을 자동 포착하여 양자택일 질문으로 표면화해 PRD 완성 전 스펙 오류 및 개발 재작업을 방지하는 패턴"
 ---
 
 # Kiro Ambiguity Detection 패턴
