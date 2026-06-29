@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-stellina-learning]]
+summary: "CI/CD 시크릿 제거: OIDC 토큰으로 ESO가 런타임에 Secrets Manager에서 K8s Secret으로 자동 동기화하는 패턴"
 ---
 
 # `concepts/secretless

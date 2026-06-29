@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-stellina-learning]]
+summary: "파일을 읽기 위해 `/home/bbw/obsidian-vault/` 접근 권한이 필요합니다. 승인해 주시겠어요?"
 ---
 
 # `concepts/runtime

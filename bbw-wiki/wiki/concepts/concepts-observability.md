@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-stellina-learning]]
+summary: "**한 줄 요약:** 시스템 메트릭·로그·분산트레이싱 기반 관찰성 확보와 GitOps화·샘플링·배포분리·CVE필터링을 통한 운영 비용·복잡도 최적화 전략 --- 이 요약으로 `MEMORY.md`에 추가하고 `conc"
 ---
 
 # `concepts/observability

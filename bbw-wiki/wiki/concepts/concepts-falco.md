@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-22
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-stellina-learning]]
+summary: "Falco는 eBPF 기반 CNCF 졸업 프로젝트로 커널 시스템콜을 실시간 감시하여 배포된 컨테이너의 권한 상승, 셸 스폰, 파일 접근, 비정상 연결 등 이상 행위를 런타임에 탐지한다."
 ---
 
 # `concepts/falco

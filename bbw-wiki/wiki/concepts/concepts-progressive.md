@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-stellina-learning]]
+summary: "권한이 필요합니다. 파일을 읽을 수 있도록 승인해주시거나, 아니면 제시하신 내용을 바탕으로 요약을 진행할까요? 제시하신 내용(`GitHub Actions SHA 고정`, `distroless 이미지`, `Blue-G"
 ---
 
 # `concepts/progressive

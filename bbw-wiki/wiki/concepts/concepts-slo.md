@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-22
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-stellina-learning]]
+summary: "에러 버짓 소진량으로 배포를 자동승인·수동승인·차단하는 SLO 기반 CI/CD 게이트 정책."
 ---
 
 # `concepts/slo

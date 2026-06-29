@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-22
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-stellina-learning]]
+summary: "DORA는 배포 효율성과 안정성의 4가지 메트릭이며, AI 도입이 개인 생산성은 개선하나 팀 안정성을 악화시키는 역설이 있어 변경 실패율 모니터링과 DX Core 4 병행이 필수다."
 ---
 
 # `concepts/dora

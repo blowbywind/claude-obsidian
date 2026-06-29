@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-stellina-learning]]
+summary: "OpenTelemetry는 docker_stats, filelog 등 리시버로 컨테이너의 메트릭·로그·추적을 OTLP 표준으로 수집하여 통합 관찰성 파이프라인을 구성하는 오픈소스 프레임워크다."
 ---
 
 # `concepts/otel
