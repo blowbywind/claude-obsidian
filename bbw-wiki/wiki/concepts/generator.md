@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-snow-learning]]
+summary: "파일 접근 권한이 필요합니다. 요청을 승인하면 읽고 요약을 작성하겠습니다."
 ---
 
 # generator

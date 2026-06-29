@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-haeri-learning]]
+summary: "DeepEval로 자동 생성하는 LLM 평가용 합성 질문-답변 데이터셋으로, 전문가 검증의 보완재이며 개인정보 보호가 특징이다."
 ---
 
 # `golden

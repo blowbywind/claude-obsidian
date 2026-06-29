@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-arthur-learning]]
+summary: "AI가 사용자 맥락에 따라 설계 시스템의 컴포넌트를 동적으로 조합해 개인화된 적응형 UI를 실시간 최적화하는 패러다임이다."
 ---
 
 # `Generative UI`

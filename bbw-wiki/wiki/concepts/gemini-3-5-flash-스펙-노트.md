@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "Gemini 3.5 Flash 명시 내용 없음, Google Antigravity 2.0·Gemini 3.1 Pro 스펙 구분 후 검증 필요."
 ---
 
 # Gemini 3.5 Flash 스펙 노트

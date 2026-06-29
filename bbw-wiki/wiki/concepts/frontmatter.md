@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-19-dex-learning]]
+summary: "Frontmatter-first는 마크다운의 YAML 메타데이터를 우선하여 LLM이 Summary 필드만으로 관련 노트를 선별하게 하여 토큰 효율화와 검색 정확도를 높이는 원칙이다."
 ---
 
 # `frontmatter

@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-snow-learning]]
+summary: "GLM-5.2는 2026년 출시된 오픈소스 모델로 SWE-Bench Pro에서 처음 GPT-5.5를 추월했으며 중국 모델의 성능 격차 축소와 코딩 라우팅 전략 재검토를 의미한다."
 ---
 
 # GLM

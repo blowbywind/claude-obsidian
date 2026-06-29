@@ -5,6 +5,7 @@ tags: [knowledge-graph, llm-wiki, tool, graph-rag]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify]
+summary: "Obsidian 마크다운을 지식 그래프로 변환해 LLM이 노드-엣지 탐색으로 답변하는 오픈소스 도구."
 ---
 
 ## 정의

@@ -5,6 +5,7 @@ tags: [multi-agent, evaluation, harness, anthropic, planner]
 created: 2026-06-07
 updated: 2026-06-08
 sources: [2026-06-07-harness-engineering-guide, 2026-06-08-claude-code-harness-castlestudio]
+summary: "코드·콘텐츠 생성 에이전트(Generator)와 검증 에이전트(Evaluator)를 분리하여 컨텍스트 불안과 자기 평가 편향을 해결하고 결과물 품질을 대폭 향상하는 멀티에이전트 설계 패턴."
 ---
 
 ## 정의
