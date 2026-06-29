@@ -1,3 +1,22 @@
+## 2026-06-29 09:52 — hnedu_auth
+
+**최근 커밋:**
+- 062ac8d feat(auth): inject amr claim + enforce MFA for ERP/admin access
+- 3a85665 feat(auth): cross-system UUID claim + service token for ERP sync
+- 558f89e feat(employees): add sabun field + HR roster bulk import
+- 6ce5c57 docs: add MFA deploy/verify runbook for .221 server
+- 6a1b7c9 feat(admin-ui): MFA login flow (OTP verify, forced setup, recovery codes)
+
+**변경 파일 (마지막 커밋):**
+- `src/plugins/jwt.ts`
+- `src/routes/auth/mfa.ts`
+- `src/services/authService.ts`
+- `src/services/mfaService.ts`
+- `src/services/tokenService.ts`
+- `src/types/index.ts`
+
+---
+
 ## 2026-06-29 09:17 — hnedu_erp
 
 **최근 커밋:**

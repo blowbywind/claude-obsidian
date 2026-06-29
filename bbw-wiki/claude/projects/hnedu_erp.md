@@ -11,7 +11,7 @@
 - 서버: hnedu-erp (192.168.0.220), 앱 compose 기준: `/home/hnedu/hnedu_erp/infra/docker-compose.yml`
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
 - 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
-- 마이그레이션: 001~024 적용 완료
+- 마이그레이션: 001~024 적용 완료. 로컬 개발본에 025_mail_messages 추가(미배포)
 
 ## 운영 중인 기능 (2026-06-25 기준)
 - SECOM 폴링잡(5분): `gate_attendance_logs` 수집 — Inserted=885, 백로그 51455펀치 자동 처리 중
@@ -27,7 +27,7 @@
 - 세콤링크 전송 설정: 벤더 측 설정 대기 (Pulled=0 상태)
 - `hnedu-erp.co.kr` apex: Caddy 인증서 발급 실패. `www.hnedu-erp.co.kr`은 정상이며 apex A 레코드가 192.168.0.220으로 잡힌 뒤 재검증 필요.
 - 인프라 기준 통합: `/home/hnedu/hnedu_erp/infra/Caddyfile`은 최신 reverse_proxy 설정으로 동기화됨. 단, `erp_caddy`·`erp_step_ca` 컨테이너는 아직 `/opt/hnedu-erp/infra` compose 라벨로 실행 중. `/home/.../infra/data`가 root 소유이고 `botsudo`가 없어 CA/Caddy 데이터 이동은 보류.
-- 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 대시보드 결재·서류 화면 배선은 아직 후속 범위. `pay` 백엔드 컨트롤러와 조직 직원 이름·이메일 DTO는 2026-06-29 추가됐고, 대시보드 화면 배선은 후속 범위. 메일 메시지 목록은 현재 DB/API 미제공이라 화면에 `API 미제공`으로 표시.
+- 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 2026-06-29 결재 탭(`/approvals/pending`·상세·승인·반려), 서류 탭(PDF Blob 다운로드·연말정산 업로드·발급 이력), HR 전용 급여 요약(`/pay/*` 4개), 메일 계정 `displayName`/`isConnected`, 조직 직원 이름·이메일 표시까지 대시보드에 연결됨. 메일 메시지 목록은 로컬 개발본에서 `/mail/messages` 실 API로 전환됨(미배포).
 
 ## 아키텍처
 - 서버: ASP.NET Core 8, EF Core Code-First, PostgreSQL (db_postgres:5432)
@@ -44,8 +44,10 @@ cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api
 ```
 
 ## 작업 히스토리
+- 2026-06-29: 메일 메시지 목록 API 개발 — `025_mail_messages.sql`로 `mail_messages` 메타데이터 캐시 테이블 추가, `/api/v1/mail/messages?accountId=&folder=&page=&limit=` 신설. 조회는 JWT `employeeUuid` 기준 본인 활성 메일 계정으로 제한하며 타인 계정은 404. web-client 메일 탭은 `API 미제공` 대신 실 API 결과를 기존 계정·폴더·페이지네이션 렌더러로 표시. 외부 IMAP/OAuth 자격증명과 원문 본문은 서버 미저장.
 - 2026-06-29: 통합테스트 15개 실제 환경 검증 완료 — .220 서버(Docker 29.1.3)에 .NET SDK 8.0.422 설치 후 Testcontainers PostgreSQL로 실행. 15/15 전부 통과: RBAC(401/403), 휴가 워크플로(신청→승인/차단), 자기결재 차단(404), 근속보상 멱등성·동시성(409 정확히 1건), 근태수정 감사로그, 증명서 PDF. P1 완전 종결.
-- 2026-06-29: 백엔드 API 갭 보강 — HR_TEAM 이상 전용 `PayController` 추가(`/pay/summary`, `/pay/overtime-allowances`, `/pay/approved-expenses`, `/pay/tenure-rewards`), `OrgService` 직원 DTO에 이름·이메일 추가(본인/팀장 이상 전체 표시, 일반 조직도 조회 마스킹), `MailAccountDto`에 displayName/providerLabel/isConnected 추가. 검증: Release 빌드 0경고/0오류, 단위 테스트 317/317 통과, 로컬 통합테스트 15개는 Docker 소켓 부재로 skip, `dotnet format --verify-no-changes` 통과.
+- 2026-06-29: web-client 잔여 화면 배선 — 결재 탭은 `/approvals/pending` 목록·상세 드로어·승인/반려 Mutation 연결, 서류 탭은 `/documents/certificate` PDF Blob 다운로드·`/documents/tax-return` 파일 업로드·`/documents/history` 표시 연결, 지출 탭은 HR_TEAM 이상 전용 `/pay/summary`·`/pay/overtime-allowances`·`/pay/approved-expenses`·`/pay/tenure-rewards` 요약 블록 연결. 메일 계정 칩은 `displayName`/`isConnected`, 조직도는 백엔드 마스킹/복호화 DTO 값을 표시.
+- 2026-06-29: 백엔드 API 갭 보강 — HR_TEAM 이상 전용 `PayController` 추가(`/pay/summary`, `/pay/overtime-allowances`, `/pay/approved-expenses`, `/pay/tenure-rewards`), `OrgService` 직원 DTO에 이름·이메일 추가(본인/팀장 이상 전체 표시, 일반 조직도 조회 마스킹), `MailAccountDto`에 displayName/providerLabel/isConnected 추가. web-client는 `pay.ts` API 모듈 추가, 조직도 이름·이메일 표시 연결, mail/org 타입 보강. 검증: Release 빌드 0경고/0오류, 단위 테스트 317/317 통과, 로컬 통합테스트 15개는 Docker 소켓 부재로 skip, `dotnet format --verify-no-changes` 통과.
 - 2026-06-28: web-client 누락 API 모듈 7개 추가 — `approval`, `document`, `report`, `search`, `tenure-reward`, `work-report`, `task-attachment`. 공통 `request` 래퍼는 기존 JSON 봉투 처리 유지 + FormData 업로드와 Blob 다운로드 응답 지원으로 확장. 검증: `pnpm exec tsc --noEmit`, `pnpm lint`, `pnpm build`, 서버 `dotnet build --configuration Release`, 단위 테스트 311개, `dotnet format --verify-no-changes`, `git diff --check` 통과. 통합 테스트 15개는 현재 환경에서 기존과 동일하게 skip.
 - 2026-06-28: 로컬 미커밋 작업본을 서버 `/home/hnedu/hnedu_erp`에 동기화하고 `docker compose --profile apps up -d --build erp_web` 실행. Compose 의존성으로 `erp_api`도 재빌드·재기동됨. 검증: `erp_api`/`erp_web` running, `erp_postgres`/`erp_secom_mssql` healthy, API health 200, `www.hnedu-erp.co.kr` `/`·`/login` HTTPS 200. `hnedu-erp.co.kr` apex는 step-ca ACME challenge timeout으로 TLS 실패.
 - 2026-06-28: 로컬 미커밋 web-client/API 배선 및 통합테스트 정리 재검증 — `web-client` `tsc --noEmit`/`pnpm lint`/`pnpm build` 통과. 신규 `mail`/`meetings`/`org` API 모듈은 서버 라우트·DTO와 대조 완료. 서버 `dotnet build --configuration Release`, 단위 테스트 311개, `dotnet format --verify-no-changes`, `git diff --check` 통과. 통합 테스트 15개는 현재 셸에 `docker` 명령이 없어 Testcontainers 가용성 검사에서 skip. 커밋·배포는 미진행.
