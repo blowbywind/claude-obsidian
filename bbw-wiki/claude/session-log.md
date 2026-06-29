@@ -1,3 +1,121 @@
+## 2026-06-29 13:27 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-29 13:21 — hnedu_auth
+
+**최근 커밋:**
+- 062ac8d feat(auth): inject amr claim + enforce MFA for ERP/admin access
+- 3a85665 feat(auth): cross-system UUID claim + service token for ERP sync
+- 558f89e feat(employees): add sabun field + HR roster bulk import
+- 6ce5c57 docs: add MFA deploy/verify runbook for .221 server
+- 6a1b7c9 feat(admin-ui): MFA login flow (OTP verify, forced setup, recovery codes)
+
+**변경 파일 (마지막 커밋):**
+- `src/plugins/jwt.ts`
+- `src/routes/auth/mfa.ts`
+- `src/services/authService.ts`
+- `src/services/mfaService.ts`
+- `src/services/tokenService.ts`
+- `src/types/index.ts`
+
+---
+
+## 2026-06-29 13:18 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-29 13:18 — hnedu_auth
+
+**최근 커밋:**
+- 062ac8d feat(auth): inject amr claim + enforce MFA for ERP/admin access
+- 3a85665 feat(auth): cross-system UUID claim + service token for ERP sync
+- 558f89e feat(employees): add sabun field + HR roster bulk import
+- 6ce5c57 docs: add MFA deploy/verify runbook for .221 server
+- 6a1b7c9 feat(admin-ui): MFA login flow (OTP verify, forced setup, recovery codes)
+
+**변경 파일 (마지막 커밋):**
+- `src/plugins/jwt.ts`
+- `src/routes/auth/mfa.ts`
+- `src/services/authService.ts`
+- `src/services/mfaService.ts`
+- `src/services/tokenService.ts`
+- `src/types/index.ts`
+
+---
+
+## 2026-06-29 13:18 — hnedu_erp
+
+**최근 커밋:**
+- 1fc3f51 feat(server): enforce MFA otp claim and align auth token contract
+- 95f9349 feat(server+web-client): add pay/mail-message APIs, wire dashboard tabs, add unit tests
+- 3172e1a refactor(web-client): consolidate *-live.tsx into page.tsx, add mail/meetings/org API modules
+- cb6a541 test(integration): remove dead WriteBlocked code and redundant skip guards
+- ad78283 feat(web-client): port meeting/mail/payment tabs + panel toggle + dark default
+
+**변경 파일 (마지막 커밋):**
+- `CLAUDE.md`
+- `docs/DEV_CHECKLIST.md`
+- `docs/PLAN.md`
+- `server/HneduErp.Api/Configuration/MfaSettings.cs`
+- `server/HneduErp.Api/Middleware/MfaRequirementMiddleware.cs`
+- `server/HneduErp.Api/Program.cs`
+- `server/HneduErp.Api/Security/JwtPublicKeyProvider.cs`
+- `server/HneduErp.Api/Security/MfaClaimsValidator.cs`
+- `server/HneduErp.Api/appsettings.json`
+- `server/HneduErp.Tests/Middleware/MfaRequirementMiddlewareTests.cs`
+
+---
+
+## 2026-06-29 13:13 — hnedu_erp
+
+**최근 커밋:**
+- 1fc3f51 feat(server): enforce MFA otp claim and align auth token contract
+- 95f9349 feat(server+web-client): add pay/mail-message APIs, wire dashboard tabs, add unit tests
+- 3172e1a refactor(web-client): consolidate *-live.tsx into page.tsx, add mail/meetings/org API modules
+- cb6a541 test(integration): remove dead WriteBlocked code and redundant skip guards
+- ad78283 feat(web-client): port meeting/mail/payment tabs + panel toggle + dark default
+
+**변경 파일 (마지막 커밋):**
+- `CLAUDE.md`
+- `docs/DEV_CHECKLIST.md`
+- `docs/PLAN.md`
+- `server/HneduErp.Api/Configuration/MfaSettings.cs`
+- `server/HneduErp.Api/Middleware/MfaRequirementMiddleware.cs`
+- `server/HneduErp.Api/Program.cs`
+- `server/HneduErp.Api/Security/JwtPublicKeyProvider.cs`
+- `server/HneduErp.Api/Security/MfaClaimsValidator.cs`
+- `server/HneduErp.Api/appsettings.json`
+- `server/HneduErp.Tests/Middleware/MfaRequirementMiddlewareTests.cs`
+
+---
+
 ## 2026-06-29 11:37 — hnedu_erp
 
 **최근 커밋:**
