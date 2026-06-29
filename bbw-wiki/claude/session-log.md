@@ -1,3 +1,18 @@
+## 2026-06-30 07:56 — hnedu_erp
+
+**최근 커밋:**
+- c384458 docs(secom): verify Flag1 mapping and WORKHISTORY OWTime status
+- 34842a9 docs(checklist): mark API smoke test and apex TLS as complete (2026-06-29)
+- 155e937 docs(secom): record production attendance import verification
+- 0ef8261 docs: update ERP status after KST baseline
+- 9670804 feat(timezone): unify ERP to KST across all layers
+
+**변경 파일 (마지막 커밋):**
+- `docs/DEV_CHECKLIST.md`
+- `docs/SECOM_INTEGRATION.md`
+
+---
+
 ## 2026-06-29 23:27 — ai-ops
 
 **최근 커밋:**
