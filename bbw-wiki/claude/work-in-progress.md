@@ -1,7 +1,35 @@
 ---
-updated: 2026-06-28 (ai-ops Usage Antigravity 토큰 표시 운영 반영 확인 완료)
-project: ai-ops (autobots)
-branch: master
+updated: 2026-06-29 (hnedu_erp KST 기준선 운영 재동기화 및 세콤 인입 검증 완료)
+project: hnedu_erp
+branch: feat/web-client-auth
+---
+
+# [완료 스레드] hnedu_erp — KST 기준선 운영 재동기화 + 세콤 인입 검증
+
+> updated 2026-06-29 KST · 커밋 `155e937` · 운영 배포/검증 완료
+
+## 완료
+- [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
+- [x] 사전 백업 생성: `/home/hnedu/hnedu_erp_pre_sync_kst_baseline_20260629T225213+0900.tgz`.
+- [x] `docker compose --profile apps config --quiet` 통과 후 `erp_api`, `erp_web` 재빌드/재기동.
+- [x] 운영 검증: PostgreSQL `Asia/Seoul`, API health 200 및 `timestamp +09:00`, 웹 `/`·`/login` 200, protected API 15개 미인증 요청 401.
+- [x] 세콤 인입 검증: `T_SECOM_ALARM` 51,610건, `gate_attendance_logs` SECOM 38,199건, 최신 `tag_time=2026-06-29 21:17:50+09`, 워터마크 `20260629211750`.
+- [x] 22:55 KST 세콤 잡 확인: 신규 원천 없음으로 `Pulled=0, Inserted=0`.
+- [x] 문서 커밋 `155e937 docs(secom): record production attendance import verification`; 운영 서버 `docs/` 동기화 완료.
+
+## 검증
+- [x] 로컬 `dotnet build server/HneduErp.sln --configuration Release` 통과.
+- [x] 로컬 `dotnet test server/HneduErp.Tests/HneduErp.Tests.csproj --configuration Release --no-build` 통과: 359/359.
+- [x] 로컬 `dotnet format server/HneduErp.sln --verify-no-changes --no-restore` 통과.
+- [x] 로컬 web-client `pnpm exec tsc --noEmit`, `pnpm lint`, `pnpm build` 통과.
+- [x] `git diff --check` 통과, 프로젝트 git 상태 깨끗함.
+- [ ] 원격 서버에는 현재 `dotnet` 명령이 PATH에 없어 원격 테스트 미실행.
+
+## 남은 일
+- [ ] 미매핑 직원 2명(정덕균·조성진) HR 카드 등록값·휴대폰 번호 확인.
+- [ ] 외출/복귀(`Flag1 2/3`)와 `T_SECOM_WORKHISTORY` 연장/야간/지각 집계 표본 대조.
+- [ ] 인증 토큰이 준비되면 역할별 쓰기 플로우 스모크 테스트 수행.
+
 ---
 
 # [완료 스레드] ai-ops — Usage Antigravity 토큰 표시 운영 반영
