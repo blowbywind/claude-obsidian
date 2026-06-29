@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-lian-learning]]
+summary: "Obsidian 노트에 접근 권한이 필요합니다. 경로 `/home/bbw/obsidian-vault/bbw-wiki/wiki/concepts/longmemeval.md`에 대한 읽기 권한을 승인해주시겠어요?"
 ---
 
 # LongMemEval

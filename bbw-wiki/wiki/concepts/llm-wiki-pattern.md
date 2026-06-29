@@ -5,6 +5,7 @@ tags: [knowledge-management, llm, wiki, architecture]
 created: 2026-06-05
 updated: 2026-06-10
 sources: [2026-06-05-llm-wiki-pattern, 2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-10-free-roaming-agents-comparison]
+summary: "LLM이 편집자로서 마크다운 위키를 점진적으로 구축하는 지식 관리 패턴으로, 소스 인제스트 시 한 번만 처리해 지식이 세션을 넘어 누적된다."
 ---
 
 ## 정의

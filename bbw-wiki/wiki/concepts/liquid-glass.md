@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-arthur-learning]]
+summary: "빛의 굴절과 동적 투명도로 입체감을 표현하는 Adaptive UI의 시각 재질 스타일로, 사용자 맥락과 기기 환경에 반응하는 현대 인터페이스 경험을 제공한다."
 ---
 
 # `Liquid Glass`

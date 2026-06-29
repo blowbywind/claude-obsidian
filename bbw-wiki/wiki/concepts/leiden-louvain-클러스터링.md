@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "지식 그래프의 밀집 커뮤니티를 탐지하여 위키 구조를 시각화하고 고립된 페이지·단절 섹션·밀집 영역을 자동 식별하는 네트워크 군집화 알고리즘"
 ---
 
 # Leiden/Louvain 클러스터링

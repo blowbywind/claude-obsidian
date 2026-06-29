@@ -5,6 +5,7 @@ tags: [network, nat, router, kt, port-forwarding]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-hermes-external-access]
+summary: "같은 LAN의 기기가 외부 도메인으로 내부 서버에 접속할 때 KT 라우터가 포트 9119에서 지원하는 포워딩 기능으로, 서버는 라우터 LAN IP로부터의 연결을 수신한다."
 ---
 
 ## 정의

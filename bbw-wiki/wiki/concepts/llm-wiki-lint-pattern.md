@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "위키의 고아 노트·깨진 레퍼런스·스테일 임베딩·출처 누락을 자동 검사하는 파이프라인 패턴"
 ---
 
 # LLM Wiki Lint Pattern

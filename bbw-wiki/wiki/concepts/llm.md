@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "비결정적 LLM 시스템을 위해 편향 완화, 3-judge 앙상블, 객관적 검증, 복합 프롬프트로 판정·에이전트·RAG 평가 품질을 확보하는 실무 원칙"
 ---
 
 # `llm

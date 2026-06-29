@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "LangGraph는 상태 지속성과 human-in-the-loop 체크포인트를 갖춘 LangChain의 멀티에이전트 워크플로 프레임워크로, 프로덕션급 에이전트 시스템의 표준 실행 엔진이다."
 ---
 
 # LangGraph
