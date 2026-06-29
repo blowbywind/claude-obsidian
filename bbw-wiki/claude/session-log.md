@@ -1,3 +1,26 @@
+## 2026-06-29 11:37 — hnedu_erp
+
+**최근 커밋:**
+- 95f9349 feat(server+web-client): add pay/mail-message APIs, wire dashboard tabs, add unit tests
+- 3172e1a refactor(web-client): consolidate *-live.tsx into page.tsx, add mail/meetings/org API modules
+- cb6a541 test(integration): remove dead WriteBlocked code and redundant skip guards
+- ad78283 feat(web-client): port meeting/mail/payment tabs + panel toggle + dark default
+- 9687d7b feat(web-client): match dashboard design to prototype (CSS parity)
+
+**변경 파일 (마지막 커밋):**
+- `db/migrations/025_mail_messages.sql`
+- `docs/DEV_CHECKLIST.md`
+- `docs/PLAN.md`
+- `docs/WEB_CLIENT_PARITY.md`
+- `server/HneduErp.Api/Controllers/EmployeesController.cs`
+- `server/HneduErp.Api/Controllers/MailMessageController.cs`
+- `server/HneduErp.Api/Controllers/OrgController.cs`
+- `server/HneduErp.Api/Controllers/PayController.cs`
+- `server/HneduErp.Api/Data/AppDbContext.cs`
+- `server/HneduErp.Api/Models/MailMessage.cs`
+
+---
+
 ## 2026-06-29 09:52 — hnedu_auth
 
 **최근 커밋:**
