@@ -7,7 +7,7 @@
 배포: .220 서버 (`/home/hnedu/hnedu_erp/`), Docker `erp_api` 컨테이너 가동 중.
 
 ## 현재 상태 (2026-06-29)
-- 브랜치: `feat/web-client-auth` + 로컬 미커밋 KST 변경 운영 반영 완료
+- 브랜치: `feat/web-client-auth`; KST 변경 기준선 커밋 `9670804`, 문서 현행화 커밋 `0ef8261` 생성 후 운영 재동기화 완료
 - 서버: hnedu-erp (192.168.0.220), 앱 compose 기준: `/home/hnedu/hnedu_erp/infra/docker-compose.yml`
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
 - 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
@@ -15,8 +15,8 @@
 - MFA 강제: .221 auth는 ERP 역할자 TOTP setup 강제, .220 ERP API는 `Mfa__RequireOtp=true` + JWT `amr=otp` 필수 검증 운영 반영 완료.
 - KST 통일: .220 운영 반영 완료. `erp_postgres`·`erp_api`·`erp_web`·`erp_secom_mssql` 컨테이너 `TZ=Asia/Seoul`, PostgreSQL `SHOW timezone=Asia/Seoul`. 업무 기준일 계산은 `CompanyTime` 기준이며 IANA(`Asia/Seoul`)·Windows(`Korea Standard Time`)·고정 KST fallback 포함. 저장·수정·감사 시각은 UTC instant 유지.
 
-## 운영 중인 기능 (2026-06-25 기준)
-- SECOM 폴링잡(5분): `gate_attendance_logs` 수집 — Inserted=885, 백로그 51455펀치 자동 처리 중
+## 운영 중인 기능 (2026-06-29 기준)
+- SECOM 폴링잡(5분): `T_SECOM_ALARM` 51,610건 원천 확인, `gate_attendance_logs` SECOM 38,199건 수집, 최신 `tag_time=2026-06-29 21:17:50+09`
 - auth↔ERP UUID 통합(Option A): employeeUuid 클레임, 31명 전원 uuid/phone_hash 채워짐
 - SECOM CardNo 폰 매핑: 규칙=`폰앞6+등록코드2+폰뒤5`, 27/30 매칭, 매핑 직원 24명 확인
 - 앱 전역 enum→text 전환: 27컬럼, 42804 버그 해결
@@ -26,7 +26,7 @@
 - MFA 등록: ERP 역할자 7명 중 2명 설정 완료, 5명은 다음 로그인 시 TOTP setup 강제.
 - 미매핑 2명: 정덕균·조성진 — HR 카드등록/폰 확인 필요
 - 인증서 신뢰 오류: 회사 PC Windows에 구 루트 교체 (회사 PC 필요)
-- 세콤링크 전송 설정: 벤더 측 설정 대기 (Pulled=0 상태)
+- 세콤 신규 인입: 워터마크 `20260629211750` 이후 신규 원천 데이터가 없어 최근 잡은 `Pulled=0, Inserted=0`으로 정상 무변경
 - `hnedu-erp.co.kr` apex: Caddy 인증서 발급 실패. `www.hnedu-erp.co.kr`은 정상이며 apex A 레코드가 192.168.0.220으로 잡힌 뒤 재검증 필요.
 - 인프라 기준 통합: `/home/hnedu/hnedu_erp/infra/Caddyfile`은 최신 reverse_proxy 설정으로 동기화됨. 단, `erp_caddy`·`erp_step_ca` 컨테이너는 아직 `/opt/hnedu-erp/infra` compose 라벨로 실행 중. `/home/.../infra/data`가 root 소유이고 `botsudo`가 없어 CA/Caddy 데이터 이동은 보류.
 - 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 2026-06-29 결재 탭(`/approvals/pending`·상세·승인·반려), 서류 탭(PDF Blob 다운로드·연말정산 업로드·발급 이력), HR 전용 급여 요약(`/pay/*` 4개), 메일 계정 `displayName`/`isConnected`, 조직 직원 이름·이메일 표시까지 대시보드에 연결됨. 메일 메시지 목록도 `/mail/messages` 실 API로 전환되어 운영 반영됨.
@@ -40,12 +40,16 @@
 
 ## 배포 명령 (snowball에서)
 ```bash
-cd /home/bbw/projects/hnedu_erp && tar czf - --exclude='./.git' --exclude='./infra' --exclude='./web-client/node_modules' --exclude='./web-client/.next' --exclude='./web-client/out' --exclude='./web-client/.turbo' --exclude='*/bin' --exclude='*/obj' . | ssh hnedu-erp 'tar xzf - -C ~/hnedu_erp'
+cd /home/bbw/projects/hnedu_erp
+tar czf - --exclude='*/bin' --exclude='*/obj' server | ssh -p 2220 hnedu@hnedu-work-2005.iptime.org 'tar xzf - -C ~/hnedu_erp'
+tar czf - --exclude='.env*' --exclude='node_modules' --exclude='.next' --exclude='out' --exclude='.turbo' web-client | ssh -p 2220 hnedu@hnedu-work-2005.iptime.org 'tar xzf - -C ~/hnedu_erp'
 # .220에서:
 cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api erp_web
 ```
 
 ## 작업 히스토리
+- 2026-06-29: KST 기준선 커밋 운영 재동기화 완료 — 백업 `/home/hnedu/hnedu_erp_pre_sync_kst_baseline_20260629T225213+0900.tgz` 생성 후 `server/`, `web-client/`를 DDNS `hnedu-work-2005.iptime.org:2220` 경유로 동기화(`.env*`, 빌드 산출물 제외). `docker compose --profile apps config --quiet` 통과, `erp_api`·`erp_web` 재빌드/재기동 성공. 운영 검증: 컨테이너 running, PostgreSQL `Asia/Seoul`, API health 200 및 `timestamp +09:00`, 웹 `/`·`/login` 200, protected API 15개 미인증 요청 401, `gate_attendance_logs` SECOM 38,199건/최신 `2026-06-29 21:17:50+09`, `T_SECOM_ALARM` 51,610건. 22:55 세콤 잡은 신규 원천 없음으로 `Pulled=0, Inserted=0`. 로컬 검증: Release 빌드 통과, 단위 테스트 359/359 통과, `dotnet format --verify-no-changes` 통과, web-client `tsc`/`lint`/`build` 통과. 원격 서버는 현재 `dotnet` 명령이 PATH에 없어 원격 테스트는 미실행.
+- 2026-06-29: KST 변경분 git 기준선 고정 — `feat(timezone): unify ERP to KST across all layers` 커밋 `9670804` 생성. 검증: `dotnet build server/HneduErp.sln --configuration Release` 통과, `dotnet test server/HneduErp.Tests/HneduErp.Tests.csproj --configuration Release` 359/359 통과, `dotnet format server/HneduErp.sln --verify-no-changes --no-restore` 통과, `git diff --check` 통과. 새 운영 동기화 시도는 현재 SSH `192.168.0.220:22` 타임아웃으로 보류.
 - 2026-06-29: ERP KST CompanyTime fallback 운영 재배포 완료 — .220 현재 관련 파일 백업 `/home/hnedu/hnedu_erp_pre_companytime_fallback_20260629T185756+0900.tgz` 생성 후 로컬 소스를 `infra` 제외 tar+ssh로 `/home/hnedu/hnedu_erp`에 동기화. `CompanyTime.GetTimeZone()`의 IANA·Windows·고정 KST fallback이 운영 소스에 반영된 것을 확인하고, `docker compose --profile apps build erp_api erp_web && docker compose --profile apps up -d erp_api erp_web` 성공. 운영 검증: `erp_api`·`erp_web` running, 컨테이너 `KST +0900`, PostgreSQL `SHOW timezone=Asia/Seoul`, API health 200 및 `timestamp +09:00`, 웹 `/`·`/login` 200, 재기동 직후 치명 오류 없음.
 - 2026-06-29: ERP KST 통일 이어받기 로컬 마무리 — `CompanyTime.GetTimeZone()`에 IANA(`Asia/Seoul`)·Windows(`Korea Standard Time`)·고정 KST fallback을 추가하고, 영수증 다운로드도 기존 UTC 월 폴더 fallback 테스트를 보강. 검증: `dotnet test server/HneduErp.Tests/HneduErp.Tests.csproj --configuration Release` 359/359 통과, `dotnet test server/HneduErp.IntegrationTests/HneduErp.IntegrationTests.csproj --configuration Release` 15개 Docker 부재로 skip, `dotnet format server/HneduErp.sln --verify-no-changes` 통과, `git diff --check` 통과. 운영 읽기 전용 재확인: `erp_api`·`erp_web`·`erp_postgres`·`erp_secom_mssql` 모두 `KST +0900`, PostgreSQL `SHOW timezone=Asia/Seoul`, API health `timestamp +09:00`.
 - 2026-06-29: ERP KST 통일 운영 배포 완료 — 로컬 KST 변경 파일 29개만 tar+ssh로 .220 `/home/hnedu/hnedu_erp`에 반영. 서버 기존 파일 백업: `/home/hnedu/hnedu_erp_pre_kst_20260629T184255+0900.tgz`. `docker compose --profile apps build erp_api erp_web` 성공 후 `erp_postgres`·`erp_api`·`erp_web` 재생성. 운영 검증: `erp_postgres`·`erp_api`·`erp_web`·`erp_secom_mssql` 모두 `Asia/Seoul`/`KST +0900`, PostgreSQL `SHOW timezone` = `Asia/Seoul`, `now()` = `+09`, `api.hnedu-erp.co.kr/health` 200 및 `timestamp +09:00`, `hnedu-erp.co.kr` 200. 재기동 직후 API·웹 로그에 치명 오류 없음.
