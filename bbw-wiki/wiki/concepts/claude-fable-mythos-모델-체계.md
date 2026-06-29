@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "Claude Fable 5는 Anthropic의 공개 모델로 SWE-Bench Pro 80.3%의 최고 성능을 저가($10/50M)에 제공하며 GitHub Copilot 통합으로 모델 복수화 시대를 신호한다."
 ---
 
 # Claude Fable/Mythos 모델 체계

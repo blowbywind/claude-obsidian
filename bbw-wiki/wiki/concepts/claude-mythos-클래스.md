@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-snow-learning]]
+summary: "Claude Mythos는 1M 컨텍스트와 128K 토큰 출력, 항시 adaptive thinking을 갖춘 최상위 모델이나, 미국 수출통제로 6일 만에 서비스 중단되어 Project Glasswing에서만 제한 제"
 ---
 
 # Claude Mythos 클래스

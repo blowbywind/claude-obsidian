@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-snow-learning]]
+summary: "Anthropic의 Claude Opus 시리즈는 SWE-Bench Pro 코딩 성능 최고(88.6%)이나, 오픈소스 모델의 추격으로 멀티에이전트 라우팅 전략에서 주기적 재검토가 필수다."
 ---
 
 # `claude

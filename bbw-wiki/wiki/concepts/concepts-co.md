@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-snow-learning]]
+summary: "에이전트 앙상블의 정확도는 모든 모델이 동시에 실패할 확률로 결정되며, 모델 이질성을 높일수록 동시 실패 확률을 낮춘다."
 ---
 
 # `concepts/co

@@ -5,6 +5,7 @@ tags: [claude-code, configuration, memory]
 created: 2026-06-05
 updated: 2026-06-07
 sources: [2026-06-05-how-claude-code-works, 2026-06-05-claude-code-7steps-mastery, 2026-06-07-ainow-claude-code-master-guide, 2026-06-07-harness-engineering-guide]
+summary: "Claude Code의 영속 설정 파일로 프로젝트별 컨벤션·지시를 저장하고 글로벌·프로젝트·디렉토리 수준으로 적용 범위를 구분한다."
 ---
 
 ## 정의

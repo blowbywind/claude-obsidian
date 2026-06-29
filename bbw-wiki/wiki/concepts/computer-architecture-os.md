@@ -5,6 +5,7 @@ tags: [computer-architecture, os, cpu, memory, process, compile, time-sharing, v
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-computer-architecture-os-pt1-gisulnote, 2026-06-13-computer-architecture-os-pt2-gisulnote]
+summary: "CPU·메모리·디스크로 구성된 폰노이만 아키텍처와 OS의 프로세스·메모리·CPU 스케줄링 기법으로 프로그램을 효율적으로 실행하는 CS 핵심 영역."
 ---
 
 ## 정의

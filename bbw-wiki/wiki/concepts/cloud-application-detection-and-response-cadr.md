@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-stellina-learning]]
+summary: "eBPF 기술로 컨테이너 런타임, 쿠버네티스 제어평면, 애플리케이션 로그에서 위협신호를 통합 수집하여 단편적 알림이 아닌 실제 공격 흐름을 재구성하고 오탐을 감소시키는 클라우드 보안 기술"
 ---
 
 # Cloud Application Detection and Response (CADR)

@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-stellina-learning]]
+summary: "컨테이너 워크로드는 Distroless 이미지·Cosign 서명·Trivy 스캔·Blue-Green 배포·OpenTelemetry 관찰성을 빌드부터 배포까지 일관되게 검증하는 파이프라인이 2026년 운영의 핵심입니다"
 ---
 
 # `concepts/container

@@ -6,12 +6,12 @@
 해냄에듀 ASP.NET Core 8 Web API + ERP. SECOM 근태 연동, auth↔ERP UUID 통합, Postgres.
 배포: .220 서버 (`/home/hnedu/hnedu_erp/`), Docker `erp_api` 컨테이너 가동 중.
 
-## 현재 상태 (2026-06-28)
+## 현재 상태 (2026-06-29)
 - 브랜치: `main` + 로컬 미커밋 변경 배포 반영
 - 서버: hnedu-erp (192.168.0.220), 앱 compose 기준: `/home/hnedu/hnedu_erp/infra/docker-compose.yml`
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
 - 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
-- 마이그레이션: 001~024 적용 완료. 로컬 개발본에 025_mail_messages 추가(미배포)
+- 마이그레이션: 001~025 적용 완료. `mail_messages` 운영 테이블 생성 완료.
 
 ## 운영 중인 기능 (2026-06-25 기준)
 - SECOM 폴링잡(5분): `gate_attendance_logs` 수집 — Inserted=885, 백로그 51455펀치 자동 처리 중
@@ -27,7 +27,7 @@
 - 세콤링크 전송 설정: 벤더 측 설정 대기 (Pulled=0 상태)
 - `hnedu-erp.co.kr` apex: Caddy 인증서 발급 실패. `www.hnedu-erp.co.kr`은 정상이며 apex A 레코드가 192.168.0.220으로 잡힌 뒤 재검증 필요.
 - 인프라 기준 통합: `/home/hnedu/hnedu_erp/infra/Caddyfile`은 최신 reverse_proxy 설정으로 동기화됨. 단, `erp_caddy`·`erp_step_ca` 컨테이너는 아직 `/opt/hnedu-erp/infra` compose 라벨로 실행 중. `/home/.../infra/data`가 root 소유이고 `botsudo`가 없어 CA/Caddy 데이터 이동은 보류.
-- 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 2026-06-29 결재 탭(`/approvals/pending`·상세·승인·반려), 서류 탭(PDF Blob 다운로드·연말정산 업로드·발급 이력), HR 전용 급여 요약(`/pay/*` 4개), 메일 계정 `displayName`/`isConnected`, 조직 직원 이름·이메일 표시까지 대시보드에 연결됨. 메일 메시지 목록은 로컬 개발본에서 `/mail/messages` 실 API로 전환됨(미배포).
+- 웹 클라이언트: 결재·서류·리포트·검색·장기근속·업무보고·업무첨부 API 모듈은 추가됨. 2026-06-29 결재 탭(`/approvals/pending`·상세·승인·반려), 서류 탭(PDF Blob 다운로드·연말정산 업로드·발급 이력), HR 전용 급여 요약(`/pay/*` 4개), 메일 계정 `displayName`/`isConnected`, 조직 직원 이름·이메일 표시까지 대시보드에 연결됨. 메일 메시지 목록도 `/mail/messages` 실 API로 전환되어 운영 반영됨.
 
 ## 아키텍처
 - 서버: ASP.NET Core 8, EF Core Code-First, PostgreSQL (db_postgres:5432)
@@ -38,13 +38,15 @@
 
 ## 배포 명령 (snowball에서)
 ```bash
-cd /home/bbw/projects/hnedu_erp && tar czf - --exclude='./.git' --exclude='infra/data' --exclude='infra/.env' --exclude='*/bin' --exclude='*/obj' . | ssh hnedu-erp 'tar xzf - -C ~/hnedu_erp'
+cd /home/bbw/projects/hnedu_erp && tar czf - --exclude='./.git' --exclude='./infra' --exclude='./web-client/node_modules' --exclude='./web-client/.next' --exclude='./web-client/out' --exclude='./web-client/.turbo' --exclude='*/bin' --exclude='*/obj' . | ssh hnedu-erp 'tar xzf - -C ~/hnedu_erp'
 # .220에서:
-cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api
+cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api erp_web
 ```
 
 ## 작업 히스토리
+- 2026-06-29: 메일 메시지 API 및 웹 배선 운영 배포 완료 — 로컬 소스·문서·`025_mail_messages.sql`을 .220 `/home/hnedu/hnedu_erp`로 동기화하되 `infra` 런타임 파일은 보존. `025_mail_messages.sql`을 Postgres에 `ON_ERROR_STOP=1`로 적용해 `mail_messages` 테이블과 인덱스 생성. `docker compose --profile apps up -d --build erp_api erp_web`로 API/웹 재빌드·재기동. 검증: `erp_api`/`erp_web` running, `erp_postgres` healthy, `erp-api.snowball.me.kr/health` 200, `api.hnedu-erp.co.kr/health` 200, `www.hnedu-erp.co.kr` `/`·`/login` 200, `/api/v1/mail/messages` 미인증 요청 401.
 - 2026-06-29: 메일 메시지 목록 API 개발 — `025_mail_messages.sql`로 `mail_messages` 메타데이터 캐시 테이블 추가, `/api/v1/mail/messages?accountId=&folder=&page=&limit=` 신설. 조회는 JWT `employeeUuid` 기준 본인 활성 메일 계정으로 제한하며 타인 계정은 404. web-client 메일 탭은 `API 미제공` 대신 실 API 결과를 기존 계정·폴더·페이지네이션 렌더러로 표시. 외부 IMAP/OAuth 자격증명과 원문 본문은 서버 미저장.
+- 2026-06-29: `mail_messages` DB 변경 문서화 보강 — `CLAUDE.md` 핵심 DB 테이블 목록에 `mail_messages` 추가, `docs/PLAN.md` Ch.6에 목록 렌더링용 외부 메일 메타데이터 평문 저장 범위와 금지 항목(자격증명·본문·첨부 원문·내부 직원 마스터 PII)을 명시.
 - 2026-06-29: 통합테스트 15개 실제 환경 검증 완료 — .220 서버(Docker 29.1.3)에 .NET SDK 8.0.422 설치 후 Testcontainers PostgreSQL로 실행. 15/15 전부 통과: RBAC(401/403), 휴가 워크플로(신청→승인/차단), 자기결재 차단(404), 근속보상 멱등성·동시성(409 정확히 1건), 근태수정 감사로그, 증명서 PDF. P1 완전 종결.
 - 2026-06-29: web-client 잔여 화면 배선 — 결재 탭은 `/approvals/pending` 목록·상세 드로어·승인/반려 Mutation 연결, 서류 탭은 `/documents/certificate` PDF Blob 다운로드·`/documents/tax-return` 파일 업로드·`/documents/history` 표시 연결, 지출 탭은 HR_TEAM 이상 전용 `/pay/summary`·`/pay/overtime-allowances`·`/pay/approved-expenses`·`/pay/tenure-rewards` 요약 블록 연결. 메일 계정 칩은 `displayName`/`isConnected`, 조직도는 백엔드 마스킹/복호화 DTO 값을 표시.
 - 2026-06-29: 백엔드 API 갭 보강 — HR_TEAM 이상 전용 `PayController` 추가(`/pay/summary`, `/pay/overtime-allowances`, `/pay/approved-expenses`, `/pay/tenure-rewards`), `OrgService` 직원 DTO에 이름·이메일 추가(본인/팀장 이상 전체 표시, 일반 조직도 조회 마스킹), `MailAccountDto`에 displayName/providerLabel/isConnected 추가. web-client는 `pay.ts` API 모듈 추가, 조직도 이름·이메일 표시 연결, mail/org 타입 보강. 검증: Release 빌드 0경고/0오류, 단위 테스트 317/317 통과, 로컬 통합테스트 15개는 Docker 소켓 부재로 skip, `dotnet format --verify-no-changes` 통과.
