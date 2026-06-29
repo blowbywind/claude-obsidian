@@ -5,6 +5,7 @@ tags: [software-development, mvp, api-design, deployment, git, cloud, lifecycle]
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-service-dev-lifecycle-gisulnote]
+summary: "서비스 개발의 아이디어부터 출시·운영까지 전체 생명주기를 기획·설계·개발·테스트·배포·출시·운영의 7단계로 정의하는 프레임워크."
 ---
 
 ## 정의

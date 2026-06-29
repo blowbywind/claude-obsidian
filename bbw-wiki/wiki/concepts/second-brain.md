@@ -5,6 +5,7 @@ tags: [knowledge-management, productivity, personal, agent-productivity]
 created: 2026-06-05
 updated: 2026-06-08
 sources: [2026-06-05-llm-wiki-pattern, 2026-06-08-ai-workflow-overhaul-silval-dev]
+summary: "외부 지식 체계로 기억과 합성을 오프로드하는 개인 및 에이전트용 정보 저장소."
 ---
 
 ## 정의

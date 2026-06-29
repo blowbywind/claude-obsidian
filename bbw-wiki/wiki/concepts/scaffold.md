@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-haeri-learning]]
+summary: "에이전트 시스템에서 프롬프트·도구·루프 설계로 구성된 스캐폴드 구조가 모델 성능보다 벤치마크 점수에 더 큰 영향을 미친다."
 ---
 
 # `scaffold

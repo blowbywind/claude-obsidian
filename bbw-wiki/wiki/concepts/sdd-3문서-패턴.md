@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "실제 노트 파일을 읽어야 내용을 확인할 수 있습니다. 위 경로의 읽기 권한을 승인해주시면 정확한 한 줄 요약을 작성하겠습니다."
 ---
 
 # SDD 3문서 패턴

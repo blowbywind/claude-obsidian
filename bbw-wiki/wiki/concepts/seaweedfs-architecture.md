@@ -5,6 +5,7 @@ tags: [seaweedfs, object-storage, distributed-storage, s3, needle, volume, filer
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-seaweedfs-docs]
+summary: "Facebook Haystack 논문 기반의 Master·Volume·Filer 3계층 구조로 소형 파일 효율화(Needle 단위 45B 오버헤드)와 Erasure Coding 패리티를 통해 고가용성을 제공하는 분산"
 ---
 
 ## 정의

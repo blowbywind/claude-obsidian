@@ -1,19 +1,21 @@
 # hnedu_erp
 
-동기화: 2026-06-29 KST
+동기화: 2026-06-29 KST (2차)
 
 ## 핵심
 해냄에듀 ASP.NET Core 8 Web API + ERP. SECOM 근태 연동, auth↔ERP UUID 통합, Postgres.
 배포: .220 서버 (`/home/hnedu/hnedu_erp/`), Docker `erp_api` 컨테이너 가동 중.
 
-## 현재 상태 (2026-06-29)
-- 브랜치: `feat/web-client-auth`; KST 변경 기준선 커밋 `9670804`, 문서 현행화 커밋 `0ef8261`, 세콤 운영 검증 문서 커밋 `155e937` 생성 후 운영 재동기화 완료
-- 서버: hnedu-erp (192.168.0.220), 앱 compose 기준: `/home/hnedu/hnedu_erp/infra/docker-compose.yml`
+## 현재 상태 (2026-06-29 최종)
+- 브랜치: `feat/web-client-auth`; 최신 커밋 `c384458` (세콤 Flag1 검증 문서)
+- 커밋 히스토리: 9670804(KST) → 0ef8261(문서) → 155e937(세콤 운영검증) → 34842a9(API스모크+apex) → c384458(Flag1검증)
+- 서버: hnedu-erp (192.168.0.220), DDNS: `hnedu-work-2005.iptime.org:2220`
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
-- 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
-- 마이그레이션: 001~025 적용 완료. `mail_messages` 운영 테이블 생성 완료.
-- MFA 강제: .221 auth는 ERP 역할자 TOTP setup 강제, .220 ERP API는 `Mfa__RequireOtp=true` + JWT `amr=otp` 필수 검증 운영 반영 완료.
-- KST 통일: .220 운영 반영 완료. `erp_postgres`·`erp_api`·`erp_web`·`erp_secom_mssql` 컨테이너 `TZ=Asia/Seoul`, PostgreSQL `SHOW timezone=Asia/Seoul`. 업무 기준일 계산은 `CompanyTime` 기준이며 IANA(`Asia/Seoul`)·Windows(`Korea Standard Time`)·고정 KST fallback 포함. 저장·수정·감사 시각은 UTC instant 유지.
+- 웹: `hnedu-erp.co.kr`(apex), `www.hnedu-erp.co.kr` HTTP→HTTPS 308→정상
+- 인증서: `hnedu-erp.co.kr`(apex), `www.hnedu-erp.co.kr`, `api.hnedu-erp.co.kr` step-ca ACME 자동갱신 성공 (2026-06-29 확인)
+- 마이그레이션: 001~025 적용 완료
+- MFA 강제: ERP API `Mfa__RequireOtp=true`, JWT `amr=otp` 검증 운영 반영
+- KST 통일: CompanyTime 기반, 전 컨테이너 `TZ=Asia/Seoul`, PostgreSQL `timezone=Asia/Seoul`
 
 ## 운영 중인 기능 (2026-06-29 기준)
 - SECOM 폴링잡(5분): `T_SECOM_ALARM` 51,610건 원천 확인, `gate_attendance_logs` SECOM 38,199건 수집, 최신 `tag_time=2026-06-29 21:17:50+09`

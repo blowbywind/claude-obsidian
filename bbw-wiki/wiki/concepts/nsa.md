@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-kiel-learning]]
+summary: "NSA는 미국 국방부 산하 기관으로 MCP 기반 AI 에이전트 보안 표준과 엔터프라이즈 AI 보안 가이드라인을 발행합니다."
 ---
 
 # `NSA

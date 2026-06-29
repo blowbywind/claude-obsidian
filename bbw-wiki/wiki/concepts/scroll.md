@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "파일을 읽을 권한이 필요합니다. 승인해주시면 `scroll.md` 노트를 읽어 한 줄 요약으로 압축하겠습니다. 혹은 **노트 내용을 직접 붙여주시면** 즉시 압축해드리겠습니다."
 ---
 
 # `scroll

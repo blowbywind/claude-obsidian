@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-roun-learning]]
+summary: "RFC 9700 OAuth 2.0 보안 모범 사례: Authorization Code+PKCE 필수, Implicit/ROPC 금지, 토큰 보호(DPoP/Rotation), 리다이렉션 URI 완전 일치, state"
 ---
 
 # RFC 9700 OAuth 보안 체크리스트
