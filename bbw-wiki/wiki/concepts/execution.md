@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "런타임 실행 데이터로 테스트를 자동 생성·유지하여 정적 분석의 한계를 극복하고 코드 진화에 지속 대응하는 execution-aware 회귀 테스트 패턴이다."
 ---
 
 # Execution

@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "Fastify v5는 응답 스키마 필수화로 JSON 직렬화 성능을 강화하고 logger·hijack·constraints 등 주요 API를 개선했다."
 ---
 
 # `fastify

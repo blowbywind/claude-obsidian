@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-roun-learning]]
+summary: "Expand-Contract 패턴은 프로덕션 무중단으로 스키마 마이그레이션을 진행하는 기법으로, 신규 컬럼 추가→앱 동시 처리→기존 컬럼 제거의 3단계를 거친다."
 ---
 
 # Expand

@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-snow-learning]]
+summary: "EU CADA는 클라우드 서비스 제공자의 데이터 통제권을 인프라 위치, 운영 독립성, 지분 소유권 3축으로 평가하는 4단계 보증 등급 표준입니다."
 ---
 
 # `EU CADA 연합 보증 등급`

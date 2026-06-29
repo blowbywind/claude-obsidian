@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-arthur-learning]]
+summary: "운영체제 고대비 모드 활성 시 CSS 색상을 시스템 키워드로 자동 교체하는 forced-colors 미디어 쿼리로 WCAG 접근성 준수."
 ---
 
 # `forced

@@ -5,6 +5,7 @@ tags: [ai-agent, autonomous, free-roaming, personal-agent]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-06-10-free-roaming-agents-comparison]
+summary: "사용자 지시를 받아 로컬 PC나 클라우드에서 자율적으로 작업을 계획하고 실행하는 개인용 AI 에이전트 카테고리로, 헤르메스·OpenClaw·Gemini Spark 등이 대표이다."
 ---
 
 ## 정의

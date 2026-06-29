@@ -5,6 +5,7 @@ tags: [pkm, ai, zotero, notebooklm, llm-wiki, research, architecture]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
+summary: "Zotero→LLM Wiki→NotebookLM의 3계층 지식 관리 아키텍처로 원본 보관·1차 정제·심층 탐구를 구분하고 Claude Code MCP로 통합 제어한다."
 ---
 
 ## 정의

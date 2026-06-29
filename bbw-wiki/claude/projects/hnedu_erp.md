@@ -13,6 +13,7 @@
 - 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
 - 마이그레이션: 001~025 적용 완료. `mail_messages` 운영 테이블 생성 완료.
 - MFA 강제: .221 auth는 ERP 역할자 TOTP setup 강제, .220 ERP API는 `Mfa__RequireOtp=true` + JWT `amr=otp` 필수 검증 운영 반영 완료.
+- KST 통일: 로컬 작업본에서 ERP API·웹·PostgreSQL 컨테이너와 업무 기준일 계산을 `Asia/Seoul` 기준으로 정리. 저장·수정·감사 시각은 UTC instant 유지.
 
 ## 운영 중인 기능 (2026-06-25 기준)
 - SECOM 폴링잡(5분): `gate_attendance_logs` 수집 — Inserted=885, 백로그 51455펀치 자동 처리 중
@@ -45,6 +46,7 @@ cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api erp_
 ```
 
 ## 작업 히스토리
+- 2026-06-29: ERP KST 통일 로컬 수정 완료 — `CompanyTime` 공용 유틸로 업무 기준 현재시각·오늘·연차연도·KST 일자 경계를 통일하고, 출근 요약·주간 근태·외근 오늘 조회·연차 기본연도·장기근속 보상 연도·문서 발급일·보고 기간·배치잡 기준일을 KST로 정리. `infra/docker-compose.yml`/`docker-compose.verify.yml`의 `erp_postgres`는 `TZ`·`PGTZ`·`postgres -c timezone=Asia/Seoul`로 세션 표시까지 KST 고정, `erp_api`/`erp_web`/`web-client` 런타임도 `TZ=Asia/Seoul`로 고정. 검증: `dotnet build server/HneduErp.sln --configuration Release` 통과, 단위 테스트 356/356 통과, 통합 테스트 15개는 로컬 Docker 부재로 skip, `dotnet format --verify-no-changes` 및 `git diff --check` 통과. 운영 배포·컨테이너 재생성은 아직 미진행.
 - 2026-06-29: MFA 강제 활성화 완료 — .221 auth `.env`에 `MFA_TOKEN_EXPIRES_IN=5m`, `MFA_ISSUER=해냄에듀` 추가 후 `hnedu_auth` 재생성. ERP 역할자 집계: active 7명, MFA 설정 2명, setup 대기 5명. .220 ERP API는 `Mfa:RequireOtp=true`일 때 JWT `amr`에 `otp`가 없으면 401 `MFA_REQUIRED`를 반환하도록 미들웨어 추가, auth 공개키 JSON 봉투(`data.public_key`) 파싱 보정, auth 토큰 계약에 맞춰 audience 검증 비활성. 운영 검증: `api.hnedu-erp.co.kr/health` 200, 익명 보호 엔드포인트 401, production auth 키로 서명한 `amr=["pwd"]` 토큰은 401 `MFA_REQUIRED`, `amr=["pwd","otp"]` 토큰은 `/api/v1/mail/messages` 200. .220 실환경 `dotnet test server/HneduErp.sln --configuration Release`: 단위 333/333 + 통합 15/15 통과.
 - 2026-06-29: 메일 메시지 API 및 웹 배선 운영 배포 완료 — 로컬 소스·문서·`025_mail_messages.sql`을 .220 `/home/hnedu/hnedu_erp`로 동기화하되 `infra` 런타임 파일은 보존. `025_mail_messages.sql`을 Postgres에 `ON_ERROR_STOP=1`로 적용해 `mail_messages` 테이블과 인덱스 생성. `docker compose --profile apps up -d --build erp_api erp_web`로 API/웹 재빌드·재기동. 검증: `erp_api`/`erp_web` running, `erp_postgres` healthy, `erp-api.snowball.me.kr/health` 200, `api.hnedu-erp.co.kr/health` 200, `www.hnedu-erp.co.kr` `/`·`/login` 200, `/api/v1/mail/messages` 미인증 요청 401.
 - 2026-06-29: 메일 메시지 목록 API 개발 — `025_mail_messages.sql`로 `mail_messages` 메타데이터 캐시 테이블 추가, `/api/v1/mail/messages?accountId=&folder=&page=&limit=` 신설. 조회는 JWT `employeeUuid` 기준 본인 활성 메일 계정으로 제한하며 타인 계정은 404. web-client 메일 탭은 `API 미제공` 대신 실 API 결과를 기존 계정·폴더·페이지네이션 렌더러로 표시. 외부 IMAP/OAuth 자격증명과 원문 본문은 서버 미저장.

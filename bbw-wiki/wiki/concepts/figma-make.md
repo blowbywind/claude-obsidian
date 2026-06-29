@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "파일을 읽기 위해 Obsidian 볼트에 대한 읽기 권한이 필요합니다. 허용해주시면 파일을 읽고 한 줄 요약을 작성하겠습니다."
 ---
 
 # Figma Make
