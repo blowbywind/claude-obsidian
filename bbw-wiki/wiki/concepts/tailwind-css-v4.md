@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-dex-learning]]
+summary: "Tailwind CSS v4는 @theme 지시어로 CSS 파일 내 토큰을 직접 정의하는 CSS-First 설정 모델로 전환된 메이저 버전."
 ---
 
 # `Tailwind CSS v4`

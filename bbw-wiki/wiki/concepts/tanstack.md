@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "파일 읽기 권한이 필요합니다. 또는 tanstack.md의 원문 내용을 직접 제시해주시면, 120자 이내 한 문장으로 요약하겠습니다. 어느 쪽을 선택하시겠습니까?"
 ---
 
 # `tanstack

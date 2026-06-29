@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-arthur-learning]]
+summary: "Tailwind CSS v3에서 v4 마이그레이션 시 설정·클래스명·성능 검증 체크리스트."
 ---
 
 # Tailwind v4 마이그레이션 체크리스트

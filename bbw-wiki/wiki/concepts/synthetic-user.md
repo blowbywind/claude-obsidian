@@ -5,6 +5,7 @@ tags: [ux-research, ai-native, persona, data-modeling]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-05-28-ai-native-ux-lm-wiki-60th-seminar]
+summary: "실제 사용자 인터뷰 데이터를 LLM으로 모델링해 만든 가상 사용자로, 실시간 대화를 통해 새 기획에 대한 인사이트를 도출할 수 있다."
 ---
 
 ## 정의

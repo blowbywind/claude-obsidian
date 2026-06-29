@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-stellina-learning]]
+summary: "GitHub Actions를 전체 커밋 SHA로 고정하고 Renovate로 자동갱신해 태그 변조 공격을 방어하는 CI 공급망 보안 기법."
 ---
 
 # Actions SHA 고정 + Renovate

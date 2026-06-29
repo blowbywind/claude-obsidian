@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-rina-learning]]
+summary: "Tailwind CSS v4.3은 scrollbar·컨테이너 쿼리·not- 변형 등 네이티브 CSS 기능을 유틸리티로 제공하여 JavaScript 의존도를 낮춘 유틸리티 우선 프레임워크다."
 ---
 
 # `tailwind

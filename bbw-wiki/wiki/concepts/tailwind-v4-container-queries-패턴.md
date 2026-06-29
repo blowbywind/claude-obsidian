@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "Tailwind v4에서 지원하는 컨테이너 쿼리는 뷰포트가 아닌 부모 컨테이너 크기를 기준으로 자식 요소의 스타일을 반응형으로 조정하는 기법이다."
 ---
 
 # Tailwind v4 Container Queries 패턴

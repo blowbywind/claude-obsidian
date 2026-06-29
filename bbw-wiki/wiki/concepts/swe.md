@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-haeri-learning]]
+summary: "AI 에이전트가 실제 깃허브 이슈를 직접 해결하는 능력을 검증하기 위해 500개의 정제된 과제로 구성된 실행 기반 벤치마크 표준이다."
 ---
 
 # `SWE
