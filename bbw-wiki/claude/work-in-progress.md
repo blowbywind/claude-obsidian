@@ -1,12 +1,12 @@
 ---
-updated: 2026-06-29 (hnedu_erp KST 기준선 운영 재동기화 및 세콤 인입 검증 완료)
+updated: 2026-06-29 (hnedu_erp 백엔드 P0~P9 전기능 완료, 운영 배포 완료 — 외부 대기만 남음)
 project: hnedu_erp
 branch: feat/web-client-auth
 ---
 
-# [완료 스레드] hnedu_erp — KST 기준선 운영 재동기화 + 세콤 인입 검증
+# [완료] hnedu_erp — 백엔드 P0~P9 전기능 + 운영 배포 완료
 
-> updated 2026-06-29 KST · 커밋 `155e937` · 운영 배포/검증 완료
+> updated 2026-06-29 KST · 최신 커밋 `c384458` · 개발 작업 전부 완료
 
 ## 완료
 - [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
@@ -25,10 +25,21 @@ branch: feat/web-client-auth
 - [x] `git diff --check` 통과, 프로젝트 git 상태 깨끗함.
 - [ ] 원격 서버에는 현재 `dotnet` 명령이 PATH에 없어 원격 테스트 미실행.
 
-## 남은 일
-- [ ] 미매핑 직원 2명(정덕균·조성진) HR 카드 등록값·휴대폰 번호 확인.
-- [ ] 외출/복귀(`Flag1 2/3`)와 `T_SECOM_WORKHISTORY` 연장/야간/지각 집계 표본 대조.
-- [ ] 인증 토큰이 준비되면 역할별 쓰기 플로우 스모크 테스트 수행.
+## 남은 일 (개발 불가 — 외부 대기)
+- [ ] 미매핑 직원 2명(정덕균·조성진) HR 카드 등록값·휴대폰 번호 확인 → HR팀
+- [ ] WORKHISTORY OWTime 2026년 미집계 원인 → 세콤 벤더 문의
+- [ ] 역할별 쓰기 플로우 스모크 → 직원 파일럿 시 실계정으로 수행
+- [ ] MFA TOTP 등록 5명 → 다음 로그인 시 자동 강제
+- [ ] 직책(position) HR 보정 → HR팀 ERP 직접 수정
+
+## 추가 완료 (위 기록 이후)
+- [x] Flag1 매핑 검증 `c384458`: '1'→IN, '4'→OUT, 나머지→SkippedNonPunch
+- [x] WORKHISTORY OWTime 분석: 2026년 0건(세콤링크 스케줄 미갱신, 개발 이슈 아님)
+- [x] 웹 화면 회귀 확인: / → 200, /login → 200 (나머지는 SPA 구조상 의도적 404)
+- [x] 단일 페이지 앱 구조 확인: 모든 기능이 (app)/page.tsx 탭으로 구현됨
+- [x] API 스모크 19/19 통과 (미인증 게이트 전부 401, health 200, Swagger 404=Production 정상)
+
+**백엔드 P0~P9 전기능 + 운영 배포 완료. 개발 가능한 작업 없음.**
 
 ---
 
