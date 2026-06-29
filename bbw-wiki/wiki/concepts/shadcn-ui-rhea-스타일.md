@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "파일 읽기 권한이 필요합니다. 권한을 승인하신 후 진행하겠습니다. (또는 파일 경로가 다르다면 정확한 경로를 알려주세요.)"
 ---
 
 # shadcn/ui Rhea 스타일

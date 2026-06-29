@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "Radix UI 기반 shadcn/ui는 CLI v4 검수 플래그와 Base UI 지원, Luma 테마로 복사 가능한 설계 시스템을 제공한다."
 ---
 
 # shadcn

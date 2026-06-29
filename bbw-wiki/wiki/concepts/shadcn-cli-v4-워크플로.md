@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "shadcn CLI v4는 --dry-run/--diff로 컴포넌트 추가를 사전 검증하고, Presets로 색상·테마·폰트 등 디자인 시스템을 단일 문자열로 관리하여 팀 내 일관성을 유지하는 워크플로를 제공한다."
 ---
 
 # shadcn CLI v4 워크플로

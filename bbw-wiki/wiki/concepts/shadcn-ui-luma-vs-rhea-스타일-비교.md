@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-rina-learning]]
+summary: "shadcn/ui 스타일 프리셋 Luma(소프트 서피스·넓은 spacing)와 apply 커맨드를 통한 프로젝트 간 스타일 일괄 교체 방식 설명."
 ---
 
 # shadcn/ui Luma vs Rhea 스타일 비교

@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-stellina-learning]]
+summary: "GitHub Actions의 Keyless 서명과 slsa-github-generator를 통해 빌드 산출물에 암호화된 출처 증명을 자동 첨부하고 공급망 공격을 탐지 가능하게 하는 SLSA 자동화 패턴"
 ---
 
 # SLSA Provenance 자동화 패턴

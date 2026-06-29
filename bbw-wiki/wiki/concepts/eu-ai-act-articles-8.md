@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-lian-learning]]
+summary: "파일을 읽기 위해 권한 승인이 필요합니다. 승인 후 한 줄 요약을 만들어드리겠습니다. 혹은 파일 위치가 다를 수 있으니, 정확한 경로를 확인해 주시겠어요? (예: `~/obsidian-vault/` 기준)"
 ---
 
 # `EU AI Act Articles 8

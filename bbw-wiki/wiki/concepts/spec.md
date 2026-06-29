@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "기능·요구사항 정의로 개발 재작업 비용의 50~80%를 사전에 제거하는 명세 문서"
 ---
 
 # Spec

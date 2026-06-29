@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-arthur-learning]]
+summary: "shadcn/ui의 토큰 계층은 Primitive와 Semantic으로 분리하여 컴포넌트가 Semantic만 참조하게 함으로써 다크모드·멀티브랜드 전환을 코드 수정 없이 데이터 변경만으로 처리하는 패턴이다."
 ---
 
 # shadcn/ui 토큰 계층 패턴
