@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-kiel-learning]]
+summary: "MCP 표준화에 따라 AI 에이전트가 PM 플랫폼(Jira·Linear·Notion)을 직접 연동하여 데이터 취합을 3시간에서 90초로 단축하는 기획 워크플로우 자동화 추세."
 ---
 
 # MCP for PM 전략

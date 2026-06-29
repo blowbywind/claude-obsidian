@@ -5,6 +5,7 @@ tags: [claude-code, integration, tools, automation]
 created: 2026-06-05
 updated: 2026-06-13
 sources: [2026-06-05-claude-code-7steps-mastery, 2026-06-07-zotero-notebooklm-llm-wiki-upgrade]
+summary: "Claude Code가 노션, 깃허브, 슬랙 등 외부 서비스와 연결되는 프로토콜로, 여러 MCP 조합으로 워크플로우 자동화가 가능하다."
 ---
 
 ## 정의

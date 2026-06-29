@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-snow-learning]]
+summary: "MCP(도구 연결)와 A2A(에이전트 협력)로 에이전트 시스템의 수직·수평 통신을 분리한 Linux Foundation 표준 프로토콜 스택"
 ---
 
 # MCP + A2A 에이전트 프로토콜 스택

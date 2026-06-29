@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-dex-learning]]
+summary: "로드 밸런싱 친화적인 무상태 HTTP 기반 MCP 전송 표준으로 기존 SSE를 대체하며 엔터프라이즈급 수평 확장을 지원한다."
 ---
 
 # `MCP Streamable HTTP`

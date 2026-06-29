@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-snow-learning]]
+summary: "MCP는 에이전트와 도구 간의 수직 통신 프로토콜로, A2A 프로토콜과 함께 멀티에이전트 시스템의 이중 표준을 이루며 컨텍스트 밀도를 향상시킨다."
 ---
 
 # MCP (Model Context Protocol)

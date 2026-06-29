@@ -5,6 +5,7 @@ tags: [knowledge-management, history, information-theory]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-llm-wiki-pattern]
+summary: "1945년 Vannevar Bush가 제안한 개인 지식 저장소 개념으로, 문서 간을 연상적 링크로 연결하며 현대 LLM Wiki 패턴의 원조다."
 ---
 
 ## 정의

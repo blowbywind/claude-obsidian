@@ -5,6 +5,7 @@ tags: [ai, pkm, context, claude]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "이 명령을 위해 Obsidian 볼트 접근 권한이 필요합니다. 승인해주시면 노트를 읽고 120자 이내 한 문장으로 압축하겠습니다."
 ---
 
 ## 정의

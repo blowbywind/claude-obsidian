@@ -5,6 +5,7 @@ tags: [loop, agentic-loop, quality-gate, pr-monitoring, ai-native]
 created: 2026-06-10
 updated: 2026-06-10
 sources: [2026-06-10-loop-design-kimyoil]
+summary: "설계 위에 올라가는 메타 검증 레이어로서 태스크 완료 전 AI가 스스로 확인할 필수·측정·평가 기준 목록을 담은 감독 문서다."
 ---
 
 ## 정의
