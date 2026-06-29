@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-dex-learning]]
+summary: "정보 캡처부터 활용까지 인지 부담을 최소화하면서 wikilink와 MCP 자동화로 지식의 발견성과 상호연결을 극대화하는 개인 지식관리 실천."
 ---
 
 # `pkm

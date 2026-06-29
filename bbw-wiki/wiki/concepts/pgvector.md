@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-dex-learning]]
+summary: "PostgreSQL 벡터 검색 확장으로 독립 벡터 DB 없이 ACID 트랜잭션을 보장하며 RAG 시스템을 단일 DB에서 구현 가능"
 ---
 
 # `pgvector`

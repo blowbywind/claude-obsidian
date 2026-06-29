@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-kiel-learning]]
+summary: "에이전트 메모리를 Working, Episodic, Semantic 3계층으로 분리해 효율성과 상태 추적을 최적화하는 구조적 설계 패턴."
 ---
 
 # OS형 에이전트 메모리 3계층

@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-stellina-learning]]
+summary: "CNCF OpenFeature는 벤더 독립적 피처 플래그 표준으로 배포-릴리즈 분리·점진적 롤아웃·토글 수명주기를 관리한다. --- 이 요약을 `~/obsidian-vault/bbw-wiki/concepts/open"
 ---
 
 # OpenFeature

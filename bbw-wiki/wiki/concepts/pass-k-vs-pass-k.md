@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-haeri-learning]]
+summary: "pass@k(k번 중 1회 이상 성공)와 pass^k(k번 모두 성공)는 최대 25%p 차이를 보이며, 배포 임계값은 pass^k 기준으로 설정해야 한다."
 ---
 
 # pass@k vs pass^k

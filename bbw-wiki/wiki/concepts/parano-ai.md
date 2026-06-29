@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-kiel-learning]]
+summary: "경쟁사 변경을 자동 모니터링하여 Slack으로 알림하는 경량 경쟁 인텔리전스 도구로 소규모 팀용 저비용 솔루션"
 ---
 
 # Parano.ai

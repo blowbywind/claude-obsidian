@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-roun-learning]]
+summary: "Partial Index로 조건 기반 선택적 인덱싱해 크기 극적 절감하고, Composite Index는 첫 컬럼 기반 설계하되 쓰기 성능 트레이드오프를 검증 후 적용한다."
 ---
 
 # PostgreSQL Partial & Composite Index 패턴

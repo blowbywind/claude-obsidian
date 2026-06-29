@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-roun-learning]]
+summary: "오브시디언 볼트의 OWASP 노트를 읽기 위해 권한이 필요합니다. 허락해주시면 한 줄 요약으로 압축하겠습니다."
 ---
 
 # `owasp
