@@ -1,3 +1,18 @@
+## 2026-06-29 17:36 — hnedu_erp
+
+**최근 커밋:**
+- 62931bd fix(server): filter attendance logs by KST calendar day, not UTC
+- a1f175e feat(infra): unify TLS on step-ca via cross-server ACME for auth
+- 032704b fix(infra): repoint ERP to auth.hnedu-erp.co.kr and trust its Caddy CA
+- 5cc1d26 feat(server+web-client): add attendance weekly summary
+- d218070 docs(infra): add step-ca root cert distribution package for company PCs
+
+**변경 파일 (마지막 커밋):**
+- `server/HneduErp.Api/Services/AttendanceService.cs`
+- `server/HneduErp.Tests/Services/AttendanceServiceTests.cs`
+
+---
+
 ## 2026-06-29 17:19 — hnedu_auth
 
 **최근 커밋:**
