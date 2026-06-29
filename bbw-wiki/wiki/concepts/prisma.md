@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-roun-learning]]
+summary: "Prisma 마이그레이션은 트랜잭션 제약으로 CREATE INDEX CONCURRENTLY와 무중단 스키마 변경을 못하므로 Expand-Contract 패턴으로 우회한다."
 ---
 
 # `prisma

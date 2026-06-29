@@ -5,6 +5,7 @@ tags: [knowledge-management, curation, second-brain, gold-in-gold-out]
 created: 2026-06-05
 updated: 2026-06-12
 sources: [2026-06-05-claude-code-obsidian-lmwiki-graphify, 2026-06-12-llm-wiki-selection-criteria]
+summary: "목적을 명시하고 반복 사용·의사결정·프로젝트 연결 중 2개 이상 충족해야 하는, AI 위키의 핵심 수집 원칙."
 ---
 
 ## 정의

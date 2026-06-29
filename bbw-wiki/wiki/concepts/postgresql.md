@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-roun-learning]]
+summary: "PostgreSQL 17은 JSON_TABLE로 JSON을 관계형 테이블로 변환하고 MERGE RETURNING으로 INSERT/UPDATE/DELETE의 실제 연산 상태를 한 번에 반환하여 SQL 처리를 효율화한다"
 ---
 
 # `postgresql

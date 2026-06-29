@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-lian-learning]]
+summary: "proxy.ts는 Next.js 16의 새로운 네트워크 경계 파일로, Node.js 런타임 고정으로 middleware.ts를 대체하며 데이터베이스 연결 등 서버 기능을 안정적으로 지원한다."
 ---
 
 # `proxy.ts`

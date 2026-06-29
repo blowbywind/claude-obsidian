@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-roun-learning]]
+summary: "Prisma의 N+1 쿼리 문제 원인, include/select/배칭 해결 전략, 30k건 이상 대규모 데이터 메모리 스파이크 주의사항."
 ---
 
 # Prisma N+1 해결 패턴

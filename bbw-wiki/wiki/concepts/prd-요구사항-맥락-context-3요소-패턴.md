@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "PRD 요구사항 각각에 전략 목표·인사이트 근거·관련 팀의 3요소 맥락을 명시하여 의사결정 투명성과 품질을 높이는 패턴."
 ---
 
 # PRD 요구사항 맥락(Context) 3요소 패턴

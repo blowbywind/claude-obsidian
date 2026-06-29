@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-dex-learning]]
+summary: "노트 파일을 읽으려면 권한 승인이 필요합니다.  또는, 요약할 실제 노트 내용을 메시지에 붙여넣어 주시면 바로 120자 이내 한 줄로 압축하겠습니다. 현재 보이는 텍스트는 누군가의 답안 제안처럼 보입니다. 원본 노트"
 ---
 
 # `agent

@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "제시하신 노트 내용 기준으로 압축하면: Prisma v7 TypeScript 엔진에 대한 자가학습 원문이 없어 작성 불가 상태."
 ---
 
 # Prisma v7 TypeScript 엔진
