@@ -5,6 +5,7 @@ tags: [deploy, hnedu, workflow, automation]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-hnedu-auth-project]
+summary: "hnedu-auth 프로덕션 관리자 UI 배포: build→scp→확인 수동 3단계 프로세스, 스크립트화 필요."
 ---
 
 ## 정의

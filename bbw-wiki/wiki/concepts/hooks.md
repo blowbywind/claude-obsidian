@@ -5,6 +5,7 @@ tags: [claude-code, automation, hooks, trigger]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-7steps-mastery]
+summary: "Claude Code에서 특정 상황 발생 시 자동 실행되는 조건부 트리거 규칙(preToolUse, postToolUse, notification)이며, 자동 보고·기록화에 활용된다."
 ---
 
 ## 정의

@@ -5,6 +5,7 @@ tags: [harness, ai-agent, context-engineering, system-design]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-harness-engineering-guide, 2026-06-07-ainow-claude-code-master-guide]
+summary: "에이전트 신뢰성 확보를 위한 제약·도구·피드백·관찰 체계의 설계와 운영 기술."
 ---
 
 ## 정의

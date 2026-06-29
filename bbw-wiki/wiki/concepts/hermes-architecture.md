@@ -5,6 +5,7 @@ tags: [hermes, architecture, gateway, skills, cron, mcp, acp, multi-agent]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-hermes-agents, 2026-06-09-ai-native-hermes-report, 2026-06-10-free-roaming-agents-comparison]
+summary: "추론·실행·통신·자동화·확장·통합 6레이어로 설계된 교체 가능 모델 기반 에이전트 플랫폼으로, 게이트웨이·스킬·크론을 통해 모바일 원격 자동화를 제공한다."
 ---
 
 ## 정의

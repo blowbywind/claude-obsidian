@@ -4,6 +4,7 @@ description: 인프라, 백엔드, 보안, UI 구현 패턴 관련 고아 노트
 metadata:
   type: concept
   generated: 2026-06-23
+summary: "인프라·백엔드·보안·UI 구현 패턴 관련 지식을 중앙에서 아카이빙·연결하는 개념 허브"
 ---
 
 # infra-operations-map

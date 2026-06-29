@@ -3,6 +3,7 @@ name: image-generation-guideline
 description: API 기반 이미지 생성 품질을 높이기 위한 프롬프트 확장, 스타일 레퍼런스, 후처리 가이드.
 metadata:
   type: concept
+summary: "API 이미지 생성에서 프롬프트 확장, XML 구조화 포맷, 미학 수식어 풀, 포스트프로세싱 최적화로 웹 UI 수준 퀄리티를 달성하는 가이드라인."
 ---
 
 # API 기반 이미지 생성 고도화 및 프롬프트 확장 디자인 가이드라인

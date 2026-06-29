@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "파일 확인을 위해 권한이 필요합니다. 사용자님의 요청을 정확히 파악하기 위해 질문드립니다: **현재 상황**: - 제공하신 원문에는 \"HTML Invoker Commands API 패턴\"에 관한 내용이 없음 - 원문"
 ---
 
 # HTML Invoker Commands API 패턴
