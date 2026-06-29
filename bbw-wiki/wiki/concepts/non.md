@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "LLM 비결정성을 mock 의존성 주입·축소 E2E·flake 관리로 구조화 검증하는 AI 에이전트 테스트 프레임워크"
 ---
 
 # `non

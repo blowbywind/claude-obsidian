@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-dex-learning]]
+summary: "노트를 Fleeting에서 Permanent로 승격하며 원자성·구조·자동화로 개인 지식 그래프를 유지하는 생명주기 관리 프로세스"
 ---
 
 # Note Lifecycle Management

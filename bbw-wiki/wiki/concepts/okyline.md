@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-haeri-learning]]
+summary: "Okyline은 Data Contract를 기반으로 데이터 유효성을 자동 검증하고 파이프라인 배포 단계에서 품질 저하를 차단하는 데이터 설계 도구다."
 ---
 
 # `Okyline`

@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-19-dex-learning]]
+summary: "마크다운 기반 로컬 지식관리 플랫폼으로 네트워크형 노트 구조와 YAML frontmatter-first 설계, Bases/Dataview 이원화 데이터 관리, LLM 통합을 특징으로 한다."
 ---
 
 # `obsidian

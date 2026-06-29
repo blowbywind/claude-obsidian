@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-snow-learning]]
+summary: "τ-bench는 동적 사용자·도구 시뮬레이션 환경에서 에이전트의 멀티턴 완료율과 도구 호출 정확도를 평가하는 실세계 벤치마크다."
 ---
 
 # τ

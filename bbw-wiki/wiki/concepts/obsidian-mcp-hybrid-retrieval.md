@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-dex-learning]]
+summary: "AI가 MCP로 Obsidian 볼트에 직접 접근해 노트를 수정하며 BM25·벡터·RRF 하이브리드 검색으로 정확도를 높이는 2026년 지식관리 표준."
 ---
 
 # Obsidian MCP + Hybrid Retrieval

@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-lian-learning]]
+summary: "OpenCode는 160K+ 스타의 오픈소스 터미널 코딩 에이전트로, 18개 언어 LSP 지원과 75개 이상 AI 모델 선택지를 제공하는 Claude Code의 주요 경쟁자다."
 ---
 
 # OpenCode

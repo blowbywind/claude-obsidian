@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-roun-learning]]
+summary: "OAuth 2.1 리프레시 토큰 보안: 비밀번호·MFA 변경 시 자동 무효화·rotation 필수·7~30일 만료(RFC 9700)."
 ---
 
 # OAuth 2.1 리프레시 토큰 보안 (RFC 9700)
