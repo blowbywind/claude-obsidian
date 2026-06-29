@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "사용자님, 요청을 명확히 해주시겠어요? 1. **노트가 아직 없는 경우**: `mutation.md` 파일을 새로 생성해야 하는 건가요? 2. **이미 존재하는 경우**: 메시지에 붙인 \"제공하신 자가학습 원문에서."
 ---
 
 # Mutation

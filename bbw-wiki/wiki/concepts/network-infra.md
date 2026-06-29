@@ -5,6 +5,7 @@ tags: [network, infra, tcp-ip, http, osi-7-layer, l4-switch, l7-switch, ssl-term
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-network-infra-gisulnote, 2026-06-13-network-infra-extended-gisulnote]
+summary: "인터넷 프로토콜(IP·TCP·HTTP)과 방화벽·CDN·로드밸런서 같은 네트워크 장비, 웹서버·WAS·DB 3계층 구조로 구성된 서비스 인프라의 통합 체계"
 ---
 
 ## 정의

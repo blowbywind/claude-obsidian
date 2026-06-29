@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-27
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-27-dex-learning]]
+summary: "Node.js는 V8·libuv 기반 비동기 서버 런타임이며 v22부터 네이티브 TypeScript 실행과 내장 SQLite WAL 모드를 지원함."
 ---
 
 # `node

@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-dex-learning]]
+summary: "Node.js 22.12.0부터 탑레벨 await가 없는 ESM 모듈을 CommonJS에서 require()로 동기 로드 가능하며, 레거시 프로젝트의 점진적 ESM 마이그레이션을 용이하게 함."
 ---
 
 # `nodejs

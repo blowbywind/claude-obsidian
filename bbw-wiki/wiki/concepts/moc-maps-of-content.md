@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "관련 노트를 시각적으로 군집화하고 자동 검사·명시적 거버넌스·일관성 우선으로 위키 네비게이션을 체계적으로 유지하는 메타-레이어."
 ---
 
 # `MOC (Maps of Content)`

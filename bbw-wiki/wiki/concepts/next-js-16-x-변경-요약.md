@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-lian-learning]]
+summary: "Next.js 16.x는 Turbopack 기본 번들러 안정화, `use cache` 명시적 캐싱 제어, AI 에이전트용 DevTools MCP 통합, AGENTS.md 템플릿 기본 포함."
 ---
 
 # Next.js 16.x 변경 요약

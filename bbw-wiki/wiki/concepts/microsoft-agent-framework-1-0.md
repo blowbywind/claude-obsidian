@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-snow-learning]]
+summary: "AutoGen과 Semantic Kernel을 통합한 엔터프라이즈급 멀티에이전트 오케스트레이션 프레임워크, 2026년 4월 출시, .NET과 Python에서 동일 API와 이중 오케스트레이션 지원."
 ---
 
 # Microsoft Agent Framework 1.0

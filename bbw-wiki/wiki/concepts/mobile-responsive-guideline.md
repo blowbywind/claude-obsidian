@@ -3,6 +3,7 @@ name: mobile-responsive-guideline
 description: 모바일 반응형 웹 UI와 접근성을 안정적으로 구현하기 위한 레이아웃, 스크롤, 터치 타깃 가이드.
 metadata:
   type: concept
+summary: "모바일 환경에서 2-Panel 토글, 높이 최적화, 텍스트 줄바꿈 방지, 터치 타깃 24px, StatCard 가로 스크롤 등으로 반응형 사용성과 접근성을 확보하는 UI/UX 가이드."
 ---
 
 # 모바일 반응형 웹 UI/UX 최적화 가이드라인
