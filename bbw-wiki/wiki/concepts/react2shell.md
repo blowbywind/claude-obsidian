@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-dex-learning]]
+summary: "Obsidian 저장소 읽기 권한이 필요합니다. 승인해 주시겠어요?"
 ---
 
 # [[react2shell

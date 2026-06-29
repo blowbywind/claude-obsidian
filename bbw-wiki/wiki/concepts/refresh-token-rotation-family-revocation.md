@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-roun-learning]]
+summary: "Refresh Token 재사용을 탈취 신호로 감지하여 해당 패밀리의 모든 활성 토큰을 즉시 무효화하는 RFC 9700 기반 자동 방어 메커니즘."
 ---
 
 # `Refresh Token Rotation & Family Revocation`

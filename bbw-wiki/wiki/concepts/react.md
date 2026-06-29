@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-dex-learning]]
+summary: "React 19 useFormStatus는 form 자식 컴포넌트에서만 동작하고, Compiler 침묵형 실패는 ESLint로만 감지되며, 도구 설정이 런타임 정확성을 좌우한다."
 ---
 
 # `react

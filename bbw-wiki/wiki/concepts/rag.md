@@ -5,6 +5,7 @@ tags: [llm, retrieval, architecture]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-llm-wiki-pattern]
+summary: "매 질의마다 임베딩 검색으로 관련 문서를 LLM 컨텍스트에 주입해 답변하는 방식으로, 누적 없음과 교차참조 부재가 한계다."
 ---
 
 ## 정의

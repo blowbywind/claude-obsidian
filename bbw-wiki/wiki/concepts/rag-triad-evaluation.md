@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "RAG 파이프라인에서 환각 방지, 문서 완전성, 답변 정확성을 검증하는 3가지 평가 지표."
 ---
 
 # RAG Triad Evaluation

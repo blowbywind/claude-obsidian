@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-haeri-learning]]
+summary: "도구 호출 시마다 단기 유효한 자격 증명을 동적 발급하여 탈취 피해를 제한하는 에이전트 보안 패턴."
 ---
 
 # `ephemeral

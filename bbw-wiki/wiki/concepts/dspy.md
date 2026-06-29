@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-haeri-learning]]
+summary: "DSPy는 데이터셋 기반으로 LLM 프롬프트를 자동 최적화하는 Stanford 개발 프레임워크입니다."
 ---
 
 # `dspy

@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-dex-learning]]
+summary: "REST API는 명사 기반 복수형 리소스명과 URL 경로 버전 관리로 표준화하되, 후위 호환성을 최우선으로 유지한다."
 ---
 
 # REST API Naming & Versioning Standards
