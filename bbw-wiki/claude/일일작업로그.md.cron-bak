@@ -10,3 +10,15 @@
 - Skill Usage 개선 — agent_invocation_log + 측정범위 명시 + 에이전트 위임 순위
 - 시스템 점검: 컨테이너·DB·cron·인증 안정 확인, git 컨테이너 설치
 - DB 스키마·시드·마이그레이션 업데이트, `.claude/agents/` 정의 정비
+
+## 2026-06-28
+
+- 전 시스템 감사: 토큰 절약(history cap·카탈로그 trim·summary Haiku 전환) + 보안 하드닝(path-traversal 차단·webhook timeout) + 안정성 개선(EPIPE 처리) 일괄 적용
+- Codex 토큰 사용량 계측 추가 — 관측 사각지대였던 codex 런타임 토큰 집계 커버리지 해소
+- 시드 재실행 버그 수정 — 재시드 시 라이브 봇의 게이트웨이·모델 설정이 초기값으로 되돌아가지 않도록 보존 로직 적용
+- 자율 기록 cron 안전 재구현 — LLM 읽기전용 + executor 결정론 append 방식으로 재설계(이전 구현 보안 취약 구조 교체)
+- 저빈도 LLM 기록 cron 복구 — `dex-session-log`(일 1회) · `dex-weekly-review`(주 1회) 재활성화
+- 위임 마커 누락 안전장치 추가 — 봇이 위임 예고만 하고 `[[HANDOFF]]` 미발화 시 무반응 방지용 감지·안내 로직 도입
+- 옵시디언 볼트 git sync·summary cron 정비 — 볼트 자동 커밋+푸시(30분) 및 위키 summary 백필(매시) cron, 컨테이너 마운트 확장 및 토큰 credential helper 이전 적용
+- 백엔드 전반 라우트·미들웨어·테스트 파일 다수 수정(chat·projects·usage-api·skill-usage·exhaustion-notice 등) — 감사 후속 안정성·보안 패치 반영
+- `.claude/agents/` 하네스 에이전트 정의 파일 전수 업데이트 — 역할 명확화 및 감사 결과 반영
