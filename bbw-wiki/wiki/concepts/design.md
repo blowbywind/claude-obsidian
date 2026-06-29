@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-rina-learning]]
+summary: "Design Token은 색상·간격·폰트를 변수화한 체계이고, Tailwind v4 CSS-First와 Calm UI 철학으로 2026 디자인 방향을 제시한다."
 ---
 
 # design

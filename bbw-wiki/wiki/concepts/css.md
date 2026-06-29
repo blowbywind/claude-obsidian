@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "CSS @layer는 specificity에 무관하게 명시적 우선순위로 스타일 충돌을 예방하는 cascade layers 표준이다."
 ---
 
 # css

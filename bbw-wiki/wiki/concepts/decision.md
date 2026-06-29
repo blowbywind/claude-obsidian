@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "의사결정은 도구의 완벽함이 아닌 일관된 운영에서 장기적 가치가 나오며, 도구 전환은 기존 시스템 안정화 후에만 검토해야 한다."
 ---
 
 # `decision

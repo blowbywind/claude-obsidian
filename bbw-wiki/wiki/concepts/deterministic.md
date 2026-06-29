@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-snow-learning]]
+summary: "결정론적 오케스트레이션은 워크플로 라우팅을 코드로 정의해 LLM 토큰을 절감하면서 동적 결정이 필요한 지점만 위임하는 하이브리드 방식이다."
 ---
 
 # deterministic

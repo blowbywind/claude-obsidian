@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-haeri-learning]]
+summary: "데이터 계약으로 프로듀서·컨슈머 간 스키마·SLA를 명시하고 파이프라인 검증으로 데이터 품질을 보장하는 패턴."
 ---
 
 # Data Contract 패턴

@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-lian-learning]]
+summary: "AI 정렬 훈련 실패에 대비한 다층 구조적 격리로, 멀티에이전트 시스템의 자율 실행에서 개별 게이트 외 독립적 통제 레이어 필수."
 ---
 
 # Defense

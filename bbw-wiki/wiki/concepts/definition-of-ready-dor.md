@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-kiel-learning]]
+summary: "개발 착수 전 요구사항이 갖춰야 할 준비도로, 전략목표·근거·인수조건을 명시하면 개발 재작업 50~80%를 사전 제거할 수 있음."
 ---
 
 # Definition of Ready (DoR)

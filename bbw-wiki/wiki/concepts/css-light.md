@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-rina-learning]]
+summary: "CSS light-dark() 함수로 라이트/다크 모드 색상을 한 번에 지정하고 color-scheme과 연계하여 미디어쿼리 중복을 제거하며 테마 전환을 자동화합니다."
 ---
 
 # CSS `light
