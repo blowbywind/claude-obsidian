@@ -1,3 +1,20 @@
+## 2026-06-29 21:34 — ai-ops
+
+**최근 커밋:**
+- 390d56e chore(auto-save): 작업 자동 저장 2026-06-29 21:17:23 (4 files)
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/routes/chat-chain-escalation.test.ts`
+- `autobots/backend/routes/chat-chain-resilience.test.ts`
+- `autobots/backend/routes/chat.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-29 21:00 — ai-ops
 
 **최근 커밋:**
@@ -1717,3 +1734,5 @@
 - [auto-save 2026-06-29 08:58:55] master d6fa9a0 — 4 files 자동 커밋
 
 - [auto-save 2026-06-29 21:17:23] master 390d56e — 4 files 자동 커밋
+
+- [auto-save 2026-06-29 21:52:13] master a091bbe — 2 files 자동 커밋
