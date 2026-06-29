@@ -12,6 +12,7 @@
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
 - 웹: `www.hnedu-erp.co.kr` HTTPS 200, `/login` 200
 - 마이그레이션: 001~025 적용 완료. `mail_messages` 운영 테이블 생성 완료.
+- MFA 강제: .221 auth는 ERP 역할자 TOTP setup 강제, .220 ERP API는 `Mfa__RequireOtp=true` + JWT `amr=otp` 필수 검증 운영 반영 완료.
 
 ## 운영 중인 기능 (2026-06-25 기준)
 - SECOM 폴링잡(5분): `gate_attendance_logs` 수집 — Inserted=885, 백로그 51455펀치 자동 처리 중
@@ -21,7 +22,7 @@
 - 동기화 서비스: EmployeeSyncJob, 부서→직원 순서, auth 서비스토큰 연동
 
 ## 잔여 이슈
-- MFA 등록: ERP 역할자 다음 로그인 TOTP setup 강제 (admin-ui 지원, 미착수)
+- MFA 등록: ERP 역할자 7명 중 2명 설정 완료, 5명은 다음 로그인 시 TOTP setup 강제.
 - 미매핑 2명: 정덕균·조성진 — HR 카드등록/폰 확인 필요
 - 인증서 신뢰 오류: 회사 PC Windows에 구 루트 교체 (회사 PC 필요)
 - 세콤링크 전송 설정: 벤더 측 설정 대기 (Pulled=0 상태)
@@ -44,6 +45,7 @@ cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api erp_
 ```
 
 ## 작업 히스토리
+- 2026-06-29: MFA 강제 활성화 완료 — .221 auth `.env`에 `MFA_TOKEN_EXPIRES_IN=5m`, `MFA_ISSUER=해냄에듀` 추가 후 `hnedu_auth` 재생성. ERP 역할자 집계: active 7명, MFA 설정 2명, setup 대기 5명. .220 ERP API는 `Mfa:RequireOtp=true`일 때 JWT `amr`에 `otp`가 없으면 401 `MFA_REQUIRED`를 반환하도록 미들웨어 추가, auth 공개키 JSON 봉투(`data.public_key`) 파싱 보정, auth 토큰 계약에 맞춰 audience 검증 비활성. 운영 검증: `api.hnedu-erp.co.kr/health` 200, 익명 보호 엔드포인트 401, production auth 키로 서명한 `amr=["pwd"]` 토큰은 401 `MFA_REQUIRED`, `amr=["pwd","otp"]` 토큰은 `/api/v1/mail/messages` 200. .220 실환경 `dotnet test server/HneduErp.sln --configuration Release`: 단위 333/333 + 통합 15/15 통과.
 - 2026-06-29: 메일 메시지 API 및 웹 배선 운영 배포 완료 — 로컬 소스·문서·`025_mail_messages.sql`을 .220 `/home/hnedu/hnedu_erp`로 동기화하되 `infra` 런타임 파일은 보존. `025_mail_messages.sql`을 Postgres에 `ON_ERROR_STOP=1`로 적용해 `mail_messages` 테이블과 인덱스 생성. `docker compose --profile apps up -d --build erp_api erp_web`로 API/웹 재빌드·재기동. 검증: `erp_api`/`erp_web` running, `erp_postgres` healthy, `erp-api.snowball.me.kr/health` 200, `api.hnedu-erp.co.kr/health` 200, `www.hnedu-erp.co.kr` `/`·`/login` 200, `/api/v1/mail/messages` 미인증 요청 401.
 - 2026-06-29: 메일 메시지 목록 API 개발 — `025_mail_messages.sql`로 `mail_messages` 메타데이터 캐시 테이블 추가, `/api/v1/mail/messages?accountId=&folder=&page=&limit=` 신설. 조회는 JWT `employeeUuid` 기준 본인 활성 메일 계정으로 제한하며 타인 계정은 404. web-client 메일 탭은 `API 미제공` 대신 실 API 결과를 기존 계정·폴더·페이지네이션 렌더러로 표시. 외부 IMAP/OAuth 자격증명과 원문 본문은 서버 미저장.
 - 2026-06-29: `mail_messages` DB 변경 문서화 보강 — `CLAUDE.md` 핵심 DB 테이블 목록에 `mail_messages` 추가, `docs/PLAN.md` Ch.6에 목록 렌더링용 외부 메일 메타데이터 평문 저장 범위와 금지 항목(자격증명·본문·첨부 원문·내부 직원 마스터 PII)을 명시.

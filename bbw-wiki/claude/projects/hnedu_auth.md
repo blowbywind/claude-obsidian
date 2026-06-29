@@ -30,12 +30,12 @@
 - 커밋: 6a1b7c9
 - 품질게이트: tsc 클린 / code-reviewer Critical 0 / evaluator-strict 5/5
 
-## 배포 현황 (2026-06-24, .221 완료)
+## 배포 현황 (2026-06-29, .221 완료)
 - ✅ feat/mfa-totp 브랜치 → .221 배포 완료 (prisma migrate deploy 포함)
 - ✅ UUID + sabun 컬럼 마이그레이션 (31명 전원 uuid 채워짐)
 - ✅ 서비스토큰 신설 (`svc_` 불투명토큰, IP 화이트리스트)
 - ✅ ERP 연동 실증: EmployeeSyncJob 부서12+직원31 완료
-- 남은 것: ERP 역할자 TOTP setup 강제 (관리자 MFA 등록, 즉시잠금X)
+- ✅ ERP 역할자 TOTP setup 강제 활성화: `MFA_TOKEN_EXPIRES_IN=5m`, `MFA_ISSUER=해냄에듀`; active ERP 역할자 7명 중 MFA 설정 2명, 다음 로그인 setup 대기 5명.
 
 ## 현재 보안 상태 (2026-06-11 기준)
 - 패치 완료: INJ 10개 + JWT-007 + XSS 파일 제거
