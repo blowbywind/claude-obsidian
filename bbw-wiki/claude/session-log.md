@@ -1,3 +1,18 @@
+## 2026-06-29 14:59 — hnedu_erp
+
+**최근 커밋:**
+- d218070 docs(infra): add step-ca root cert distribution package for company PCs
+- 46c64a6 docs(infra): record completed compose consolidation onto single project
+- 127f092 docs(infra): record apex cert issuance and add compose consolidation runbook
+- 1fc3f51 feat(server): enforce MFA otp claim and align auth token contract
+- 95f9349 feat(server+web-client): add pay/mail-message APIs, wire dashboard tabs, add unit tests
+
+**변경 파일 (마지막 커밋):**
+- `infra/ca-dist/README.md`
+- `infra/ca-dist/hnedu-internal-ca-root.crt`
+
+---
+
 ## 2026-06-29 13:27 — ai-ops
 
 **최근 커밋:**
