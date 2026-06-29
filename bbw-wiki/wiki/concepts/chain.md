@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-haeri-learning]]
+summary: "추론 단계를 5단어 이하의 드래프트로 생성해 토큰과 지연시간을 75~90% 절감하는 프롬프팅 패턴"
 ---
 
 # Chain

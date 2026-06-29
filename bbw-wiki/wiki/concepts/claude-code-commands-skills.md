@@ -5,6 +5,7 @@ tags: [claude-code, commands, skills, automation, workflow]
 created: 2026-06-05
 updated: 2026-06-05
 sources: [2026-06-05-claude-code-7steps-mastery]
+summary: "Claude Code의 커맨드(짧은 단축 명령)와 스킬스(순서형 워크플로우)는 반복 업무 자동화 메커니즘"
 ---
 
 ## 정의

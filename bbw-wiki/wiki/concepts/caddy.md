@@ -5,6 +5,7 @@ tags: [caddy, web-server, reverse-proxy, https, docker, caddyfile]
 created: 2026-06-12
 updated: 2026-06-12
 sources: [2026-06-12-caddy-v2-docs]
+summary: "TLS 자동 발급, Caddyfile 설정, JSON API 무중단 변경을 지원하는 Go 기반 웹 서버다."
 ---
 
 ## 정의

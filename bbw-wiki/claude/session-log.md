@@ -1,3 +1,66 @@
+## 2026-06-29 09:17 — hnedu_erp
+
+**최근 커밋:**
+- 3172e1a refactor(web-client): consolidate *-live.tsx into page.tsx, add mail/meetings/org API modules
+- cb6a541 test(integration): remove dead WriteBlocked code and redundant skip guards
+- ad78283 feat(web-client): port meeting/mail/payment tabs + panel toggle + dark default
+- 9687d7b feat(web-client): match dashboard design to prototype (CSS parity)
+- e6358b2 revert(web-client): restore exact prototype dashboard layout
+
+**변경 파일 (마지막 커밋):**
+- `docs/WEB_CLIENT_PARITY.md`
+- `web-client/.gitignore`
+- `web-client/src/app/(app)/dashboard-data.ts`
+- `web-client/src/app/(app)/dashboard-mock.ts`
+- `web-client/src/app/(app)/page.tsx`
+- `web-client/src/app/globals.css`
+- `web-client/src/app/login/page.tsx`
+- `web-client/src/components/announcement/announcement-strip-live.tsx`
+- `web-client/src/components/attendance/weekly-attendance-live.tsx`
+- `web-client/src/components/calendar/calendar-month-live.tsx`
+
+---
+
+## 2026-06-29 09:16 — hnedu_erp
+
+**최근 커밋:**
+- 3172e1a refactor(web-client): consolidate *-live.tsx into page.tsx, add mail/meetings/org API modules
+- cb6a541 test(integration): remove dead WriteBlocked code and redundant skip guards
+- ad78283 feat(web-client): port meeting/mail/payment tabs + panel toggle + dark default
+- 9687d7b feat(web-client): match dashboard design to prototype (CSS parity)
+- e6358b2 revert(web-client): restore exact prototype dashboard layout
+
+**변경 파일 (마지막 커밋):**
+- `docs/WEB_CLIENT_PARITY.md`
+- `web-client/.gitignore`
+- `web-client/src/app/(app)/dashboard-data.ts`
+- `web-client/src/app/(app)/dashboard-mock.ts`
+- `web-client/src/app/(app)/page.tsx`
+- `web-client/src/app/globals.css`
+- `web-client/src/app/login/page.tsx`
+- `web-client/src/components/announcement/announcement-strip-live.tsx`
+- `web-client/src/components/attendance/weekly-attendance-live.tsx`
+- `web-client/src/components/calendar/calendar-month-live.tsx`
+
+---
+
+## 2026-06-29 09:08 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-29 08:25 — ai-ops
 
 **최근 커밋:**

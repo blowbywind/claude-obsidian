@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-dex-learning]]
+summary: "Bun은 JavaScriptCore 기반 런타임으로 Node.js V8 네이티브 애드온 비호환, native binding 패키지 사용 시 주의 필요."
 ---
 
 # [[bun

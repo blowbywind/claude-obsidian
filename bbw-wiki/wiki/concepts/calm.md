@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-rina-learning]]
+summary: "Calm UI는 시각 화려함을 최소화하고 명확성과 단순성으로 사용자 인지 부하를 줄이는 2026년 UX 설계 방향이다."
 ---
 
 # calm

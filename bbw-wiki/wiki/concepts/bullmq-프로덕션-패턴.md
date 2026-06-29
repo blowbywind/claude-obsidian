@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "Redis 작업 큐 BullMQ를 프로덕션에서 안정적으로 운영하기 위한 Worker 분리, 메모리 정리, DAG 파이프라인, 멱등성 보장 패턴."
 ---
 
 # BullMQ 프로덕션 패턴

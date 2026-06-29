@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-lian-learning]]
+summary: "Bun + Hono + Drizzle은 TypeScript 중심의 고성능 풀스택 조합으로, Fastify+Prisma 대비 빠른 개발과 우수한 타입 안정성을 제공하며 엣지·서버리스 환경에서 강세를 보인다."
 ---
 
 # Bun + Hono + Drizzle 스택

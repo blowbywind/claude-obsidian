@@ -6,6 +6,7 @@ learned_by: roun
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-roun-learning]]
+summary: "BullMQ는 Node.js용 Redis 기반 작업 큐로, 워커 분리·잡 메모리관리·DAG 의존성 지원으로 비동기 파이프라인을 안정적으로 처리한다."
 ---
 
 # `bullmq
