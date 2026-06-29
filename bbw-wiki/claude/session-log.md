@@ -1,3 +1,54 @@
+## 2026-06-29 21:00 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-29 20:55 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
+## 2026-06-29 20:37 — ai-ops
+
+**최근 커밋:**
+- d6fa9a0 chore(auto-save): 작업 자동 저장 2026-06-29 08:58:55 (4 files)
+- a64ddab chore(auto-save): 작업 자동 저장 2026-06-29 08:00:07 (4 files)
+- b4c638c chore(auto-save): 작업 자동 저장 2026-06-29 00:32:43 (3 files)
+- c2aacf6 feat(orchestration): 비-오케스트레이터 봇 데드엔드 → 오케스트레이터 자동 에스컬레이션
+- 67dc133 chore(auto-save): 작업 자동 저장 2026-06-28 23:48:17 (5 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/migrate.ts`
+- `autobots/backend/db/schema.sql`
+- `autobots/backend/lib/bot-directives.ts`
+- `autobots/backend/routes/projects.ts`
+
+---
+
 ## 2026-06-29 20:21 — ai-ops
 
 **최근 커밋:**
