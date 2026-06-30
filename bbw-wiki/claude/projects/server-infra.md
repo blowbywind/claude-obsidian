@@ -3,6 +3,7 @@ name: server-infra
 description: autobots 서버 인프라, Caddy 라우팅, Docker 배포 워크플로 요약.
 metadata:
   type: reference
+summary: "autobots는 Docker 백엔드와 Caddy 역프록시로 운영되며 코드 변경 시 이미지 재빌드 후 재기동이 필수이다."
 ---
 
 # server-infra

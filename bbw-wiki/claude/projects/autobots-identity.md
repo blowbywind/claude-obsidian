@@ -3,6 +3,7 @@ name: autobots-identity
 description: Autobots 제품의 정체성 — 제2의 두뇌 기반 자가학습·자가진화 시스템.
 metadata:
   type: project
+summary: "Obsidian 제2의 두뇌로 작업·학습·실패·성공을 기록하고 검색해 다음 업무에 반영하되, 저위험은 자동 적용하고 고위험은 승인 후 적용한다."
 ---
 
 # autobots-identity

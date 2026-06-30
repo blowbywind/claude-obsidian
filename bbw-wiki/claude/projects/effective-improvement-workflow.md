@@ -3,6 +3,7 @@ name: effective-improvement-workflow
 description: ai-ops 분석과 개선 작업에서 검증된 단계적 개선 워크플로.
 metadata:
   type: feedback
+summary: "병렬분석·교차검증·Phase별 구현·검증 게이트·별도검토로 대규모 개선의 회귀 위험을 낮춘다."
 ---
 
 # effective-improvement-workflow

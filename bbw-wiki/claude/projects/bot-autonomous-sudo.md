@@ -3,6 +3,7 @@ name: bot-autonomous-sudo
 description: 봇 자율 sudo 실행 모델과 보안 경계 요약.
 metadata:
   type: project
+summary: "봇의 권한 작업을 `botsudo`로 요청받아 백엔드 큐 수집 후 호스트 executor가 정책 범위 내 자동 실행/승인 위임하는 권한 분리 아키텍처."
 ---
 
 # bot-autonomous-sudo
