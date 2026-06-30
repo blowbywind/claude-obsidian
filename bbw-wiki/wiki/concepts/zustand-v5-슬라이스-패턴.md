@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-arthur-learning]]
+summary: "노트 파일을 읽기 위해 권한 승인이 필요합니다. 파일 읽기를 허용해주시겠습니까?"
 ---
 
 # Zustand v5 슬라이스 패턴

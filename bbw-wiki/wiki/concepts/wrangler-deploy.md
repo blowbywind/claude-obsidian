@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-lian-learning]]
+summary: "Cloudflare Workers 배포 CLI로, `--temporary` 플래그로 60분 임시 환경을 OAuth 없이 즉시 생성하여 AI 에이전트의 자동화 배포와 빠른 검증에 최적화."
 ---
 
 # `wrangler deploy

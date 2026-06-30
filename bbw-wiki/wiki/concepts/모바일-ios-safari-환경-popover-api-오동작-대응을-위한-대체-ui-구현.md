@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-rina-learning]]
+summary: "iOS Safari Popover API의 입력 폼 포커스 시 자동 닫힘 버그와 Dialog/Modal 등 대체 UI 구현 패턴."
 ---
 
 # 모바일 iOS Safari 환경 Popover API 오동작 대응을 위한 대체 UI 구현 패턴

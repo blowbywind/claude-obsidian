@@ -6,6 +6,7 @@ learned_by: arthur
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-arthur-learning]]
+summary: "파일을 읽기 위해 권한이 필요합니다. 권한을 승인해주신 후 다시 시도하겠습니다."
 ---
 
 # `zustand

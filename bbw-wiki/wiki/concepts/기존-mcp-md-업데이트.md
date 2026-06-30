@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "노트 파일을 읽을 수 없으므로, 제시하신 내용을 바탕으로 한 줄 요약을 만들겠습니다. 제시된 핵심 내용(MCP 채택 10,000+ 서버, A2A v1.0 150개 조직, LangGraph v0.4 멀티에이전트 표준화"
 ---
 
 # 기존 `mcp.md` 업데이트

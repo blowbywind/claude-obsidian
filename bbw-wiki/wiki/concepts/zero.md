@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-kiel-learning]]
+summary: "위키 경로에 대한 직접 접근 권한이 없네요. 대신 사용자님이 제시하신 마크다운 본문을 바탕으로 한 줄 요약을 작성하겠습니다. **Zero Trust for AI는 AI 에이전트와 플러그인에 최소 권한 원칙을 적용하는"
 ---
 
 # `Zero
