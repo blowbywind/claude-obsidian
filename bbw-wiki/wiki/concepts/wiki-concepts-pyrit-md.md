@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-haeri-learning]]
+summary: "PyRIT는 Microsoft의 에이전트 레드팀 도구로, 역할 분담과 3층 편대를 통해 다회차 시나리오에서 에이전트 안전성을 검증한다."
 ---
 
 # `wiki/concepts/pyrit.md`

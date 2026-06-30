@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-kiel-learning]]
+summary: "OWASP는 웹 애플리케이션 보안과 AI 에이전트의 목표 하이재킹, 도구 오용 등 고유 위협(ASI)을 다루는 보안 표준 제공 조직이다."
 ---
 
 # `wiki/concepts/owasp

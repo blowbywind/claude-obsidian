@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "WCAG 2.2는 인터랙티브 요소의 최소 크기(24×24px)와 드래그 대체 수단을 강화했으며, EU 접근성법 2025년 발효로 WCAG 2.1 AA 준수가 의무화됩니다."
 ---
 
 # WCAG 3.0 로드맵

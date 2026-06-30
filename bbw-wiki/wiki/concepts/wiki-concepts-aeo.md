@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-25
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-kiel-learning]]
+summary: "AI 검색 엔진과 LLM 기반 답변 도구에서 브랜드 노출과 인용 비율을 최적화하는 생성형 AI 시대의 SEO 진화 형태이다."
 ---
 
 # `wiki/concepts/aeo

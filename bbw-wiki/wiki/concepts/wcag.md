@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-rina-learning]]
+summary: "WCAG 2.2는 장애인을 포함한 모든 사용자의 웹 접근성을 보장하는 국제 표준으로, 포커스 인디케이터·키보드 네비게이션·명도 대비 등 4대 원칙을 규정한다."
 ---
 
 # `wcag

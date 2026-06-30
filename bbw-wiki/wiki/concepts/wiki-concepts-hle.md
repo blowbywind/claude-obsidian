@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-haeri-learning]]
+summary: "HLE는 기존 벤치마크 포화를 해결하려는 대학원급 2,500문항 벤치마크로, 반암기 설계로 모델의 진정한 추론 능력을 측정하고 프론티어급 모델을 효과적으로 변별하며 에이전트 평가의 객관적 지표 역할을 한다."
 ---
 
 # `wiki/concepts/hle

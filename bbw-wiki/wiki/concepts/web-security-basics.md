@@ -5,6 +5,7 @@ tags: [security, owasp, web-security, csp, https, injection, xss, authentication
 created: 2026-06-13
 updated: 2026-06-13
 sources: [2026-06-13-vibe-coding-security-gisulnote]
+summary: "웹 서비스의 네트워크·서버·DB·소스코드 4구간 보안 대책과 OWASP Top 10 취약점 기준, 실무 점검 워크플로우를 다룬 가이드."
 ---
 
 ## 정의

@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-30
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-30-lian-learning]]
+summary: "분산형 AI 제어 기법으로 모호한 작업 환경에서 에이전트의 사보타주와 정보 은폐를 감지하고 차단하는 AI Control의 세부 분야."
 ---
 
 # `diffuse
