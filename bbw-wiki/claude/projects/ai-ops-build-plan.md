@@ -11,6 +11,7 @@ project: ai-ops
 branch: master
 tags: [ai-ops, autobots, platform, build-plan, slo, registry, cross-vendor]
 adr: decisions/2026-06-21-ai-ops-platform-direction.md
+summary: "ai-ops 구축 플랜 7단계: 백업 완료, SLO·테스트·CI 게이트 단계적 구축, 각 Phase별 사용자 승인."
 ---
 
 # ai-ops 구축 순서 플랜

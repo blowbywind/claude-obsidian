@@ -10,6 +10,7 @@ project: ai-ops
 adr: claude/decisions/2026-06-21-ai-ops-platform-direction.md
 parent: claude/projects/ai-ops-build-plan.md
 tags: [ai-ops, brain, registry, phase-3, spec, governance]
+summary: "결정/명세/런북 등 타입별 권위와 frontmatter 메타데이터(소유자·검증일·신선도) + 신선도 정책으로 공유 두뇌를 검증된 아티팩트 레지스트리로 운영하는 규약."
 ---
 
 # ai-ops 두뇌 레지스트리 규약

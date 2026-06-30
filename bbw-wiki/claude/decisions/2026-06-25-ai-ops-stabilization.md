@@ -6,6 +6,7 @@ metadata:
   type: project
   status: in-progress
   date: 2026-06-25
+summary: "ai-ops 비동기 에러·spawn 안전화를 최우선으로 하는 3단계 안정화 계획(Phase 0~2) 및 진행 게이트 정의"
 ---
 
 # ADR: ai-ops 안정화 작업 (Phase 0 크래시·spawn 안전화 / Phase 1 데이터·시크릿 백업)

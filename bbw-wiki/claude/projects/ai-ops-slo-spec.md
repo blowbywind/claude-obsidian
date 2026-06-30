@@ -11,6 +11,7 @@ owner: bbw
 adr: decisions/2026-06-21-ai-ops-platform-direction.md
 parent: projects/ai-ops-build-plan.md
 tags: [ai-ops, slo, measurement, phase-1, spec]
+summary: "4개 SLO 지표(개입횟수·degraded완료·PR재작업·결함검출) 중 2개는 즉시 측정 시작, 2개는 Phase2/5 게이트 도입 후 계측."
 ---
 
 # ai-ops SLO 측정 스펙 (Phase 1)

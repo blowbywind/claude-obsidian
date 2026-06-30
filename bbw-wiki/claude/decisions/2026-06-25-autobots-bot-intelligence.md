@@ -3,6 +3,7 @@ date: 2026-06-25
 project: ai-ops (autobots)
 status: 승인 — 구현 미착수 (집에서 이어감)
 tags: [ai-ops, autobots, bots, agents, self-learning, sudo, passthrough, adr]
+summary: "9봇 유지 및 agent 실시간 배선(B-full), Live·Chat·Projects 3경로 분리, 독립 복구 콘솔 추출, 학습루프 강화를 통해 봇의 전문성과 자가진화 체계 구축."
 ---
 
 # autobots 봇 지능화 + 3경로 분리 + Live 독립 콘솔

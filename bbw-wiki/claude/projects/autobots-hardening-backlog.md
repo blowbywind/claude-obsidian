@@ -3,6 +3,7 @@ name: autobots-hardening-backlog
 description: autobots 백엔드 보안과 안정성 개선 백로그.
 metadata:
   type: project
+summary: "autobots 백엔드 동시실행 캡·SSRF·입력 검증·권한 제어·감사로그 관련 하드닝 백로그."
 ---
 
 # autobots-hardening-backlog

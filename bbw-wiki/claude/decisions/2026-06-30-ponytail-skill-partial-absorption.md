@@ -7,6 +7,7 @@ created: 2026-06-30
 updated: 2026-06-30
 accepted: 2026-06-30
 tags: [claude-code, harness, skill, karpathy, over-engineering, ponytail]
+summary: "Ponytail Skill의 오버엔지니어링 방지 철학만 기존 하네스에 통합하고 독립 플러그인 설치는 지양하기로 전원 합의함."
 ---
 
 # Ponytail Skill 부분 흡수

@@ -7,6 +7,7 @@ created: 2026-06-27
 updated: 2026-06-27
 accepted: 2026-06-27
 tags: [ai-ops, autobots, pipelines, tasks, simplification]
+summary: "Tasks 제품을 Pipelines로 흡수하고 /tasks 라우트 제거, [[TASK]] 디렉티브를 pipeline_runs으로 처리."
 ---
 
 # Autobots Tasks 기능을 Pipelines로 흡수
