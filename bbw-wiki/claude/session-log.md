@@ -1,3 +1,33 @@
+## 2026-06-30 17:23 — ai-ops
+
+**최근 커밋:**
+- c1d0a6f chore(auto-save): 작업 자동 저장 2026-06-30 17:22:58 (1 files)
+- 7047aad chore(auto-save): 작업 자동 저장 2026-06-30 15:50:02 (3 files)
+- 7037270 chore(auto-save): 작업 자동 저장 2026-06-30 13:40:10 (4 files)
+- b012ac9 chore(auto-save): 작업 자동 저장 2026-06-30 10:02:02 (1 files)
+- 8868ee7 chore(auto-save): 작업 자동 저장 2026-06-30 09:20:08 (8 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/db/autobots.db.bak-20260630-backfill`
+
+---
+
+## 2026-06-30 17:20 — hnedu_erp
+
+**최근 커밋:**
+- b0a92b7 fix(attendance): classify report 야근/심야/철야 by 내규, not 9h worked
+- 880c1a1 feat(attendance): divider between punch-miss and overtime-miss lists
+- a3424e2 feat(attendance): 미출근 warn state + overtime-miss list (FR-AT-13/19)
+- a19cfe6 feat(attendance): hide subtitle on confirmed card, center title
+- 43ef786 feat(attendance): icon-only triggers for overtime CTA and correction
+
+**변경 파일 (마지막 커밋):**
+- `docs/PLAN.md`
+- `prototype/js/render.js`
+- `web-client/src/app/(app)/page.tsx`
+
+---
+
 ## 2026-06-30 14:56 — hnedu_erp
 
 **최근 커밋:**
@@ -1959,3 +1989,5 @@
 - [auto-save 2026-06-30 13:40:10] master 7037270 — 4 files 자동 커밋
 
 - [auto-save 2026-06-30 15:50:02] master 7047aad — 3 files 자동 커밋
+
+- [auto-save 2026-06-30 17:22:58] master c1d0a6f — 1 files 자동 커밋

@@ -3,6 +3,7 @@ date: 2026-06-08
 project: claude-config
 status: 적용 완료
 tags: [claude-code, obsidian, memory, hooks]
+summary: "Claude 메모리를 Obsidian 볼트(프로젝트·결정·세션)와 연동하여 세션 간 컨텍스트 지속성을 확보한다."
 ---
 
 # Obsidian을 Claude 메모리로 연동

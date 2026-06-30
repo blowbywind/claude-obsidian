@@ -3,6 +3,7 @@ date: 2026-06-09
 project: web-infra
 status: 해결됨
 tags: [vscode, live-server, port, debugging]
+summary: "VS Code 원격 환경에서 진단용 python3 http.server 백그라운드 프로세스가 Live Server 포트 충돌을 일으켜 빈화면 발생 → Ports 패널에서 스테일 항목 삭제로 해결, 향후 백그라운드 H"
 ---
 
 # VS Code 원격 환경 포트 충돌 사례 (2026-06-09)

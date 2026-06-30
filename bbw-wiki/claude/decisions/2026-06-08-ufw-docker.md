@@ -3,6 +3,7 @@ date: 2026-06-08
 project: web-infra
 status: 적용 완료
 tags: [infra, docker, ufw, security, networking]
+summary: "UFW와 Docker 병용 시 ufw reload에서 Docker 규칙 소멸 및 UFW 우회 문제를 ufw-docker로 해결."
 ---
 
 # ufw-docker 도입

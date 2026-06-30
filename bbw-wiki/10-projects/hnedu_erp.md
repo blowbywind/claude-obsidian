@@ -6,6 +6,7 @@ phase: "Phase 0"
 stack: [WinForms, .NET 8, C#, ASP.NET Core]
 created: 2026-06-13
 updated: 2026-06-18
+summary: "WinForms 기반 사내 ERP, Phase 0 설계 완료, Phase 1 착수 전 GitHub 레포·Docker Compose 구조 설정 필요"
 ---
 
 ## 현재 상태

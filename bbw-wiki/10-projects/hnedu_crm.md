@@ -6,6 +6,7 @@ phase: "Phase 1"
 stack: [Next.js, Fastify, PostgreSQL, Python, Docker]
 created: 2026-06-13
 updated: 2026-06-15
+summary: "전국 41,264명 교사 관계 정보 통합 관리 및 교과서 채택률 향상을 목표하는 Phase 1 프로토타입(Next.js/Fastify/PostgreSQL + hnedu_auth 의존)."
 ---
 
 ## 현재 상태

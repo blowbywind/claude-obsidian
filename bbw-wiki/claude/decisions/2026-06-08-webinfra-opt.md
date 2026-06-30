@@ -3,6 +3,7 @@ date: 2026-06-08
 project: web-infra
 status: 적용 완료
 tags: [infra, docker, filesystem, linux]
+summary: "Docker Compose 프로젝트를 /home/bbw/web-infra에서 /opt/web-infra로 이전하여 리눅스 FHS 관례를 따르고 서비스 독립성을 확보했다."
 ---
 
 # web-infra 위치 /opt로 이전

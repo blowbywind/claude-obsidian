@@ -3,6 +3,7 @@ date: 2026-06-08
 project: hnedu_erp
 status: 완료
 tags: [architecture, modularization, prototype, javascript]
+summary: "hnedu_erp 프로토타입의 5383줄 모노리식 HTML을 HTML 스켈레톤과 CSS, JS 8파일로 분리하여 모듈화 완료."
 ---
 
 # ADR: hnedu_erp 프로토타입 모노리식 HTML → 모듈 분리

@@ -6,6 +6,7 @@ phase: "Phase 10"
 stack: [Python, PyInstaller, pdfminer.six, pdf2image, PyMuPDF, Jinja2]
 created: 2026-06-13
 updated: 2026-06-12
+summary: "PDF를 HTML로 변환하는 Windows 단일 .exe 배포 프로젝트로, Poppler 바이너리 번들의 Python 애플리케이션(Phase 10 검증)."
 ---
 
 ## 현재 상태
