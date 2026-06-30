@@ -1,12 +1,12 @@
 ---
-updated: 2026-06-30 (hnedu_erp 연차·휴가 내규 검증/API 연결 보강 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
+updated: 2026-06-30 (hnedu_erp 연차·휴가 YYYY-04 기간 키 정합 및 생일휴가 당일 검증 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
 project: hnedu_erp
 branch: feat/web-client-auth
 ---
 
 # [활성] hnedu_erp — 백엔드 P0~P9 완료·운영 배포 완료 / 웹 클라이언트 프론트엔드 미완성
 
-> updated 2026-06-30 KST · 최신 커밋 `c384458` · 연차·휴가 잔여/API 연결 및 내규 검증 보강 완료, 웹 클라이언트 프론트엔드 3개 항목 미완성
+> updated 2026-06-30 KST · 최신 커밋 `c384458` · 연차·휴가 잔여/API 연결, YYYY-04 기간 키, 생일휴가 당일 검증 보강 완료, 웹 클라이언트 프론트엔드 3개 항목 미완성
 
 ## 완료
 - [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
@@ -42,6 +42,9 @@ branch: feat/web-client-auth
 - [x] 검증: `dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 376/376, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit` 통과.
 - [x] 연차·휴가 내규 검증 보강(2026-06-30, 로컬 미배포): 신청 시 잔여 연차 부족, 휴일근무 대체 5회 초과, 연차+특별+대체 30일 상한, 안식휴가 잔여 부족, 생일휴가 중복/미보유를 백엔드에서 400 차단. `LeaveRequestDto.reviewerName` 추가, 결재 상세·이력 반려 사유/검토자 표시, 웹 클라이언트 사전 경고 계산을 내규와 일치시킴.
 - [x] 검증: `dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 380/380, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit`, `git diff --check` 통과.
+- [x] 연차 기간 키 정합성 보강(2026-06-30, 로컬 미배포): `CompanyTime.LeaveYearFor*`를 4월 1일~익년 3월 31일(`YYYY-04`) 기준으로 통일하고, `LeaveService`·`LeaveAccrualService`·`TenureMilestoneService`·web-client 잔여 조회 키를 같은 규약으로 전환. 신규 마이그레이션 026에 기존 `YYYY-01` 행을 `YYYY-04`로 안전 정규화하는 구문 추가.
+- [x] 생일휴가 당일 검증 보강(2026-06-30, 로컬 미배포): 서버에서 직원 생년월일을 복호화해 신청일 월일과 대조하고, 2월 29일 생일은 비윤년 2월 28일로 허용. 반차·생일휴가 다일 범위 신청 차단. web-client는 `YYYY-04` 기간 표시와 사전 검증 시 신청 버튼 비활성화 반영.
+- [x] 검증: `DOTNET_CLI_HOME=/tmp/hnedu-dotnet dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 386/386, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`, `git diff --check` 통과.
 
 **백엔드 P0~P9 전기능 + 운영 배포 완료.**
 
@@ -50,10 +53,6 @@ branch: feat/web-client-auth
 - [ ] **지출 신청 모달** — 폼 state 없음, API mutation 없음, 날짜 하드코딩
 - [ ] **회의 소집 모달** — 참석자 하드코딩, API mutation 없음, 날짜 하드코딩
 - [ ] **업무보고 작성 UI** — mutation 없음 (조회만 가능, 작성 미구현)
-
-## 후속 검토 필요
-
-- [ ] **연차 기간 키 정합성** — 내규·PLAN은 4월 1일~익년 3월 31일(`YYYY-04`) 기준이나, 현 서비스 코드는 기존 운영 데이터와 맞춰 `YYYY-01` 키를 사용한다. 운영 데이터 전환·마이그레이션 범위가 커서 이번 변경에는 포함하지 않음.
 
 ---
 

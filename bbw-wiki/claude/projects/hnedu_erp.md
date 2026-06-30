@@ -1,6 +1,6 @@
 # hnedu_erp
 
-동기화: 2026-06-30 KST (근태·연차 탭 운영 배포 완료)
+동기화: 2026-06-30 KST (연차·휴가 YYYY-04 기간 키 정합 로컬 완료, 운영 미배포)
 
 ## 핵심
 해냄에듀 ASP.NET Core 8 Web API + ERP. SECOM 근태 연동, auth↔ERP UUID 통합, Postgres.
@@ -14,7 +14,7 @@
 - API: `erp-api.snowball.me.kr`, `api.hnedu-erp.co.kr` HTTPS health 200
 - 웹: `hnedu-erp.co.kr`(apex), `www.hnedu-erp.co.kr` HTTP→HTTPS 308→정상
 - 인증서: `hnedu-erp.co.kr`(apex), `www.hnedu-erp.co.kr`, `api.hnedu-erp.co.kr` step-ca ACME 자동갱신 성공 (2026-06-29 확인)
-- 마이그레이션: 001~025 적용 완료
+- 마이그레이션: 운영 001~025 적용 완료, 로컬 026(`leave_special_balance_and_reject_reason`) 작성·검증 완료/운영 미적용
 - MFA 강제: ERP API `Mfa__RequireOtp=true`, JWT `amr=otp` 검증 운영 반영
 - KST 통일: CompanyTime 기반, 전 컨테이너 `TZ=Asia/Seoul`, PostgreSQL `timezone=Asia/Seoul`
 
@@ -51,6 +51,7 @@ cd ~/hnedu_erp/infra && docker compose --profile apps up -d --build erp_api erp_
 ```
 
 ## 작업 히스토리
+- 2026-06-30: 연차·휴가 기간 키 정합 및 생일휴가 당일 검증 로컬 보강 — `CompanyTime.LeaveYearFor*`를 4월 1일~익년 3월 31일(`YYYY-04`) 기준으로 통일하고, `LeaveService`·`LeaveAccrualService`·`TenureMilestoneService`·web-client 잔여 조회 키를 같은 규약으로 전환. 026 마이그레이션에 특수 잔여 필드·반려 사유 컬럼과 기존 `YYYY-01` 행의 안전 정규화 구문 추가. 생일휴가는 직원 생년월일 복호화 후 당일만 신청 가능하게 서버 검증하고, 반차·생일휴가 다일 범위 신청을 차단. web-client는 `YYYY-04` 기간 표시와 사전 검증 시 신청 버튼 비활성화 반영. 검증: Release 빌드 통과, 단위 386/386 통과, 통합 15 skip, `dotnet format --verify-no-changes`, `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`, `git diff --check` 통과. 운영 배포는 미진행.
 - 2026-06-30: 연차·휴가 내규 검증 로컬 보강 — 신청 시 잔여 연차 부족, 휴일근무 대체 5회 초과, 연차+특별+대체 30일 상한, 안식휴가 잔여 부족, 생일휴가 중복/미보유를 백엔드에서 400 차단하도록 `LeaveService`와 `LeaveController`를 보강. `LeaveRequestDto.reviewerName`을 추가해 결재 상세 검토자 표시를 연결하고, web-client 휴가 신청 모달의 연차 차감·30일 상한·특수휴가 사전 경고 계산을 내규와 맞춤. 검증: Release 빌드 통과, 단위 380/380 통과, 통합 15 skip, `dotnet format --verify-no-changes`, `pnpm lint`, `pnpm exec tsc --noEmit`, `git diff --check` 통과. 운영 배포는 미진행.
 - 2026-06-30: 근태·연차 탭 운영 배포 완료 — GitHub push는 실행 정책으로 차단되어, 서버 `/home/hnedu/hnedu_erp`의 기존 4개 파일을 `/home/hnedu/hnedu_erp/backup/web-client-deploy-20260630_032327/changed-files-before.tgz`로 백업 후 로컬 `HEAD`의 `web-client/src/app/(app)/dashboard-data.ts`, `web-client/src/app/(app)/page.tsx`, `web-client/src/lib/api/attendance.ts`, `web-client/src/lib/api/leave.ts`만 tar over SSH로 직접 반영. 로컬·서버 sha256 일치 확인. `docker compose --profile apps config -q` 통과, `docker compose --profile apps up -d --build --no-deps erp_web` 성공. 검증: `erp_web` 3000 직접 `/login` 200, `https://hnedu-erp.co.kr/` 200, `/login` 200, `https://api.hnedu-erp.co.kr/health` 200, `/proxy/auth/auth/public-key` 200, `/proxy/erp/attendance/today`·`/proxy/erp/leave/balance` 미인증 401. `erp_web`·`erp_api` 최근 로그에 치명 오류 없음. 서버에 `ufw-docker`·`botsudo` 명령이 없어 방화벽 보조 규칙 갱신은 미적용했으나 Caddy 경유 응답은 정상.
 - 2026-06-30: 근태·연차 탭 정적 스모크 테스트 완료 — tsc/lint/build 3종 통과 확인 후, 서버 DTO·엔드포인트 vs 클라이언트 API 함수 전수 대조. 근태 탭 10개 항목·연차 탭 5개 항목 전원 PASS. `toHmsTimePart()` TimeOnly 변환 동작 확인, `OkPaged.data` 배열 파싱 정상 확인, 이력 쿼리 `enabled` 조건 확인. 검출된 버그 없음. 운영 배포는 미진행.
