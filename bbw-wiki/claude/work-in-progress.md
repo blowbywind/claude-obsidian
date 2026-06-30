@@ -1,12 +1,12 @@
 ---
-updated: 2026-06-30 (hnedu_erp 연차·휴가 YYYY-04 기간 키 정합 및 생일휴가 당일 검증 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
+updated: 2026-06-30 (hnedu_erp 연차·휴가 프론트 오류 UX 및 생일휴가 신청 UX 보강 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
 project: hnedu_erp
 branch: feat/web-client-auth
 ---
 
 # [활성] hnedu_erp — 백엔드 P0~P9 완료·운영 배포 완료 / 웹 클라이언트 프론트엔드 미완성
 
-> updated 2026-06-30 KST · 최신 커밋 `c384458` · 연차·휴가 잔여/API 연결, YYYY-04 기간 키, 생일휴가 당일 검증 보강 완료, 웹 클라이언트 프론트엔드 3개 항목 미완성
+> updated 2026-06-30 KST · 최신 커밋 `c384458` · 연차·휴가 잔여/API 연결, YYYY-04 기간 키, 생일휴가 당일 검증 및 프론트 오류 UX 보강 완료, 웹 클라이언트 프론트엔드 3개 항목 미완성
 
 ## 완료
 - [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
@@ -45,6 +45,8 @@ branch: feat/web-client-auth
 - [x] 연차 기간 키 정합성 보강(2026-06-30, 로컬 미배포): `CompanyTime.LeaveYearFor*`를 4월 1일~익년 3월 31일(`YYYY-04`) 기준으로 통일하고, `LeaveService`·`LeaveAccrualService`·`TenureMilestoneService`·web-client 잔여 조회 키를 같은 규약으로 전환. 신규 마이그레이션 026에 기존 `YYYY-01` 행을 `YYYY-04`로 안전 정규화하는 구문 추가.
 - [x] 생일휴가 당일 검증 보강(2026-06-30, 로컬 미배포): 서버에서 직원 생년월일을 복호화해 신청일 월일과 대조하고, 2월 29일 생일은 비윤년 2월 28일로 허용. 반차·생일휴가 다일 범위 신청 차단. web-client는 `YYYY-04` 기간 표시와 사전 검증 시 신청 버튼 비활성화 반영.
 - [x] 검증: `DOTNET_CLI_HOME=/tmp/hnedu-dotnet dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 386/386, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`, `git diff --check` 통과.
+- [x] 연차·휴가 프론트 오류 UX 보강(2026-06-30, 로컬 미배포): `CODE: 메시지` 형태의 백엔드 검증 오류를 공통 API 클라이언트에서 사용자 문구만 표시하도록 정규화. 생일휴가는 신청 일수를 `0.5일 (오후 반차)`로 표시하고, 생일휴가 선택 시 오후 반차 상태를 고정하며 등록 생일 동일 날짜 안내를 차단 메시지와 분리.
+- [x] 검증: web-client `pnpm lint`, `pnpm exec tsc --noEmit`, `pnpm build`, `git diff --check` 통과.
 
 **백엔드 P0~P9 전기능 + 운영 배포 완료.**
 
