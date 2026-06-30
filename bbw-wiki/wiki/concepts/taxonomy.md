@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-dex-learning]]
+summary: "파일에 접근하려면 권한이 필요합니다. 다만 작업 디렉토리(`/home/bbw/ai-ops/autobots/scripts/governance`) 내에도 해당 파일이 없는 것으로 보입니다. 혹시 다음 중 맞는지 확인해"
 ---
 
 # `taxonomy

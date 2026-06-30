@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-stellina-learning]]
+summary: "GitHub 레포의 보안 정책(Actions SHA 고정, 브랜치 보호, SAST, 의존성 업데이트 등)을 0~10점으로 자동 평가하고 CI/CD 게이트로 활용하는 OpenSSF 도구."
 ---
 
 # OpenSSF Scorecard

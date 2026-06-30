@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-24
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-24-haeri-learning]]
+summary: "세션 한도 도달(UTC 19시 초기화), AI 큐레이션 노트 인증 대기"
 ---
 
 # Trajectory Assessment

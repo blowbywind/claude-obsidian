@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-25-snow-learning]]
+summary: "에이전트 손상으로부터 독립 보안 프로세스가 모든 동작을 실행 전 검증하고 정책 위반 시 차단하는 fail-closed 아키텍처."
 ---
 
 # The Unfireable Safety Kernel

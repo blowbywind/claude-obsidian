@@ -6,6 +6,7 @@ learned_by: stellina
 curated_at: 2026-06-28
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-28-stellina-learning]]
+summary: "Tetragon은 eBPF 기반 런타임 강제 차단 도구로, Falco의 감지를 보완하여 정책 위반 프로세스를 커널 레벨에서 즉시 SIGKILL로 종료합니다."
 ---
 
 # Tetragon 런타임 강제 차단

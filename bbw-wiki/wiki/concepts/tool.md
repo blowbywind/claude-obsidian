@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-18-kiel-learning]]
+summary: "LLM의 외부 상호작용을 구체화한 인터페이스로, tool-DC 패턴 정확화와 도메인별 전문 도구 선택으로 에이전트 역량을 극대화한다."
 ---
 
 # Tool

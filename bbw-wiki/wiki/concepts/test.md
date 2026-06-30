@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-26
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-26-haeri-learning]]
+summary: "TTC 기반 타임아웃, 스캐폴드 회귀 추적, 기호 기반 프롬프트로 LLM 에이전트 테스트 최적화."
 ---
 
 # `test

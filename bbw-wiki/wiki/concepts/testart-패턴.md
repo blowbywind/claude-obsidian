@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-haeri-learning]]
+summary: "파일을 읽을 권한이 필요합니다. 계속 진행해주시겠어요?"
 ---
 
 # TestART 패턴
