@@ -6,6 +6,7 @@ phase: "Phase 기획"
 stack: [Vanilla HTML, CSS, JavaScript]
 created: 2026-06-13
 updated: 2026-06-08
+summary: "사용자 개발 승인 전까지 분석·설계만 진행하는 정적 HTML eBook viewer 프로토타입 프로젝트"
 ---
 
 ## 현재 상태

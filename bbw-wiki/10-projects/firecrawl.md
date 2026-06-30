@@ -6,6 +6,7 @@ phase: "Phase 유지보수"
 stack: [Node.js, pnpm, TypeScript, Jest]
 created: 2026-06-13
 updated: 2026-06-11
+summary: "firecrawl 오픈소스 프로젝트 유지보수 중—TypeScript/pnpm 모노레포, Codex 기여·PR·CI 필수, pnpm harness jest로만 테스트"
 ---
 
 ## 현재 상태

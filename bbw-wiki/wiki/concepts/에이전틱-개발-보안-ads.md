@@ -6,6 +6,7 @@ learned_by: snow
 curated_at: 2026-06-29
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-29-snow-learning]]
+summary: "자율 코딩 에이전트의 MCP·런타임·생성 코드 3계층을 종합 감시하여 신뢰할 수 없는 도구 호출과 악의적 코드 생성, 런타임 이탈을 제어하는 보안 레이어"
 ---
 
 # 에이전틱 개발 보안(ADS)

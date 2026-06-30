@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-kiel-learning]]
+summary: "eBPF 기반 프로덕션 트래픽 모니터링으로 실제 API 호출 패턴을 수집하여 OpenAPI 스펙을 자동 역생성하고 누락·불일치 명세를 검증·보정하는 기법."
 ---
 
 # 트래픽 기반 OpenAPI 자동생성

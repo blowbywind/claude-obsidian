@@ -6,6 +6,7 @@ phase: "Phase 1"
 stack: [Fastify, Node.js, Prisma, PostgreSQL, JWT-RS256, Docker]
 created: 2026-06-13
 updated: 2026-06-18
+summary: "Fastify 기반 직원 계정·부서·역할 통합 관리 및 JWT RS256 인증 서비스, Phase 1 개발 중 (PostgreSQL/Docker, 2026-06-11 보안감사 완료)"
 ---
 
 ## 현재 상태
