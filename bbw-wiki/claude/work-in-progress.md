@@ -1,12 +1,12 @@
 ---
-updated: 2026-06-30 (hnedu_erp 백엔드 P0~P9 완료·운영 배포 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
+updated: 2026-06-30 (hnedu_erp 연차·휴가 내규 검증/API 연결 보강 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
 project: hnedu_erp
 branch: feat/web-client-auth
 ---
 
 # [활성] hnedu_erp — 백엔드 P0~P9 완료·운영 배포 완료 / 웹 클라이언트 프론트엔드 미완성
 
-> updated 2026-06-30 KST · 최신 커밋 `c384458` · 백엔드 완료, 웹 클라이언트 프론트엔드 4개 항목 미완성
+> updated 2026-06-30 KST · 최신 커밋 `c384458` · 연차·휴가 잔여/API 연결 및 내규 검증 보강 완료, 웹 클라이언트 프론트엔드 3개 항목 미완성
 
 ## 완료
 - [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
@@ -38,6 +38,10 @@ branch: feat/web-client-auth
 - [x] 웹 화면 회귀 확인: / → 200, /login → 200 (나머지는 SPA 구조상 의도적 404)
 - [x] 단일 페이지 앱 구조 확인: 모든 기능이 (app)/page.tsx 탭으로 구현됨
 - [x] API 스모크 19/19 통과 (미인증 게이트 전부 401, health 200, Swagger 404=Production 정상)
+- [x] 연차·휴가 잔여/API 연결 보강(2026-06-30): `db/migrations/026_leave_special_balance_and_reject_reason.sql` 추가, `leave_balances` 특수 잔여 필드와 `leave_requests.reject_reason` 반영, 승인 시 `used_days`·`holiday_comp_count`·`total_leave_days`·`sabbatical_days` 갱신, 웹 클라이언트 생일휴가·휴일근무 대체·안식휴가 잔여 표시 연결.
+- [x] 검증: `dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 376/376, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit` 통과.
+- [x] 연차·휴가 내규 검증 보강(2026-06-30, 로컬 미배포): 신청 시 잔여 연차 부족, 휴일근무 대체 5회 초과, 연차+특별+대체 30일 상한, 안식휴가 잔여 부족, 생일휴가 중복/미보유를 백엔드에서 400 차단. `LeaveRequestDto.reviewerName` 추가, 결재 상세·이력 반려 사유/검토자 표시, 웹 클라이언트 사전 경고 계산을 내규와 일치시킴.
+- [x] 검증: `dotnet build --configuration Release`, `dotnet test --configuration Release --no-build`(단위 380/380, 통합 15 skip), `dotnet format --verify-no-changes`, web-client `pnpm lint`, `pnpm exec tsc --noEmit`, `git diff --check` 통과.
 
 **백엔드 P0~P9 전기능 + 운영 배포 완료.**
 
@@ -45,8 +49,11 @@ branch: feat/web-client-auth
 
 - [ ] **지출 신청 모달** — 폼 state 없음, API mutation 없음, 날짜 하드코딩
 - [ ] **회의 소집 모달** — 참석자 하드코딩, API mutation 없음, 날짜 하드코딩
-- [ ] **연차 세부 잔여일 표시** — `API_UNAVAILABLE` 하드코딩, 실 API 연결 필요
 - [ ] **업무보고 작성 UI** — mutation 없음 (조회만 가능, 작성 미구현)
+
+## 후속 검토 필요
+
+- [ ] **연차 기간 키 정합성** — 내규·PLAN은 4월 1일~익년 3월 31일(`YYYY-04`) 기준이나, 현 서비스 코드는 기존 운영 데이터와 맞춰 `YYYY-01` 키를 사용한다. 운영 데이터 전환·마이그레이션 범위가 커서 이번 변경에는 포함하지 않음.
 
 ---
 
