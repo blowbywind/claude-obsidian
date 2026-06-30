@@ -37,3 +37,21 @@ DietrichGebert의 Ponytail Skill을 **플러그인으로 설치하지 않고**, 
 
 - 두 파일 YAML frontmatter 유효, 6단계 항목 수 일치, 안전 caveat 양쪽 존재, 제외 항목(강도/지표/audit) 미혼입 확인.
 - 동명 `review` 스킬 부재 → 커맨드만 수정(동기화 불필요).
+
+## 전역 감사(`/ponytail-audit`) — 현재 불필요 (2026-06-30 실측 판정)
+
+"선택형 보류"를 코드베이스 증거로 재판정한 결과 **지금은 신설하지 않는다**.
+
+| 근거 | 측정값 | 결론 |
+|---|---|---|
+| 찾아낼 부채/비대화 | TODO/FIXME/HACK **0개**, backend deps 7·frontend deps 12, 62파일/13.2k LOC | 감사 대상 자체가 없음 |
+| 기존 커버리지 | `simplify`·`code-review`(`ultra`=브랜치 전체)·`harness-scan`·`/review`(오버엔지니어링 섹션)·`system-audit-2026-06-28` | 온디맨드로 이미 가능, 중복 |
+| 비용/리스크 | 13.2k LOC 전역 read = 토큰 다소비 | token-optimization·feedback-529-reduce-load 원칙과 충돌 |
+| 자기검증 | 6단계 사다리 1단계(YAGNI) 적용 | 커맨드 신설 자체가 오버엔지니어링 |
+
+**재검토 트리거** (하나라도 충족 시 선택형 커맨드 신설 재평가):
+1. 의존성이 ~30개 이상으로 증가
+2. TODO/FIXME 등 부채 마커 누적
+3. 대형 기능 추가로 코드 급증
+
+그 전까지는 전역 점검이 필요하면 신규 커맨드 대신 기존 `code-review ultra` 또는 `simplify`를 해당 범위에 실행한다.
