@@ -1,12 +1,12 @@
 ---
-updated: 2026-06-29 (hnedu_erp 백엔드 P0~P9 전기능 완료, 운영 배포 완료 — 외부 대기만 남음)
+updated: 2026-06-30 (hnedu_erp 백엔드 P0~P9 완료·운영 배포 완료, 웹 클라이언트 프론트엔드 미완성 항목 잔여)
 project: hnedu_erp
 branch: feat/web-client-auth
 ---
 
-# [완료] hnedu_erp — 백엔드 P0~P9 전기능 + 운영 배포 완료
+# [활성] hnedu_erp — 백엔드 P0~P9 완료·운영 배포 완료 / 웹 클라이언트 프론트엔드 미완성
 
-> updated 2026-06-29 KST · 최신 커밋 `c384458` · 개발 작업 전부 완료
+> updated 2026-06-30 KST · 최신 커밋 `c384458` · 백엔드 완료, 웹 클라이언트 프론트엔드 4개 항목 미완성
 
 ## 완료
 - [x] KST 기준선 커밋 `9670804`와 문서 현행화 커밋 `0ef8261` 이후 운영 서버 `/home/hnedu/hnedu_erp`에 `server/`, `web-client/` 재동기화.
@@ -39,7 +39,14 @@ branch: feat/web-client-auth
 - [x] 단일 페이지 앱 구조 확인: 모든 기능이 (app)/page.tsx 탭으로 구현됨
 - [x] API 스모크 19/19 통과 (미인증 게이트 전부 401, health 200, Swagger 404=Production 정상)
 
-**백엔드 P0~P9 전기능 + 운영 배포 완료. 개발 가능한 작업 없음.**
+**백엔드 P0~P9 전기능 + 운영 배포 완료.**
+
+## 남은 작업 (웹 클라이언트 프론트엔드)
+
+- [ ] **지출 신청 모달** — 폼 state 없음, API mutation 없음, 날짜 하드코딩
+- [ ] **회의 소집 모달** — 참석자 하드코딩, API mutation 없음, 날짜 하드코딩
+- [ ] **연차 세부 잔여일 표시** — `API_UNAVAILABLE` 하드코딩, 실 API 연결 필요
+- [ ] **업무보고 작성 UI** — mutation 없음 (조회만 가능, 작성 미구현)
 
 ---
 
