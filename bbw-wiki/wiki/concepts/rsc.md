@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-30
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-30-dex-learning]]
+summary: "서버에서 데이터 패칭과 UI 렌더링을 담당하는 Next.js RSC는 Promise.all·cache() API와 TanStack Query 조합으로 페칭 워터폴을 방지하고 초기 로드 및 SEO를 최적화한다."
 ---
 
 # `rsc

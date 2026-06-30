@@ -6,6 +6,7 @@ learned_by: dex
 curated_at: 2026-06-30
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-30-dex-learning]]
+summary: "Next.js Server는 공개 HTTP POST 엔드포인트로 독립 인증/인가 필수, RSC는 Promise.all·cache()로 워터폴 방지, TanStack Query 하이브리드가 표준."
 ---
 
 # `server

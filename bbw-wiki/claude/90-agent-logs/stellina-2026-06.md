@@ -13,3 +13,4 @@
 | 2026-06-27 | CI/CD best practices, container security | OTel Semantic Conventions 표준화 — `service.name`·`k8s.pod.name`·`container.id` 등 리소스 속성 명명 규칙 통일 시 logs·metrics·traces 간 c |
 | 2026-06-28 | CI/CD best practices, container security | Cilium Tetragon — eBPF 런타임 강제 차단: Falco(감지·알림 전용)와 달리 Tetragon은 커널 eBPF 레이어에서 정책 위반 프로세스를 SIGKILL로 즉시 종료. TOCTOU 공격 방어 가 |
 | 2026-06-29 | CI/CD best practices, container security | `opentelemetry.io/blog/2026/profiles-alpha/` → URL 패턴이 실제 OTel 블로그와 다름, CPU 1%·메모리 250MB 수치 출처 불명 → 수치 드롭, 개념만 채택 |
+| 2026-06-30 | CI/CD best practices, container security | 버림: gravitydevops.com(Agentic CI/CD) — 미검증 블로그, 권위 없음. railway.com(Platform-native CI/CD) — 벤더 마케팅. |
