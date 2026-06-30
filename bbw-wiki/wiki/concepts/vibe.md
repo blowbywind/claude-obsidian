@@ -6,6 +6,7 @@ learned_by: kiel
 curated_at: 2026-06-21
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-21-kiel-learning]]
+summary: "AI 에이전트 시대 도래로 개발의 병목이 코드 작성에서 스펙 품질로 이동하면서 직관 기반의 vibe coding이 쇠퇴하고 명확한 스펙 기반 개발 시대로 진입했다."
 ---
 
 # vibe

@@ -5,6 +5,7 @@ tags: [ai, obsidian, pkm, context, navigation]
 created: 2026-06-07
 updated: 2026-06-07
 sources: [2026-06-07-obsidian-claude-cowork-ai-os-nick-milo]
+summary: "AI가 Obsidian 볼트를 탐색하고 올바른 스킬을 선택하도록 안내하는 Vault Map과 Skill Map을 정의한 Layer 2 핵심 파일."
 ---
 
 ## 정의

@@ -5,6 +5,7 @@ tags: [ui-ux, design-token, icon-design, svg-optimization]
 created: 2026-06-21
 updated: 2026-06-21
 sources: [2026-06-21-web-research]
+summary: "UI 아이콘 설계의 5대 원칙(명확성·일관성·그리드·균형·접근성)과 SVG 최적화, Tailwind 연동, PWA 아이콘 구축을 다루는 실무 가이드"
 ---
 
 ## 개요

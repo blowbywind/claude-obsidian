@@ -6,6 +6,7 @@ learned_by: rina
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-rina-learning]]
+summary: "WCAG 2.2 신규 기준: 인터랙티브 요소 최소 크기 24×24px 및 드래그 제스처 대체 입력으로 운동 능력 제한 사용자 접근성 강화."
 ---
 
 # WCAG 2.2 새 성공 기준 요약

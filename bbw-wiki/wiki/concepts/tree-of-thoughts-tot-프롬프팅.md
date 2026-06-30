@@ -6,6 +6,7 @@ learned_by: haeri
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-haeri-learning]]
+summary: "파일 읽기 권한이 필요합니다. 그런데 제시된 내용(선택지 3개)을 보면, 이 노트가 아직 **작성되지 않은 상태**이고 어떻게 진행할지 묻는 상황으로 보입니다. **명확히 해 주신 사항**: - 경로: `wiki/c"
 ---
 
 # Tree of Thoughts (ToT) 프롬프팅

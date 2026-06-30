@@ -6,6 +6,7 @@ learned_by: lian
 curated_at: 2026-06-20
 tags: [self-learning, ai-curated]
 sources: [[episodic/2026-06-20-lian-learning]]
+summary: "Vercel AI SDK 5는 메시지 분리와 에이전트 루프 제어로 풀스택 AI 앱 개발을 표준화한 SDK이다."
 ---
 
 # Vercel AI SDK 5
