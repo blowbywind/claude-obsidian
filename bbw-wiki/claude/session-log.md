@@ -1,3 +1,33 @@
+## 2026-06-30 23:58 — hnedu_erp
+
+**최근 커밋:**
+- b0a92b7 fix(attendance): classify report 야근/심야/철야 by 내규, not 9h worked
+- 880c1a1 feat(attendance): divider between punch-miss and overtime-miss lists
+- a3424e2 feat(attendance): 미출근 warn state + overtime-miss list (FR-AT-13/19)
+- a19cfe6 feat(attendance): hide subtitle on confirmed card, center title
+- 43ef786 feat(attendance): icon-only triggers for overtime CTA and correction
+
+**변경 파일 (마지막 커밋):**
+- `docs/PLAN.md`
+- `prototype/js/render.js`
+- `web-client/src/app/(app)/page.tsx`
+
+---
+
+## 2026-06-30 23:36 — ai-ops
+
+**최근 커밋:**
+- e31ef2d chore(auto-save): 작업 자동 저장 2026-06-30 22:59:38 (1 files)
+- 97da56c chore(auto-save): 작업 자동 저장 2026-06-30 22:54:44 (2 files)
+- 7d9e88f chore(auto-save): 작업 자동 저장 2026-06-30 22:31:59 (2 files)
+- c1d0a6f chore(auto-save): 작업 자동 저장 2026-06-30 17:22:58 (1 files)
+- 7047aad chore(auto-save): 작업 자동 저장 2026-06-30 15:50:02 (3 files)
+
+**변경 파일 (마지막 커밋):**
+- `autobots/backend/lib/bot-directives.test.ts`
+
+---
+
 ## 2026-06-30 22:53 — ai-ops
 
 **최근 커밋:**
