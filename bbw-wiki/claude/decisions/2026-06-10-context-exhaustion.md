@@ -3,6 +3,7 @@ date: 2026-06-10
 project: claude-config
 status: 분석 완료
 tags: [claude-code, context-window, performance, token, debugging]
+summary: "@파일멘션 + 긴 세션으로 160k 토큰 임계 돌파 자동압축, 방지책은 새세션·경로텍스트·100k /compact"
 ---
 
 # 컨텍스트 소진 원인 분석 (2026-06-09 세션)

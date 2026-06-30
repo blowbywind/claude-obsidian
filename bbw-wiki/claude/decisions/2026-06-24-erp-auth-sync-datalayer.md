@@ -3,6 +3,7 @@ date: 2026-06-24
 project: hnedu_erp (+ hnedu_auth)
 status: 구현·배포 완료 (.220/.221)
 tags: [hnedu_erp, hnedu_auth, sync, service-token, ef-core, npgsql, security, adr]
+summary: "ERP↔auth 동기화 무인화 위해 서비스 토큰 도입·enum→text 마이그레이션·쓰기경로 버그(DTO·KST·PII) 수정 완료, 부서/직원 동기화 실증."
 ---
 
 # ERP↔auth 동기화 — 서비스 인증 + 데이터레이어 정책

@@ -7,6 +7,7 @@ created: 2026-06-21
 updated: 2026-06-21
 accepted: 2026-06-21
 tags: [ai-ops, autobots, platform, maintainability, strategy, adr-draft]
+summary: "ai-ops를 반복 명령 최소화·완성도 높은 개발 운영체제로 재설계하되 공유두뇌·표준인코딩·품질게이트 중심으로 진행하는 방향 ACCEPTED."
 ---
 
 # ai-ops 플랫폼 방향·유지보수 전략 (논의 로그)

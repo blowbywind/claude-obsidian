@@ -9,6 +9,7 @@ related:
   - "[[2026-06-21-autobots-sudo-auth-debugging]]"
   - "[[mcp-threat-model]]"
   - "[[obsidian-mcp-policy]]"
+summary: "인프라는 유지, AI 오케스트레이션을 Claude Code 단일주력·MCP로 재설계하되 Open WebUI·Caddy 보안 결함 필수 수정."
 ---
 
 # [최종 판단] 제2의 두뇌(Second Brain) 통합 시스템 — 검증·재설계 문서

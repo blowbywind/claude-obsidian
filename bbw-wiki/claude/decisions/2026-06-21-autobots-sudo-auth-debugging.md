@@ -2,6 +2,7 @@
 title: Autobots 봇 자율 sudo + 승인 UI — 인증 다이얼로그/카드 디버깅 기록
 date: 2026-06-21
 tags: [autobots, caddy, basic-auth, safari, fastify, sse, troubleshooting, decision]
+summary: "봇 자율 sudo 승인 카드 3개 버그를 Fastify SSE·Caddy+Safari·폴링레이스로 규명, 세션쿠키·public제외·즉시hijack으로 해결."
 ---
 
 # Autobots 봇 자율 sudo: 인증 다이얼로그 & 승인 카드 디버깅

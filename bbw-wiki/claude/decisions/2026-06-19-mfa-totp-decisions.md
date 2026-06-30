@@ -3,6 +3,7 @@ date: 2026-06-19
 project: hnedu_auth
 status: 구현 완료 (배포 대기)
 tags: [hnedu_auth, mfa, totp, security, auth]
+summary: "hnedu_auth TOTP MFA: 2단계 로그인(credentials→mfa_token→OTP), ERP역할 강제setup, 복구코드 10개 채택, 배포.221 필수"
 ---
 
 hnedu_auth TOTP MFA 핵심 결정 3건

@@ -3,6 +3,7 @@ date: 2026-06-19
 project: claude-config
 status: 적용 완료
 tags: [claude-code, obsidian, second-brain, hooks, audit]
+summary: "감사 오류(42→72) 교정: 세션로그·검색·승격 3개 결함 발견·설정 적용으로 피드백루프 폐쇄 완료."
 ---
 
 # 세컨드 브레인 진화 — 감사 결과 교정 및 피드백 루프 폐쇄

@@ -2,6 +2,7 @@
 title: Autobots 대화 라우팅 — 의도 기반 자동 라우팅 + Sticky (눈꽃 단일 오케스트레이터)
 date: 2026-06-21
 tags: [autobots, routing, orchestration, chat, projects, sticky, decision]
+summary: "Chat/Projects 무멘션 대화를 의도 기반으로 자동 라우팅하되 눈꽃을 오케스트레이터로 고정하고 sticky 컨텍스트로 연속성을 유지하는 시스템, PM봇 신설은 폐기."
 ---
 
 # Autobots 대화 라우팅: 의도 기반 자동 라우팅 + Sticky 컨텍스트
