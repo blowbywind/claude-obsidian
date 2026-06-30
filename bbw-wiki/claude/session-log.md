@@ -1,3 +1,18 @@
+## 2026-06-30 10:34 — hnedu_erp
+
+**최근 커밋:**
+- 4e89850 fix(web-client): drive 회의/알림 tab badges from real counts
+- 8db30bb feat(web-client): restore lunch + expected-checkout rows on today card
+- aa37528 fix(web-client): convert attendance log dates to KST before day filter
+- d6bfc34 fix(server): correct auth proxy base URL/paths after domain migration
+- c0a4280 docs(secom): finalize unmapped-employee cause and 2026 OWTime root cause
+
+**변경 파일 (마지막 커밋):**
+- `web-client/src/app/(app)/dashboard-data.ts`
+- `web-client/src/app/(app)/page.tsx`
+
+---
+
 ## 2026-06-30 10:24 — ai-ops
 
 **최근 커밋:**
